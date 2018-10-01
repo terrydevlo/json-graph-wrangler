@@ -1,0 +1,48 @@
+{
+  "swanson_pipeline": [{
+    "make_2d_hier_list_to_nested_json": {
+      "input": ["swanson/containment/*.tsv"],
+      "output": ["swanson/containment/"],
+      "has_headers": false,
+      "p": {
+        "idKey": "name",
+        "create_edges": true
+      },
+      "start": false,
+      "end": false
+    }
+  }, {
+
+    "map_keys_to_values": {
+      "input": ["swanson/containment/*.json"],
+      "output": ["swanson/containment/labelled/"],
+      "p": {
+        "new_key": "name",
+        "new_value_key": "children"
+      },
+      "start": false,
+      "end": false
+    }
+  }, {
+    "replace_str_values": {
+      "input": ["swanson/containment/labelled/*.json"],
+      "output": ["swanson/containment/trunc/"],
+      "p": {
+        "truncate_at": "("
+      },
+      "start": false,
+      "end": false
+    }
+  }, {
+    "replace_str_values": {
+      "input": ["swanson/containment/trunc/*.json"],
+      "output": ["../src/flatmaps/dat/"],
+      "p": {
+        "to_lower": true,
+        "new_key": "nameLower"
+      },
+      "start": true,
+      "end": false
+    }
+  }]
+}

@@ -1,0 +1,50 @@
+[
+   {
+      "source": "m3",
+      "target": "m1",
+      "edge_type": "1",
+      "id": "V1"
+   },
+   {
+      "source": "m3",
+      "target": "m2",
+      "edge_type": "1",
+      "id": "V2"
+   },
+   {
+      "source": "m4",
+      "target": "m2",
+      "edge_type": "1",
+      "id": "V3"
+   },
+   {
+      "source": "m1",
+      "target": "m3",
+      "edge_type": "1",
+      "id": "V4"
+   },
+   {
+      "source": "m2",
+      "target": "m3",
+      "edge_type": "1",
+      "id": "V5"
+   },
+   {
+      "source": "m4",
+      "target": "m3",
+      "edge_type": "1",
+      "id": "V6"
+   },
+   {
+      "source": "m2",
+      "target": "m4",
+      "edge_type": "1",
+      "id": "V7"
+   },
+   {
+      "source": "m3",
+      "target": "m4",
+      "edge_type": "1",
+      "id": "V8"
+   }
+]

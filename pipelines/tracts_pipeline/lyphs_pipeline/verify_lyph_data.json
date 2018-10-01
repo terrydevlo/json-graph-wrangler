@@ -1,0 +1,21 @@
+{
+  "verify_lyph_trees": [
+    {
+      "extract_invalid_connections" : {
+        "id_key" : "name",
+        "target_key" : "target",
+        "source_key" : "source",
+        "matching_keys" : ["group_type", "contained_by"],
+        "comparator_key" : "lyph_composition",
+        "illegally_connected" : ["Neural Terminal Lyph", "Neural Terminal Lyph"],
+        "modify_step" :
+        {
+          "function" : "insert_tree_pattern_between_connected",
+          "generate_id_from_these_keys" : ["contained_by", "of", "hosted_by", "-","group_type","-", "lyph_composition"],
+          "new_types_by_key" : "lyph_composition",
+          "new_types" : ["Axonal Tubing Neural Lyph", "Soma Lyph", "Dendritic Tubing Neural Lyph"]
+        }
+      }
+    }
+  ]
+}

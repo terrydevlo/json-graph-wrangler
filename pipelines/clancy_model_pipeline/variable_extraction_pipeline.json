@@ -1,0 +1,23 @@
+{
+  "variable_extraction_pipeline": [{
+    "simply_save_data.json": {
+      "input": ["input-data/clancy_model.cellml"],
+      "output": ["input-data/clancy_model.json"],
+      "start": false,
+      "end": false
+    },
+    "extract_cellml_variables.json": {
+      "input": ["input-data/clancy_model.json"],
+      "output": ["semantic-data/cellml/clancy_model_variables.json"]
+    },
+    "variables_to_human_readable.json": {
+      "input": ["semantic-data/cellml/clancy_model_variables.json"],
+      "output": ["semantic-data/cellml/clancy_model_variables_readable.csv"],
+      "end" : true
+    },
+    "group_by_unit.json": {
+      "input": ["semantic-data/cellml/clancy_model_variables.json"],
+      "output": ["semantic-data/cellml/clancy_model_variables_by_unit.csv"]
+    }
+  }]
+}

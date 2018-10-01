@@ -1,0 +1,12 @@
+{
+
+  "replace_conveyingLyphs_with_ids": [{
+    "map_property_from_reference_property": {
+      "reference_file_key": "/lyphs_",
+      "reference_id_key": "name",
+      "reference_property_key" : "id",
+      "mapping_id_keys" : ["conveyingLyph"]
+    }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "insert_dat_into_lyph_viewer_graph": [{
+    "replace_matching_keys_value_with": {
+      "reference_file_key" : "spinothalamic_gracile_minimalist.json",
+      "matching_keys": ["spt"],
+      "new_val_from_reference_dat": true
+    }
+  }]
+
+}

@@ -1,0 +1,1732 @@
+[
+   {
+      "name": "CENTRAL NERVOUS SYSTEM [RAT] (CARUS, 1814)  (CNS)",
+      "children": [
+         {
+            "name": "Endbrain (Kuhlenbeck, 1927)  (EB) or Cerebrum (Obersteiner & Hill, 1900) (CH)",
+            "children": [
+               {
+                  "name": "Cerebral nuclei (Swanson, 2000a)  (CNU)",
+                  "children": [
+                     {
+                        "name": "Pallidum (Swanson, 2000a)  (PAL)",
+                        "children": [
+                           {
+                              "name": "Globus pallidus (Burdach, 1822)  (GP)",
+                              "children": [
+                                 {
+                                    "name": "Medial globus pallidus (>1840)  (GPm)",
+                                    "children": [
+                                       {
+                                          "name": "Lateral globus pallidus (>1840)  (GPl)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Innominate substance (Schwalbe, 1881)  (SI)"
+                                 },
+                                 {
+                                    "name": "Magnocellular nucleus (Swanson, 2004)  (MA)"
+                                 },
+                                 {
+                                    "name": "Medial septal complex (Swanson et al., 1987)  (MSC)",
+                                    "children": [
+                                       {
+                                          "name": "Medial septal nucleus (>1840)  (MS)"
+                                       },
+                                       {
+                                          "name": "Diagonal band nucleus (>1840)  (NDB)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Triangular septal nucleus (>1840)  (TRS)",
+                                    "children": [
+                                       {
+                                          "name": "bed nucleus of medullary stria (Risold & Swanson, 1995a)  (BSM)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Bed nuclei of terminal stria (Gurdjian, 1925)  (BST)",
+                                    "children": [
+                                       {
+                                          "name": "Anterior division (Ju & Swanson, 1989)  (BSTa)",
+                                          "children": [
+                                             {
+                                                "name": "Anteromedial area (Dong & Swanson, 2006c)  (BSTam)"
+                                             },
+                                             {
+                                                "name": "Fusiform nucleus (Ju & Swanson, 1989)  (BSTfu)"
+                                             },
+                                             {
+                                                "name": "Ventral nucleus (Ju & Swanson, 1989)  (BSTv)"
+                                             },
+                                             {
+                                                "name": "Magnocellular nucleus (Ju & Swanson, 1989)  (BSTmg)"
+                                             },
+                                             {
+                                                "name": "Dorsomedial nucleus (Ju & Swanson, 1989)  (BSTdm)"
+                                             },
+                                             {
+                                                "name": "Anterolateral area (Swanson, 2004)  (BSTal)"
+                                             },
+                                             {
+                                                "name": "Oval nucleus (Ju & Swanson, 1989)  (BSTov)"
+                                             },
+                                             {
+                                                "name": "Juxtacapsular nucleus (McDonald, 1983)  (BSTju)"
+                                             },
+                                             {
+                                                "name": "Rhomboid nucleus (Ju & Swanson, 1989)  (BSTrh)"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Posterior division (Ju & Swanson, 1989)  (BSTp)",
+                                          "children": [
+                                             {
+                                                "name": "Principal nucleus (Ju & Swanson, 1989)  (BSTpr)",
+                                                "children": [
+                                                   {
+                                                      "name": "cell-sparse zone (Ju & Swanson, 1989)  (BSTsz)"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Interfascicular nucleus (Ju & Swanson, 1989)  (BSTif)",
+                                                "children": [
+                                                   {
+                                                      "name": "premedullary nucleus (Ju & Swanson, 1989)   (BSTpm)"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Transverse nucleus (Ju & Swanson, 1989)   (BSTtr)"
+                                             },
+                                             {
+                                                "name": "Dorsal nucleus (Ju & Swanson, 1989)  (BSTd)"
+                                             },
+                                             {
+                                                "name": "Strial extension (Ju & Swanson, 1989)  (BSTse)"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Bed nucleus of anterior commissure (Gurdjian, 1925)  (BAC)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Striatum (Swanson, 2000a)  (STR)",
+                              "children": [
+                                 {
+                                    "name": "Olfactory tubercle (Calleja, 1893)  (OT)",
+                                    "children": [
+                                       {
+                                          "name": "molecular layer (>1840) (OT1)"
+                                       },
+                                       {
+                                          "name": "pyramidal layer (>1840) (OT2)"
+                                       },
+                                       {
+                                          "name": "polymorph layer (>1840) (OT3)"
+                                       },
+                                       {
+                                          "name": "islands of Calleja (>1840)  (isl)"
+                                       },
+                                       {
+                                          "name": "major island of Calleja (>1840)  (islm)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Accumbens nucleus (Ziehen, 1897-1901)  (ACB)"
+                                 },
+                                 {
+                                    "name": "Lateral septal complex (Risold & Swanson, 1997a)  (LSX)",
+                                    "children": [
+                                       {
+                                          "name": "Lateral septal nucleus (Cajal, 1909-1911)  (LS)",
+                                          "children": [
+                                             {
+                                                "name": "Rostral (rostroventral) part (Risold & Swanson, 1997a)  (LSr)",
+                                                "children": [
+                                                   {
+                                                      "name": "Medial zone (Risold & Swanson, 1997a)  (LSr.m)",
+                                                      "children": [
+                                                         {
+                                                            "name": "Ventral region (Risold & Swanson, 1997a)  (LSr.m.v)",
+                                                            "children": [
+                                                               {
+                                                                  "name": "rostral domain (Risold & Swanson, 1997a)  (LSr.m.v.r)"
+                                                               },
+                                                               {
+                                                                  "name": "caudal domain (Risold & Swanson, 1997a)  (LSr.m.v.c)"
+                                                               }
+                                                            ]
+                                                         },
+                                                         {
+                                                            "name": "Dorsal region (Risold & Swanson, 1997a)  (LSr.m.d)"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Ventrolateral zone (Risold & Swanson, 1997a)  (LSr.vl)",
+                                                      "children": [
+                                                         {
+                                                            "name": "ventral region (Risold & Swanson, 1997a)  (LSr.vl.v)"
+                                                         },
+                                                         {
+                                                            "name": "dorsal region (Risold & Swanson, 1997a)  (LSr.vl.d)",
+                                                            "children": [
+                                                               {
+                                                                  "name": "medial domain (Risold & Swanson, 1997a)  (LSr.vl.d.m)"
+                                                               },
+                                                               {
+                                                                  "name": "lateral domain (Risold & Swanson, 1997a)  (LSr.vl.d.l)"
+                                                               }
+                                                            ]
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Dorsolateral zone (Risold & Swanson, 1997a)  (LSr.dl)",
+                                                      "children": [
+                                                         {
+                                                            "name": "medial region (Risold & Swanson, 1997a)  (LSr.dl.m)",
+                                                            "children": [
+                                                               {
+                                                                  "name": "ventral domain (Risold & Swanson, 1997a)  (LSr.dl.m.v)"
+                                                               },
+                                                               {
+                                                                  "name": "dorsal domain (Risold & Swanson, 1997a)  (LSr.dl.m.d)"
+                                                               }
+                                                            ]
+                                                         },
+                                                         {
+                                                            "name": "lateral region (Risold & Swanson, 1997a)  (LSr.dl.l)",
+                                                            "children": [
+                                                               {
+                                                                  "name": "ventral domain (Risold & Swanson, 1997a)  (LSr.dl.l.v)"
+                                                               },
+                                                               {
+                                                                  "name": "dorsal domain (Risold & Swanson, 1997a)  (LSr.dl.l.d)"
+                                                               }
+                                                            ]
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Caudal (caudodorsal) part (Risold & Swanson, 1997a)  (LSc)",
+                                                "children": [
+                                                   {
+                                                      "name": "Ventral zone (Risold & Swanson, 1997a)  (LSc.v)",
+                                                      "children": [
+                                                         {
+                                                            "name": "medial region (Risold & Swanson, 1997a)  (LSc.v.m)",
+                                                            "children": [
+                                                               {
+                                                                  "name": "ventral domain (Risold & Swanson, 1997a)  (LSc.v.m.v)"
+                                                               },
+                                                               {
+                                                                  "name": "dorsal domain (Risold & Swanson, 1997a)  (LSc.v.m.d)"
+                                                               }
+                                                            ]
+                                                         },
+                                                         {
+                                                            "name": "intermediate region (Risold & Swanson, 1997a)  (LSc.v.i)"
+                                                         },
+                                                         {
+                                                            "name": "lateral region (Risold & Swanson, 1997a)  (LSc.v.l)",
+                                                            "children": [
+                                                               {
+                                                                  "name": "ventral domain (Risold & Swanson, 1997a)  (LSc.v.l.v)"
+                                                               },
+                                                               {
+                                                                  "name": "dorsal domain (Risold & Swanson, 1997a)  (LSc.v.l.d)"
+                                                               }
+                                                            ]
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Dorsal zone (Risold & Swanson, 1997a)  (LSc.d)",
+                                                      "children": [
+                                                         {
+                                                            "name": "rostral region (Risold & Swanson, 1997a)  (LSc.d.r)"
+                                                         },
+                                                         {
+                                                            "name": "dorsal region (Risold & Swanson, 1997a)  (LSc.d.d)"
+                                                         },
+                                                         {
+                                                            "name": "lateral region (Risold & Swanson, 1997a)  (LSc.d.l)"
+                                                         },
+                                                         {
+                                                            "name": "ventral region (Risold & Swanson, 1997a)  (LSc.d.v)"
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Ventral part (Risold & Swanson, 1997a)  (LSv)"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Septohippocampal nucleus (>1840)  (SH)"
+                                       },
+                                       {
+                                          "name": "Septofimbrial nucleus (>1840)  (SF)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Striatal fundus (>1840)  (FS)"
+                                 },
+                                 {
+                                    "name": "Caudoputamen (Heimer & Wilson, 1975)  (CP)"
+                                 },
+                                 {
+                                    "name": "Anterior amygdalar area (Gurdjian, 1928)  (AAA)"
+                                 },
+                                 {
+                                    "name": "Central amygdalar nucleus (Johnston, 1923)  (CEA)",
+                                    "children": [
+                                       {
+                                          "name": "Medial part (McDonald, 1982)  (CEAm)"
+                                       },
+                                       {
+                                          "name": "Lateral part (Swanson, 1992a)  (CEAl)"
+                                       },
+                                       {
+                                          "name": "Capsular part (McDonald, 1982)  (CEAc)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Intercalated amygdalar nuclei (>1840)  (IA)"
+                                 },
+                                 {
+                                    "name": "Medial amygdalar nucleus (Johnston, 1923)  (MEA)",
+                                    "children": [
+                                       {
+                                          "name": "Anteroventral part (>1840)  (MEAav)"
+                                       },
+                                       {
+                                          "name": "Anterodorsal part (>1840)  (MEAad)"
+                                       },
+                                       {
+                                          "name": "Posteroventral part (>1840)  (MEApv)"
+                                       },
+                                       {
+                                          "name": "Posterodorsal part (>1840)  (MEApd)",
+                                          "children": [
+                                             {
+                                                "name": "sublayer a (>1840) (MEApd-a)"
+                                             },
+                                             {
+                                                "name": "sublayer b (>1840) (MEApd-b)"
+                                             },
+                                             {
+                                                "name": "sublayer c (>1840) (MEApd-c)"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Bed nucleus of accessory olfactory tract (Scalia & Winans, 1975)  (BA)"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Cerebral cortex (Swanson, 2000a)  (CTX)",
+                        "children": [
+                           {
+                              "name": "Cortical plate (>1840)  (CTXpl)",
+                              "children": [
+                                 {
+                                    "name": "Limbic region (>1840)  (LIMB)",
+                                    "children": [
+                                       {
+                                          "name": "Olfactory region (>1840)  (OLF)",
+                                          "children": [
+                                             {
+                                                "name": "Olfactory bulb (Weitbrecht, 1751)  (OB)",
+                                                "children": [
+                                                   {
+                                                      "name": "Main olfactory bulb (>1840)  (MOB)",
+                                                      "children": [
+                                                         {
+                                                            "name": "glomerular layer (>1840) (MOBgl)"
+                                                         },
+                                                         {
+                                                            "name": "outer plexiform layer (>1840) (MOBopl)"
+                                                         },
+                                                         {
+                                                            "name": "mitral layer (>1840) (MOBmi)"
+                                                         },
+                                                         {
+                                                            "name": "inner plexiform layer (>1840) (MOBipl)"
+                                                         },
+                                                         {
+                                                            "name": "granule cell layer (>1840) (MOBgr)"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Accessory olfactory bulb (>1840)  (AOB)",
+                                                      "children": [
+                                                         {
+                                                            "name": "glomerular layer (>1840) (AOBgl)"
+                                                         },
+                                                         {
+                                                            "name": "mitral layer (>1840) (AOBmi)"
+                                                         },
+                                                         {
+                                                            "name": "granular layer (>1840) (AOBgr)"
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Anterior olfactory area (Herrick, 1910)  (AOA)",
+                                                "children": [
+                                                   {
+                                                      "name": "anterior olfactory area principal part (Swanson, 2018) (AOApr)"
+                                                   }
+                                                ]
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "name": " ",
+            "children": [
+               {
+                  "name": "Preparasubthalamic nucleus (Swanson, 2004)  (PST)",
+                  "children": [
+                     {
+                        "name": "Parasubthalamic nucleus (Wang & Zhang, 1995)  (PSTN)",
+                        "children": [
+                           {
+                              "name": "Subthalamic nucleus (>1840)  (STN)"
+                           },
+                           {
+                              "name": "Retina (Herophilus, 335-263 BC)  (R)",
+                              "children": [
+                                 {
+                                    "name": "ganglion cell layer (>1840) (Rgcl)"
+                                 },
+                                 {
+                                    "name": "inner plexiform layer (>1840) (Ripl)"
+                                 },
+                                 {
+                                    "name": "inner nuclear layer (>1840) (Rinl)"
+                                 },
+                                 {
+                                    "name": "outer plexiform layer (>1840) (Ropl)"
+                                 },
+                                 {
+                                    "name": "outer nuclear layer (>1840) (Ronl)"
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Thalamus (His, 1893a)  (TH)",
+                        "children": [
+                           {
+                              "name": "Ventral part of thalamus (Herrick, 1910)  (THv)",
+                              "children": [
+                                 {
+                                    "name": "Zona incerta general (Forel, 1877)  (ZIg)",
+                                    "children": [
+                                       {
+                                          "name": "Zona incerta (>1840)  (ZI)",
+                                          "children": [
+                                             {
+                                                "name": "dopaminergic group (>1840)  (ZIda)"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Fields of Forel (>1840)  (FF)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Ventral lateral geniculate nucleus (>1840)  (LGv)",
+                                    "children": [
+                                       {
+                                          "name": "medial zone (>1840) (LGvm)"
+                                       },
+                                       {
+                                          "name": "lateral zone (>1840) (LGvl)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Intergeniculate leaflet (>1840)  (IGL)"
+                                 },
+                                 {
+                                    "name": "Reticular thalamic nucleus (>1840)  (RT)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Dorsal part of thalamus (Herrick, 1910)  (THd)",
+                              "children": [
+                                 {
+                                    "name": "Midline thalamic nuclei (>1840)  (MTN)",
+                                    "children": [
+                                       {
+                                          "name": "Nucleus reuniens (Malone, 1910)  (RE)",
+                                          "children": [
+                                             {
+                                                "name": "Rostral division (Risold et al., 1997)  (REr)",
+                                                "children": [
+                                                   {
+                                                      "name": "anterior part (Risold et al., 1997)  (REra)"
+                                                   },
+                                                   {
+                                                      "name": "dorsal part (Risold et al., 1997)  (RErd)"
+                                                   },
+                                                   {
+                                                      "name": "ventral part (Risold et al., 1997)  (RErv)"
+                                                   },
+                                                   {
+                                                      "name": "lateral part (Risold et al., 1997)  (RErl)"
+                                                   },
+                                                   {
+                                                      "name": "median part (Risold et al., 1997)  (RErm)"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Caudal division (Risold et al., 1997)  (REc)",
+                                                "children": [
+                                                   {
+                                                      "name": "posterior part (Risold et al., 1997)  (REcp)"
+                                                   },
+                                                   {
+                                                      "name": "dorsal part (Risold et al., 1997)  (REcd)"
+                                                   },
+                                                   {
+                                                      "name": "median part (Risold et al., 1997)  (REcm)"
+                                                   }
+                                                ]
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Paraventricular thalamic nucleus (>1840)  (PVT)"
+                                       },
+                                       {
+                                          "name": "Paratenial nucleus (>1840)  (PT)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Anterior thalamic nuclei (>1840)  (ATN)",
+                                    "children": [
+                                       {
+                                          "name": "Anteroventral thalamic nucleus (>1840)  (AV)"
+                                       },
+                                       {
+                                          "name": "Anterodorsal thalamic nucleus (>1840)  (AD)"
+                                       },
+                                       {
+                                          "name": "Anteromedial thalamic nucleus (>1840)  (AM)",
+                                          "children": [
+                                             {
+                                                "name": "Ventral part (Canteras & Swanson, 1992a)  (AMv)"
+                                             },
+                                             {
+                                                "name": "Dorsal part (Canteras & Swanson, 1992a)  (AMd)"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Interanteromedial thalamic nucleus (>1840)  (IAM)"
+                                       },
+                                       {
+                                          "name": "Interanterodorsal thalamic nucleus (>1840)  (IAD)"
+                                       },
+                                       {
+                                          "name": "Lateral dorsal thalamic nucleus (>1840)  (LD)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Medial thalamic nuclei (>1840)  (MED)",
+                                    "children": [
+                                       {
+                                          "name": "Perireuniens nucleus (Brittain, 1988)  (PR)"
+                                       },
+                                       {
+                                          "name": "Submedial thalamic nucleus (>1840)  (SMT)"
+                                       },
+                                       {
+                                          "name": "Mediodorsal thalamic nucleus (>1840)  (MD)",
+                                          "children": [
+                                             {
+                                                "name": "Medial part (>1840)  (MDm)"
+                                             },
+                                             {
+                                                "name": "Central part (>1840)  (MDc)"
+                                             },
+                                             {
+                                                "name": "Lateral part (>1840)  (MDl)"
+                                             },
+                                             {
+                                                "name": "Intermediodorsal thalamic nucleus (>1840)  (IMD)"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Intralaminar thalamic nuclei (>1840)  (ILM)",
+                                    "children": [
+                                       {
+                                          "name": "Rhomboid nucleus (Cajal, 1903)  (RH)"
+                                       },
+                                       {
+                                          "name": "Central medial thalamic nucleus (Rioch, 1929)  (CM)"
+                                       },
+                                       {
+                                          "name": "Paracentral thalamic nucleus (Gurdjian, 1927)  (PCN)"
+                                       },
+                                       {
+                                          "name": "Central lateral thalamic nucleus (Rioch, 1929)  (CL)"
+                                       },
+                                       {
+                                          "name": "Parafascicular nucleus (Vogt, 1909)  (PF)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Ventral thalamic nuclei (>1840)  (VENT)",
+                                    "children": [
+                                       {
+                                          "name": "Ventral anterior-lateral thalamic complex (>1840)  (VAL)"
+                                       },
+                                       {
+                                          "name": "Ventral medial thalamic nucleus (>1840)  (VM)"
+                                       },
+                                       {
+                                          "name": "Ventral posterior thalamic nucleus (>1840)  (VP)",
+                                          "children": [
+                                             {
+                                                "name": "Ventral posteromedial thalamic nucleus (>1840)  (VPM)",
+                                                "children": [
+                                                   {
+                                                      "name": "Principal part (Swanson, 2004)  (VPMpr)"
+                                                   },
+                                                   {
+                                                      "name": "Parvicellular part (>1840)  (VPMpc)"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Ventral posterolateral thalamic nucleus (>1840)  (VPL)",
+                                                "children": [
+                                                   {
+                                                      "name": "Principal part (Swanson, 2004)  (VPLpr)"
+                                                   },
+                                                   {
+                                                      "name": "Parvicellular part (>1840)  (VPLpc)"
+                                                   }
+                                                ]
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Subparafascicular nucleus (>1840)  (SPF)",
+                                          "children": [
+                                             {
+                                                "name": "Magnocellular part (>1840)  (SPFm)"
+                                             },
+                                             {
+                                                "name": "Parvicellular part (>1840)  (SPFp)",
+                                                "children": [
+                                                   {
+                                                      "name": "medial division (>1840)  (SPFpm)"
+                                                   },
+                                                   {
+                                                      "name": "lateral division (>1840)  (SPFpl)"
+                                                   }
+                                                ]
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Peripeduncular nucleus (>1840)  (PP)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Lateral thalamic nuclei (>1840)  (LAT)",
+                                    "children": [
+                                       {
+                                          "name": "Lateral posterior thalamic nucleus (>1840)  (LP)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Posterior thalamic nuclei (>1840)  (POT)",
+                                    "children": [
+                                       {
+                                          "name": "Posterior thalamic complex (>1840)  (PO)"
+                                       },
+                                       {
+                                          "name": "Suprageniculate nucleus (>1840)  (SGN)"
+                                       },
+                                       {
+                                          "name": "Posterior limiting thalamic nucleus (>1840)  (POL)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Dorsal lateral geniculate nucleus (>1840)  (LGd)"
+                                 },
+                                 {
+                                    "name": "Medial geniculate complex (>1840)  (MG)",
+                                    "children": [
+                                       {
+                                          "name": "Medial part (>1840)  (MGm)"
+                                       },
+                                       {
+                                          "name": "Ventral part (>1840)  (MGv)"
+                                       },
+                                       {
+                                          "name": "Dorsal part (>1840)  (MGd)"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Epithalamus (His, 1893b)  (THe)",
+                              "children": [
+                                 {
+                                    "name": "Habenular nuclei (>1840)  (H)",
+                                    "children": [
+                                       {
+                                          "name": "Medial habenula (>1840)  (MH)"
+                                       },
+                                       {
+                                          "name": "Lateral habenula (>1840)  (LH)"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "name": "Midbrain (Baer, 1837)  (MB)",
+                  "children": [
+                     {
+                        "name": "Tegmentum (Swanson, 2000b)  (TG)",
+                        "children": [
+                           {
+                              "name": "Oculomotor nucleus (>1840)  (III)"
+                           },
+                           {
+                              "name": "Trochlear nucleus (>1840)  (IV)"
+                           },
+                           {
+                              "name": "Medial accessory oculomotor nucleus (>1840)  (MAN)"
+                           },
+                           {
+                              "name": "Edinger-Westphal nucleus (>1840)  (EW)"
+                           },
+                           {
+                              "name": "Nucleus of Darkschewitsch (>1840)  (ND)"
+                           },
+                           {
+                              "name": "Interstitial nucleus (>1840)  (INC)"
+                           },
+                           {
+                              "name": "Medial terminal nucleus of accessory optic tract (>1840)  (MT)"
+                           },
+                           {
+                              "name": "Lateral terminal nucleus of accessory optic tract (>1840)  (LT)"
+                           },
+                           {
+                              "name": "Dorsal terminal nucleus of accessory optic tract (>1840)  (DT)"
+                           },
+                           {
+                              "name": "Rostral linear raphe nucleus (>1840)  (RL)"
+                           },
+                           {
+                              "name": "Interfascicular raphe nucleus (>1840)  (IF)"
+                           },
+                           {
+                              "name": "Interpeduncular nucleus (>1840)  (IPN)",
+                              "children": [
+                                 {
+                                    "name": "rostral subnucleus (>1840) (IPNr)"
+                                 },
+                                 {
+                                    "name": "apical subnucleus (>1840) (IPNa)"
+                                 },
+                                 {
+                                    "name": "dorsomedial subnucleus (>1840) (IPNd)"
+                                 },
+                                 {
+                                    "name": "lateral subnucleus (>1840) (IPNl)",
+                                    "children": [
+                                       {
+                                          "name": "rostral part (>1840) (IPNlr)"
+                                       },
+                                       {
+                                          "name": "intermediate part (>1840)  (IPNli)"
+                                       },
+                                       {
+                                          "name": "ventral part (>1840)  (IPNlv)"
+                                       },
+                                       {
+                                          "name": "dorsal part (>1840) (IPNld)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "intermediate subnucleus (>1840) (IPNi)"
+                                 },
+                                 {
+                                    "name": "central subnucleus (>1840) (IPNc)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Central linear raphe nucleus (>1840)  (CLI)"
+                           },
+                           {
+                              "name": "Superior central raphe nucleus (>1840)  (CS)",
+                              "children": [
+                                 {
+                                    "name": "medial part (>1840) (CSm)"
+                                 },
+                                 {
+                                    "name": "lateral part (>1840) (CSl)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Dorsal raphe nucleus (>1840)  (DR)"
+                           },
+                           {
+                              "name": "Substantia nigra (Soemmerring, 1791)  (SN)",
+                              "children": [
+                                 {
+                                    "name": "Compact part (Sano, 1910)  (SNc)"
+                                 },
+                                 {
+                                    "name": "Reticular part (Sano, 1910)  (SNr)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Ventral tegmental area (Tsai, 1925)  (VTA)"
+                           },
+                           {
+                              "name": "Red nucleus (Burdach, 1822)  (RN)"
+                           },
+                           {
+                              "name": "Anterior tegmental nucleus (Paxinos & Butcher, 1985)  (AT)"
+                           },
+                           {
+                              "name": "Midbrain reticular nucleus (>1840)  (MRN)",
+                              "children": [
+                                 {
+                                    "name": "Magnocellular part (Swanson, 2004)  (MRNm)"
+                                 },
+                                 {
+                                    "name": "Parvicellular part (Swanson, 2004)  (MRNp)"
+                                 },
+                                 {
+                                    "name": "Retrorubral area (Berman, 1968)  (RR)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Periaqueductal gray (>1840)  (PAG)",
+                              "children": [
+                                 {
+                                    "name": "Precommissural nucleus (Paxinos & Watson, 1986)  (PRC)"
+                                 },
+                                 {
+                                    "name": "Commissural nucleus (Swanson, 1998)  (COM)"
+                                 },
+                                 {
+                                    "name": "Rostromedial division (Swanson, 1998)  (PAGrm)"
+                                 },
+                                 {
+                                    "name": "Rostrolateral division (Swanson, 1998)  (PAGrl)"
+                                 },
+                                 {
+                                    "name": "Medial division (Beitz, 1985)  (PAGm)"
+                                 },
+                                 {
+                                    "name": "Ventromedial column (Swanson, 2018)  (PAGvm)"
+                                 },
+                                 {
+                                    "name": "Ventrolateral column (Carrive et al., 1997)  (PAGvl)"
+                                 },
+                                 {
+                                    "name": "Lateral column (Carrive et al., 1997)  (PAGl)"
+                                 },
+                                 {
+                                    "name": "Dorsolateral column (Carrive et al., 1997)  (PAGdl)"
+                                 },
+                                 {
+                                    "name": "Dorsomedial column (Carrive et al., 1997)  (PAGdm)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Cuneiform nucleus (>1840)  (CUN)"
+                           },
+                           {
+                              "name": "Pretectal region (>1840)  (PRT)",
+                              "children": [
+                                 {
+                                    "name": "Olivary pretectal nucleus (>1840)  (OP)"
+                                 },
+                                 {
+                                    "name": "Nucleus of optic tract (>1840)  (NOT)"
+                                 },
+                                 {
+                                    "name": "Posterior pretectal nucleus (>1840)  (PPT)"
+                                 },
+                                 {
+                                    "name": "Nucleus of posterior commissure (>1840)  (NPC)"
+                                 },
+                                 {
+                                    "name": "Anterior pretectal nucleus (>1840)  (APN)"
+                                 },
+                                 {
+                                    "name": "Medial pretectal area (>1840)  (MPT)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Midbrain nucleus of trigeminal nerve (>1840)  (MEV)"
+                           },
+                           {
+                              "name": "Nucleus sagulum (>1840)  (SAG)"
+                           },
+                           {
+                              "name": "Parabigeminal nucleus (>1840)  (PBG)"
+                           },
+                           {
+                              "name": "Nucleus of brachium of inferior colliculus (>1840)  (NB)"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Tectum (Baer, 1837)  (TC)",
+                        "children": [
+                           {
+                              "name": "Superior colliculus (Haller, 1762)  (SC)",
+                              "children": [
+                                 {
+                                    "name": "zonal layer (>1840) (SCzo)"
+                                 },
+                                 {
+                                    "name": "superficial gray layer (>1840) (SCsg)"
+                                 },
+                                 {
+                                    "name": "sublayer a of intermediate gray layer (>1840) (SCig.a)"
+                                 },
+                                 {
+                                    "name": "sublayer b of intermediate gray layer (>1840) (SCig.b)"
+                                 },
+                                 {
+                                    "name": "sublayer c of intermediate gray layer (>1840) (SCig.c)"
+                                 },
+                                 {
+                                    "name": "deep gray layer (>1840) (SCdg)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Inferior colliculus (Haller, 1762)  (IC)",
+                              "children": [
+                                 {
+                                    "name": "Central nucleus (>1840)  (ICc)"
+                                 },
+                                 {
+                                    "name": "Dorsal nucleus (>1840)  (ICd)"
+                                 },
+                                 {
+                                    "name": "External nucleus (>1840)  (ICe)"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "name": "Rhombic brain (His, 1893b)  (RB)",
+                  "children": [
+                     {
+                        "name": "Hindbrain (Baer, 1837)  (HB)",
+                        "children": [
+                           {
+                              "name": "Pons (Haller, 1747)  (P)",
+                              "children": [
+                                 {
+                                    "name": "Abducens nucleus (>1840)  (VI)"
+                                 },
+                                 {
+                                    "name": "Accessory abducens nucleus (>1840)  (ACVI)"
+                                 },
+                                 {
+                                    "name": "Motor nucleus of trigeminal nerve (>1840)  (V)",
+                                    "children": [
+                                       {
+                                          "name": "Magnocellular part (>1840)  (Vma)"
+                                       },
+                                       {
+                                          "name": "Parvicellular part (>1840)  (Vpc)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Efferent vestibular nucleus (>1840)  (EV)"
+                                 },
+                                 {
+                                    "name": "Pontine nuclei, general (Swanson, 2018)  (PONg)",
+                                    "children": [
+                                       {
+                                          "name": "Pontine nuclei (Jacobsohn, 1909)  (PON)"
+                                       },
+                                       {
+                                          "name": "Tegmental reticular nucleus (>1840)  (TRN)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Magnus raphe nucleus (>1840)  (RM)"
+                                 },
+                                 {
+                                    "name": "Pontine raphe nucleus (>1840)  (RPO)"
+                                 },
+                                 {
+                                    "name": "Pontine reticular nucleus (>1840)  (PRN)",
+                                    "children": [
+                                       {
+                                          "name": "Rostral part (>1840)  (PRNr)"
+                                       },
+                                       {
+                                          "name": "Caudal part (>1840)  (PRNc)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Pedunculopontine nucleus (>1840)  (PPN)"
+                                 },
+                                 {
+                                    "name": "Supratrigeminal nucleus (>1840)  (SUT)"
+                                 },
+                                 {
+                                    "name": "Ventral tegmental nucleus (>1840)  (VTN)"
+                                 },
+                                 {
+                                    "name": "Pontine central gray general (Swanson, 2004)  (PCGg)",
+                                    "children": [
+                                       {
+                                          "name": "Pontine central gray (>1840)  (PCG)"
+                                       },
+                                       {
+                                          "name": "Nucleus incertus (Streeter, 1903)  (NI)",
+                                          "children": [
+                                             {
+                                                "name": "compact part (Goto et al., 2001)  (NIc)"
+                                             },
+                                             {
+                                                "name": "diffuse part (Goto et al., 2001)  (NId)"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Lateral tegmental nucleus (Swanson, 1998)  (LTN)"
+                                       },
+                                       {
+                                          "name": "Dorsal tegmental nucleus (>1840)  (DTN)"
+                                       },
+                                       {
+                                          "name": "Sublaterodorsal nucleus (>1840)  (SLD)"
+                                       },
+                                       {
+                                          "name": "Laterodorsal tegmental nucleus (>1840)  (LDT)"
+                                       },
+                                       {
+                                          "name": "Barrington’s nucleus (>1840)  (B)"
+                                       },
+                                       {
+                                          "name": "Subceruleus nucleus (Meessen & Olszewski, 1949)  (SLC)"
+                                       },
+                                       {
+                                          "name": "Locus ceruleus (Wenzel & Wenzel, 1812)  (LC)"
+                                       },
+                                       {
+                                          "name": "Supragenual nucleus (Meessen & Olszewski, 1949)  (SG)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Parabrachial nucleus (>1840)  (PB)",
+                                    "children": [
+                                       {
+                                          "name": "Medial division (>1840)  (PBm)",
+                                          "children": [
+                                             {
+                                                "name": "Ventral part (Swanson, 1992a)  (PBmv)"
+                                             },
+                                             {
+                                                "name": "Medial part (Fulwiler & Saper, 1984)  (PBmm)"
+                                             },
+                                             {
+                                                "name": "External part (Fulwiler & Saper, 1984)  (PBme)"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Kölliker-Fuse subnucleus (>1840)  (KF)"
+                                       },
+                                       {
+                                          "name": "Lateral division (>1840)  (PBl)",
+                                          "children": [
+                                             {
+                                                "name": "Ventral part (>1840)  (PBlv)"
+                                             },
+                                             {
+                                                "name": "Internal part (>1840)  (PBli)"
+                                             },
+                                             {
+                                                "name": "Central part (>1840)  (PBlc)"
+                                             },
+                                             {
+                                                "name": "External part (>1840)  (PBle)"
+                                             },
+                                             {
+                                                "name": "Extreme part (>1840)  (PBlex)"
+                                             },
+                                             {
+                                                "name": "Superior part (>1840)  (PBls)"
+                                             },
+                                             {
+                                                "name": "Dorsal part (>1840)  (PBld)"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Principal sensory nucleus of trigeminal nerve (>1840)  (PSV)"
+                                 },
+                                 {
+                                    "name": "Nucleus of lateral lemniscus (>1840)  (NLL)",
+                                    "children": [
+                                       {
+                                          "name": "ventral part (>1840)  (NLLv)"
+                                       },
+                                       {
+                                          "name": "horizontal part (>1840)  (NLLh)"
+                                       },
+                                       {
+                                          "name": "dorsal part (>1840)  (NLLd)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Superior olivary complex (>1840)  (SOC)",
+                                    "children": [
+                                       {
+                                          "name": "medial part (>1840)  (SOCm)"
+                                       },
+                                       {
+                                          "name": "lateral part (>1840)  (SOCl)"
+                                       },
+                                       {
+                                          "name": "periolivary region (>1840)  (POR)"
+                                       },
+                                       {
+                                          "name": "efferent cochlear group (>1840)  (ECO)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Nucleus of trapezoid body (>1840)  (NTB)"
+                                 },
+                                 {
+                                    "name": "Superior vestibular nucleus (>1840)  (SUV)"
+                                 },
+                                 {
+                                    "name": "Lateral vestibular nucleus (>1840)  (LAV)"
+                                 },
+                                 {
+                                    "name": "Nucleus y (>1840)  (y)"
+                                 },
+                                 {
+                                    "name": "Infracerebellar nucleus (>1840)  (ICB)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Cerebellum (Aristotle)  (CB)",
+                              "children": [
+                                 {
+                                    "name": "Cerebellar nuclei (>1840)  (CBN)",
+                                    "children": [
+                                       {
+                                          "name": "Fastigial nucleus (>1840)  (FN)"
+                                       },
+                                       {
+                                          "name": "Interposed nucleus  (>1840) (IP)",
+                                          "children": [
+                                             {
+                                                "name": "Principal part (>1840)  (IPpr)"
+                                             },
+                                             {
+                                                "name": "Parvicellular part (>1840)  (IPpc)"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Dentate nucleus (>1840)  (DN)",
+                                          "children": [
+                                             {
+                                                "name": "Magnocellular part (>1840)  (DNm)"
+                                             },
+                                             {
+                                                "name": "Parvicellular part (>1840)  (DNp)"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Cerebellar cortex (Willis, 1664)  (CBX)",
+                                    "children": [
+                                       {
+                                          "name": "Cerebellar vermis (Meckel, 1817)  (VERM)",
+                                          "children": [
+                                             {
+                                                "name": "Lingula (Malacarne, 1776)  (LING) or Lobule I (>1840) (LI)"
+                                             },
+                                             {
+                                                "name": "Central lobule (Burdach, 1822)  (CENT) or Lobules II,III (>1840) (LII,III)",
+                                                "children": [
+                                                   {
+                                                      "name": "sublobule a of lobule II (>1840) (CENT2a)"
+                                                   },
+                                                   {
+                                                      "name": "sublobule bs of lobule II (>1840) (CENT2bs)"
+                                                   },
+                                                   {
+                                                      "name": "sublobule a of lobule III (>1840) (CENT3a)"
+                                                   },
+                                                   {
+                                                      "name": "sublobule bs of lobule III (>1840) (CENT3bs)"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Culmen (Stroud, 1895)  (CUL) or Lobules IV,V (>1840) (LIV,V)",
+                                                "children": [
+                                                   {
+                                                      "name": "ventral lobule (>1840)  (CULv)"
+                                                   },
+                                                   {
+                                                      "name": "dorsal lobule (>1840)  (CULd)"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Declive (>1840)   (DEC) or Lobule VI (>1840) (LVI)",
+                                                "children": [
+                                                   {
+                                                      "name": "sublobules a-d (>1840) (DECa-d)"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Folium-tuber vermis (>1840)  (FOTU) or Lobule VII (>1840) (LVII)"
+                                             },
+                                             {
+                                                "name": "Pyramis (Malacarne, 1776)  (PYR) or Lobule VIII (>1840) (LVIII)",
+                                                "children": [
+                                                   {
+                                                      "name": "sublobules a,b (>1840) (PYRa,b)"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Uvula (Malacarne, 1776)  (UVU) or Lobule IX (>1840) (LIX)",
+                                                "children": [
+                                                   {
+                                                      "name": "sublobules ab,c (>1840) (UVUab,c)"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Nodule (Reil, 1807-1808a)  (NOD) or Lobule X (>1840) (LX)",
+                                                "children": [
+                                                   {
+                                                      "name": "sublobules a,b (>1840) (NODa,b)"
+                                                   }
+                                                ]
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Cerebellar hemisphere (Willis, 1664)  (HEM)",
+                                          "children": [
+                                             {
+                                                "name": "Simple lobule (Jansen & Brodal, 1954)  (SIM)"
+                                             },
+                                             {
+                                                "name": "Ansiform lobule (Bolk, 1906) (AN)",
+                                                "children": [
+                                                   {
+                                                      "name": "Ansiform lobule crus 1 (Bolk, 1906)  (ANcr1)",
+                                                      "children": [
+                                                         {
+                                                            "name": "sublobules a-d (>1840) (ANcr1a-d)"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Ansiform lobule crus 2 (Bolk, 1906)  (ANcr2)",
+                                                      "children": [
+                                                         {
+                                                            "name": "sublobules a,b (>1840) (ANcr2a,b)"
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Paramedian lobule (>1840)  (PRM)"
+                                             },
+                                             {
+                                                "name": "Copula pyramidis (>1840)  (COPY)",
+                                                "children": [
+                                                   {
+                                                      "name": "sublobules a,b (>1840) (COPYa,b)"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Paraflocculus (Stroud, 1895)  (PFL)"
+                                             },
+                                             {
+                                                "name": "Flocculus (Meckel, 1817)  (FL)"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Afterbrain (Baer, 1837) (AFB)  or Medulla (Winslow, 1733) (MY)",
+                        "children": [
+                           {
+                              "name": "Facial nucleus (>1840)  (VII)"
+                           },
+                           {
+                              "name": "Accessory facial nucleus (>1840)  (ACVII)"
+                           },
+                           {
+                              "name": "Hypoglossal nucleus (>1840)  (XII)"
+                           },
+                           {
+                              "name": "Superior salivatory nucleus (>1840) (SSN)"
+                           },
+                           {
+                              "name": "Inferior salivatory nucleus (>1840)  (ISN)"
+                           },
+                           {
+                              "name": "Ambiguus nucleus ventral division (>1840)  (AMBv)"
+                           },
+                           {
+                              "name": "Ambiguus nucleus dorsal division (>1840)  (AMBd)"
+                           },
+                           {
+                              "name": "Dorsal motor nucleus of vagus nerve (>1840)  (DMX)"
+                           },
+                           {
+                              "name": "Pallidal raphe nucleus (>1840)  (RPA)"
+                           },
+                           {
+                              "name": "Obscurus raphe nucleus (>1840)  (RO)"
+                           },
+                           {
+                              "name": "Paragigantocellular reticular nucleus (>1840)  (PGRN)",
+                              "children": [
+                                 {
+                                    "name": "Lateral part (>1840)  (PGRNl)"
+                                 },
+                                 {
+                                    "name": "Dorsal part (>1840)  (PGRNd)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Magnocellular reticular nucleus (>1840)  (MARN)"
+                           },
+                           {
+                              "name": "Gigantocellular reticular nucleus (>1840)  (GRN)"
+                           },
+                           {
+                              "name": "Parvicellular reticular nucleus (>1840)  (PARN)"
+                           },
+                           {
+                              "name": "Parapyramidal nucleus (Swanson, 1998)  (PPY)",
+                              "children": [
+                                 {
+                                    "name": "deep part (Swanson, 1998)  (PPYd)"
+                                 },
+                                 {
+                                    "name": "superficial part (Fukuda et al., 1993)  (PPYs)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Medullary reticular nucleus (>1840)  (MDRN)",
+                              "children": [
+                                 {
+                                    "name": "Ventral part (>1840)  (MDRNv)"
+                                 },
+                                 {
+                                    "name": "Dorsal part (>1840)  (MDRNd)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Inferior olivary complex (>1840)  (IO)",
+                              "children": [
+                                 {
+                                    "name": "Medial accessory olive (>1840)  (IOma)"
+                                 },
+                                 {
+                                    "name": "Principal olive (>1840)  (IOpr)"
+                                 },
+                                 {
+                                    "name": "Dorsal accessory olive (>1840)  (IOda)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Lateral reticular nucleus (>1840)  (LRN)",
+                              "children": [
+                                 {
+                                    "name": "Magnocellular part (>1840)  (LRNm)"
+                                 },
+                                 {
+                                    "name": "Parvicellular part (>1840)  (LRNp)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Linear medullary nucleus (>1840)  (LIN)"
+                           },
+                           {
+                              "name": "Paramedian reticular nucleus (>1840)  (PMR)"
+                           },
+                           {
+                              "name": "Parasolitary nucleus (>1840)  (PAS)"
+                           },
+                           {
+                              "name": "Cochlear nuclei (>1840)  (CN)",
+                              "children": [
+                                 {
+                                    "name": "Ventral cochlear nucleus (>1840)  (VCO)",
+                                    "children": [
+                                       {
+                                          "name": "Anterior part (>1840)  (VCOa)"
+                                       },
+                                       {
+                                          "name": "Posterior part (>1840)  (VCOp)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Dorsal cochlear nucleus (>1840)  (DCO)"
+                                 },
+                                 {
+                                    "name": "Subpeduncular granular region (>1840)  (CNspg)"
+                                 },
+                                 {
+                                    "name": "Granular lamina (>1840)  (CNlam)"
+                                 },
+                                 {
+                                    "name": "Interstitial nucleus of auditory nerve (>1840)  (IAN)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Medial vestibular nucleus (>1840)  (MV)"
+                           },
+                           {
+                              "name": "Spinal vestibular nucleus (>1840)  (SPIV)"
+                           },
+                           {
+                              "name": "Perihypoglossal nuclei (>1840)  (PHY)",
+                              "children": [
+                                 {
+                                    "name": "Nucleus intercalatus (>1840)  (NIS)"
+                                 },
+                                 {
+                                    "name": "Nucleus prepositus (>1840)  (PRP)"
+                                 },
+                                 {
+                                    "name": "Nucleus of Roller (>1840)  (NR)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Interstitial nucleus of vestibular nerve (>1840)  (INV)"
+                           },
+                           {
+                              "name": "Nucleus x (>1840)  (x)"
+                           },
+                           {
+                              "name": "Nucleus of solitary tract (>1840)  (NTS)",
+                              "children": [
+                                 {
+                                    "name": "Medial part (>1840)  (NTSm)",
+                                    "children": [
+                                       {
+                                          "name": "Rostral zone (>1840)   (NTSmr)"
+                                       },
+                                       {
+                                          "name": "Caudal zone general (>1840)   (NTSmcg)",
+                                          "children": [
+                                             {
+                                                "name": "caudal subzone (>1840) (NTSmc)"
+                                             },
+                                             {
+                                                "name": "central subzone (>1840)  (NTSce)"
+                                             },
+                                             {
+                                                "name": "gelatinous subzone (>1840)  (NTSge)"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Lateral part (>1840)  (NTSl)"
+                                 },
+                                 {
+                                    "name": "Commissural part (>1840)  (NTSco)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Area postrema (>1840)  (AP)"
+                           },
+                           {
+                              "name": "Dorsal column nuclei (>1840)  (DCN)",
+                              "children": [
+                                 {
+                                    "name": "Gracile nucleus (>1840)  (GR)",
+                                    "children": [
+                                       {
+                                          "name": "principal part (>1840)  (GRp)"
+                                       },
+                                       {
+                                          "name": "median part (>1840)  (GRm)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Nucleus z (>1840)  (z)"
+                                 },
+                                 {
+                                    "name": "Cuneate nucleus (>1840)  (CU)"
+                                 },
+                                 {
+                                    "name": "Accessory cuneate nucleus (>1840)  (ACU)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Paratrigeminal nucleus (>1840)  (PAT)"
+                           },
+                           {
+                              "name": "Spinal nucleus of trigeminal nerve (>1840)  (SPV)",
+                              "children": [
+                                 {
+                                    "name": "Oral part (>1840)  (SPVO)",
+                                    "children": [
+                                       {
+                                          "name": "ventrolateral part (>1840) (SPVOvl)"
+                                       },
+                                       {
+                                          "name": "rostral dorsomedial part (>1840) (SPVOrdm)"
+                                       },
+                                       {
+                                          "name": "middle dorsomedial part (>1840) (SPVOmdm)",
+                                          "children": [
+                                             {
+                                                "name": "ventral zone (>1840) (SPVOmdmv)"
+                                             },
+                                             {
+                                                "name": "dorsal zone (>1840) (SPVOmdmd)"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "caudal dorsomedial part (>1840) (SPVOcdm)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Interpolar part (>1840)  (SPVI)"
+                                 },
+                                 {
+                                    "name": "Caudal part (>1840)  (SPVC)"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "name": "Spinal cord (Galen, c162-c166)  (SP)",
+                  "children": [
+                     {
+                        "name": "Ventral horn (>1840)  (VH)",
+                        "children": [
+                           {
+                              "name": "Nucleus of spinal accessory nerve (>1840)  (XI)"
+                           },
+                           {
+                              "name": "Ventral horn proper (Swanson, 2018)  (VHp)"
+                           },
+                           {
+                              "name": "Nucleus of bulbocavernosus (>1840)  (NBC)"
+                           },
+                           {
+                              "name": "Onuf’s nucleus (>1840)  (ON)"
+                           },
+                           {
+                              "name": "Phrenic nucleus (>1840)  (PN)"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Intermediate spinal zone (>1840)  (IZ)",
+                        "children": [
+                           {
+                              "name": "Spinal central gray (>1840)  (SCG)"
+                           },
+                           {
+                              "name": "Intermediomedial nucleus (>1840)  (IMM)"
+                           },
+                           {
+                              "name": "Dorsal commissural nucleus (>1840)  (DOC)"
+                           },
+                           {
+                              "name": "Intermediate spinal zone proper (>1840)  (IZp)"
+                           },
+                           {
+                              "name": "Intercalated spinal nucleus (>1840)  (ICS)"
+                           },
+                           {
+                              "name": "Central cervical nucleus (>1840)  (CEC)"
+                           },
+                           {
+                              "name": "Dorsal thoracic nucleus (>1840)  (DTH)",
+                              "children": [
+                                 {
+                                    "name": "Rostral part (>1840)  (DTHr)"
+                                 },
+                                 {
+                                    "name": "Caudal part (>1840)  (DTHc)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Intermediolateral nucleus (>1840)  (IML)"
+                           },
+                           {
+                              "name": "Thoracolumbar part (>1840)  (IMLtl)"
+                           },
+                           {
+                              "name": "Sacral part (>1840)  (IMLsa)"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Dorsal horn (>1840)  (DH)",
+                        "children": [
+                           {
+                              "name": "Basal nucleus of dorsal horn general (>1840)  (BNg)",
+                              "children": [
+                                 {
+                                    "name": "Basal nucleus of dorsal horn (>1840)  (BN)"
+                                 },
+                                 {
+                                    "name": "Lateral cervical nucleus (>1840)  (LCN)"
+                                 },
+                                 {
+                                    "name": "Lateral spinal nucleus (>1840)  (LSN)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Nucleus proprius of spinal cord (>1840)  (NP)"
+                           },
+                           {
+                              "name": "Spinal reticular nucleus (>1840)  (SRN)"
+                           },
+                           {
+                              "name": "Gelatinous substance of spinal cord (>1840)  (GES)"
+                           },
+                           {
+                              "name": "Marginal zone of spinal cord (>1840)  (MZ)"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]

@@ -1,0 +1,75 @@
+{
+  "bg_celldl_pipeline": [{
+      "make_connectivity_matrix_to_source_target_graph": {
+        "input": ["bg/conn_matrix.csv"],
+        "output": ["bg/conn_matrix.json"],
+        "is_adjacency_matrix": true,
+        "p": {
+          "idKey": "name",
+          "create_edges": true
+        },
+        "non_edge_val": "0",
+        "start": false,
+        "end": false,
+        "exclude_step" : true
+      }
+
+    }, {
+      "remove_duplicate_edges": {
+        "input": ["bg/conn_matrix.json"],
+        "output": ["bg/conn_matrix_no_dups.xml"],
+        "p": {
+          "idKey": "name"
+        },
+        "non_edge_val": "0",
+        "start": true,
+        "end": true,
+        "exclude_step" : false
+      }
+
+    }, {
+        "add_id_to_objects": {
+          "input": ["bg/conn_matrix_no_dups.json"],
+          "output": ["bg/conn_matrix_ids.json"],
+          "p":{
+            "new_key": "id",
+            "method_to_extract_new_value": "sequential_count",
+            "start_count_from": 0,
+            "add_prefix": "V"
+          },
+          "exclude_step" : true
+        }
+        }, {
+            "map_keys_to_keys": {
+              "input": ["bg/conn_matrix_ids.json"],
+              "output": ["../src/flatmaps/dat/edges/lyphs.json"],
+              "p":{
+                "name": ["id"," -- ","source","-","target"]
+              },
+              "exclude_step" : false
+            }
+      }, {
+          "select_subset_of_keys_from_arr": {
+            "input": ["bg/conn_matrix.json"],
+            "output": ["../src/flatmaps/dat/lyphs.json"],
+            "p":{
+              "keys_to_select": ["source", "target"],
+              "only_vals" : true,
+              "only_uniques" : true,
+              "flatten_array" : true,
+              "new_key" : "id"
+            },
+            "exclude_step" : true
+          }
+        }, {
+            "map_keys_to_keys": {
+              "input": ["bg/lyphs.json"],
+              "output": ["../src/flatmaps/dat/lyphs_labelled.json"],
+              "p":{
+                "name": ["id","neuron"],
+                "topology" : ["cyst"]
+              },
+              "exclude_step" : false
+          }
+      }]
+  }

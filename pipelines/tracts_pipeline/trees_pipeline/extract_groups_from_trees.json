@@ -1,0 +1,44 @@
+{
+  "extract_groups_from_trees": [{
+      "add_property_array_from_matching_data": {
+
+        "matching_obj": {
+          "func": "check_obj_has_these_keys",
+          "keys_to_contain": ["nodes"]
+        },
+        "add_to_parent": true,
+        "new_key": "nodes",
+        "new_array_values_from": {
+          "matching_obj": {
+            "func": "check_obj_contains_either_of_these_key_value_pairs",
+            "key_value_pairs": [{
+              "type": "node"
+            }]
+          },
+          "keys_to_get_val_from": ["id"]
+        }
+      }
+    },
+    {
+      "repeat_step__add_property_array_from_matching_data": {
+
+        "matching_obj": {
+          "func": "check_obj_has_these_keys",
+          "keys_to_contain": ["links"]
+        },
+        "add_to_parent": true,
+        "new_key": "links",
+        "new_array_values_from": {
+          "matching_obj": {
+            "func": "check_obj_contains_either_of_these_key_value_pairs",
+            "key_value_pairs": [{
+              "type": "link"
+            }]
+          },
+          "keys_to_get_val_from": ["id"]
+        }
+      },
+      "select_subset_of_keys_from_arr": ["id", "name", "nodes", "links"]
+    }
+  ]
+}

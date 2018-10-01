@@ -1,0 +1,121 @@
+{
+  "swanson_connectivity_pipeline": [{
+    "make_connectivity_matrix_to_source_target_graph": {
+      "input": ["swanson/CNS_regions_connectivity.tsv"],
+      "output": ["swanson/CNS_regions_connectivity.json"],
+      "is_adjacency_matrix": true,
+      "p": {
+        "idKey": "name",
+        "create_edges": true
+      },
+      "start": false,
+      "end": false,
+      "exclude_step": true
+    }
+  }, {
+    "simply_save": {
+      "input": ["swanson/swanson_abbreviations.tsv"],
+      "output": ["swanson/swanson_abbreviations.json"],
+      "is_hash_table": true,
+      "p": {
+        "reference_file_key": "swanson_abbreviations_2"
+      },
+      "start": false,
+      "end": false
+    }
+  }, {
+    "swop_key_vals": {
+      "input": ["swanson/swanson_abbreviations_2.csv"],
+      "output": ["swanson/swanson_abbreviations_2.json"],
+      "is_hash_table": true,
+      "p": {
+        "reference_file_key": "swanson_abbreviations_2"
+      },
+      "start": false,
+      "end": false
+    }
+  }, {
+    "merge_simply": {
+      "input": ["swanson/swanson_abbreviations.json", "swanson/swanson_abbreviations_2.json"],
+      "output": ["swanson/swanson_abbr_table.json"],
+      "is_hash_table": true,
+      "p": {},
+      "start": false,
+      "end": false
+    }
+
+  }, {
+    "simply_save": {
+      "input": ["swanson/pnas_16_13_key.csv"],
+      "output": ["swanson/CNS_regions_connectivity_key.json"],
+      "is_hash_table": true,
+      "p": {},
+      "start": false,
+      "end": false
+    }
+  }, {
+    "select_subset_of_keys_from_arr": {
+      "input": ["swanson/CNS_regions_connectivity_key.json"],
+      "output": ["swanson/CNS_regions_connection_types.json"],
+      "p": {
+        "only_vals": true,
+        "as_single_array": true,
+        "only_uniques": true
+      },
+      "start": false,
+      "end": false
+    }
+  }, {
+    "map_values_to_values_nested": {
+      "input": ["swanson/CNS_regions_connectivity.json",
+        "swanson/CNS_regions_connectivity_key.json"
+      ],
+      "output": ["swanson/CNS_regions_connectivity_with_keys.json"],
+      "is_hash_table": true,
+      "p": {
+        "reference_file_key": "CNS_regions_connectivity_key",
+        "from_keys": ["connection"]
+      },
+      "start": false,
+      "end": false
+    }
+  }, {
+    "map_values_to_values_nested": {
+      "input": ["swanson/CNS_regions_connectivity_with_keys.json",
+        "swanson/swanson_abbr_table.json"
+      ],
+      "output": ["swanson/CNS_regions_connectivity_with_names.json"],
+      "is_hash_table": true,
+      "p": {
+        "reference_file_key": "swanson_abbr_table",
+        "exclude_keys": ["connection"]
+      },
+      "start": false,
+      "end": false
+    }
+  }, {
+    "replace_str_values": {
+      "input": ["swanson/CNS_regions_connectivity_with_names.json"],
+      "output": ["swanson/CNS_regions_connectivity_names_cleaned.json"],
+      "p": {
+        "truncate_at": "("
+      },
+      "start": false,
+      "end": false
+    }
+  }, {
+    "extract_categories_into_files": {
+      "input": ["swanson/CNS_regions_connectivity_names_cleaned.json",
+        "swanson/CNS_regions_connection_types.json"
+      ],
+      "output": ["../src/flatmaps/dat/edges/"],
+      "p": {
+        "reference_file_key": "CNS_regions_connection_types",
+        "from_key": "connection",
+        "filename_prefix": "edges_"
+      },
+      "start": true,
+      "end": false
+    }
+  }]
+}

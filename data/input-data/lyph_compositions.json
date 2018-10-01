@@ -1,0 +1,156 @@
+[{
+    "name": "Terminal Lyph",
+    "topology": "BAG",
+    "parent_lyph_composition": "",
+    "material": "",
+    "layer_composition": ["Cytosol", "Plasma Membrane", "CT"],
+    "is_leaf": true
+  },
+  {
+    "name": "Neural Terminal Lyph",
+    "topology": "BAG",
+    "parent_lyph_composition": "Terminal Lyph",
+    "material": "ependymal",
+    "layer_composition": ["Cytosol", "Plasma Membrane", "CT"],
+    "is_leaf": true
+  },
+  {
+    "name": "Soma Lyph",
+    "topology": "TUBE",
+    "material": "ependymal",
+    "layer_composition": ["Cytosol", "Plasma Membrane", "CT"],
+    "is_root": true
+  },
+  {
+    "name": "Tubing Lyph",
+    "topology": "TUBE",
+    "material": "",
+    "layer_composition": [""],
+    "invisible" : true
+  },
+  {
+    "name": "Neural Tubing Lyph",
+    "topology": "TUBE",
+    "material": "ependymal",
+    "layer_composition": ["Cytosol", "Plasma Membrane", "CT"],
+    "parent_lyph_composition": "Tubing Lyph",
+    "invisible" : true
+  },
+  {
+    "name": "Axonal Neural Tubing Lyph",
+    "topology": "TUBE",
+    "material": "ependymal",
+    "layer_composition": ["Cytosol", "Plasma Membrane", "CT"],
+    "parent_lyph_composition": "Neural Tubing Lyph",
+    "invisible" : true
+  },
+  {
+    "name": "Dendritic Neural Tubing Lyph",
+    "topology": "TUBE",
+    "material": "ependymal",
+    "layer_composition": ["Cytosol", "Plasma Membrane", "CT"],
+    "parent_lyph_composition": "Neural Tubing Lyph",
+    "invisible" : true
+  },
+  {
+    "name": "CNS entrance Tubing Neural Lyph",
+    "topology": "TUBE",
+    "material": "ependymal",
+    "layer_composition": ["Cytosol", "Plasma Membrane", "CT"],
+    "parent_lyph_composition": "Neural Tubing Lyph",
+    "invisible" : true
+  },
+  {
+    "name": "CNS entrance Neural Terminal Lyph",
+    "topology": "BAG",
+    "material": "ependymal",
+    "layer_composition": ["Cytosol", "Plasma Membrane", "CT"],
+    "parent_lyph_composition": "Neural Terminal Lyph",
+    "is_leaf": true
+  },
+  {
+    "name": "Synaptic cleft",
+    "topology": "",
+    "material": "",
+    "layer_composition": [],
+    "parent_lyph_composition": "",
+    "coalescence": "true"
+  },
+  {
+    "name": "Tract",
+    "topology": "CYST",
+    "material": "ependymal",
+    "layer_composition": [],
+    "parent_lyph_composition": "",
+    "invisible" : true
+  },
+  {
+    "name": "Neural nucleus",
+    "topology": "CYST",
+    "material": "ependymal",
+    "layer_composition": [],
+    "parent_lyph_composition": ""
+  },
+  {
+    "name": "Ganglion",
+    "topology": "CYST",
+    "material": "ependymal",
+    "layer_composition": [],
+    "parent_lyph_composition": ""
+  },
+  {
+    "name": "Generic peripheral",
+    "topology": "BAG",
+    "material": "ependymal",
+    "layer_composition": [],
+    "parent_lyph_composition": ""
+  },
+  {
+    "name": "Limb",
+    "topology": "BAG",
+    "material": "",
+    "layer_composition": [],
+    "parent_lyph_composition": ""
+  },
+  {
+    "name": "CNS",
+    "topology": "",
+    "material": "",
+		"layer_composition": ["CSF", "Ependymal", "Parenchyma"],
+    "parent_lyph_composition": "Central Nervous System"
+  },
+  {
+    "name": "CNS segment entry",
+    "topology": "BAG",
+    "material": "",
+    "layer_composition": ["CSF", "Ependymal", "Parenchyma"],
+    "parent_lyph_composition": "Central Nervous System"
+  },
+  {
+    "name": "CNS segment",
+    "topology": "TUBE",
+    "material": "",
+		"layer_composition": ["CSF", "Ependymal", "Parenchyma"],
+    "parent_lyph_composition": "Central Nervous System"
+  },
+	{
+    "name": "CNS layer",
+    "topology": "TUBE",
+    "material": "",
+    "parent_lyph_composition": "layer"
+  },
+	{
+    "name": "System",
+    "topology": "Link"
+  },
+  {
+    "name": "Outer tissue",
+    "topology": "BAG",
+    "layer_composition": ["Air", "Epidermal", "Dermal"]
+  },
+  {
+    "name": "Outer tissue layer",
+    "topology": "BAG"
+  }
+
+]

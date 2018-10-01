@@ -1,0 +1,308 @@
+[
+   {
+      "name": "NERVOUS SYSTEM [RAT] (MONRO, 1783)  (NS)",
+      "children": [
+         {
+            "name": "Nervous system topographic architecture (Swanson & Bota, 2010)",
+            "children": [
+               {
+                  "name": "Nervous system supporting structures (Swanson & Bota, 2010)",
+                  "children": [
+                     {
+                        "name": "Ventricular-subarachnoid space (Swanson & Bota, 2010)  (VSS)",
+                        "children": [
+                           {
+                              "name": "Cerebrospinal fluid (Magendie, 1827)  (CSF)",
+                              "children": [
+                                 {
+                                    "name": "Subarachnoid space (Magendie, 1827)  (SAS)",
+                                    "children": [
+                                       {
+                                          "name": "Septal fissure (Burdach, 1822)  (sef)"
+                                       },
+                                       {
+                                          "name": "Ventricles (Hippocrates)  (VS)",
+                                          "children": [
+                                             {
+                                                "name": "Ependyma (>1840)  (E)"
+                                             },
+                                             {
+                                                "name": "Subependymal zone (>1840)  (SEZ)"
+                                             },
+                                             {
+                                                "name": "Lateral ventricle (Vesalius, 1543a)  (VL)",
+                                                "children": [
+                                                   {
+                                                      "name": "Anterior horn of lateral ventricle (Bell, 1803b)  (VLa)",
+                                                      "children": [
+                                                         {
+                                                            "name": "Olfactory ventricle (>1840)  (VLo)"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Body of lateral ventricle (Bell, 1803b)  (VLb)"
+                                                   },
+                                                   {
+                                                      "name": "Inferior horn of lateral ventricle (Bell, 1802)  (VLi)"
+                                                   },
+                                                   {
+                                                      "name": "Choroid epithelium of lateral ventricle (>1840)  (chel)"
+                                                   },
+                                                   {
+                                                      "name": "Choroid line of lateral ventricle (>1840)  (chll)"
+                                                   },
+                                                   {
+                                                      "name": "Fimbrial line of lateral ventricle (>1840)  (fll)"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Interventricular foramen (>1840)  (IVF)"
+                                             },
+                                             {
+                                                "name": "Third ventricle (Galen, c173)  (V3)",
+                                                "children": [
+                                                   {
+                                                      "name": "Hypothalamic part of third ventricle general (Swanson, 2004)  (V3hg)",
+                                                      "children": [
+                                                         {
+                                                            "name": "Principal part ()  (V3h)"
+                                                         },
+                                                         {
+                                                            "name": "Preoptic recess (>1840)  (V3p)"
+                                                         },
+                                                         {
+                                                            "name": "Infundibular recess (>1840)  (V3i)"
+                                                         },
+                                                         {
+                                                            "name": "Mammillary recess (>1840)  (V3m)"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Hypothalamic sulcus (>1840)  (hys)"
+                                                   },
+                                                   {
+                                                      "name": "Thalamic part of third ventricle general (Swanson, 2004)  (V3tg)",
+                                                      "children": [
+                                                         {
+                                                            "name": "Interthalamic adhesion (>1840)  (IT)"
+                                                         },
+                                                         {
+                                                            "name": "Thalamic part of third ventricle principal part ()  (V3t)"
+                                                         },
+                                                         {
+                                                            "name": "Roof of third ventricle (>1840)  (V3r)",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Choroid epithelium of third ventricle (>1840)  (che3)",
+                                                                  "children": [
+                                                                     {
+                                                                        "name": "Suprapineal recess (>1840)  (V3sp)"
+                                                                     }
+                                                                  ]
+                                                               },
+                                                               {
+                                                                  "name": "Choroid line of third ventricle (>1840)  (chl3)"
+                                                               },
+                                                               {
+                                                                  "name": "Pineal recess (>1840)  (V3pi)"
+                                                               }
+                                                            ]
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Opening of cerebral aqueduct (>1840)  (AQo)"
+                                             },
+                                             {
+                                                "name": "Cerebral aqueduct general ()  (AQg)",
+                                                "children": [
+                                                   {
+                                                      "name": "Cerebral aqueduct principal part ()  (AQ)"
+                                                   },
+                                                   {
+                                                      "name": "Collicular recess (>1840)  (AQc)"
+                                                   },
+                                                   {
+                                                      "name": "Subcommissural organ (>1840)  (SCO)"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Opening of fourth ventricle (>1840)  (V4o)"
+                                             },
+                                             {
+                                                "name": "Fourth ventricle general (Galen, c192)  (V4g)",
+                                                "children": [
+                                                   {
+                                                      "name": "Fourth ventricle principal part ()  (V4)"
+                                                   },
+                                                   {
+                                                      "name": "Lateral recess of fourth ventricle (>1840)  (V4r)",
+                                                      "children": [
+                                                         {
+                                                            "name": "Lateral aperture of fourth ventricle (>1840)  (LAP)"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Floor of fourth ventricle (Reil, 1807-1808a)  (V4f)",
+                                                      "children": [
+                                                         {
+                                                            "name": "Median sulcus of fourth ventricle (>1840)  (ms4)"
+                                                         },
+                                                         {
+                                                            "name": "Medial eminence (>1840)  (mle)"
+                                                         },
+                                                         {
+                                                            "name": "Facial colliculus (>1840)  (fac)"
+                                                         },
+                                                         {
+                                                            "name": "Recessus incertus (Chatfield & Lyman, 1954)  (ric)"
+                                                         },
+                                                         {
+                                                            "name": "Vestibular area of fourth ventricle (>1840)  (va)"
+                                                         },
+                                                         {
+                                                            "name": "Auditory tubercle (>1840)  (aut)"
+                                                         },
+                                                         {
+                                                            "name": "Hypoglossal triangle (>1840)  (ht)"
+                                                         },
+                                                         {
+                                                            "name": "Vagal triangle (>1840)  (vt)"
+                                                         },
+                                                         {
+                                                            "name": "Funiculus separans (>1840)  (fus)"
+                                                         },
+                                                         {
+                                                            "name": "Obex (Burdach, 1822)  (O)"
+                                                         },
+                                                         {
+                                                            "name": "Limiting sulcus of fourth ventricle (>1840)  (slm)"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Roof of fourth ventricle (Vesalius, 1543a)  (V4rf)",
+                                                      "children": [
+                                                         {
+                                                            "name": "Fastigium of fourth ventricle (Burdach, 1822)  (V4fa)"
+                                                         },
+                                                         {
+                                                            "name": "Choroid epithelium of fourth ventricle (>1840)  (che4)"
+                                                         },
+                                                         {
+                                                            "name": "Choroid line of fourth ventricle (>1840)  (chl4)"
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Central canal (Bellingeri, 1823)  (C)",
+                                                "children": [
+                                                   {
+                                                      "name": "Central canal of medulla (>1840)  (Cmd)"
+                                                   },
+                                                   {
+                                                      "name": "Central canal of spinal cord (>1840)  (Csp)",
+                                                      "children": [
+                                                         {
+                                                            "name": "Terminal ventricle (>1840)  (Cstv)"
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Meninges (Smith Papyrus, c1700 BC)  (MEN)",
+                              "children": [
+                                 {
+                                    "name": "Pia-arachnoid (>1840)  (PIAR)",
+                                    "children": [
+                                       {
+                                          "name": "Pia (Galen, c192)  (PI)",
+                                          "children": [
+                                             {
+                                                "name": "Choroid membrane of lateral ventricle (>1840)  (chmvl)"
+                                             },
+                                             {
+                                                "name": "Choroid membrane of third ventricle (>1840)  (chm3)"
+                                             },
+                                             {
+                                                "name": "Choroid membrane of fourth ventricle (>1840)  (chm4)"
+                                             },
+                                             {
+                                                "name": "Denticulate ligament (Monro, 1783)  (del)"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Arachnoid (Blasius, 1666)  (AR)",
+                                          "children": [
+                                             {
+                                                "name": "Epipial layer (Key & Retzius, 1875-1876)  (epl)"
+                                             },
+                                             {
+                                                "name": "Arachnoid trabeculae (>1840)  (atr)"
+                                             },
+                                             {
+                                                "name": "Arachnoid membrane (Meckel, 1817)  (ame)"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Dura (Galen, c177)  (D)",
+                                    "children": [
+                                       {
+                                          "name": "Cerebral falx (Vesalius, 1543a)  (cef)"
+                                       },
+                                       {
+                                          "name": "Sellar diaphragm (>1840)  (sd)"
+                                       },
+                                       {
+                                          "name": "Cerebellar falx (Günther, 1786)  (cbfx)"
+                                       },
+                                       {
+                                          "name": "Cerebellar tentorium (Winslow, 1733)  (cbte)"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Choroid plexus (Galen, c177)  (chp)",
+                              "children": [
+                                 {
+                                    "name": "Choroid plexus of lateral ventricle (Vicq d’Azyr, 1784)  (chpl)"
+                                 },
+                                 {
+                                    "name": "Choroid plexus of third ventricle (Vicq d’Azyr, 1784)  (chp3)"
+                                 },
+                                 {
+                                    "name": "Choroid plexus of fourth ventricle (Vieussens, 1684)  (chp4)"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]

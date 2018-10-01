@@ -1,0 +1,10 @@
+{
+  "sandbox_pipeline": [{
+      "subtract_difference.json" : {
+        "input": ["input-data/lyph_viewer/viewer_graph_broken.json",
+                  "input-data/lyph_viewer/viewer_graph_works.json"],
+        "output" : ["input-data/lyph_viewer/viewer_graph_diff.json"],
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+   {
+      "id": "m3",
+      "name": "m3 neuron",
+      "topology": "cyst"
+   },
+   {
+      "id": "m1",
+      "name": "m1 neuron",
+      "topology": "cyst"
+   },
+   {
+      "id": "m2",
+      "name": "m2 neuron",
+      "topology": "cyst"
+   },
+   {
+      "id": "m4",
+      "name": "m4 neuron",
+      "topology": "cyst"
+   }
+]

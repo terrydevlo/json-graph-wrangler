@@ -1,0 +1,10 @@
+{
+  "remove_duplicate_key_val_pairs": [{
+    "replace_matching_keys_value_with": {
+      "use_newDat_as_datToManip" : true,
+      "matching_keys": ["hostedNodes"],
+      "remove_duplicate_key_val_pairs": {},
+      "new_val": {}
+    }
+  }]
+}

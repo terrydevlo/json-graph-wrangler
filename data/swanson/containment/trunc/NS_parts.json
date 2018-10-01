@@ -1,0 +1,234 @@
+[
+   {
+      "name": "NERVOUS SYSTEM [VERTEBRATE]",
+      "children": [
+         {
+            "name": "General standard terms",
+            "children": [
+               {
+                  "name": "Gray matter",
+                  "children": [
+                     {
+                        "name": "White matter"
+                     },
+                     {
+                        "name": "Plexus"
+                     },
+                     {
+                        "name": "Communicating branch"
+                     },
+                     {
+                        "name": "Cerebrospinal trunk"
+                     },
+                     {
+                        "name": "Brainstem"
+                     }
+                  ]
+               },
+               {
+                  "name": "Central nervous system",
+                  "children": [
+                     {
+                        "name": "Brain",
+                        "children": [
+                           {
+                              "name": "Forebrain",
+                              "children": [
+                                 {
+                                    "name": "Endbrain",
+                                    "children": [
+                                       {
+                                          "name": "Cerebral nuclei"
+                                       },
+                                       {
+                                          "name": "Cerebral cortex"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Interbrain",
+                                    "children": [
+                                       {
+                                          "name": "Hypothalamus"
+                                       },
+                                       {
+                                          "name": "Thalamus"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Midbrain",
+                              "children": [
+                                 {
+                                    "name": "Tegmentum"
+                                 },
+                                 {
+                                    "name": "Tectum"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Rhombicbrain",
+                              "children": [
+                                 {
+                                    "name": "Hindbrain",
+                                    "children": [
+                                       {
+                                          "name": "Pons"
+                                       },
+                                       {
+                                          "name": "Cerebellum"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Afterbrain"
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Spinal cord",
+                        "children": [
+                           {
+                              "name": "Spinal cord parts",
+                              "children": [
+                                 {
+                                    "name": "Cervical part of spinal cord"
+                                 },
+                                 {
+                                    "name": "Thoracic part of spinal cord"
+                                 },
+                                 {
+                                    "name": "Lumbar part of spinal cord"
+                                 },
+                                 {
+                                    "name": "Sacral part of spinal cord"
+                                 },
+                                 {
+                                    "name": "Coccygeal part of spinal cord"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Spinal cord differentiations",
+                              "children": [
+                                 {
+                                    "name": "Cervical enlargement"
+                                 },
+                                 {
+                                    "name": "Lumbosacral enlargement"
+                                 },
+                                 {
+                                    "name": "Medullary cone"
+                                 },
+                                 {
+                                    "name": "Terminal filament"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "name": "Peripheral nervous system",
+                  "children": [
+                     {
+                        "name": "Nerves",
+                        "children": [
+                           {
+                              "name": "Craniospinal nerves",
+                              "children": [
+                                 {
+                                    "name": "Cranial nerves"
+                                 },
+                                 {
+                                    "name": "Spinal nerves",
+                                    "children": [
+                                       {
+                                          "name": "Spinal nerve roots"
+                                       },
+                                       {
+                                          "name": "Spinal nerve trunk"
+                                       },
+                                       {
+                                          "name": "Spinal nerve primary branches"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Autonomic nerves",
+                              "children": [
+                                 {
+                                    "name": "Communicating branches of spinal nerves"
+                                 },
+                                 {
+                                    "name": "Peripheral nerve cord trunk",
+                                    "children": [
+                                       {
+                                          "name": "Sympathetic trunk"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Paravertebral nerves"
+                                 },
+                                 {
+                                    "name": "Prevertebral plexuses"
+                                 },
+                                 {
+                                    "name": "Prevertebral nerves"
+                                 },
+                                 {
+                                    "name": "Terminal plexuses"
+                                 },
+                                 {
+                                    "name": "Terminal autonomic nerves"
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Ganglia",
+                        "children": [
+                           {
+                              "name": "Craniospinal ganglia",
+                              "children": [
+                                 {
+                                    "name": "Cranial nerve ganglia"
+                                 },
+                                 {
+                                    "name": "Spinal nerve ganglia"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Autonomic ganglia",
+                              "children": [
+                                 {
+                                    "name": "Paravertebral ganglia"
+                                 },
+                                 {
+                                    "name": "Prevertebral ganglia"
+                                 },
+                                 {
+                                    "name": "Terminal ganglia"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]

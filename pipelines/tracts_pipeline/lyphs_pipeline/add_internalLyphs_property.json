@@ -1,0 +1,32 @@
+{
+  "add_internalLyphs_property": [{
+      "add_property_array_from_matching_data": {
+        "exclude_step" : true,
+        "add_to_parent": true,
+        "new_key": "internalLyphs",
+        "new_array_values_from": {
+          "matching_obj": {
+            "func": "check_obj_key_val_matches_scrutinised_key_val",
+            "scrutinised_obj_key": "id",
+            "object_match_key": "contained_by"
+          },
+          "keys_to_get_val_from": ["id"]
+        }
+      }
+    },
+    {
+      "repeat_step__add_property_array_from_matching_data": {
+        "add_to_parent": true,
+        "new_key": "internalLyphs",
+        "new_array_values_from": {
+          "matching_obj": {
+            "func": "check_obj_key_val_matches_scrutinised_key_val",
+            "scrutinised_obj_key": "id",
+            "object_match_key": "hosted_by"
+          },
+          "keys_to_get_val_from": ["id"]
+        }
+      }
+    }
+  ]
+}

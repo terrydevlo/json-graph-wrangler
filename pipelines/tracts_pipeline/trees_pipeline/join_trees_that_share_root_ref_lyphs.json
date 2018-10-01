@@ -1,0 +1,40 @@
+{
+  "join_trees_that_share_root_ref_lyphs": [{
+      "join_trees_that_share_root_ref_lyphs": {
+        "keys_to_select": ["rootRefLyph"],
+
+        "new_edge_originating_node_key" : "root",
+        "new_edge_level_key" : "level",
+        "new_edge_level_key_starting" : 0,
+        "new_edge_name_key" : "name",
+        "new_edge_type_key" : "type",
+        "new_edge_value_key" : "link",
+        "new_edge_label_key" : "label",
+
+        "edges_label_key": "label",
+        "edges_label_diff_of_source_target" : true,
+
+        "leaf_key" : "leaf",
+        "root_key" : "root",
+
+        "source_key": "source",
+        "target_key": "target",
+        "edges_ref_key" : "conveyingLyph",
+        "name_val_params": {
+          "func": "get_common_words_in",
+          "name_key": "name",
+          "remove_words": " neurite tree",
+          "suffix": " neuron tree"
+        },
+        "edges_arr_key" : "links",
+        "nodes_arr_key" : "nodes",
+        "node_match_by" : "name",
+
+        "delete_unspecified_keys": false,
+        "uniques_only": true,
+        "id_key" : "id"
+      }
+    }
+
+  ]
+}

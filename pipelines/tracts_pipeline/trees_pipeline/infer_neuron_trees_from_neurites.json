@@ -1,0 +1,37 @@
+{
+  "map_connected_to_graph": [
+      {
+        "join_values_of_specified_keys": {
+          "keys_to_join": ["contained_by","group_type"],
+          "all_values_need_be_defined" : true,
+          "new_key" : "name",
+          "delete_unspecified_keys" : true,
+          "uniques_only" : true
+        }
+      },
+      {
+        "map_connected_as_trees": {
+          "id_key" : "name",
+          "matching_keys" : ["contained_by","group_type"],
+          "connected_need_match" : true,
+          "target_key" : "target",
+          "source_key" : "source",
+          "key_type" : "new key",
+          "is_root_key" : "is_root",
+          "id_key": "name",
+
+          "one_tree_for_each_root_branch": false,
+
+          "append_suffix_to_tree": " neuron tree"
+        }
+  		},
+      {
+        "map_string_keys_and_values_to": {
+          "new_object_key": "name",
+          "new_object_val_key": "links",
+          "new_string_key": "source",
+          "new_string_val_key": "target"
+        }
+      }
+    ]
+}

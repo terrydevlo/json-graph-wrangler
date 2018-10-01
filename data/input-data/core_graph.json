@@ -1,0 +1,137 @@
+{
+  "nodes": [{
+    "id": "c",
+    "name": "c",
+    "color": "#D2691E",
+    "val": 3,
+    "type": "core",
+    "layout": {
+      "x": 100,
+      "y": 0,
+      "z": 0
+    }
+  }, {
+    "id": "n",
+    "name": "n",
+    "color": "#D2691E",
+    "val": 3,
+    "type": "core",
+    "layout": {
+      "x": -100,
+      "y": 0,
+      "z": 0
+    }
+  },{
+    "id": "t",
+    "name": "t",
+    "color": "#808080",
+    "val": 3,
+    "type": "core",
+    "layout": {
+      "x": -60,
+      "y": 0,
+      "z": 0
+    }
+  }, {
+    "id": "h",
+    "name": "h",
+    "color": "#444444",
+    "val": 3,
+    "type": "core",
+    "layout": {
+      "x": 60,
+      "y": 0,
+      "z": 0
+    }
+  }, {
+    "id": "R",
+    "name": "R",
+    "color": "#7B68EE",
+    "val": 3,
+    "type": "core",
+    "layout": {
+      "x": 0,
+      "y": 75,
+      "z": 0
+    }
+  }, {
+    "id": "L",
+    "name": "L",
+    "color": "#ff0000",
+    "val": 3,
+    "type": "core",
+    "layout": {
+      "x": 0,
+      "y": -75,
+      "z": 0
+    }
+  }, {
+    "id": "S",
+    "name": "Σ",
+    "color": "#006400",
+    "val": 3,
+    "type": "core",
+    "layout": {
+      "x": -90,
+      "y": 0,
+      "z": 0
+    }
+  }, {
+    "id": "P",
+    "name": "π",
+    "color": "#0000CD",
+    "val": 3,
+    "type": "core",
+    "layout": {
+      "x": 90,
+      "y": 0,
+      "z": 0
+    }
+
+  }],
+  "links": [{
+    "id": "cn",
+    "source": "c",
+    "target": "n",
+    "name": "",
+    "type": "dashed",
+    "length": 100,
+    "color": "#000"
+  },{
+    "id": "RL",
+    "source": "R",
+    "target": "L",
+    "name": "Pulmonary",
+    "type": "semicircle",
+    "length": 75,
+    "linkMethod": "Line2",
+    "color": "#000"
+  }, {
+    "id": "LR",
+    "source": "L",
+    "target": "R",
+    "name": "Systemic",
+    "type": "semicircle",
+    "length": 75,
+    "linkMethod": "Line2",
+    "color": "#000"
+  }, {
+    "id": "SP",
+    "source": "S",
+    "target": "P",
+    "name": "Gut",
+    "type": "semicircle",
+    "length": 90,
+    "linkMethod": "Line2",
+    "color": "#000"
+  }, {
+    "id": "PS",
+    "source": "P",
+    "target": "S",
+    "name": "Gut'",
+    "type": "semicircle",
+    "length": 90,
+    "linkMethod": "Line2",
+    "color": "#000"
+  }]
+}

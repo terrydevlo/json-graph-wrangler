@@ -1,0 +1,38 @@
+[
+   {
+      "id": "μ1",
+      "label": "BC",
+      "type": "potential",
+      "topology": "cyst"
+   },
+   {
+      "id": "v1",
+      "label": "R1_L1",
+      "type": "flow",
+      "topology": "tube"
+   },
+   {
+      "id": "μ2",
+      "label": "C2",
+      "type": "potential",
+      "topology": "cyst"
+   },
+   {
+      "id": "v2",
+      "label": "R2_l2",
+      "type": "flow",
+      "topology": "tube"
+   },
+   {
+      "id": "μ3",
+      "label": "C3",
+      "type": "potential",
+      "topology": "cyst"
+   },
+   {
+      "id": "v3",
+      "label": "1",
+      "type": "flow",
+      "topology": "tube"
+   }
+]

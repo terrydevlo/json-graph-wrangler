@@ -1,0 +1,21 @@
+{
+  "label_id_on_lyphs": [{
+      "add_id_to_objects": {
+        "objects_that_contain_these_keys": ["name"],
+        "new_key": "id",
+        "method_to_extract_new_value": "sequential_count",
+        "start_count_from": 0,
+        "add_prefix": "L"
+      }
+    },
+    {
+      "map_property_from_reference_property": {
+        "use_newDat_as_datToManip" : true,
+        "reference_id_key": "name",
+        "reference_property_key": "id",
+        "mapping_id_keys": ["contained_by", "hosted_by", "source", "target","layers"],
+        "remove_as_ref_entry_once_used": false
+      }
+    }
+  ]
+}

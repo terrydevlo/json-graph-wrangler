@@ -1,0 +1,103 @@
+{
+  "trees_pipeline": [{
+      "infer_neurite_trees.json": {
+        "input": ["semantic-data/tracts/lyphs/lyphs_pipe_fin_no_ids.json"],
+        "output": ["semantic-data/tracts/trees/neurite_trees_source_target.json"],
+        "start": false,
+        "end": false
+      }
+    },
+    {
+      "infer_cns_trees.json": {
+        "input": ["semantic-data/tracts/lyphs/lyphs_pipe_fin_no_ids.json"],
+        "output": ["semantic-data/tracts/trees/cns_trees_source_target.json"],
+        "start": false,
+        "end": false
+      }
+    },
+    {
+      "infer_unlinked_lyphs_as_trees.json": {
+        "input": ["semantic-data/tracts/lyphs/lyphs_pipe_fin_no_ids.json"],
+        "output": ["semantic-data/tracts/trees/groups_unlinked_lyphs.json"],
+        "start": false,
+        "end": false
+      }
+    },
+    {
+      "add_nodes_compute_levels.json": {
+        "input": ["semantic-data/tracts/lyphs/lyphs_pipe_fin_no_ids.json",
+          "semantic-data/tracts/trees/cns_trees_source_target.json"
+        ],
+        "output": ["semantic-data/tracts/trees/cns_trees_source_target_with_nodes.json"],
+        "start": false,
+        "end": false
+      }
+    },
+    {
+      "add_nodes_compute_levels.json": {
+        "input": ["semantic-data/tracts/lyphs/lyphs_pipe_fin_no_ids.json",
+          "semantic-data/tracts/trees/neurite_trees_source_target.json"
+        ],
+        "output": ["semantic-data/tracts/trees/neurite_trees_with_nodes.json"],
+        "start": false,
+        "end": false
+      }
+    },
+    {
+      "join_trees_that_share_root_ref_lyphs.json": {
+        "input": ["semantic-data/tracts/trees/neurite_trees_with_nodes.json"],
+        "output": ["semantic-data/tracts/trees/neuron_trees_from_neurites.json"],
+        "start": false,
+        "end": false
+      }
+    },
+    {
+      "merge_trees.json": {
+        "exclude_step" : false,
+        "input": [ "semantic-data/tracts/trees/cns_trees_source_target_with_nodes.json",
+          "semantic-data/tracts/trees/neuron_trees_from_neurites.json",
+          "semantic-data/tracts/trees/groups_unlinked_lyphs.json"],
+        "output": ["semantic-data/tracts/trees/merged_trees.json"],
+        "start": false,
+        "end": false
+      }
+    },
+    {
+      "merge_trees.json": {
+        "exclude_step" : true,
+        "input": [ "semantic-data/tracts/trees/cns_trees_source_target_with_nodes.json",
+          "semantic-data/tracts/trees/neuron_trees_from_neurites.json"],
+        "output": ["semantic-data/tracts/trees/merged_trees.json"],
+        "start": false,
+        "end": false
+      }
+    },
+
+    {
+      "label_ids_for_trees_nodes_links.json": {
+        "input": ["semantic-data/tracts/trees/merged_trees.json"],
+        "output": ["semantic-data/tracts/trees/merged_cns_neurons_tree_ids.json"],
+        "start": false,
+        "end": false
+      }
+    },
+    {
+      "replace_lyph_names_with_ids.json": {
+        "input": ["semantic-data/tracts/lyphs/lyphs_pipe_fin_with_ids.json",
+          "semantic-data/tracts/trees/merged_cns_neurons_tree_ids.json"
+        ],
+        "output": ["semantic-data/tracts/trees/merged_cns_neurons_ids.json"],
+        "start": false,
+        "end": false
+      }
+    },
+    {
+      "extract_groups_from_trees.json": {
+        "input": ["semantic-data/tracts/trees/merged_cns_neurons_ids.json"],
+        "output": ["semantic-data/tracts/groups/groups.json"],
+        "start": false,
+        "end": false
+      }
+    }
+  ]
+}

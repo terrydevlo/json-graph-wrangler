@@ -1,0 +1,23 @@
+{
+  "tracts_pipeline": [{
+      "pipeline": "lyphs_pipeline.json",
+      "run": false
+    },
+    {
+      "pipeline": "graph_pipeline.json",
+      "run": true
+    },
+    {
+      "pipeline": "trees_pipeline.json",
+      "run": false
+    },
+    {
+      "pipeline": "nodes_links_pipeline.json",
+      "run": false
+    },
+    {
+      "pipeline": "viewer_pipeline.json",
+      "run": false
+    }
+  ]
+}

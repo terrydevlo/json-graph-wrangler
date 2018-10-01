@@ -1,0 +1,388 @@
+[
+   {
+      "name": "AUTONOMIC NERVES [RAT] (LANGLEY, 1898)  (ann)",
+      "children": [
+         {
+            "name": "Communicating branches of spinal nerves (Wutzer, 1817)  (spinc)",
+            "children": [
+               {
+                  "name": "White communicating branch (>1840)  (wc)",
+                  "children": [
+                     {
+                        "name": "Gray communicating branch (>1840)  (gc)"
+                     }
+                  ]
+               },
+               {
+                  "name": "Peripheral nerve cord trunk (Swanson & Bota, 2010)  (pnt)",
+                  "children": [
+                     {
+                        "name": "Sympathetic trunk (Winslow, 1733)  (syt)",
+                        "children": [
+                           {
+                              "name": "Communicating branches of sympathetic trunk (>1840)  (sytc)",
+                              "children": [
+                                 {
+                                    "name": "Communicating branch of superior and middle cervical ganglia (Cruveilhier, 1836)  (csmg)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Ansa subclavia (Neubauer, 1772)  (ansc)"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "name": "Paravertebral nerves (Swanson & Bota, 2010)  (pav)",
+                  "children": [
+                     {
+                        "name": "Internal carotid nerve (>1840)  (incn)"
+                     },
+                     {
+                        "name": "Internal carotid plexus (>1840)  (incp)",
+                        "children": [
+                           {
+                              "name": "Caroticotympanic nerves (>1840)  (ctn)"
+                           },
+                           {
+                              "name": "Deep petrosal nerve (Meckel, 1817)  (dpn)"
+                           },
+                           {
+                              "name": "Communicating branch from internal carotid plexus to abducens nerve (>1840)  (icpla)"
+                           },
+                           {
+                              "name": "Communicating branch from internal carotid plexus to ophthalmic nerve (>1840)  (icplo)"
+                           },
+                           {
+                              "name": "Communicating branch from internal carotid plexus to trochlear nerve (>1840)  (icplt)"
+                           },
+                           {
+                              "name": "Communicating branch from internal carotid plexus to oculomotor nerve (>1840)  (icploc)"
+                           },
+                           {
+                              "name": "Sympathetic root of ciliary ganglion (>1840)  (srcg)"
+                           },
+                           {
+                              "name": "Hypophysial plexus (>1840)  (hypl)"
+                           },
+                           {
+                              "name": "Middle cerebral artery plexus (>1840)  (mcpl)"
+                           },
+                           {
+                              "name": "Anterior cerebral artery plexus (Chaussier, 1789)  (acpl)"
+                           },
+                           {
+                              "name": "Posterior cerebral artery plexus (Chaussier, 1789)  (pcpl)"
+                           },
+                           {
+                              "name": "Ophthalmic plexus (>1840)  (oppl)"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Common carotid plexus (Cloquet, 1816)  (ccpl)"
+                     },
+                     {
+                        "name": "External carotid plexus (>1840)  (ecpl)",
+                        "children": [
+                           {
+                              "name": "Sympathetic root of submandibular ganglion (>1840)  (ssg)"
+                           },
+                           {
+                              "name": "Sympathetic root of otic ganglion (>1840)  (srot)"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Jugular nerves (>1840)  (jn)"
+                     },
+                     {
+                        "name": "Laryngopharyngeal branches of superior cervical ganglion (>1840)  (lpb)"
+                     },
+                     {
+                        "name": "Thyroid branches of superior cervical ganglion (>1840)  (thyb)",
+                        "children": [
+                           {
+                              "name": "Thyroid plexus (Portal, 1803a)  (thpl)"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Superior cardiac nerve (Neubauer, 1772)  (sca)"
+                     },
+                     {
+                        "name": "Inferior cardiac nerve (Cloquet, 1816)  (ica)"
+                     },
+                     {
+                        "name": "Subclavian plexus (>1840)  (scpl)"
+                     },
+                     {
+                        "name": "Vertebral nerve (Cruveilhier, 1836)  (vern)",
+                        "children": [
+                           {
+                              "name": "Vertebral plexus (Cloquet, 1816)  (vepl)"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Esophageal branches of sympathetic trunk (>1840)  (ebst)"
+                     },
+                     {
+                        "name": "Thoracic cardiac nerves (>1840)  (tca)"
+                     },
+                     {
+                        "name": "Thoracic pulmonary nerves (>1840)  (tpu)"
+                     },
+                     {
+                        "name": "Greater splanchnic nerve (Walter, 1783)  (gspn)"
+                     },
+                     {
+                        "name": "Lesser splanchnic nerve (Haller, 1762)  (lesp)"
+                     },
+                     {
+                        "name": "Least splanchnic nerve (>1840)  (leasp)"
+                     },
+                     {
+                        "name": "Lumbar splanchnic nerves (Cruveilhier, 1836)  (lusp)"
+                     },
+                     {
+                        "name": "Sacral splanchnic nerves (>1840)  (sasp)"
+                     }
+                  ]
+               },
+               {
+                  "name": "Prevertebral plexuses (Quain, 1832  (prep)",
+                  "children": [
+                     {
+                        "name": "Thoracic aortic plexus (>1840)  (tap)"
+                     },
+                     {
+                        "name": "Celiac plexus (Winslow, 1733)  (cpl)",
+                        "children": [
+                           {
+                              "name": "Phrenic plexus (Loder, 1778)  (phrp)"
+                           },
+                           {
+                              "name": "Gastroduodenal plexus (>1840)  (gdp)",
+                              "children": [
+                                 {
+                                    "name": "Right gastroepiploic plexus (Wrisberg, 1800)  (rge)"
+                                 },
+                                 {
+                                    "name": "Pancreaticoduodenal plexus (Wrisberg, 1800)  (pdp)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Left gastric plexus (>1840)  (lgp)"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Superior mesenteric plexus (Rau, 1720)  (smpl)",
+                        "children": [
+                           {
+                              "name": "Pancreatic branches of superior mesenteric plexus (>1840)  (smpp)"
+                           },
+                           {
+                              "name": "Jejunal & ileal plexuses (>1840)  (jipl)"
+                           },
+                           {
+                              "name": "Right colic plexus (>1840)  (rcpl)"
+                           },
+                           {
+                              "name": "Middle colic plexus (>1840)  (micpl)"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Intermesenteric plexus (>1840)  (imp)"
+                     },
+                     {
+                        "name": "Inferior mesenteric plexus (Rau, 1720)  (impl)",
+                        "children": [
+                           {
+                              "name": "Left colic plexus (>1840)  (lcpl)"
+                           },
+                           {
+                              "name": "Superior rectal plexus (>1840)  (srpl)"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Superior hypogastric plexus (Tiedemann, 1822)  (shpl)"
+                     },
+                     {
+                        "name": "Hypogastric nerve (Walter, 1783)  (hgn)"
+                     },
+                     {
+                        "name": "Inferior hypogastric plexus (Tiedemann, 1822)  (ihpl)",
+                        "children": [
+                           {
+                              "name": "Middle rectal plexus (>1840)  (mrpl)"
+                           },
+                           {
+                              "name": "Extrinsic vesical plexus (>1840)  (evp)",
+                              "children": [
+                                 {
+                                    "name": "Deferential plexus (Cruveilhier, 1836)  (defp)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Urethral branches of inferior hypogastric plexus (>1840)  (uih)"
+                           },
+                           {
+                              "name": "Prostatic plexus (>1840)  (prpl)"
+                           },
+                           {
+                              "name": "Uterovaginal plexus (>1840)  (uvpl)",
+                              "children": [
+                                 {
+                                    "name": "Tubo-uterine plexus (>1840)  (tupl)"
+                                 },
+                                 {
+                                    "name": "Tubo-uterine nerve (>1840)  (tun)"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "name": "Prevertebral nerves (Swanson & Bota, 2010)  (pren)",
+                  "children": [
+                     {
+                        "name": "Renal nerves (Haase, 1781)  (ren)"
+                     },
+                     {
+                        "name": "Superior ureteric nerves (Walter, 1783)  (surn)"
+                     },
+                     {
+                        "name": "Middle ureteric nerves (>1840)  (murn)"
+                     },
+                     {
+                        "name": "Inferior ureteric nerves (>1840)  (iurn)"
+                     },
+                     {
+                        "name": "Superior ovarian nerves (>1840)  (sov)"
+                     },
+                     {
+                        "name": "Inferior testicular nerves (>1840)  (iten)"
+                     },
+                     {
+                        "name": "Seminal vesicle nerves (Bock, 1827)  (svn)"
+                     },
+                     {
+                        "name": "Cavernous nerves of penis (>1840)  (cnpe)"
+                     },
+                     {
+                        "name": "Vaginal nerves (Walter, 1783)  (vag)",
+                        "children": [
+                           {
+                              "name": "Cavernous nerves of clitoris (>1840)  (cncl)"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "name": "Terminal plexuses (Swanson & Bota, 2010)  (tpl)",
+                  "children": [
+                     {
+                        "name": "Pharyngeal plexus (Neubauer, 1772)  (phpl)"
+                     },
+                     {
+                        "name": "Pulmonary plexus (Winslow, 1733)  (pupl)"
+                     },
+                     {
+                        "name": "Cardiac plexus (Keill, 1698)  (capl)",
+                        "children": [
+                           {
+                              "name": "Preaortic plexus (Arnulf, 1939)  (paop)"
+                           },
+                           {
+                              "name": "Coronary plexuses (Meckel, 1817)  (copl)",
+                              "children": [
+                                 {
+                                    "name": "Right coronary plexus (Scarpa, 1794)  (coplr)"
+                                 },
+                                 {
+                                    "name": "Left coronary plexus (Scarpa, 1794)  (copll)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Atrial plexuses (>1840)  (atpl)"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Hepatic plexus (Rau, 1720)  (hpl)",
+                        "children": [
+                           {
+                              "name": "Hepatic plexus branches to bile ducts (>1840)  (bdpl)"
+                           },
+                           {
+                              "name": "Right gastric plexus (>1840)  (rgp)"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Splenic plexus (Palfijn, 1726)  (spp)",
+                        "children": [
+                           {
+                              "name": "Left gastroepiploic plexus (Wrisberg, 1800)  (lge)"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Pancreatic plexus (Cruveilhier, 1836)  (panp)"
+                     },
+                     {
+                        "name": "Adrenal plexus (>1840)  (adpl)"
+                     },
+                     {
+                        "name": "Renal plexus (Drake, 1707)  (repl)",
+                        "children": [
+                           {
+                              "name": "Intrinsic renal nerves (>1840)  (irnn)"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Intrinsic vesical plexus (>1840)  (ivpl)"
+                     },
+                     {
+                        "name": "Ureteric plexus (>1840)  (urp)"
+                     },
+                     {
+                        "name": "Ovarian plexus (Cruveilhier, 1836)  (ovp)"
+                     },
+                     {
+                        "name": "Testicular plexus (Cruveilhier, 1836)  (tsp)"
+                     },
+                     {
+                        "name": "Enteric plexuses (Hill, 1927)  (enpl)"
+                     }
+                  ]
+               },
+               {
+                  "name": "Terminal autonomic nerves (Swanson & Bota, 2010)  (tann)",
+                  "children": [
+                     {
+                        "name": "Short ciliary nerves (>1840)  (scin)"
+                     },
+                     {
+                        "name": "Glandular branches of submandibular ganglion (>1840)  (bsd)"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]

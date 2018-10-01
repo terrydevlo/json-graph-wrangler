@@ -1,0 +1,254 @@
+{
+  "variables_to_human_readable": [{
+    "map_keys_to_keys": {
+      "label": "name"
+    },
+    "add_property_from_matching_data": {
+      "matching_obj": [{
+        "func": "check_obj_has_string_val",
+        "string_val": {
+          "from_key": "name",
+          "match_value_contains": "v_E_"
+        }
+      }],
+      "new_key": "channel",
+      "new_val": {
+        "func": "replace_str",
+        "from_key": "name",
+        "replace_str_params": {
+          "replace_this_sub_string": "v_E_",
+          "with_this_sub_string": ""
+        }
+      }
+    },
+    "rename_str_values": {
+      "replace_str_params": [{
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "c_"
+          },
+          "replace_this_sub_string": "c_",
+          "with_this_sub_string": "Concentration "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "LCC"
+          },
+          "replace_this_sub_string": "LCC",
+          "with_this_sub_string": " L-type Calcium Channel "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "JSR"
+          },
+          "replace_this_sub_string": "JSR",
+          "with_this_sub_string": " Junctional Sarcoplasmic Reticulum "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "SS"
+          },
+          "replace_this_sub_string": "SS",
+          "with_this_sub_string": " Subspace "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "TCC"
+          },
+          "replace_this_sub_string": "TCC",
+          "with_this_sub_string": " T-type Calcium Channel "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "NSR"
+          },
+          "replace_this_sub_string": "NSR",
+          "with_this_sub_string": " Near Sarcoplasmic Reticulum "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "NCX"
+          },
+          "replace_this_sub_string": "NCX",
+          "with_this_sub_string": " Sodium Calcium Exchanger "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "NaCa"
+          },
+          "replace_this_sub_string": "NaCa",
+          "with_this_sub_string": " Sodium Calcium Exchanger "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "C_"
+          },
+          "replace_this_sub_string": "C_",
+          "with_this_sub_string": "Concentration "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "v_E_"
+          },
+          "replace_this_sub_string": "v_E_",
+          "with_this_sub_string": "Electrical flux "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "z"
+          },
+          "replace_this_sub_string": "z",
+          "with_this_sub_string": "Valence of ion "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "vol_"
+          },
+          "replace_this_sub_string": "vol_",
+          "with_this_sub_string": "Volume "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "W_"
+          },
+          "replace_this_sub_string": "W_",
+          "with_this_sub_string": "Volume "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "i_"
+          },
+          "replace_this_sub_string": "i_",
+          "with_this_sub_string": " Current "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "I_"
+          },
+          "replace_this_sub_string": "I_",
+          "with_this_sub_string": " Current "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "v_"
+          },
+          "replace_this_sub_string": "v_",
+          "with_this_sub_string": "Molar Flux "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "ns_"
+          },
+          "replace_this_sub_string": "ns_",
+          "with_this_sub_string": "Non-specific "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "mu_"
+          },
+          "replace_this_sub_string": "mu_",
+          "with_this_sub_string": "Potential Energy "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_value_contains": "nK"
+          },
+          "replace_this_sub_string": "nK",
+          "with_this_sub_string": "Stoichiometric Parameter "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_suffix": "_o"
+          },
+          "replace_this_suffix_string": "_o",
+          "with_this_sub_string": " Extra-cellular "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_suffix": "o"
+          },
+          "replace_this_suffix_string": "o",
+          "with_this_sub_string": " Extra-cellular"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_suffix": "_i"
+          },
+          "replace_this_suffix_string": "_i",
+          "with_this_sub_string": " Intracellular"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_suffix": "i"
+          },
+          "replace_this_suffix_string": "i",
+          "with_this_sub_string": " Intracellular"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_suffix": "_ns"
+          },
+          "replace_this_suffix_string": "_ns",
+          "with_this_sub_string": " Non-specific"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_suffix": " ns"
+          },
+          "replace_this_suffix_string": " ns",
+          "with_this_sub_string": " Non-specific"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_identically": "K"
+          },
+          "replace_this_sub_string": "K",
+          "with_this_sub_string": "Thermodynamic Constant"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_identically": "T"
+          },
+          "replace_this_sub_string": "T",
+          "with_this_sub_string": "Temperature"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "label",
+            "match_prefix": "q"
+          },
+          "replace_this_prefix_string": "q",
+          "with_this_sub_string": "Chemical potential "
+        }
+      ]
+    }
+
+  }]
+
+}

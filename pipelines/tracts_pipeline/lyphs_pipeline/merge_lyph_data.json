@@ -1,0 +1,9 @@
+{
+  "simply_save_input": [
+    {
+      "map_and_assign_matching" : {
+        "primary_keys" : "name"
+      }
+    }
+  ]
+}

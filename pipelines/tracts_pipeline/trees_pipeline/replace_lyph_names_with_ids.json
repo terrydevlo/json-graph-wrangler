@@ -1,0 +1,13 @@
+{
+
+  "replace_lyph_names_with_ids": [{
+    "map_property_from_reference_property_2": {
+      "reference_file_key": "/lyphs",
+      "reference_id_key": "name",
+      "reference_property_key": "id",
+      "mapping_id_keys": ["lyphs"],
+      "remove_as_ref_entry_once_used" : false
+    }
+  }]
+
+}

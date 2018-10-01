@@ -1,0 +1,38 @@
+{
+  "name_ids_on_trees": [{
+    "add_id_to_objects": {
+      "matching_obj": {
+        "func": "check_obj_has_these_keys",
+        "keys_to_contain": ["nodes", "links"]
+      },
+      "new_key": "id",
+      "method_to_extract_new_value": "sequential_count",
+      "start_count_from": 0,
+      "add_prefix": "TREE"
+    },
+    "1_repeat_step__add_id_to_objects": {
+      "matching_obj": {
+        "func": "check_obj_contains_either_of_these_key_value_pairs",
+        "key_value_pairs": [{
+          "type": "node"
+        }]
+      },
+      "new_key": "id",
+      "method_to_extract_new_value": "sequential_count",
+      "start_count_from": 0,
+      "add_prefix": "N"
+    },
+    "2_repeat_step__add_id_to_objects": {
+      "matching_obj": {
+        "func": "check_obj_contains_either_of_these_key_value_pairs",
+        "key_value_pairs": [{
+          "type": "link"
+        }]
+      },
+      "new_key": "id",
+      "method_to_extract_new_value": "sequential_count",
+      "start_count_from": 0,
+      "add_prefix": "V"
+    }
+  }]
+}

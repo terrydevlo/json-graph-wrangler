@@ -1,0 +1,30 @@
+[
+   {
+      "source": "m3",
+      "target": "m1",
+      "edge_type": "1",
+      "id": "V1",
+      "name": "V1 -- m3 - m1"
+   },
+   {
+      "source": "m3",
+      "target": "m2",
+      "edge_type": "1",
+      "id": "V2",
+      "name": "V2 -- m3 - m2"
+   },
+   {
+      "source": "m4",
+      "target": "m2",
+      "edge_type": "1",
+      "id": "V3",
+      "name": "V3 -- m4 - m2"
+   },
+   {
+      "source": "m4",
+      "target": "m3",
+      "edge_type": "1",
+      "id": "V4",
+      "name": "V4 -- m4 - m3"
+   }
+]

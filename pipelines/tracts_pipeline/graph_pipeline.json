@@ -1,0 +1,11 @@
+{
+  "graph_pipeline": [{
+    "graph_obj_properties_to_graphs_referring_to_id": {
+      "input": ["semantic-data/tracts/lyphs/lyphs_pipe_fin_no_ids.json"],
+      "output": ["../src/front/dat/"],
+      "p" : {"idKey" : "name", "create_edges" : true },
+      "start": false,
+      "end": false
+    }
+  }]
+}

@@ -1,0 +1,32 @@
+{
+  "map_connected_to_graph": [{
+      "join_values_of_specified_keys": {
+        "keys_to_join": ["contained_by", "hosted_by"],
+        "all_values_need_be_defined": true,
+        "new_key": "name",
+        "delete_unspecified_keys": true,
+        "uniques_only": true
+      }
+    },
+    {
+      "map_connected_as_trees": {
+        "id_key": "name",
+        "matching_keys": ["contained_by", "hosted_by"],
+        "mis_matching_key" : "group_type",
+        "target_key": "target",
+        "source_key": "source",
+        "key_type": "new key",
+        "append_branch_difference_to_tree_name": true,
+        "append_suffix_to_tree": " synapse"
+      }
+    },
+    {
+      "map_string_keys_and_values_to": {
+        "new_object_key": "synapse_name",
+        "new_object_val_key": "synapses_between",
+        "add_strings_as_array": true
+      }
+    }
+
+  ]
+}

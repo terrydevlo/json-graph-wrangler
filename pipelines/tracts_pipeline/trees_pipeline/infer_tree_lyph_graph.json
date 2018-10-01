@@ -1,0 +1,23 @@
+{
+  "map_connected_to_graph": [
+      {
+        "extract_uniques_and_map": {
+          "name": "*contained_by",
+          "deleteUnspecifiedKeys": true
+        }
+      },
+      {
+        "map_connected_as_trees": {
+          "id_key" : "name",
+          "parent_keys" : ["container_lyph"],
+          "target_key" : "target",
+          "source_key" : "source",
+          "key_type" : "container_lyph",
+          "is_root_key" : "is_root"
+        }
+  		},
+      {
+        "delete_properties" : ["name"]
+      }
+    ]
+}

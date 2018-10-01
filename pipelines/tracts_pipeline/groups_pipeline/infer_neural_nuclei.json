@@ -1,0 +1,47 @@
+{
+  "infer_neural_group": [{
+      "extract_nested_objects_into_array": {
+        "matching_obj": {
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "group_type": "Neural nucleus"
+          }]
+        },
+        "keys_to_join": ["group_type"],
+        "all_values_need_be_defined": true,
+        "new_key": "name",
+        "delete_unspecified_keys": false,
+        "only_uniques": true
+      }
+    },
+    {
+      "map_unspecified_source_target_as_trees": {
+        "id_key": "name",
+        "matching_keys": ["contained_by", "group_type"],
+        "connected_need_match": true,
+        "target_key": "target",
+        "source_key": "source",
+        "key_type": "new key",
+        "is_root_key": "is_root",
+        "one_tree_for_each_root_branch": false,
+        "append_branch_difference_to_tree_name": true,
+        "append_suffix_to_tree": " tree"
+      }
+    },
+    {
+      "map_keys_to_keys": {
+        "deleteUnspecifiedKeys": false,
+        "name": ["Neural nucleus group"]
+      }
+    }, {
+      "slice": {
+        "start": 0,
+        "end": 1
+      }
+    }, {
+      "select_subset_of_keys_from_arr": {
+          "keys_to_select" : ["name", "group_type", "lyphs", "links", "nodes"]
+      }
+    }
+  ]
+}

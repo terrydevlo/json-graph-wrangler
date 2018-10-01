@@ -1,0 +1,62 @@
+{
+  "viewer_pipeline": [{
+      "subset_lyph_keys_for_lyph_viewer.json": {
+        "input": ["semantic-data/tracts/lyphs/lyphs_plus_nodes.json"],
+        "output": ["semantic-data/tracts/lyphs/lyphs.json"],
+        "start": false
+      }
+    },
+    {
+      "merge_nodes_links_groups_lyphs_into_arrays.json": {
+        "input": ["semantic-data/tracts/groups/groups.json",
+          "semantic-data/tracts/links/links.json",
+          "semantic-data/tracts/nodes/nodes.json",
+          "semantic-data/tracts/lyphs/lyphs.json"
+        ],
+        "output": ["semantic-data/tracts/lyph_viewer/merged_links_nodes_groups_lyphs.json"],
+        "end": false
+      }
+    },
+    {
+      "add_layout_properties.json": {
+        "input": ["semantic-data/tracts/lyph_viewer/merged_links_nodes_groups_lyphs.json"],
+        "output": ["semantic-data/tracts/lyph_viewer/merged_links_nodes_groups_lyphs_with_props.json"],
+        "exclude_step" : false,
+        "start": false,
+        "end" : false
+      }
+    },
+    {
+      "merge_with_core_graph.json": {
+        "input": ["input-data/core_graph.json",
+                  "semantic-data/tracts/lyph_viewer/merged_links_nodes_groups_lyphs_with_props.json"],
+        "output": ["semantic-data/tracts/lyph_viewer/merged_with_core.json"],
+        "exclude_step" : false,
+        "start": false,
+        "end" : false
+      }
+    },
+    {
+      "subset_keys_for_lyph_viewer.json": {
+        "input": ["semantic-data/tracts/lyph_viewer/merged_with_core.json"],
+        "output": ["semantic-data/tracts/lyph_viewer/graph_inflate.json"],
+        "start": false,
+        "end" : true
+      }
+    },
+    {
+      "check_lyph_has_topology.json" :{
+        "input": ["semantic-data/tracts/lyph_viewer/graph_merged.json"],
+        "output": ["semantic-data/tracts/lyph_viewer/graph_without_topology.json"],
+        "start": false
+      }
+    },
+    {
+      "check_lyph_has_a_conveyingLink.json" :{
+        "input": ["semantic-data/tracts/lyph_viewer/graph_without_topology.json"],
+        "output": ["semantic-data/tracts/lyph_viewer/graph.json"],
+        "start": false
+      }
+    }
+  ]
+}

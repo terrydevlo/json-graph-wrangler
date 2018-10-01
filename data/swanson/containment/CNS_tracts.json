@@ -1,0 +1,539 @@
+{
+   "NERVOUS SYSTEM [RAT] (MONRO, 1783)  (NS)": {
+      "Systems architecture (Swanson & Bota, 2010)": {
+         "White matter tracts (Bell & Bell, 1826)": {
+            "Central nervous system (Carus, 1814)  (CNS)": {
+               "Central root": {
+                  "Spinal tract of trigeminal nerve (>1840)  (sptV)": {
+                     "Gracile fascicle (Müller, 1834)  (grf)": {},
+                     "Cuneate fascicle (Müller, 1834)  (cuf)": {}
+                  },
+                  "Longitudinal": {
+                     "Medial longitudinal fascicle (>1840)  (mlf)": {},
+                     "Tectospinal tract (>1840)  (tst)": {},
+                     "Spinoreticular tract (>1840)  (srt)": {},
+                     "Medial reticulospinal tract (>1840)  (mrst)": {},
+                     "Corticospinal tract (>1840)  (cst)": {},
+                     "Medial forebrain bundle (Edinger, 1893)  (mfb)": {},
+                     "Lateral vestibulospinal tract (>1840)  (lvst)": {},
+                     "Spinotectal tract (>1840)  (stet)": {},
+                     "Spinothalamic tract (>1840)  (stt)": {},
+                     "Spinohypothalamic tract (>1840)  (sht)": {},
+                     "Spinotelencephalic tract (Swanson, 2018)  (stelt)": {},
+                     "Spino-olivary tract (>1840)  (sot)": {},
+                     "Cervicothalamic tract (>1840)  (cett)": {},
+                     "Ventral spinocerebellar tract (>1840)  (vsct)": {},
+                     "Rubrospinal tract (>1840)  (rust)": {},
+                     "Lateral reticulospinal tract (>1840)  (lrst)": {},
+                     "Spinovestibular tract (>1840)  (spvt)": {},
+                     "Dorsal spinocerebellar tract (>1840)  (dsct)": {}
+                  }
+               },
+               "Brain (Smith Papyrus, c1700 BC)  (BR)": {
+                  "Central root": {
+                     "Inferior fascicle of accessory optic system (Hayhow et al., 1960)  (iao)": {},
+                     "Brachium of superior colliculus (>1840)  (bsc)": {},
+                     "Midbrain tract of trigeminal nerve (>1840)  (mtV)": {}
+                  },
+                  "Longitudinal": {
+                     "Corticotectal tract (>1840)  (cte)": {},
+                     "Corticorubral tract (>1840)  (crt)": {},
+                     "Corticopontine tract (>1840)  (cpt)": {},
+                     "Corticobulbar tract (>1840)  (cbt)": {},
+                     "Striatotegmental fascicle (>1840)  (stg)": {},
+                     "Pallidotegmental fascicle (>1840)  (ptf)": {},
+                     "Subthalamic fascicle (>1840)  (stf)": {},
+                     "Pallidothalamic fascicle (>1840)  (pthf)": {},
+                     "Rubroreticular tract (>1840)  (rrt)": {},
+                     "Medial lemniscus (>1840)  (ml)": {},
+                     "Lateral lemniscus (Bechterew, 1885b)  (ll)": {},
+                     "Trapezoid body (Treviranus, 1820)  (tb)": {},
+                     "Mammillotegmental tract (Kölliker, 1896)  (mtg)": {},
+                     "Mammillary peduncle (>1840)  (mp)": {},
+                     "Nigrostriatal tract (>1840)  (nst)": {},
+                     "Nigrothalamic tract (>1840)  (ntt)": {},
+                     "Tectothalamic tract (>1840)  (ttp)": {},
+                     "Central tegmental tract (Bechterew, 1889)  (ctt)": {},
+                     "Dorsal tegmental tract (>1840)  (dtt)": {},
+                     "Dorsal longitudinal fascicle (Schütz, 1891)  (dlf)": {},
+                     "Ventrolateral fascicle (>1840)  (vlf)": {},
+                     "Habenulo-interpeduncular tract (>1840)  (hit)": {},
+                     "Brachium of inferior colliculus (>1840)  (bic)": {},
+                     "Cerebellar peduncles (Ridley, 1695)  (cbpd)": {
+                        "Superior cerebellar peduncle (Procháska, 1800)  (scp)": {
+                           "Uncinate tract (>1840)  (ut)": {}
+                        }
+                     },
+                     "Trigeminocerebellar tract (>1840)  (tct)": {}
+                  }
+               },
+               "Forebrain (Goette, 1873)  (FB)": {
+                  "Transverse and longitudinal": {
+                     "Fornix (Vesalius, 1543a)  (fx)": {}
+                  },
+                  "Longitudinal": {
+                     "Internal capsule (Burdach, 1822)  (int)": {
+                        "Forebrain corticospinal tract (Swanson, 2018)  (cstf)": {},
+                        "Forebrain corticotectal tract (Swanson, 2018)  (ctef)": {},
+                        "Forebrain corticorubral tract (Swanson, 2018)  (crtf)": {},
+                        "Forebrain corticopontine tract (Swanson, 2018)  (cptf)": {},
+                        "Forebrain corticobulbar tract (Swanson, 2018)  (cbtf)": {},
+                        "Thalamic radiations (Reil, 1809b)  (tra)": {}
+                     },
+                     "Postcommissural fornix (Loo, 1931)  (pof)": {},
+                     "Terminal stria (Wenzel & Wenzel, 1812)  (st)": {}
+                  }
+               },
+               "Endbrain (Kuhlenbeck, 1927)  (EB)": {
+                  "Transverse": {
+                     "Precommissural fornix (Loo, 1931)  (prf)": {}
+                  },
+                  "Longitudinal": {
+                     "Lateral septal arcuate fibers (>1840)  (lsa)": {},
+                     "Endbrain terminal stria (Swanson, 2015)  (ste)": {},
+                     "Peduncular loop (Gratiolet, 1857)  (pdl)": {},
+                     "Endbrain nigrostriatal tract (Swanson, 2018)  (nste)": {}
+                  }
+               },
+               "Cerebral nuclei (Swanson, 2000a)  (CNU)": {
+                  "Longitudinal": {
+                     "Cerebral nuclei corticospinal tract (Swanson, 2015)  (cstc)": {},
+                     "Diagonal band (Broca, 1879)  (db)": {},
+                     "Cerebral nuclei spinotelencephalic tract (Swanson, 2018)  (steltcn)": {},
+                     "Septal postcommissural fornix (Swanson, 2015)  (pofs)": {},
+                     "Cerebral nuclei segment of thalamic radiations (Swanson, 2018)  (trac)": {},
+                     "Cerebral nuclei segment of striatotegmental fascicle (Swanson, 2018)  (stgc)": {},
+                     "Cerebral nuclei segment of pallidotegmental fascicle (Swanson, 2018)  (ptfc)": {},
+                     "Cerebral nuclei segment of subthalamic fascicle (Swanson, 2018)  (stfc)": {},
+                     "Cerebral nuclei segment of pallidothalamic fascicle (Swanson, 2018)  (pthfc)": {}
+                  }
+               },
+               "Cerebral cortex (>1840)  (CTX)": {
+                  "Central root": {
+                     "Main olfactory bulb olfactory nerve layer (>1840)  (MOBnl)": {},
+                     "Accessory olfactory bulb vomeronasal nerve layer (>1840)  (AOBnl)": {}
+                  },
+                  "Intrinsic": {
+                     "Lateral olfactory tract (>1840)   (lot)": {
+                        "Dorsal limb of lateral olfactory tract (>1840)  (lotd)": {},
+                        "Principal lateral olfactory tract (Swanson, 2018)  (lotp)": {},
+                        "Accessory olfactory tract (Scalia & Winans, 1975)  (aolt)": {}
+                     },
+                     "Extreme capsule (>1840)  (ee)": {},
+                     "Amygdalar capsule (Swanson, 1998)  (amc)": {}
+                  },
+                  "Transverse": {
+                     "Cerebral cortex white matter (>1840)  (cwm)": {
+                        "Anterior commissure (Lieutaud, 1742)  (ac)": {
+                           "Olfactory limb of anterior commissure (>1840)  (aco)": {},
+                           "Temporal limb of anterior commissure (>1840)  (act)": {
+                              "Terminal stria commissure (Swanson, 2015)  (stc)": {}
+                           }
+                        },
+                        "Corpus callosum (Galen, c177)  (cc)": {
+                           "Rostrum of corpus callosum (Reil, 1809b)  (ccr)": {},
+                           "Genu of corpus callosum (Reil, 1809b)  (ccg)": {},
+                           "Body of corpus callosum (Arnold, 1838a)  (ccb)": {},
+                           "Splenium of corpus callosum (Burdach, 1822)  (ccs)": {}
+                        },
+                        "Radiation of corpus callosum (Dejerine & Dejerine-Klumpke, 1895)  (ccra)": {
+                           "Radiation of corpus callosum principal part (Swanson, 2018)  (ccrp)": {},
+                           "Frontal forceps (>1840)  (frf)": {},
+                           "External capsule (Burdach, 1822)  (ec)": {},
+                           "Tapetum (Reil, 1809b)  (ta)": {},
+                           "Occipital forceps (>1840)  (ocf)": {}
+                        },
+                        "Fimbria (Honegger, 1890)  (fim)": {
+                           "Fimbria principal part (Swanson, 2018)  (fi)": {},
+                           "Alveus (Burdach, 1822)  (alv)": {},
+                           "Dorsal fornix (Sprague & Meyer, 1950)  (df)": {},
+                           "Hippocampal commissures (Johnston, 1913)  (hc)": {
+                              "Ventral hippocampal commissure (Craigie, 1925)  (vhc)": {},
+                              "Intermediate hippocampal commissure (>1840)  (ihc)": {},
+                              "Dorsal hippocampal commissure (Craigie, 1925)  (dhc)": {}
+                           }
+                        },
+                        "Association fibers of cerebral cortex (>1840)  (assn)": {
+                           "Longitudinal association bundle (Fox, 1940)  (lab)": {},
+                           "Cingulum (Burdach, 1822)  (cing)": {},
+                           "Perforant path (>1840)  (per)": {},
+                           "Angular bundle (>1840)  (ab)": {}
+                        }
+                     }
+                  },
+                  "Longitudinal": {
+                     "Cerebral cortical spinotelencephalic tract (Swanson, 2018)  (steltc)": {}
+                  }
+               },
+               "Interbrain (Baer, 1837)  (IB)": {
+                  "Central Root": {
+                     "Optic tract (Vicq d’Azyr, 1784)  (opt)": {}
+                  },
+                  "Transverse": {
+                     "Supraoptic decussations (>1840)  (sup)": {},
+                     "Medullary stria (Wenzel & Wenzel, 1812)  (sm)": {},
+                     "Mammillothalamic tract (Kölliker, 1896)  (mtt)": {}
+                  },
+                  "Longitudinal": {
+                     "Interbrain nigrothalamic tract (Swanson, 2018)  (ntti)": {},
+                     "Interbrain superior cerebellar peduncle (Swanson, 2018)  (scpi)": {}
+                  }
+               },
+               "Hypothalamus (Kuhlenbeck, 1927)  (HY)": {
+                  "Central Root": {
+                     "Optic chiasm (Galen, c173)  (och)": {
+                        "Medial retinohypothalamic tract (>1840)  (mrht)": {}
+                     },
+                     "Hypothalamic optic tract (Swanson, 2015)  (opth)": {
+                        "Lateral retinohypothalamic tract (>1840)  (lrht)": {},
+                        "Hypothalamic inferior fascicle of accessory optic system (Swanson, 2018)  (iaoh)": {}
+                     }
+                  },
+                  "Intrinsic": {
+                     "Periventricular bundle of hypothalamus (>1840)  (pvbh)": {},
+                     "Propriohypothalamic tracts (Thompson & Swanson, 2003)  (pht)": {},
+                     "Hypothalamohypophysial tract (>1840)  (hht)": {},
+                     "Infundibulum (Rioch et al., 1940)  (INF)": {
+                        "Median eminence (Tilney, 1936)   (ME)": {
+                           "Internal lamina (>1840)  (MEin)": {},
+                           "External lamina (>1840)  (MEex)": {}
+                        },
+                        "Infundibular stem (Hanström, 1966)  (IST)": {}
+                     },
+                     "Ventrolateral hypothalamic tract (Swanson, 2004)  (vlt)": {},
+                     "Principal mammillary tract (Kölliker, 1896)  (pm)": {}
+                  },
+                  "Transverse": {
+                     "Preoptic commissure (Risold et al., 1994)  (poc)": {},
+                     "Hypothalamic supraoptic decussations (Swanson, 2018)  (suph)": {},
+                     "Premammillary commissure (Risold et al., 1994)  (pmx)": {},
+                     "Hypothalamic medullary stria (Swanson, 2018)  (smh)": {},
+                     "Hypothalamic mammillothalamic tract (Swanson, 2018)  (mtth)": {},
+                     "Supramammillary decussation (>1840)  (smd)": {}
+                  },
+                  "Longitudinal": {
+                     "Hypothalamic corticospinal tract (Swanson, 2018)  (csth)": {},
+                     "Hypothalamic mammillary peduncle (Swanson, 2018)  (mph)": {},
+                     "Hypothalamic mammillotegmental tract (Swanson, 2015)  (mtgh)": {},
+                     "Hypothalamic subthalamic fascicle (Swanson, 2018)  (stfh)": {},
+                     "Hypothalamic terminal stria (Swanson, 2018)  (sth)": {},
+                     "Hypothalamic medial forebrain bundle (Swanson, 2015)  (mfbh)": {
+                        "Hypothalamic postcommissural fornix (Swanson, 2015)  (pofh)": {
+                           "Medial corticohypothalamic tract (Gurdjian, 1927)  (mct)": {}
+                        },
+                        "Hypothalamic striatotegmental fascicle (Swanson, 2018)  (stgh)": {},
+                        "Hypothalamic nigrostriatal tract (Swanson, 2018)  (nsth)": {},
+                        "Hypothalamic pallidotegmental fascicle (Swanson, 2018)  (ptfh)": {},
+                        "Hypothalamic spinohypothalamic tract (Swanson, 2018)  (shth)": {},
+                        "Hypothalamic spinotelencephalic tract (Swanson, 2018)  (stelth)": {}
+                     }
+                  }
+               },
+               "Thalamus (His, 1893a)  (TH)": {
+                  "Central Root": {
+                     "Thalamic optic tract (Swanson, 2015)  (optt)": {},
+                     "Thalamic brachium of superior colliculus (Swanson, 2015)  (bsct)": {}
+                  },
+                  "Intrinsic": {
+                     "Periventricular bundle of thalamus (>1840)  (pvbt)": {},
+                     "Internal medullary lamina (>1840)  (im)": {
+                        "Middle commissure (>1840)  (mic)": {}
+                     },
+                     "External medullary lamina (>1840)  (em)": {}
+                  },
+                  "Transverse": {
+                     "Epithalamic medullary stria (Swanson, 2015)  (sme)": {
+                        "Habenular commissure (>1840)  (hbc)": {}
+                     },
+                     "Epithalamic branch of pallidotegmental fascicle (Swanson, 2018)  (ptfe)": {},
+                     "Dorsal thalamic branch of pallidotegmental fascicle (Swanson, 2018)  (ptfd)": {},
+                     "Thalamic mammillothalamic tract (Swanson, 2015)  (mttt)": {},
+                     "Thalamic supraoptic decussations (Swanson, 2018)  (supt)": {}
+                  },
+                  "Longitudinal": {
+                     "Subiculothalamic tract (Swanson et al., 1987)  (sbt)": {},
+                     "Thalamic segment of thalamic radiations (Swanson, 2018)  (trat)": {},
+                     "Thalamic spinothalamic tract (Swanson, 2015)  (sttt)": {},
+                     "Thalamic cervicothalamic tract (Swanson, 2018)  (cettt)": {},
+                     "Thalamic uncinate tract (Swanson, 2018)  (utt)": {},
+                     "Thalamic medial lemniscus (Swanson, 2015)  (mlt)": {},
+                     "Thalamic pallidothalamic fascicle (Swanson, 2018)  (pthft)": {},
+                     "Thalamic habenulo-interpeduncular tract (Swanson, 2015)  (hitt)": {},
+                     "Thalamic brachium of inferior colliculus (Swanson, 2018)  (bict)": {}
+                  }
+               },
+               "Midbrain (Baer, 1837)  (MB)": {
+                  "Transverse": {
+                     "Nigrotectal tract (>1840)  (nte)": {}
+                  }
+               },
+               "Tegmentum (Swanson, 2000b)  (TG)": {
+                  "Central Root": {
+                     "Oculomotor nerve central root (>1840)  (IIIc)": {
+                        "Oculomotor nerve central rootlets (>1840)  (IIIcr)": {},
+                        "Tegmental inferior fascicle of accessory optic system (Swanson, 2018)  (iaot)": {}
+                     },
+                     "Pretectal brachium of superior colliculus (Swanson, 2015)  (bscp)": {
+                        "Superior fascicle of accessory optic system (Hayhow et al., 1960)  (sao)": {
+                           "Transverse peduncular tract (Gudden, 1870)  (tpt)": {}
+                        }
+                     },
+                     "Trochlear nerve central root (>1840)  (IVc)": {
+                        "Trochlear nerve decussation (>1840)  (IVd)": {}
+                     },
+                     "Tegmental segment of midbrain tract of trigeminal nerve (Swanson, 2015)  (mtVt)": {}
+                  },
+                  "Transverse": {
+                     "Posterior commissure (Winslow, 1733)  (pc)": {},
+                     "Tegmental habenulo-interpeduncular tract (Swanson, 2015)  (hittg)": {},
+                     "Tegmental nigrotectal tract (Swanson, 2018)  (ntetg)": {},
+                     "Ventral tegmental decussation (>1840)  (vtd)": {},
+                     "Dorsal tegmental decussation (>1840)  (dtd)": {},
+                     "Superior cerebellar peduncle decussation (>1840)  (scpd)": {}
+                  },
+                  "Longitudinal": {
+                     "Tegmental medial longitudinal fascicle (Swanson, 2015)  (mlft)": {},
+                     "Tegmental tectospinal tract (Swanson, 2015)  (tstt)": {
+                        "Transverse tegmental tectospinal tract (Swanson, 2018)  (tsttt)": {},
+                        "Longitudinal tegmental tectospinal tract (Swanson, 2018)  (tsttl)": {}
+                     },
+                     "Tegmental cervicothalamic tract (Swanson, 2018)  (cetttg)": {},
+                     "Tegmental uncinate tract (Swanson, 2018)  (uttg)": {},
+                     "Tegmental rubroreticular tract (Swanson, 2018)  (rrtt)": {},
+                     "Tegmental medial lemniscus (Swanson, 2015)  (mltg)": {},
+                     "Cerebral peduncle (Tarin, 1753)  (cpd)": {
+                        "Tegmental corticotectal tract (Swanson, 2018)  (ctetg)": {},
+                        "Tegmental corticorubral tract (Swanson, 2018)  (crtt)": {},
+                        "Tegmental corticopontine tract (Swanson, 2018)  (cptt)": {},
+                        "Tegmental corticobulbar tract (Swanson, 2018)  (cbtt)": {},
+                        "Tegmental corticospinal tract (Swanson, 2018)  (cstt)": {}
+                     },
+                     "Tegmental medial forebrain bundle (Swanson, 2015)  (mfbt)": {
+                        "Tegmental striatotegmental fascicle (Swanson, 2018)  (stgt)": {},
+                        "Tegmental nigrostriatal tract (Swanson, 2018)  (nstt)": {},
+                        "Tegmental pallidotegmental fascicle (Swanson, 2018)  (ptftg)": {}
+                     },
+                     "Tegmental nigrothalamic tract (Swanson, 2018)  (nttt)": {},
+                     "Tegmental mammillary peduncle (Swanson, 2018)  (mptg)": {},
+                     "Tegmental mammillotegmental tract (Swanson, 2015)  (mtgt)": {},
+                     "Tegmental central tegmental tract (Swanson, 2015)  (cttt)": {},
+                     "Tegmental segment of dorsal tegmental tract (Swanson, 2018)  (dttt)": {},
+                     "Tegmental dorsal longitudinal fascicle (Swanson, 2015)  (dlft)": {},
+                     "Tegmental ventrolateral fascicle (Swanson, 2015)  (vlft)": {
+                        "Tegmental spinotectal tract (Swanson, 2018)  (stettg)": {},
+                        "Tegmental spinothalamic tract (Swanson, 2015)  (stttg)": {},
+                        "Tegmental spinohypothalamic tract (Swanson, 2018)  (shtt)": {},
+                        "Tegmental spinotelencephalic tract (Swanson, 2018)  (steltt)": {},
+                        "Tegmental rubrospinal tract (Swanson, 2015)  (rustt)": {}
+                     },
+                     "Tegmental superior cerebellar peduncle (Swanson, 2015)  (scpt)": {},
+                     "Tegmental brachium of inferior colliculus (Swanson, 2018)  (bictg)": {}
+                  }
+               },
+               "Tectum (Baer, 1837)  (TC)": {
+                  "Central Root": {
+                     "Superior collicular brachium of superior colliculus (Swanson, 2018)  (bscc)": {}
+                  },
+                  "Intrinsic": {
+                     "Superior colliculus optic layer (>1840)  (SCop)": {},
+                     "Superior colliculus intermediate white layer (>1840)  (SCiw)": {},
+                     "Superior colliculus deep white layer (>1840)  (SCdw)": {}
+                  },
+                  "Transverse": {
+                     "Superior colliculus commissure (>1840)  (csc)": {},
+                     "Tectal nigrotectal tract (Swanson, 2018)  (ntet)": {},
+                     "Inferior colliculus commissure (>1840)  (cic)": {}
+                  },
+                  "Longitudinal": {
+                     "Inferior collicular lateral lemniscus (Swanson, 2018)  (llc)": {},
+                     "Tectal corticotectal tract (Swanson, 2018)  (ctet)": {},
+                     "Tectal spinotectal tract (Swanson, 2018)  (stett)": {}
+                  }
+               },
+               "Pons (Haller, 1747)  (P)": {
+                  "Central Root": {
+                     "Abducens nerve central root (>1840)  (VIc)": {
+                        "Abducens nerve central rootlets (>1840)  (VIcr)": {}
+                     },
+                     "Trigeminal nerve central motor root (>1840)  (moVc)": {
+                        "Pontine segment of midbrain tract of trigeminal nerve (Swanson, 2015)  (m)": {}
+                     },
+                     "Trigeminal nerve central sensory root (>1840)  (sVc)": {
+                        "Pontine segment of spinal tract of trigeminal nerve (Swanson, 2015)  (sptVp)": {}
+                     }
+                  },
+                  "Transverse": {
+                     "Middle cerebellar peduncle (Rolando, 1819)  (mcp)": {
+                        "Transverse pontine fibers (>1840)  (tpf)": {}
+                     }
+                  },
+                  "Longitudinal": {
+                     "Pontine medial longitudinal fascicle (Swanson, 2015)  (mlfp)": {},
+                     "Pontine trapezoid body (Swanson, 2018)  (tbp)": {},
+                     "Pontine tectospinal tract (Swanson, 2015)  (tstp)": {},
+                     "Pontine spinoreticular tract (Swanson, 2018)  (srtp)": {},
+                     "Pontine medial reticulospinal tract (Swanson, 2015)  (mrstp)": {},
+                     "Pontine cervicothalamic tract (Swanson, 2018)  (cettp)": {},
+                     "Pontine trigeminocerebellar tract (Swanson, 2018)  (tctp)": {},
+                     "Pontine rubroreticular tract (Swanson, 2018)  (rrtp)": {},
+                     "Pontine medial lemniscus (Swanson, 2015)  (mlp)": {},
+                     "Pontine lateral lemniscus (Swanson, 2018)  (llp)": {},
+                     "Longitudinal pontine fibers (Arnold, 1838b)  lpf": {
+                        "Pontine corticopontine tract (Swanson, 2018)  (cptp)": {},
+                        "Pontine corticobulbar tract (Swanson, 2018)  (cbtp)": {},
+                        "Pontine corticospinal tract (Swanson, 2018)  (cstp)": {}
+                     },
+                     "Pontine medial forebrain bundle (Swanson, 2015)  (mfbp)": {},
+                     "Pontine central tegmental tract (Swanson, 2015)  (cttp)": {},
+                     "Pontine dorsal tegmental tract (Swanson, 2018)  (dttp)": {},
+                     "Pontine dorsal longitudinal fascicle (Swanson, 2015)  (dlfp)": {},
+                     "Pontine ventrolateral fascicle (Swanson, 2015)  (vlfp)": {
+                        "Pontine spinotectal tract (Swanson, 2018)  (stetp)": {},
+                        "Pontine spinothalamic tract (Swanson, 2015)  (sttp)": {},
+                        "Pontine spinohypothalamic tract (Swanson, 2018)  (shtp)": {},
+                        "Pontine spinotelencephalic tract (Swanson, 2018)  (steltp)": {},
+                        "Pontine ventral spinocerebellar tract (Swanson, 2015)  (vsctp)": {},
+                        "Pontine rubrospinal tract (Swanson, 2015)  (rustp)": {}
+                     },
+                     "Pontine superior cerebellar peduncle (Swanson, 2015)  (scpp)": {},
+                     "Pontine uncinate tract (Swanson, 2018)  (utp)": {}
+                  }
+               },
+               "Cerebellum (Aristotle)  (CB)": {
+                  "Transverse": {
+                     "Cerebellar commissure (>1840)  (cbc)": {},
+                     "Rostral medullary velum (>1840)  (RMVE)": {}
+                  },
+                  "Longitudinal": {
+                     "Arbor vitae (Winslow, 1733)  (arb)": {}
+                  }
+               },
+               "Medulla (Winslow, 1733)  (MY)": {
+                  "Central Root": {
+                     "Medullary segment of spinal tract of trigeminal nerve (Swanson, 2015)  (sptVm)": {},
+                     "Facial nerve central root (>1840)  (VIIc)": {
+                        "Genu of facial nerve central root (Swanson, 2018)  (gVIIc)": {}
+                     },
+                     "Intermediate nerve central root (>1840)  (iVIIc)": {},
+                     "Cochlear nerve central root (>1840)  (cVIIIc)": {},
+                     "Vestibular nerve central root (>1840)  (vVIIIc)": {},
+                     "Efferent cochleovestibular bundle (>1840)  (cvb)": {},
+                     "Glossopharyngeal nerve central root (>1840)  (IXc)": {
+                        "Glossopharyngeal nerve central rootlets (>1840)  (IXcr)": {}
+                     },
+                     "Vagus nerve central root (>1840)  (Xc)": {
+                        "Vagus nerve central rootlets (>1840)  (Xcr)": {}
+                     },
+                     "Solitary tract (>1840)  (ts)": {},
+                     "Hypoglossal nerve central root (>1840)  (XIIc)": {
+                        "Hypoglossal nerve central rootlets (>1840)  (XIIcr)": {}
+                     },
+                     "Medullary gracile fascicle (Swanson, 2015)  (grfm)": {},
+                     "Medullary cuneate fascicle (Swanson, 2015)  (cufm)": {}
+                  },
+                  "Intrinsic": {
+                     "Inferior cerebellar peduncle (Günther, 1786)  (icp)": {
+                        "Olivocerebellar tract (>1840)  (oct)": {},
+                        "Reticulocerebellar tract (>1840)  (rct)": {}
+                     },
+                     "Direct fastigiobulbar tract (>1840)  (dfb)": {},
+                     "Cuneocerebellar tract (>1840)  (cct)": {}
+                  },
+                  "Transverse": {
+                     "Medial longitudinal fascicle decussation (>1840)  (mlfd)": {},
+                     "Internal arcuate fibers (>1840)  (iaf)": {},
+                     "Medial lemniscus decussation (>1840)  (mld)": {},
+                     "Intermediate acoustic stria (>1840)  (ias)": {},
+                     "Dorsal acoustic stria (>1840)  (das)": {}
+                  },
+                  "Longitudinal": {
+                     "Medullary medial longitudinal fascicle (Swanson, 2015)  (mlfm)": {},
+                     "Medullary trapezoid body (Swanson, 2018)  (tbm)": {},
+                     "Medullary tectospinal tract (Swanson, 2015)  (tstm)": {},
+                     "Medullary spinoreticular tract (Swanson, 2018)  (srtm)": {},
+                     "Medullary medial reticulospinal tract (Swanson, 2015)  (mrstm)": {},
+                     "Medullary cervicothalamic tract (Swanson, 2018)  (cettm)": {},
+                     "Medullary uncinate tract (Swanson, 2018)  (utm)": {},
+                     "Medullary trigeminocerebellar tract (Swanson, 2018)  (tctm)": {},
+                     "Medullary rubroreticular tract (Swanson, 2018)  (rrtm)": {},
+                     "Medullary medial lemniscus (Swanson, 2015)  (mlm)": {},
+                     "Pyramid (Willis, 1664)  (py)": {
+                        "Medullary corticobulbar tract (Swanson, 2018)  (cbtm)": {},
+                        "Medullary corticospinal tract (Swanson, 2018)  (cstm)": {},
+                        "Pyramidal decussation (Reil, 1809c)  (pyd)": {}
+                     },
+                     "Medullary medial forebrain bundle (Swanson, 2015)  (mfbm)": {},
+                     "Medullary central tegmental tract (Swanson, 2015)  (cttm)": {},
+                     "Medullary spino-olivary tract (Swanson, 2018)  (sotm)": {},
+                     "Medullary lateral vestibulospinal tract (Swanson, 2015)  (lvstm)": {},
+                     "Medullary ventrolateral fascicle (Swanson, 2015)  (vlfm)": {
+                        "Medullary spinotectal tract (Swanson, 2018)  (stetm)": {},
+                        "Medullary spinothalamic tract (Swanson, 2015)  (sttm)": {},
+                        "Medullary spinohypothalamic tract (Swanson, 2018)  (shtm)": {},
+                        "Medullary spinotelencephalic tract (Swanson, 2018)  (steltm)": {},
+                        "Medullary ventral spinocerebellar tract (Swanson, 2015)  (vsctm)": {},
+                        "Medullary rubrospinal tract (Swanson, 2015)  (rustm)": {},
+                        "Medullary lateral reticulospinal tract (Swanson, 2015)  (lrstm)": {},
+                        "Medullary spinovestibular tract (Swanson, 2018)  (spvtm)": {},
+                        "Medullary dorsal spinocerebellar tract (Swanson, 2015)  (dsctm)": {}
+                     }
+                  }
+               },
+               "Spinal cord (Galen, c162-c166)  (SP)": {
+                  "Central Root": {
+                     "Ventral root central part (>1840)  (vrtc)": {
+                        "Ventral rootlets central part (>1840)  (vrtr)": {},
+                        "Spinal root of accessory nerve central rootlets (Swanson, 2018)  (sXIc)": {}
+                     },
+                     "Spinal segment of spinal tract of trigeminal nerve (Swanson, 2015)  (sptVs)": {},
+                     "Dorsal root central part (1840)  (drtc)": {},
+                     "Spinal gracile fascicle (Swanson, 2015)  (grfs)": {},
+                     "Spinal cuneate fascicle (Swanson, 2015)  (cufs)": {}
+                  },
+                  "Transverse": {
+                     "Ventral white commissure (>1840)  (vc)": {},
+                     "Transverse spinal cervicothalamic tract (Swanson, 2018)  (cettst)": {}
+                  },
+                  "Longitudinal": {
+                     "Funiculi of spinal cord (Burdach, 1822)  (fun)": {
+                        "Ventral funiculus (>1840)  (funv)": {
+                           "Ventral intersegmental tract (>1840)  (itv)": {},
+                           "Spinal medial longitudinal fascicle (Swanson, 2015)  (mlfs)": {},
+                           "Spinal tectospinal tract (Swanson, 2015)  (tsts)": {},
+                           "Uncrossed corticospinal tract (>1840)  (cstu)": {},
+                           "Spinal lateral vestibulospinal tract (Swanson, 2015)  (lvsts)": {},
+                           "Spinal medial reticulospinal tract (Swanson, 2015)  (mrsts)": {},
+                           "Ventral spinothalamic tract (>1840)  (sttv)": {},
+                           "Spinal segment of spino-olivary tract (Swanson, 2018)  (sots)": {}
+                        },
+                        "Lateral funiculus (Burdach, 1822)  (funl)": {
+                           "Lateral intersegmental tract (>1840)  (itl)": {},
+                           "Longitudinal spinal cervicothalamic tract (Swanson, 2018)  (cettsl)": {},
+                           "Spinal segment of spinotectal tract (Swanson, 2018)  (stets)": {},
+                           "Lateral spinothalamic tract (>1840)  (sttl)": {},
+                           "Spinal segment of spinohypothalamic tract (Swanson, 2018)  (shts)": {},
+                           "Spinal segment of spinotelencephalic tract (Swanson, 2018)  (stelts)": {},
+                           "Spinal ventral spinocerebellar tract (Swanson, 2015)  (vscts)": {},
+                           "Spinal segment of spinoreticular tract (Swanson, 2018)  (srts)": {},
+                           "Spinal lateral reticulospinal tract (Swanson, 2015)  (lrsts)": {},
+                           "Spinal rubrospinal tract (Swanson, 2015)  (rusts)": {},
+                           "Spinal medial forebrain bundle (Swanson, 2015)  (mfbs)": {},
+                           "Spinal segment of spinovestibular tract (Swanson, 2018)  (spvts)": {},
+                           "Spinal dorsal spinocerebellar tract (Swanson, 2015)  (dscts)": {},
+                           "Spinocervical tract (>1840)  (scrt)": {},
+                           "Dorsolateral tract (>1840)  (dl)": {}
+                        },
+                        "Dorsal funiculus (>1840)  (fund)": {
+                           "Dorsal intersegmental tract (>1840)  (itd)": {},
+                           "Crossed corticospinal tract (>1840)  (cstcx)": {},
+                           "[Spinal gracile fascicle (Swanson, 2015)]": {},
+                           "[Spinal cuneate fascicle (Swanson, 2015)]": {}
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,388 @@
+[
+   {
+      "name": "AUTONOMIC NERVES [RAT]",
+      "children": [
+         {
+            "name": "Communicating branches of spinal nerves",
+            "children": [
+               {
+                  "name": "White communicating branch",
+                  "children": [
+                     {
+                        "name": "Gray communicating branch"
+                     }
+                  ]
+               },
+               {
+                  "name": "Peripheral nerve cord trunk",
+                  "children": [
+                     {
+                        "name": "Sympathetic trunk",
+                        "children": [
+                           {
+                              "name": "Communicating branches of sympathetic trunk",
+                              "children": [
+                                 {
+                                    "name": "Communicating branch of superior and middle cervical ganglia"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Ansa subclavia"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "name": "Paravertebral nerves",
+                  "children": [
+                     {
+                        "name": "Internal carotid nerve"
+                     },
+                     {
+                        "name": "Internal carotid plexus",
+                        "children": [
+                           {
+                              "name": "Caroticotympanic nerves"
+                           },
+                           {
+                              "name": "Deep petrosal nerve"
+                           },
+                           {
+                              "name": "Communicating branch from internal carotid plexus to abducens nerve"
+                           },
+                           {
+                              "name": "Communicating branch from internal carotid plexus to ophthalmic nerve"
+                           },
+                           {
+                              "name": "Communicating branch from internal carotid plexus to trochlear nerve"
+                           },
+                           {
+                              "name": "Communicating branch from internal carotid plexus to oculomotor nerve"
+                           },
+                           {
+                              "name": "Sympathetic root of ciliary ganglion"
+                           },
+                           {
+                              "name": "Hypophysial plexus"
+                           },
+                           {
+                              "name": "Middle cerebral artery plexus"
+                           },
+                           {
+                              "name": "Anterior cerebral artery plexus"
+                           },
+                           {
+                              "name": "Posterior cerebral artery plexus"
+                           },
+                           {
+                              "name": "Ophthalmic plexus"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Common carotid plexus"
+                     },
+                     {
+                        "name": "External carotid plexus",
+                        "children": [
+                           {
+                              "name": "Sympathetic root of submandibular ganglion"
+                           },
+                           {
+                              "name": "Sympathetic root of otic ganglion"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Jugular nerves"
+                     },
+                     {
+                        "name": "Laryngopharyngeal branches of superior cervical ganglion"
+                     },
+                     {
+                        "name": "Thyroid branches of superior cervical ganglion",
+                        "children": [
+                           {
+                              "name": "Thyroid plexus"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Superior cardiac nerve"
+                     },
+                     {
+                        "name": "Inferior cardiac nerve"
+                     },
+                     {
+                        "name": "Subclavian plexus"
+                     },
+                     {
+                        "name": "Vertebral nerve",
+                        "children": [
+                           {
+                              "name": "Vertebral plexus"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Esophageal branches of sympathetic trunk"
+                     },
+                     {
+                        "name": "Thoracic cardiac nerves"
+                     },
+                     {
+                        "name": "Thoracic pulmonary nerves"
+                     },
+                     {
+                        "name": "Greater splanchnic nerve"
+                     },
+                     {
+                        "name": "Lesser splanchnic nerve"
+                     },
+                     {
+                        "name": "Least splanchnic nerve"
+                     },
+                     {
+                        "name": "Lumbar splanchnic nerves"
+                     },
+                     {
+                        "name": "Sacral splanchnic nerves"
+                     }
+                  ]
+               },
+               {
+                  "name": "Prevertebral plexuses",
+                  "children": [
+                     {
+                        "name": "Thoracic aortic plexus"
+                     },
+                     {
+                        "name": "Celiac plexus",
+                        "children": [
+                           {
+                              "name": "Phrenic plexus"
+                           },
+                           {
+                              "name": "Gastroduodenal plexus",
+                              "children": [
+                                 {
+                                    "name": "Right gastroepiploic plexus"
+                                 },
+                                 {
+                                    "name": "Pancreaticoduodenal plexus"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Left gastric plexus"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Superior mesenteric plexus",
+                        "children": [
+                           {
+                              "name": "Pancreatic branches of superior mesenteric plexus"
+                           },
+                           {
+                              "name": "Jejunal & ileal plexuses"
+                           },
+                           {
+                              "name": "Right colic plexus"
+                           },
+                           {
+                              "name": "Middle colic plexus"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Intermesenteric plexus"
+                     },
+                     {
+                        "name": "Inferior mesenteric plexus",
+                        "children": [
+                           {
+                              "name": "Left colic plexus"
+                           },
+                           {
+                              "name": "Superior rectal plexus"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Superior hypogastric plexus"
+                     },
+                     {
+                        "name": "Hypogastric nerve"
+                     },
+                     {
+                        "name": "Inferior hypogastric plexus",
+                        "children": [
+                           {
+                              "name": "Middle rectal plexus"
+                           },
+                           {
+                              "name": "Extrinsic vesical plexus",
+                              "children": [
+                                 {
+                                    "name": "Deferential plexus"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Urethral branches of inferior hypogastric plexus"
+                           },
+                           {
+                              "name": "Prostatic plexus"
+                           },
+                           {
+                              "name": "Uterovaginal plexus",
+                              "children": [
+                                 {
+                                    "name": "Tubo-uterine plexus"
+                                 },
+                                 {
+                                    "name": "Tubo-uterine nerve"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "name": "Prevertebral nerves",
+                  "children": [
+                     {
+                        "name": "Renal nerves"
+                     },
+                     {
+                        "name": "Superior ureteric nerves"
+                     },
+                     {
+                        "name": "Middle ureteric nerves"
+                     },
+                     {
+                        "name": "Inferior ureteric nerves"
+                     },
+                     {
+                        "name": "Superior ovarian nerves"
+                     },
+                     {
+                        "name": "Inferior testicular nerves"
+                     },
+                     {
+                        "name": "Seminal vesicle nerves"
+                     },
+                     {
+                        "name": "Cavernous nerves of penis"
+                     },
+                     {
+                        "name": "Vaginal nerves",
+                        "children": [
+                           {
+                              "name": "Cavernous nerves of clitoris"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "name": "Terminal plexuses",
+                  "children": [
+                     {
+                        "name": "Pharyngeal plexus"
+                     },
+                     {
+                        "name": "Pulmonary plexus"
+                     },
+                     {
+                        "name": "Cardiac plexus",
+                        "children": [
+                           {
+                              "name": "Preaortic plexus"
+                           },
+                           {
+                              "name": "Coronary plexuses",
+                              "children": [
+                                 {
+                                    "name": "Right coronary plexus"
+                                 },
+                                 {
+                                    "name": "Left coronary plexus"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Atrial plexuses"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Hepatic plexus",
+                        "children": [
+                           {
+                              "name": "Hepatic plexus branches to bile ducts"
+                           },
+                           {
+                              "name": "Right gastric plexus"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Splenic plexus",
+                        "children": [
+                           {
+                              "name": "Left gastroepiploic plexus"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Pancreatic plexus"
+                     },
+                     {
+                        "name": "Adrenal plexus"
+                     },
+                     {
+                        "name": "Renal plexus",
+                        "children": [
+                           {
+                              "name": "Intrinsic renal nerves"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Intrinsic vesical plexus"
+                     },
+                     {
+                        "name": "Ureteric plexus"
+                     },
+                     {
+                        "name": "Ovarian plexus"
+                     },
+                     {
+                        "name": "Testicular plexus"
+                     },
+                     {
+                        "name": "Enteric plexuses"
+                     }
+                  ]
+               },
+               {
+                  "name": "Terminal autonomic nerves",
+                  "children": [
+                     {
+                        "name": "Short ciliary nerves"
+                     },
+                     {
+                        "name": "Glandular branches of submandibular ganglion"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]

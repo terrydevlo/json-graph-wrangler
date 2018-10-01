@@ -1,0 +1,66 @@
+{
+  "lyphs_pipeline": [{
+      "map_semantic_data_output_lyphs.json": {
+        "start": false,
+        "end": false,
+        "input": ["input-data/spinothalamic_gracile_input.csv"],
+        "output": ["input-data/input_lyphs.json"]
+      }
+    },
+
+    {
+      "merge_lyph_data.json": {
+        "start": false,
+        "end": false,
+        "input": ["input-data/input_lyphs.json",
+          "input-data/lyph_compositions.json",
+          "input-data/group_types.json"
+        ],
+        "output": ["semantic-data/tracts/lyphs/lyph_data_merged.json"]
+      }
+    },
+    {
+      "verify_lyph_data.json": {
+        "input": ["semantic-data/tracts/lyphs/lyph_data_merged.json"],
+        "output": ["semantic-data/tracts/lyphs/lyph_data_verified.json"],
+        "end": false
+      }
+    },
+    {
+      "merge_lyph_data.json": {
+        "input": ["semantic-data/tracts/lyphs/lyph_data_verified.json",
+          "input-data/lyph_compositions.json",
+          "input-data/group_types.json"
+        ],
+        "output": ["semantic-data/tracts/lyphs/lyph_data_verified_merged.json"],
+        "start": false,
+        "end": false
+      }
+    },
+    {
+      "add_lyph_layers_as_lyphs.json": {
+        "start": true,
+        "end": true,
+        "input": ["semantic-data/tracts/lyphs/lyph_data_verified_merged.json"],
+        "output": ["semantic-data/tracts/lyphs/lyphs_pipe_fin_no_ids.json"]
+      }
+    },
+    {
+      "label_ids_on_lyphs.json": {
+        "input": ["semantic-data/tracts/lyphs/lyphs_pipe_fin_no_ids.json"],
+        "output": ["semantic-data/tracts/lyphs/lyphs_pipe_fin_without_internals.json"],
+        "start": false,
+        "end": false
+      }
+    },
+    {
+      "add_internalLyphs_property.json": {
+        "input": ["semantic-data/tracts/lyphs/lyphs_pipe_fin_without_internals.json"],
+        "output": ["semantic-data/tracts/lyphs/lyphs_pipe_fin_with_ids.json"],
+        "exclude_step": false,
+        "start": false,
+        "end": false
+      }
+    }
+  ]
+}

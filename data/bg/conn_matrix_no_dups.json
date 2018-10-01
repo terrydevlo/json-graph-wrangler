@@ -1,0 +1,127 @@
+[
+   {
+      "source": "μ1",
+      "target": "μ1",
+      "edge_type": "BC"
+   },
+   {
+      "source": "v1",
+      "target": "μ1",
+      "edge_type": "1"
+   },
+   {
+      "source": "μ2",
+      "target": "μ1",
+      "edge_type": "0"
+   },
+   {
+      "source": "v2",
+      "target": "μ1",
+      "edge_type": "0"
+   },
+   {
+      "source": "μ3",
+      "target": "μ1",
+      "edge_type": "0"
+   },
+   {
+      "source": "v3",
+      "target": "μ1",
+      "edge_type": "0"
+   },
+   {
+      "source": "μ1",
+      "target": "v1",
+      "edge_type": "-1"
+   },
+   {
+      "source": "v1",
+      "target": "v1",
+      "edge_type": "R1_L1"
+   },
+   {
+      "source": "μ2",
+      "target": "v1",
+      "edge_type": "1"
+   },
+   {
+      "source": "v2",
+      "target": "v1",
+      "edge_type": "0"
+   },
+   {
+      "source": "μ3",
+      "target": "v1",
+      "edge_type": "0"
+   },
+   {
+      "source": "v3",
+      "target": "v1",
+      "edge_type": "0"
+   },
+   {
+      "source": "v1",
+      "target": "μ2",
+      "edge_type": "-1"
+   },
+   {
+      "source": "μ2",
+      "target": "μ2",
+      "edge_type": "C2"
+   },
+   {
+      "source": "v2",
+      "target": "μ2",
+      "edge_type": "1"
+   },
+   {
+      "source": "μ3",
+      "target": "μ2",
+      "edge_type": "0"
+   },
+   {
+      "source": "v3",
+      "target": "μ2",
+      "edge_type": "0"
+   },
+   {
+      "source": "μ2",
+      "target": "v2",
+      "edge_type": "-1"
+   },
+   {
+      "source": "v2",
+      "target": "v2",
+      "edge_type": "R2_l2"
+   },
+   {
+      "source": "μ3",
+      "target": "v2",
+      "edge_type": "1"
+   },
+   {
+      "source": "v3",
+      "target": "v2",
+      "edge_type": "0"
+   },
+   {
+      "source": "v2",
+      "target": "μ3",
+      "edge_type": "-1"
+   },
+   {
+      "source": "μ3",
+      "target": "μ3",
+      "edge_type": "C3"
+   },
+   {
+      "source": "v3",
+      "target": "μ3",
+      "edge_type": "1"
+   },
+   {
+      "source": "μ3",
+      "target": "v3",
+      "edge_type": "0"
+   }
+]

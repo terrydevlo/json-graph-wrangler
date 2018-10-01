@@ -1,0 +1,82 @@
+{
+  "nodes_links_pipeline": [
+    {
+      "extract_links_from_trees.json": {
+        "input": ["semantic-data/tracts/trees/merged_cns_neurons_ids.json"],
+        "output": ["semantic-data/tracts/links/links_with_full_conveyingLyphs.json"],
+        "start": false,
+        "end": false
+      }
+    },
+    {
+      "replace_conveyingLyphs_with_ids.json": {
+        "input": ["semantic-data/tracts/lyphs/lyphs_pipe_fin_with_ids.json",
+          "semantic-data/tracts/links/links_with_full_conveyingLyphs.json"
+        ],
+        "output": ["semantic-data/tracts/links/links_conveying_as_IDs.json"],
+        "exclude_step" : true,
+        "start": false,
+        "end": false
+      }
+    },
+    {
+      "extract_nodes_from_trees.json": {
+        "input": ["semantic-data/tracts/trees/merged_cns_neurons_ids.json"],
+        "output": ["semantic-data/tracts/nodes/nodes_with_named_source_targets.json"],
+        "start": false,
+        "end": false
+      }
+    },
+    {
+      "replace_links_source_target_with_ids.json": {
+        "input": ["semantic-data/tracts/nodes/nodes_with_named_source_targets.json",
+          "semantic-data/tracts/links/links_with_full_conveyingLyphs.json"
+        ],
+        "output": ["semantic-data/tracts/links/links.json"],
+        "start": false,
+        "end": false
+      }
+    },
+    {
+      "replace_nodes_source_target_with_ids.json": {
+        "input": ["semantic-data/tracts/links/links.json",
+          "semantic-data/tracts/nodes/nodes_with_named_source_targets.json"
+        ],
+        "output": ["semantic-data/tracts/nodes/nodes_with_source_target_ids.json"],
+        "start": false,
+        "end": false
+
+      }
+    },
+    {
+      "replace_nodes_ref_lyphs_with_ids.json": {
+        "exclude_step" : true,
+        "input": ["semantic-data/tracts/lyphs/lyphs_pipe_fin_with_ids.json",
+          "semantic-data/tracts/nodes/nodes_with_source_target_ids.json"
+        ],
+        "output": ["semantic-data/tracts/nodes/nodes_with_ref_lyphs.json"],
+        "start": false,
+        "end": false
+
+      }
+    },
+    {
+      "subset_node_keys_for_lyph_viewer.json": {
+        "input": ["semantic-data/tracts/nodes/nodes_with_source_target_ids.json"],
+        "output": ["semantic-data/tracts/nodes/nodes.json"],
+        "start": false,
+        "end": false
+
+      }
+    },
+    {
+      "map_nodes_to_host_lyphs.json" :{
+        "input": ["semantic-data/tracts/nodes/nodes_with_source_target_ids.json",
+          "semantic-data/tracts/lyphs/lyphs_pipe_fin_with_ids.json"],
+        "output" : ["semantic-data/tracts/lyphs/lyphs_plus_nodes.json"],
+        "start": false,
+        "end": false
+      }
+    }
+  ]
+}

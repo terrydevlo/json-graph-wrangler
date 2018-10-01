@@ -1,0 +1,7 @@
+{
+  "subtract_difference": [{
+    "diff_objs_of_equivalent_data_hierarchy": {
+      "reference_file_key": "graph_pre.json"
+    }
+  }]
+}

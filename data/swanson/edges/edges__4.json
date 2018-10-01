@@ -1,0 +1,517 @@
+[
+   {
+      "source": "anterior amygdalar area",
+      "target": "medial globus pallidus",
+      "connection": "4"
+   },
+   {
+      "source": "anterior amygdalar area",
+      "target": "lateral globus pallidus",
+      "connection": "4"
+   },
+   {
+      "source": "lateral septal nucleus rostral",
+      "target": "innominate substance",
+      "connection": "4"
+   },
+   {
+      "source": "central amygdalar nucleus lateral part",
+      "target": "innominate substance",
+      "connection": "4"
+   },
+   {
+      "source": "medial amygdalar nucleus posteroventral part",
+      "target": "innominate substance",
+      "connection": "4"
+   },
+   {
+      "source": "bed nucleus of accessory olfactory tract",
+      "target": "innominate substance",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria magnocellular nucleus",
+      "target": "bed nuclei of terminal stria anteromedial area",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria dorsomedial nucleus",
+      "target": "bed nuclei of terminal stria anteromedial area",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria anterolateral area",
+      "target": "bed nuclei of terminal stria anteromedial area",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria principal nucleus",
+      "target": "bed nuclei of terminal stria anteromedial area",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria transverse nucleus",
+      "target": "bed nuclei of terminal stria anteromedial area",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria dorsal nucleus",
+      "target": "bed nuclei of terminal stria anteromedial area",
+      "connection": "4"
+   },
+   {
+      "source": "central amygdalar nucleus lateral part",
+      "target": "bed nuclei of terminal stria anteromedial area",
+      "connection": "4"
+   },
+   {
+      "source": "magnocellular nucleus",
+      "target": "bed nuclei of terminal stria fusiform nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria magnocellular nucleus",
+      "target": "bed nuclei of terminal stria fusiform nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria anterolateral area",
+      "target": "bed nuclei of terminal stria fusiform nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria juxtacapsular nucleus",
+      "target": "bed nuclei of terminal stria fusiform nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria principal nucleus",
+      "target": "bed nuclei of terminal stria fusiform nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "lateral septal nucleus rostral",
+      "target": "bed nuclei of terminal stria fusiform nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "central amygdalar nucleus lateral part",
+      "target": "bed nuclei of terminal stria ventral nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria fusiform nucleus",
+      "target": "bed nuclei of terminal stria magnocellular nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "central amygdalar nucleus lateral part",
+      "target": "bed nuclei of terminal stria magnocellular nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria fusiform nucleus",
+      "target": "bed nuclei of terminal stria dorsomedial nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria principal nucleus",
+      "target": "bed nuclei of terminal stria dorsomedial nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria transverse nucleus",
+      "target": "bed nuclei of terminal stria dorsomedial nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria dorsomedial nucleus",
+      "target": "bed nuclei of terminal stria anterolateral area",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria juxtacapsular nucleus",
+      "target": "bed nuclei of terminal stria anterolateral area",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria rhomboid nucleus",
+      "target": "bed nuclei of terminal stria anterolateral area",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria oval nucleus",
+      "target": "bed nuclei of terminal stria oval nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria rhomboid nucleus",
+      "target": "bed nuclei of terminal stria oval nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria principal nucleus",
+      "target": "bed nuclei of terminal stria oval nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "central amygdalar nucleus lateral part",
+      "target": "bed nuclei of terminal stria juxtacapsular nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria anterolateral area",
+      "target": "bed nuclei of terminal stria rhomboid nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria transverse nucleus",
+      "target": "bed nuclei of terminal stria rhomboid nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria dorsal nucleus",
+      "target": "bed nuclei of terminal stria rhomboid nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "caudoputamen",
+      "target": "bed nuclei of terminal stria rhomboid nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "central amygdalar nucleus capsular part",
+      "target": "bed nuclei of terminal stria rhomboid nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "magnocellular nucleus",
+      "target": "bed nuclei of terminal stria interfascicular nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria dorsal nucleus",
+      "target": "bed nuclei of terminal stria interfascicular nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "medial amygdalar nucleus posteroventral part",
+      "target": "bed nuclei of terminal stria interfascicular nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "medial amygdalar nucleus posterodorsal part",
+      "target": "bed nuclei of terminal stria interfascicular nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "magnocellular nucleus",
+      "target": "bed nuclei of terminal stria transverse nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria fusiform nucleus",
+      "target": "bed nuclei of terminal stria transverse nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria transverse nucleus",
+      "target": "bed nuclei of terminal stria transverse nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "central amygdalar nucleus medial part",
+      "target": "bed nuclei of terminal stria transverse nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria magnocellular nucleus",
+      "target": "bed nuclei of terminal stria dorsal nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria dorsomedial nucleus",
+      "target": "bed nuclei of terminal stria dorsal nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria anterolateral area",
+      "target": "bed nuclei of terminal stria dorsal nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "accumbens nucleus",
+      "target": "bed nuclei of terminal stria dorsal nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "lateral septal nucleus rostral",
+      "target": "bed nuclei of terminal stria dorsal nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "central amygdalar nucleus lateral part",
+      "target": "bed nuclei of terminal stria dorsal nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "innominate substance",
+      "target": "accumbens nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "striatal fundus",
+      "target": "lateral septal nucleus rostral",
+      "connection": "4"
+   },
+   {
+      "source": "triangular septal nucleus",
+      "target": "lateral septal nucleus rostral",
+      "connection": "4"
+   },
+   {
+      "source": "lateral septal nucleus rostral",
+      "target": "lateral septal nucleus rostral",
+      "connection": "4"
+   },
+   {
+      "source": "lateral septal nucleus rostral",
+      "target": "lateral septal nucleus rostral",
+      "connection": "4"
+   },
+   {
+      "source": "triangular septal nucleus",
+      "target": "lateral septal nucleus rostral",
+      "connection": "4"
+   },
+   {
+      "source": "lateral septal nucleus rostral",
+      "target": "lateral septal nucleus caudal",
+      "connection": "4"
+   },
+   {
+      "source": "lateral septal nucleus rostral",
+      "target": "lateral septal nucleus caudal",
+      "connection": "4"
+   },
+   {
+      "source": "lateral septal nucleus rostral",
+      "target": "lateral septal nucleus caudal",
+      "connection": "4"
+   },
+   {
+      "source": "lateral septal nucleus caudal",
+      "target": "lateral septal nucleus caudal",
+      "connection": "4"
+   },
+   {
+      "source": "lateral septal nucleus ventral part",
+      "target": "septohippocampal nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "caudoputamen",
+      "target": "septohippocampal nucleus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria fusiform nucleus",
+      "target": "striatal fundus",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria ventral nucleus",
+      "target": "striatal fundus",
+      "connection": "4"
+   },
+   {
+      "source": "intercalated amygdalar nuclei",
+      "target": "striatal fundus",
+      "connection": "4"
+   },
+   {
+      "source": "lateral globus pallidus",
+      "target": "caudoputamen",
+      "connection": "4"
+   },
+   {
+      "source": "innominate substance",
+      "target": "anterior amygdalar area",
+      "connection": "4"
+   },
+   {
+      "source": "magnocellular nucleus",
+      "target": "anterior amygdalar area",
+      "connection": "4"
+   },
+   {
+      "source": "medial septal nucleus",
+      "target": "anterior amygdalar area",
+      "connection": "4"
+   },
+   {
+      "source": "triangular septal nucleus",
+      "target": "anterior amygdalar area",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria fusiform nucleus",
+      "target": "anterior amygdalar area",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria oval nucleus",
+      "target": "anterior amygdalar area",
+      "connection": "4"
+   },
+   {
+      "source": "accumbens nucleus",
+      "target": "anterior amygdalar area",
+      "connection": "4"
+   },
+   {
+      "source": "lateral septal nucleus rostral",
+      "target": "anterior amygdalar area",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria oval nucleus",
+      "target": "central amygdalar nucleus lateral part",
+      "connection": "4"
+   },
+   {
+      "source": "central amygdalar nucleus lateral part",
+      "target": "central amygdalar nucleus lateral part",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria fusiform nucleus",
+      "target": "central amygdalar nucleus capsular part",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria ventral nucleus",
+      "target": "central amygdalar nucleus capsular part",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria dorsomedial nucleus",
+      "target": "central amygdalar nucleus capsular part",
+      "connection": "4"
+   },
+   {
+      "source": "central amygdalar nucleus capsular part",
+      "target": "central amygdalar nucleus capsular part",
+      "connection": "4"
+   },
+   {
+      "source": "magnocellular nucleus",
+      "target": "intercalated amygdalar nuclei",
+      "connection": "4"
+   },
+   {
+      "source": "diagonal band nucleus",
+      "target": "intercalated amygdalar nuclei",
+      "connection": "4"
+   },
+   {
+      "source": "triangular septal nucleus",
+      "target": "intercalated amygdalar nuclei",
+      "connection": "4"
+   },
+   {
+      "source": "accumbens nucleus",
+      "target": "intercalated amygdalar nuclei",
+      "connection": "4"
+   },
+   {
+      "source": "lateral septal nucleus rostral",
+      "target": "intercalated amygdalar nuclei",
+      "connection": "4"
+   },
+   {
+      "source": "caudoputamen",
+      "target": "intercalated amygdalar nuclei",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria oval nucleus",
+      "target": "medial amygdalar nucleus anteroventral part",
+      "connection": "4"
+   },
+   {
+      "source": "magnocellular nucleus",
+      "target": "medial amygdalar nucleus anterodorsal part",
+      "connection": "4"
+   },
+   {
+      "source": "triangular septal nucleus",
+      "target": "medial amygdalar nucleus anterodorsal part",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria magnocellular nucleus",
+      "target": "medial amygdalar nucleus anterodorsal part",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria anterolateral area",
+      "target": "medial amygdalar nucleus anterodorsal part",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria principal nucleus",
+      "target": "medial amygdalar nucleus anterodorsal part",
+      "connection": "4"
+   },
+   {
+      "source": "lateral septal nucleus rostral",
+      "target": "medial amygdalar nucleus anterodorsal part",
+      "connection": "4"
+   },
+   {
+      "source": "central amygdalar nucleus lateral part",
+      "target": "medial amygdalar nucleus anterodorsal part",
+      "connection": "4"
+   },
+   {
+      "source": "bed nucleus of accessory olfactory tract",
+      "target": "medial amygdalar nucleus anterodorsal part",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria magnocellular nucleus",
+      "target": "medial amygdalar nucleus posteroventral part",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria dorsomedial nucleus",
+      "target": "medial amygdalar nucleus posteroventral part",
+      "connection": "4"
+   },
+   {
+      "source": "bed nucleus of accessory olfactory tract",
+      "target": "medial amygdalar nucleus posteroventral part",
+      "connection": "4"
+   },
+   {
+      "source": "bed nuclei of terminal stria transverse nucleus",
+      "target": "medial amygdalar nucleus posterodorsal part",
+      "connection": "4"
+   },
+   {
+      "source": "medial amygdalar nucleus anterodorsal part",
+      "target": "medial amygdalar nucleus posterodorsal part",
+      "connection": "4"
+   },
+   {
+      "source": "medial amygdalar nucleus posteroventral part",
+      "target": "medial amygdalar nucleus posterodorsal part",
+      "connection": "4"
+   },
+   {
+      "source": "medial amygdalar nucleus posterodorsal part",
+      "target": "medial amygdalar nucleus posterodorsal part",
+      "connection": "4"
+   }
+]

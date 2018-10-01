@@ -1,0 +1,7 @@
+{
+  "merge_groups": [{
+    "merge_with_internal_arrays_concatenated": {
+      "reference_file_key": "/cns_"
+    }
+  }]
+}

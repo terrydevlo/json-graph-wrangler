@@ -1,0 +1,7 @@
+{
+  "merge_with_core_graph": [{
+      "merge_with_internal_arrays_concatenated": {
+        "reference_file_key": "core_graph.json"
+      }
+    }]
+}

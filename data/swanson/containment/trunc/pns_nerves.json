@@ -1,0 +1,741 @@
+[
+   {
+      "name": "SPINAL NERVES [RAT]",
+      "children": [
+         {
+            "name": "Spinal nerve groups",
+            "children": [
+               {
+                  "name": "Cervical nerves",
+                  "children": [
+                     {
+                        "name": "Suboccipital nerve"
+                     },
+                     {
+                        "name": "Thoracic nerves"
+                     },
+                     {
+                        "name": "Lumbar nerves"
+                     },
+                     {
+                        "name": "Sacral nerves"
+                     },
+                     {
+                        "name": "Coccygeal nerves"
+                     }
+                  ]
+               },
+               {
+                  "name": "Spinal nerve parts",
+                  "children": [
+                     {
+                        "name": "Spinal nerve roots",
+                        "children": [
+                           {
+                              "name": "Ventral root",
+                              "children": [
+                                 {
+                                    "name": "Ventral rootlets"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Dorsal root",
+                              "children": [
+                                 {
+                                    "name": "Dorsal rootlets"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Cauda equina"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Spinal nerve trunk",
+                        "children": [
+                           {
+                              "name": "Meningeal branch of spinal nerve trunk"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Spinal nerve primary branches",
+                        "children": [
+                           {
+                              "name": "Spinal nerve dorsal branch",
+                              "children": [
+                                 {
+                                    "name": "Medial branch of spinal nerve dorsal branch",
+                                    "children": [
+                                       {
+                                          "name": "Greater occipital nerve"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Lateral branch of spinal nerve dorsal branch"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Spinal nerve ventral branch",
+                              "children": [
+                                 {
+                                    "name": "Cervical plexus",
+                                    "children": [
+                                       {
+                                          "name": "Communicating loops of cervical plexus"
+                                       },
+                                       {
+                                          "name": "Communicating branches of cervical plexus"
+                                       },
+                                       {
+                                          "name": "Muscular branches of cervical plexus",
+                                          "children": [
+                                             {
+                                                "name": "Ansa cervicalis",
+                                                "children": [
+                                                   {
+                                                      "name": "Superior root of ansa cervicalis"
+                                                   },
+                                                   {
+                                                      "name": "Inferior root of ansa cervicalis"
+                                                   },
+                                                   {
+                                                      "name": "Ansa cervicalis proper",
+                                                      "children": [
+                                                         {
+                                                            "name": "Muscular branches of ansa cervicalis"
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Phrenic nerve"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Ascending superficial branches of cervical plexus",
+                                          "children": [
+                                             {
+                                                "name": "Lesser occipital nerve"
+                                             },
+                                             {
+                                                "name": "Great auricular nerve",
+                                                "children": [
+                                                   {
+                                                      "name": "Posterior branch of great auricular nerve"
+                                                   },
+                                                   {
+                                                      "name": "Anterior branch of great auricular nerve"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Transverse nerve of neck"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Descending superficial branches of cervical plexus",
+                                          "children": [
+                                             {
+                                                "name": "Supraclavicular nerves",
+                                                "children": [
+                                                   {
+                                                      "name": "Medial supraclavicular nerves"
+                                                   },
+                                                   {
+                                                      "name": "Intermediate supraclavicular nerves"
+                                                   },
+                                                   {
+                                                      "name": "Lateral supraclavicular nerves"
+                                                   }
+                                                ]
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Brachial plexus",
+                                    "children": [
+                                       {
+                                          "name": "Brachial plexus roots",
+                                          "children": [
+                                             {
+                                                "name": "Dorsal scapular nerve"
+                                             },
+                                             {
+                                                "name": "Long thoracic nerve"
+                                             },
+                                             {
+                                                "name": "Thoracodorsal nerve"
+                                             },
+                                             {
+                                                "name": "Lower subscapular nerve"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Brachial plexus trunks",
+                                          "children": [
+                                             {
+                                                "name": "Brachial plexus upper trunk",
+                                                "children": [
+                                                   {
+                                                      "name": "Subclavian nerve",
+                                                      "children": [
+                                                         {
+                                                            "name": "Accessory phrenic nerve"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Suprascapular nerve"
+                                                   },
+                                                   {
+                                                      "name": "Upper subscapular nerve"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Brachial plexus middle trunk"
+                                             },
+                                             {
+                                                "name": "Brachial plexus lower trunk"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Brachial plexus divisions",
+                                          "children": [
+                                             {
+                                                "name": "Brachial plexus ventral divisions",
+                                                "children": [
+                                                   {
+                                                      "name": "Lateral pectoral nerve"
+                                                   },
+                                                   {
+                                                      "name": "Musculocutaneous nerve",
+                                                      "children": [
+                                                         {
+                                                            "name": "Muscular branches of musculocutaneous nerve"
+                                                         },
+                                                         {
+                                                            "name": "Lateral cutaneous nerve of forearm",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Dorsal digital nerves of lateral cutaneous nerve of forearm"
+                                                               }
+                                                            ]
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Lateral root of median nerve"
+                                                   },
+                                                   {
+                                                      "name": "Ulnar nerve",
+                                                      "children": [
+                                                         {
+                                                            "name": "Muscular branches of ulnar nerve"
+                                                         },
+                                                         {
+                                                            "name": "Ulnar posterior cutaneous nerve of forearm"
+                                                         },
+                                                         {
+                                                            "name": "Dorsal branch of ulnar nerve",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Cutaneous branch of dorsal branch of ulnar nerve"
+                                                               },
+                                                               {
+                                                                  "name": "Dorsal digital nerves of ulnar nerve"
+                                                               }
+                                                            ]
+                                                         },
+                                                         {
+                                                            "name": "Superficial branch of ulnar nerve",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Cutaneous branch of superficial branch of ulnar nerve"
+                                                               },
+                                                               {
+                                                                  "name": "Common palmar digital nerve of ulnar nerve",
+                                                                  "children": [
+                                                                     {
+                                                                        "name": "Proper palmar digital nerves of ulnar nerve"
+                                                                     }
+                                                                  ]
+                                                               }
+                                                            ]
+                                                         },
+                                                         {
+                                                            "name": "Deep branch of ulnar nerve"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Medial root of median nerve"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Brachial plexus dorsal divisions",
+                                                "children": [
+                                                   {
+                                                      "name": "Axillary nerve",
+                                                      "children": [
+                                                         {
+                                                            "name": "Muscular branches of axillary nerve"
+                                                         },
+                                                         {
+                                                            "name": "Superior lateral cutaneous nerve of arm"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Radial nerve",
+                                                      "children": [
+                                                         {
+                                                            "name": "Posterior cutaneous nerve of forearm"
+                                                         },
+                                                         {
+                                                            "name": "Muscular branches of radial nerve"
+                                                         },
+                                                         {
+                                                            "name": "Deep branch of radial nerve",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Posterior interosseous nerve"
+                                                               }
+                                                            ]
+                                                         },
+                                                         {
+                                                            "name": "Superficial branch of radial nerve",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Communicating branch of radial nerve with musculocutaneous nerve",
+                                                                  "children": [
+                                                                     {
+                                                                        "name": "(>1840)  (cru)"
+                                                                     }
+                                                                  ]
+                                                               },
+                                                               {
+                                                                  "name": "Dorsal digital nerves of radial nerve"
+                                                               }
+                                                            ]
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Medial pectoral nerve"
+                                                   },
+                                                   {
+                                                      "name": "Medial cutaneous nerve of arm"
+                                                   },
+                                                   {
+                                                      "name": "Medial cutaneous nerve of forearm"
+                                                   },
+                                                   {
+                                                      "name": "Median nerve",
+                                                      "children": [
+                                                         {
+                                                            "name": "Muscular branches of median nerve"
+                                                         },
+                                                         {
+                                                            "name": "Anterior interosseous nerve"
+                                                         },
+                                                         {
+                                                            "name": "Palmar branch of median nerve"
+                                                         },
+                                                         {
+                                                            "name": "Common palmar digital nerves of median nerve",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Proper palmar digital nerves of median nerve"
+                                                               }
+                                                            ]
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Intercostal nerves",
+                                    "children": [
+                                       {
+                                          "name": "Muscular branches of intercostal nerves"
+                                       },
+                                       {
+                                          "name": "Collateral branch of intercostal nerves",
+                                          "children": [
+                                             {
+                                                "name": "Lateral cutaneous branch of intercostal nerves",
+                                                "children": [
+                                                   {
+                                                      "name": "Anterior branch of lateral cutaneous branch of intercostal nerves",
+                                                      "children": [
+                                                         {
+                                                            "name": "Lateral mammary branches of intercostal nerves"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Posterior branch of lateral cutaneous branch of intercostal nerves"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Anterior cutaneous branch of intercostal nerves",
+                                                "children": [
+                                                   {
+                                                      "name": "Medial mammary branches of intercostal nerves"
+                                                   }
+                                                ]
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Subcostal nerve"
+                                 },
+                                 {
+                                    "name": "Lumbosacral plexus",
+                                    "children": [
+                                       {
+                                          "name": "Lumbar plexus",
+                                          "children": [
+                                             {
+                                                "name": "Lumbar plexus ventral branches",
+                                                "children": [
+                                                   {
+                                                      "name": "Muscular branches of lumbar plexus ventral branches"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Lumbar plexus dorsal divisions",
+                                                "children": [
+                                                   {
+                                                      "name": "Lateral cutaneous nerve of thigh"
+                                                   },
+                                                   {
+                                                      "name": "Femoral nerve",
+                                                      "children": [
+                                                         {
+                                                            "name": "Muscular branches of femoral nerve"
+                                                         },
+                                                         {
+                                                            "name": "Saphenous nerve"
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Lumbar plexus ventral divisions",
+                                                "children": [
+                                                   {
+                                                      "name": "Iliohypogastric nerve",
+                                                      "children": [
+                                                         {
+                                                            "name": "Lateral cutaneous branch of iliohypogastric nerve"
+                                                         },
+                                                         {
+                                                            "name": "Anterior cutaneous branch of iliohypogastric nerve"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Ilio-inguinal nerve",
+                                                      "children": [
+                                                         {
+                                                            "name": "Anterior scrotal nerves"
+                                                         },
+                                                         {
+                                                            "name": "Anterior labial nerves"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Genitofemoral nerve",
+                                                      "children": [
+                                                         {
+                                                            "name": "Genital branch of genitofemoral nerve"
+                                                         },
+                                                         {
+                                                            "name": "Femoral branch of genitofemoral nerve"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Obturator nerve",
+                                                      "children": [
+                                                         {
+                                                            "name": "Anterior branch of obturator nerve",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Articular branch of anterior branch of obturator nerve"
+                                                               },
+                                                               {
+                                                                  "name": "Cutaneous branch of obturator nerve"
+                                                               },
+                                                               {
+                                                                  "name": "Muscular branches of anterior branch of obturator nerve"
+                                                               }
+                                                            ]
+                                                         },
+                                                         {
+                                                            "name": "Posterior branch of obturator nerve",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Muscular branches of posterior branch of obturator nerve",
+                                                                  "children": [
+                                                                     {
+                                                                        "name": "(obtpm)"
+                                                                     }
+                                                                  ]
+                                                               }
+                                                            ]
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Sacral plexus",
+                                          "children": [
+                                             {
+                                                "name": "Sacral plexus ventral branches",
+                                                "children": [
+                                                   {
+                                                      "name": "Lumbosacral trunk"
+                                                   },
+                                                   {
+                                                      "name": "L6-S1 trunk"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Sacral plexus dorsal divisions",
+                                                "children": [
+                                                   {
+                                                      "name": "Superior gluteal nerve"
+                                                   },
+                                                   {
+                                                      "name": "Inferior gluteal nerve"
+                                                   },
+                                                   {
+                                                      "name": "Piriformis nerve"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Sacral plexus ventral divisions",
+                                                "children": [
+                                                   {
+                                                      "name": "Nerve to quadratus femoris",
+                                                      "children": [
+                                                         {
+                                                            "name": "Articular branch of nerve to quadratus femoris"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Nerve to obturator internus"
+                                                   },
+                                                   {
+                                                      "name": "Pelvic splanchnic nerves"
+                                                   },
+                                                   {
+                                                      "name": "Pudendal nerve",
+                                                      "children": [
+                                                         {
+                                                            "name": "Inferior rectal nerves"
+                                                         },
+                                                         {
+                                                            "name": "Perineal nerve",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Posterior labial nerves"
+                                                               },
+                                                               {
+                                                                  "name": "Posterior scrotal nerves"
+                                                               },
+                                                               {
+                                                                  "name": "Muscular branches of perineal nerve"
+                                                               }
+                                                            ]
+                                                         },
+                                                         {
+                                                            "name": "Dorsal nerve of clitoris"
+                                                         },
+                                                         {
+                                                            "name": "Dorsal nerve of penis"
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Sciatic nerve",
+                                                "children": [
+                                                   {
+                                                      "name": "Nerve to hamstring muscles"
+                                                   },
+                                                   {
+                                                      "name": "Common fibular nerve",
+                                                      "children": [
+                                                         {
+                                                            "name": "Nerve to short head of biceps femoris"
+                                                         },
+                                                         {
+                                                            "name": "Articular branches of common fibular nerve"
+                                                         },
+                                                         {
+                                                            "name": "Lateral cutaneous nerve of calf"
+                                                         },
+                                                         {
+                                                            "name": "Sural nerve",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Lateral dorsal cutaneous nerve",
+                                                                  "children": [
+                                                                     {
+                                                                        "name": "Dorsal digital nerves of lateral dorsal cutaneous nerve"
+                                                                     }
+                                                                  ]
+                                                               },
+                                                               {
+                                                                  "name": "Lateral calcaneal branches of sural nerve"
+                                                               }
+                                                            ]
+                                                         },
+                                                         {
+                                                            "name": "Superficial fibular nerve",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Muscular branches of superficial fibular nerve"
+                                                               },
+                                                               {
+                                                                  "name": "Dorsal digital nerves of superficial fibular nerve"
+                                                               }
+                                                            ]
+                                                         },
+                                                         {
+                                                            "name": "Deep fibular nerve",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Muscular branches of deep fibular nerve"
+                                                               }
+                                                            ]
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Tibial nerve",
+                                                      "children": [
+                                                         {
+                                                            "name": "Muscular branches of tibial nerve",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Nerve to plantaris"
+                                                               },
+                                                               {
+                                                                  "name": "Nerves to gastrocnemius"
+                                                               },
+                                                               {
+                                                                  "name": "Nerve to tibialis posterior"
+                                                               },
+                                                               {
+                                                                  "name": "Nerve to soleus"
+                                                               },
+                                                               {
+                                                                  "name": "Nerve to flexor digitorum longus"
+                                                               },
+                                                               {
+                                                                  "name": "Nerve to flexor hallucis longus"
+                                                               }
+                                                            ]
+                                                         },
+                                                         {
+                                                            "name": "Medial plantar nerve",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Muscular branches of medial plantar nerve"
+                                                               },
+                                                               {
+                                                                  "name": "Common plantar digital nerves of medial plantar nerve",
+                                                                  "children": [
+                                                                     {
+                                                                        "name": "Proper plantar digital nerves of medial plantar nerve",
+                                                                        "children": [
+                                                                           {
+                                                                              "name": "(mplnpp)"
+                                                                           }
+                                                                        ]
+                                                                     }
+                                                                  ]
+                                                               }
+                                                            ]
+                                                         },
+                                                         {
+                                                            "name": "Lateral plantar nerve",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Muscular branches of lateral plantar nerve"
+                                                               },
+                                                               {
+                                                                  "name": "Common plantar digital nerves of lateral plantar nerve",
+                                                                  "children": [
+                                                                     {
+                                                                        "name": "Proper plantar digital nerves of lateral plantar nerve"
+                                                                     }
+                                                                  ]
+                                                               }
+                                                            ]
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Posterior cutaneous nerve of thigh"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Coccygeal plexus",
+                                    "children": [
+                                       {
+                                          "name": "Anococcygeal nerves"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]

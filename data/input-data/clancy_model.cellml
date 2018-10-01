@@ -1,0 +1,1611 @@
+<?xml version='1.0'?>
+<!-- no Ca_cytonetic model here to Koep it clean. Also no concentrations: just mol
+ try Cm of 200 pF for whole cell (1e-5 F is TOO LARGE) -->
+<!-- CONVENTION: flow from JSR (q1) to cytosol (q2).-->
+<!-- somehow, release (current != 0) only when Cai spiKos.
+ Try : Gpore depend on dCai/dt-->
+<!-- 8 May: add gated channels
+          change units to fmol-->
+<!-- 24 May 
+ with stimulus current component (doesn't affect K right now)-->
+<!-- 29 May with Pan's NCX / NaCa exchanger-->
+<!-- 5 June with K/kappa constants - from first iteration (e.g. Na/Kr channels: hardcoded zf and zr)-->
+<!-- 11 June  with original LRD dimensions and Cm (following viswanathan - NUMBERS ARE NOT UPDATED YET)-->
+<!-- 6 July Add imports one at a time
+ also try adding ca_dyn channel separately, outside of ca_dyn_env-->
+<!-- 9 July : using fkc = 1e3 (from 'all_parameters_visw_dims_density_1_Acap_slow_ncxNaK.mat')-->
+<model name="main_BG_8" xmlns="http://www.cellml.org/cellml/1.1#" xmlns:cellml="http://www.cellml.org/cellml/1.1#" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <import xlink:href="units_BG_f.cellml">
+        <units name="mM" units_ref="mM"/>
+        <units name="J_per_mol" units_ref="J_per_mol"/>
+        <units name="C_per_mol" units_ref="C_per_mol"/>
+        <units name="J_per_C" units_ref="J_per_C"/>
+        <units name="J_per_K_per_mol" units_ref="J_per_K_per_mol"/>
+        <units name="kC_per_mol" units_ref="kC_per_mol"/>
+        <units name="microF" units_ref="microF"/>
+        <units name="fmol" units_ref="fmol"/>
+        <units name="fF" units_ref="fF"/>
+        <units name="fC" units_ref="fC"/>
+        <units name="fA" units_ref="fA"/>
+        <units name="per_fmol" units_ref="per_fmol"/>
+        <units name="fmol_per_millisec" units_ref="fmol_per_millisec"/>
+        <units name="fmol_per_s" units_ref="fmol_per_sec"/>
+        <units name="volt_per_sec" units_ref="volt_per_sec"/>
+        <units name="volt_per_fsec" units_ref="volt_per_fsec"/>
+        <units name="millivolt_per_millisec" units_ref="millivolt_per_millisec"/>
+        <units name="microvolt_per_sec" units_ref="microvolt_per_sec"/>
+        <units name="volt_per_millisec" units_ref="volt_per_millisec"/>
+        <units name="pL" units_ref="pL"/>
+        <units name="millisec" units_ref="millisec"/>
+        <units name="per_millisec" units_ref="per_millisec"/>
+        <units name="per_second" units_ref="per_second"/>
+        <units name="millivolt" units_ref="millivolt"/>
+        <units name="per_millivolt_millisec" units_ref="per_millivolt_millisec"/>
+        <units name="microA_per_cm2" units_ref="microA_per_cm2"/>
+        <units name="microA_per_microF" units_ref="microA_per_microF"/>
+        <units name="A_per_cm2" units_ref="A_per_cm2"/>
+        <units name="millimolar_per_second" units_ref="millimolar_per_second"/>
+        <units name="microA" units_ref="microA"/>
+        <units name="cm2" units_ref="cm2"/>
+        <units name="microm3" units_ref="microm3"/>
+        <units name="per_milli" units_ref="per_milli"/>
+        <units name="umol_per_sec" units_ref="umol_per_sec"/>
+        <units name="nmol_per_millisec" units_ref="nmol_per_millisec"/>
+        <units name="mol_per_second" units_ref="mol_per_second"/>
+        <units name="milliS_per_cm2" units_ref="milliS_per_cm2"/>
+        <units name="S_per_cm2" units_ref="S_per_cm2"/>
+        <units name="mA_per_mM" units_ref="mA_per_mM"/>
+    </import>
+    <units name="m2f">
+        <unit prefix="femto" units="second"/>
+        <unit exponent="-1" prefix="milli" units="second"/>
+    </units>
+    <units name="one2m">
+        <unit prefix="milli" units="second"/>
+        <unit exponent="-1" units="second"/>
+    </units>
+    <units name="pL_to_um3">
+        <unit prefix="micro" units="second"/>
+        <unit exponent="-1" prefix="pico" units="second"/>
+    </units>
+    <import xlink:href="Na_background/na_background_8.cellml">
+        <component component_ref="BG_Nab" name="BG_nab"/>
+    </import>
+    <import xlink:href="NCX_pan/NaCa_slowfkc_2.cellml">
+        <component component_ref="BG_NaCa" name="BG_NaCa"/>
+    </import>
+    <import xlink:href="pCa_sarcolemmal/BG_pCa_7.cellml">
+        <component component_ref="BG_pCa" name="BG_pCa"/>
+    </import>
+    <import xlink:href="Ca_background/Ca_background_BG_4.cellml">
+        <component component_ref="BG_Cab" name="BG_Cab"/>
+    </import>
+    <import xlink:href="Pan_NaK/NaK_component_2_slowfkc.cellml">
+        <component component_ref="BG_NaK" name="BG_NaK"/>
+    </import>
+    <import xlink:href="plateau_K/Kp_BG_3.cellml">
+        <component component_ref="BG_Kp" name="BG_Kp"/>
+    </import>
+    <import xlink:href="K_ATP/K_ATP_BG_3.cellml">
+        <component component_ref="BG_KATP" name="BG_KATP"/>
+    </import>
+    <import xlink:href="ca_dynamics_JRW/ca_subsystem_JRW_2.cellml">
+        <component component_ref="ca_dyn_env" name="ca_dyn_env"/>
+    </import>
+    <!--    def import using "ca_dynamics_JRW/ca_leak_2.cellml" for
+        comp BG_leak using comp BG_leak;
+    enddef;-->
+    <!--    def import using "ca_tr_1.cellml" for
+        comp BG_tr using comp BG_tr;
+    enddef;-->
+    <import xlink:href="fast_na_2001/fast_na_BG_8.cellml">
+        <component component_ref="BG_fastNa" name="BG_fastNa"/>
+    </import>
+    <import xlink:href="L_Ca_channel/LCC_4.cellml">
+        <component component_ref="BG_LCC" name="BG_LCC"/>
+    </import>
+    <import xlink:href="t_type_ca_channel/TCC_2.cellml">
+        <component component_ref="BG_TCC" name="BG_TCC"/>
+    </import>
+    <import xlink:href="transient_outward/to_1.cellml">
+        <component component_ref="BG_to" name="BG_to"/>
+    </import>
+    <import xlink:href="nonspecific_Ca/ns_Ca_5.cellml">
+        <component component_ref="BG_ns" name="BG_ns"/>
+    </import>
+    <import xlink:href="Ks_channel/ks_1.cellml">
+        <component component_ref="BG_Ks" name="BG_Ks"/>
+    </import>
+    <import xlink:href="rapid_kr_2001/kr_2.cellml">
+        <component component_ref="BG_Kr" name="BG_Kr"/>
+    </import>
+    <import xlink:href="K1_time_independent/K1_BG_2.cellml">
+        <component component_ref="BG_K1" name="BG_K1"/>
+    </import>
+    <import xlink:href="stimulus/stim_2.cellml">
+        <component component_ref="BG_stim" name="BG_stim"/>
+    </import>
+    <component name="environment">
+        <!--environmental parameters-->
+        <variable name="time" public_interface="out" units="second"/>
+        <variable initial_value="2494.34" name="RT" public_interface="out" units="J_per_mol"/>
+        <variable name="vol_o" public_interface="out" units="microm3"/>
+        <variable initial_value="8.3140" name="R" public_interface="out" units="J_per_K_per_mol"/>
+        <variable initial_value="310" name="T" public_interface="out" units="kelvin"/>
+        <variable initial_value="96485" name="F" public_interface="out" units="C_per_mol"/>
+        <variable initial_value="0.0235" name="RTF" public_interface="out" units="volt"/>
+        <variable initial_value="1" name="zNa" public_interface="out" units="dimensionless"/>
+        <variable initial_value="1" name="zK" public_interface="out" units="dimensionless"/>
+        <variable initial_value="2" name="zCa" public_interface="out" units="dimensionless"/>
+        <variable initial_value="153400" name="C_m" public_interface="out" units="fF"/>
+        <variable initial_value="-12272" name="q_membrane" public_interface="out" units="fC"/>
+        <variable name="I_mem" units="fA"/>
+        <variable name="Vmem" public_interface="out" units="volt"/>
+        <variable name="nK_stim" public_interface="out" units="C_per_mol"/>
+        <variable name="v_stim" units="fmol_per_s"/>
+        <variable initial_value="25.8" name="W_i" public_interface="out" units="pL"/>
+        <variable initial_value="3.52" name="W_o" public_interface="out" units="pL"/>
+        <variable initial_value="2.0898" name="W_NSR" public_interface="out" units="pL"/>
+        <variable initial_value="0.119712" name="W_JSR" public_interface="out" units="pL"/>
+        <variable initial_value="0.00153" name="W_SS" public_interface="out" units="pL"/>
+        <!-- ionic parameters-->
+        <variable name="c_Ko" public_interface="out" units="mM"/>
+        <variable name="c_Ki" public_interface="out" units="mM"/>
+        <variable name="c_Nao" public_interface="out" units="mM"/>
+        <variable name="c_Nai" public_interface="out" units="mM"/>
+        <variable initial_value="684.024" name="qNao" public_interface="out" units="fmol"/>
+        <variable initial_value="342" name="qNai" public_interface="out" units="fmol"/>
+        <variable initial_value="23.319" name="qKo" public_interface="out" units="fmol"/>
+        <variable initial_value="5365.6" name="qKi" public_interface="out" units="fmol"/>
+        <variable initial_value="9.3276" name="qCao" public_interface="out" units="fmol"/>
+        <variable initial_value="1.55E-03" name="qCai" public_interface="out" units="fmol"/>
+        <variable initial_value="0.14088" name="qCa_JSR" public_interface="out" units="fmol"/>
+        <variable initial_value="2.6035" name="qCa_NSR" public_interface="out" units="fmol"/>
+        <variable initial_value="2.049E-07" name="qCa_SS" public_interface="out" units="fmol"/>
+        <variable initial_value="0.0015128" name="qH" public_interface="out" units="fmol"/>
+        <variable initial_value="0.038" name="qMgADP" public_interface="out" units="fmol"/>
+        <variable initial_value="380" name="qMgATP" public_interface="out" units="fmol"/>
+        <variable initial_value="0.038" name="qP_i" public_interface="out" units="fmol"/>
+        <variable initial_value="0.59" name="nK_Kr" public_interface="out" units="dimensionless"/>
+        <!-- potential of species-->
+        <variable initial_value="9.35E-02" name="K_Cao" public_interface="out" units="per_fmol"/>
+        <variable initial_value="6.48E-02" name="K_Cai" public_interface="out" units="per_fmol"/>
+        <variable initial_value="2.04E-03" name="K_Ko" public_interface="out" units="per_fmol"/>
+        <variable initial_value="2.78E-04" name="K_Ki" public_interface="out" units="per_fmol"/>
+        <variable initial_value="4.31E-03" name="K_Nao" public_interface="out" units="per_fmol"/>
+        <variable initial_value="0.000646789" name="K_Nai" public_interface="out" units="per_fmol"/>
+        <variable initial_value="2.42E+04" name="K_CaSS" public_interface="out" units="per_fmol"/>
+        <variable initial_value="8.22E+01" name="K_CaNSR" public_interface="out" units="per_fmol"/>
+        <variable initial_value="660.5024444" name="K_CaJSR" public_interface="out" units="per_fmol"/>
+        <!-- -->
+        <variable initial_value="1.41E+02" name="kappa_xfer" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="4.84E-02" name="kappa_tr" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="8.98E-03" name="kappa_leak" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="6.66E+00" name="kappa_rel" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="7.16E-03" name="kappa_up" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="5.79E-06" name="kappa_kATP" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="54.60125805" name="kappa_to" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="475.5890839" name="kappa_fastNa" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="0.100875345" name="kappa_Nab" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="5.49E-02" name="kappa_Cab" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="2.38E-04" name="kappa_nsK" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="1.07E-04" name="kappa_nsNa" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="4.39E-05" name="kappa_nsCa" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="3.72E+01" name="kappa_pCa" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="5.52E-03" name="kappa_LCC_Ca1" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="1.03E-02" name="kappa_LCC_Ca2" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="3.70E-04" name="kappa_LCC_K1" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="6.91E-04" name="kappa_LCC_K2" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="5.84E-04" name="kappa_LCC_Na1" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="1.09E-03" name="kappa_LCC_Na2" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="9.10E-01" name="kappa_TCC" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="38.14477878" name="kappa_Kr" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="43.07814282" name="kappa_Ks" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="0.465717253" name="kappa_K1" public_interface="out" units="fmol_per_s"/>
+        <variable initial_value="0.051259271" name="kappa_Kp" public_interface="out" units="fmol_per_s"/>
+        <!-- -->
+        <variable name="mu_Ki" public_interface="out" units="J_per_mol"/>
+        <variable name="mu_Nai" public_interface="out" units="J_per_mol"/>
+        <variable name="mu_Cai" public_interface="out" units="J_per_mol"/>
+        <variable name="mu_Ko" public_interface="out" units="J_per_mol"/>
+        <variable name="mu_Nao" public_interface="out" units="J_per_mol"/>
+        <variable name="mu_Cao" public_interface="out" units="J_per_mol"/>
+        <variable name="mu_CaSS" public_interface="out" units="J_per_mol"/>
+        <variable name="mu_CaJSR" public_interface="out" units="J_per_mol"/>
+        <!--fluxes-->
+        <variable name="v_Nab" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_E_Nab" public_interface="in" units="fA"/>
+        <variable name="v_E_Cab" public_interface="in" units="fA"/>
+        <variable name="v_E_pCa" public_interface="in" units="fA"/>
+        <variable name="v_E_Kp" public_interface="in" units="fA"/>
+        <variable name="v_E_KATP" public_interface="in" units="fA"/>
+        <variable name="v_E_NaK_Ki" public_interface="in" units="fA"/>
+        <variable name="v_E_NaK_Nao" public_interface="in" units="fA"/>
+        <variable name="v_E_NaK" public_interface="in" units="fA"/>
+        <variable name="v_E_LCC" public_interface="in" units="fA"/>
+        <variable name="v_E_fastNa" public_interface="in" units="fA"/>
+        <variable name="v_E_TCC" public_interface="in" units="fA"/>
+        <variable name="v_E_to" public_interface="in" units="fA"/>
+        <variable name="v_E_ns" public_interface="in" units="fA"/>
+        <variable name="v_E_Ks" public_interface="in" units="fA"/>
+        <variable name="v_E_Kr" public_interface="in" units="fA"/>
+        <variable name="v_E_K1" public_interface="in" units="fA"/>
+        <variable name="v_E_NaCa" public_interface="in" units="fA"/>
+        <variable name="v_Kp" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_pCa" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_leak" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_rel" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_tr" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_up" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_bf_Cai" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_bf_CaSS" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_bf_CaJSR" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_xfer" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_Cab" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_KATP" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_NaK_Ko" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_NaK_Ki" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_NaK_Nao" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_NaK_Nai" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_fastNa" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_LCC_Cai" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_LCC_Cao" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_LCC_Ki" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_LCC_Ko" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_LCC_Nai" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_LCC_Nao" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_TCC" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_to" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_ns_Ca" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_ns_Na" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_ns_K" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_Ks" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_Kr" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_K1" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_NaCa_r1" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_NaCa_r2" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_NaCa_r3" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_NaCa_r4" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_NaCa_r5" public_interface="in" units="fmol_per_s"/>
+        <variable name="v_NaCa_r6" public_interface="in" units="fmol_per_s"/>
+        <variable initial_value="3" name="nNao_NCX" public_interface="out" units="dimensionless"/>
+        <variable initial_value="3" name="nNai_NCX" public_interface="out" units="dimensionless"/>
+        <variable initial_value="-0.55679" name="zf_NCX" public_interface="out" units="dimensionless"/>
+        <variable initial_value="0.44321" name="zr_NCX" public_interface="out" units="dimensionless"/>
+        <variable name="i_BG_Nab" units="microA_per_microF"/>
+        <variable name="i_fastNa" units="microA_per_microF"/>
+        <variable name="i_Kp" units="microA_per_microF"/>
+        <variable name="i_pCa" units="microA_per_microF"/>
+        <variable name="i_Cab" units="microA_per_microF"/>
+        <variable name="i_NaK_Nao" units="microA_per_microF"/>
+        <variable name="i_NaK_Ki" units="microA_per_microF"/>
+        <variable name="i_rel" units="microA_per_microF"/>
+        <variable name="i_leak" units="microA_per_microF"/>
+        <variable name="i_up" units="microA_per_microF"/>
+        <variable name="i_tr" units="microA_per_microF"/>
+        <variable name="i_xfer" units="microA_per_microF"/>
+        <variable name="i_bf_Cai" units="microA_per_microF"/>
+        <variable name="i_bf_CaSS" units="microA_per_microF"/>
+        <variable name="i_bf_CaJSR" units="microA_per_microF"/>
+        <variable name="i_LCC" units="microA_per_microF"/>
+        <variable name="i_TCC" units="microA_per_microF"/>
+        <variable name="i_kr" units="microA_per_microF"/>
+        <variable name="i_Ks" units="microA_per_microF"/>
+        <variable name="i_KATP" units="microA_per_microF"/>
+        <variable name="i_to" units="microA_per_microF"/>
+        <variable name="i_K1" units="microA_per_microF"/>
+        <variable name="i_ns_Ca" units="microA_per_microF"/>
+        <variable name="I_stim" public_interface="in" units="fA"/>
+        <!-- MEMBRANE stimulus and total current-->
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+                <eq/>
+                <ci>nK_stim</ci>
+                <ci>F</ci>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>v_stim</ci>
+                <apply>
+                    <times/>
+                    <apply>
+                        <divide/>
+                        <cn cellml:units="dimensionless">1</cn>
+                        <ci>nK_stim</ci>
+                    </apply>
+                    <ci>I_stim</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>Vmem</ci>
+                <apply>
+                    <divide/>
+                    <ci>q_membrane</ci>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <!-- calculate potentials of species-->
+            <apply>
+                <eq/>
+                <ci>mu_Ki</ci>
+                <apply>
+                    <times/>
+                    <ci>RT</ci>
+                    <apply>
+                        <ln/>
+                        <apply>
+                            <times/>
+                            <ci>K_Ki</ci>
+                            <ci>qKi</ci>
+                        </apply>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>mu_Ko</ci>
+                <apply>
+                    <times/>
+                    <ci>RT</ci>
+                    <apply>
+                        <ln/>
+                        <apply>
+                            <times/>
+                            <ci>K_Ko</ci>
+                            <ci>qKo</ci>
+                        </apply>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>mu_Nai</ci>
+                <apply>
+                    <times/>
+                    <ci>RT</ci>
+                    <apply>
+                        <ln/>
+                        <apply>
+                            <times/>
+                            <ci>K_Nai</ci>
+                            <ci>qNai</ci>
+                        </apply>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>mu_Nao</ci>
+                <apply>
+                    <times/>
+                    <ci>RT</ci>
+                    <apply>
+                        <ln/>
+                        <apply>
+                            <times/>
+                            <ci>K_Nao</ci>
+                            <ci>qNao</ci>
+                        </apply>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>mu_Cai</ci>
+                <apply>
+                    <times/>
+                    <ci>RT</ci>
+                    <apply>
+                        <ln/>
+                        <apply>
+                            <times/>
+                            <ci>K_Cai</ci>
+                            <ci>qCai</ci>
+                        </apply>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>mu_Cao</ci>
+                <apply>
+                    <times/>
+                    <ci>RT</ci>
+                    <apply>
+                        <ln/>
+                        <apply>
+                            <times/>
+                            <ci>K_Cao</ci>
+                            <ci>qCao</ci>
+                        </apply>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>mu_CaSS</ci>
+                <apply>
+                    <times/>
+                    <ci>RT</ci>
+                    <apply>
+                        <ln/>
+                        <apply>
+                            <times/>
+                            <ci>K_CaSS</ci>
+                            <ci>qCa_SS</ci>
+                        </apply>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>mu_CaJSR</ci>
+                <apply>
+                    <times/>
+                    <ci>RT</ci>
+                    <apply>
+                        <ln/>
+                        <apply>
+                            <times/>
+                            <ci>K_CaJSR</ci>
+                            <ci>qCa_JSR</ci>
+                        </apply>
+                    </apply>
+                </apply>
+            </apply>
+            <!-- concentrations-->
+            <apply>
+                <eq/>
+                <ci>c_Nao</ci>
+                <apply>
+                    <divide/>
+                    <ci>qNao</ci>
+                    <ci>W_o</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>c_Nai</ci>
+                <apply>
+                    <divide/>
+                    <ci>qNai</ci>
+                    <ci>W_i</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>c_Ko</ci>
+                <apply>
+                    <divide/>
+                    <ci>qKo</ci>
+                    <ci>W_o</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>c_Ki</ci>
+                <apply>
+                    <divide/>
+                    <ci>qKi</ci>
+                    <ci>W_i</ci>
+                </apply>
+            </apply>
+        </math>
+        <!-- scale down NaK fluxes if needed. 1e-3 was tried. Keep with Pan: use 1-->
+        <variable initial_value="1" name="snak" units="dimensionless"/>
+        <!-- OG-->
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+                <eq/>
+                <apply>
+                    <diff/>
+                    <bvar>
+                        <ci>time</ci>
+                    </bvar>
+                    <ci>qCai</ci>
+                </apply>
+                <apply>
+                    <times/>
+                    <cn cellml:units="dimensionless">1</cn>
+                    <apply>
+                        <plus/>
+                        <apply>
+                            <minus/>
+                            <apply>
+                                <minus/>
+                                <apply>
+                                    <plus/>
+                                    <apply>
+                                        <minus/>
+                                        <apply>
+                                            <plus/>
+                                            <apply>
+                                                <minus/>
+                                                <apply>
+                                                    <minus/>
+                                                    <apply>
+                                                        <minus/>
+                                                        <ci>v_NaCa_r2</ci>
+                                                    </apply>
+                                                    <ci>v_pCa</ci>
+                                                </apply>
+                                                <ci>v_Cab</ci>
+                                            </apply>
+                                            <ci>v_leak</ci>
+                                        </apply>
+                                        <ci>v_up</ci>
+                                    </apply>
+                                    <ci>v_LCC_Cai</ci>
+                                </apply>
+                                <ci>v_TCC</ci>
+                            </apply>
+                            <ci>v_ns_Ca</ci>
+                        </apply>
+                        <ci>v_bf_Cai</ci>
+                        <ci>v_xfer</ci>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <apply>
+                    <diff/>
+                    <bvar>
+                        <ci>time</ci>
+                    </bvar>
+                    <ci>qCa_JSR</ci>
+                </apply>
+                <apply>
+                    <times/>
+                    <cn cellml:units="dimensionless">1</cn>
+                    <apply>
+                        <plus/>
+                        <apply>
+                            <minus/>
+                            <ci>v_tr</ci>
+                            <ci>v_rel</ci>
+                        </apply>
+                        <ci>v_bf_CaJSR</ci>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <apply>
+                    <diff/>
+                    <bvar>
+                        <ci>time</ci>
+                    </bvar>
+                    <ci>qCa_SS</ci>
+                </apply>
+                <apply>
+                    <times/>
+                    <cn cellml:units="dimensionless">1</cn>
+                    <apply>
+                        <plus/>
+                        <apply>
+                            <minus/>
+                            <ci>v_rel</ci>
+                            <ci>v_xfer</ci>
+                        </apply>
+                        <ci>v_bf_CaSS</ci>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <apply>
+                    <diff/>
+                    <bvar>
+                        <ci>time</ci>
+                    </bvar>
+                    <ci>qCa_NSR</ci>
+                </apply>
+                <apply>
+                    <times/>
+                    <cn cellml:units="dimensionless">1</cn>
+                    <apply>
+                        <plus/>
+                        <apply>
+                            <minus/>
+                            <apply>
+                                <minus/>
+                                <ci>v_tr</ci>
+                            </apply>
+                            <ci>v_leak</ci>
+                        </apply>
+                        <ci>v_up</ci>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <apply>
+                    <diff/>
+                    <bvar>
+                        <ci>time</ci>
+                    </bvar>
+                    <ci>qCao</ci>
+                </apply>
+                <apply>
+                    <times/>
+                    <cn cellml:units="dimensionless">1</cn>
+                    <apply>
+                        <plus/>
+                        <ci>v_NaCa_r4</ci>
+                        <ci>v_pCa</ci>
+                        <ci>v_Cab</ci>
+                        <ci>v_LCC_Cao</ci>
+                        <ci>v_TCC</ci>
+                        <ci>v_ns_Ca</ci>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <apply>
+                    <diff/>
+                    <bvar>
+                        <ci>time</ci>
+                    </bvar>
+                    <ci>qNai</ci>
+                </apply>
+                <apply>
+                    <times/>
+                    <cn cellml:units="dimensionless">1</cn>
+                    <apply>
+                        <minus/>
+                        <apply>
+                            <plus/>
+                            <apply>
+                                <minus/>
+                                <apply>
+                                    <plus/>
+                                    <apply>
+                                        <minus/>
+                                        <ci>v_Nab</ci>
+                                    </apply>
+                                    <apply>
+                                        <times/>
+                                        <ci>nNai_NCX</ci>
+                                        <ci>v_NaCa_r1</ci>
+                                    </apply>
+                                    <apply>
+                                        <times/>
+                                        <ci>snak</ci>
+                                        <ci>v_NaK_Nai</ci>
+                                    </apply>
+                                </apply>
+                                <ci>v_fastNa</ci>
+                            </apply>
+                            <ci>v_LCC_Nai</ci>
+                        </apply>
+                        <ci>v_ns_Na</ci>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <apply>
+                    <diff/>
+                    <bvar>
+                        <ci>time</ci>
+                    </bvar>
+                    <ci>qNao</ci>
+                </apply>
+                <apply>
+                    <times/>
+                    <cn cellml:units="dimensionless">1</cn>
+                    <apply>
+                        <plus/>
+                        <apply>
+                            <minus/>
+                            <ci>v_Nab</ci>
+                            <apply>
+                                <times/>
+                                <ci>nNao_NCX</ci>
+                                <ci>v_NaCa_r5</ci>
+                            </apply>
+                        </apply>
+                        <ci>v_NaK_Nao</ci>
+                        <ci>v_fastNa</ci>
+                        <ci>v_LCC_Nao</ci>
+                        <ci>v_ns_Na</ci>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <apply>
+                    <diff/>
+                    <bvar>
+                        <ci>time</ci>
+                    </bvar>
+                    <ci>qKi</ci>
+                </apply>
+                <apply>
+                    <times/>
+                    <cn cellml:units="dimensionless">1</cn>
+                    <apply>
+                        <plus/>
+                        <apply>
+                            <minus/>
+                            <apply>
+                                <minus/>
+                                <apply>
+                                    <minus/>
+                                    <apply>
+                                        <minus/>
+                                        <apply>
+                                            <minus/>
+                                            <apply>
+                                                <plus/>
+                                                <apply>
+                                                    <minus/>
+                                                    <apply>
+                                                        <minus/>
+                                                        <apply>
+                                                            <times/>
+                                                            <ci>snak</ci>
+                                                            <ci>v_NaK_Ki</ci>
+                                                        </apply>
+                                                        <ci>v_Kp</ci>
+                                                    </apply>
+                                                    <ci>v_KATP</ci>
+                                                </apply>
+                                                <ci>v_LCC_Ki</ci>
+                                            </apply>
+                                            <ci>v_to</ci>
+                                        </apply>
+                                        <ci>v_ns_K</ci>
+                                    </apply>
+                                    <ci>v_Ks</ci>
+                                </apply>
+                                <ci>v_Kr</ci>
+                            </apply>
+                            <ci>v_K1</ci>
+                        </apply>
+                        <ci>v_stim</ci>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <apply>
+                    <diff/>
+                    <bvar>
+                        <ci>time</ci>
+                    </bvar>
+                    <ci>qKo</ci>
+                </apply>
+                <apply>
+                    <times/>
+                    <cn cellml:units="dimensionless">1</cn>
+                    <apply>
+                        <minus/>
+                        <apply>
+                            <plus/>
+                            <apply>
+                                <times/>
+                                <ci>snak</ci>
+                                <ci>v_NaK_Ko</ci>
+                            </apply>
+                            <ci>v_Kp</ci>
+                            <ci>v_KATP</ci>
+                            <ci>v_LCC_Ko</ci>
+                            <ci>v_to</ci>
+                            <ci>v_ns_K</ci>
+                            <ci>v_Ks</ci>
+                            <ci>v_Kr</ci>
+                            <ci>v_K1</ci>
+                        </apply>
+                        <ci>v_stim</ci>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>I_mem</ci>
+                <apply>
+                    <plus/>
+                    <apply>
+                        <minus/>
+                        <apply>
+                            <minus/>
+                            <apply>
+                                <minus/>
+                                <apply>
+                                    <minus/>
+                                    <apply>
+                                        <minus/>
+                                        <apply>
+                                            <minus/>
+                                            <apply>
+                                                <minus/>
+                                                <apply>
+                                                    <minus/>
+                                                    <apply>
+                                                        <minus/>
+                                                        <apply>
+                                                            <plus/>
+                                                            <apply>
+                                                                <minus/>
+                                                                <apply>
+                                                                    <minus/>
+                                                                    <apply>
+                                                                        <minus/>
+                                                                        <apply>
+                                                                            <minus/>
+                                                                            <ci>v_E_fastNa</ci>
+                                                                        </apply>
+                                                                        <ci>v_E_Nab</ci>
+                                                                    </apply>
+                                                                    <ci>v_E_pCa</ci>
+                                                                </apply>
+                                                                <ci>v_E_Cab</ci>
+                                                            </apply>
+                                                            <ci>v_E_NaK</ci>
+                                                        </apply>
+                                                        <ci>v_E_Kp</ci>
+                                                    </apply>
+                                                    <ci>v_E_KATP</ci>
+                                                </apply>
+                                                <ci>v_E_LCC</ci>
+                                            </apply>
+                                            <ci>v_E_TCC</ci>
+                                        </apply>
+                                        <ci>v_E_to</ci>
+                                    </apply>
+                                    <ci>v_E_ns</ci>
+                                </apply>
+                                <ci>v_E_Ks</ci>
+                            </apply>
+                            <ci>v_E_Kr</ci>
+                        </apply>
+                        <ci>v_E_K1</ci>
+                    </apply>
+                    <ci>v_E_NaCa</ci>
+                    <ci>I_stim</ci>
+                </apply>
+            </apply>
+            <!-- no NCX nor rel (but selection of Ca_dyn is included-->
+            <!--        ode(qCai, time) = 1{dimensionless}*(-v_pCa-v_Cab+v_LCC_Cai-v_TCC-v_ns_Ca+v_leak-v_up+v_bf_Cai+v_xfer);
+        ode(qCa_SS, time) = 1{dimensionless}*(v_rel-v_xfer+v_bf_CaSS);
+        ode(qCa_JSR, time) = 1{dimensionless}*(-v_tr-v_rel+v_bf_CaJSR);
+        ode(qCa_NSR, time) = 1{dimensionless}*(v_tr-v_leak+v_up);
+        ode(qCao, time) = 1{dimensionless}*(v_pCa+v_Cab+v_LCC_Cao+v_TCC+v_ns_Ca);
+        ode(qNai, time) = 1{dimensionless}*(-v_Nab+snak*v_NaK_Nai-v_fastNa+v_LCC_Nai-v_ns_Na);
+        ode(qNao, time) = 1{dimensionless}*(v_Nab+v_NaK_Nao+v_fastNa+v_LCC_Nao+v_ns_Na);
+        ode(qKi, time) = 1{dimensionless}*(snak*v_NaK_Ki-v_Kp-v_KATP+v_LCC_Ki-v_to-v_ns_K-v_Ks-v_Kr-v_K1+v_stim);
+        ode(qKo, time) = 1{dimensionless}*(snak*v_NaK_Ko+v_Kp+v_KATP+v_LCC_Ko+v_to+v_ns_K+v_Ks+v_Kr+v_K1-v_stim);-->
+            <!--        I_mem = -v_E_Nab-v_E_Cab-v_E_pCa-v_E_KATP-v_E_Ks-v_E_to-v_E_fastNa-v_E_TCC-v_E_K1-v_E_ns-v_E_Kr+v_E_NaK-v_E_Kp-v_E_LCC+I_stim;-->
+            <!-- no NCX nor Ca_dynamics
+        ode(qNai, time) = 1{dimensionless}*(-v_Nab-v_fastNa+v_LCC_Nai-v_ns_Na+snak*v_NaK_Nai);
+        ode(qNao, time) = 1{dimensionless}*(v_Nab+v_fastNa+v_LCC_Nao+v_ns_Na+v_NaK_Nao);
+        ode(qCai, time) = 1{dimensionless}*(-v_Cab-v_pCa+v_LCC_Cai-v_TCC-v_ns_Ca); 
+        ode(qCao, time) = 1{dimensionless}*(v_Cab+v_pCa+v_LCC_Cao+v_TCC+v_ns_Ca);
+        ode(qKi, time) = 1{dimensionless}*(-v_Kp-v_KATP-v_Ks-v_to+v_LCC_Ki-v_K1-v_ns_K-v_Kr+snak*v_NaK_Ki+v_stim);
+        ode(qKo, time) = 1{dimensionless}*(v_Kp+v_KATP+v_Ks+v_to+v_LCC_Ko+v_K1+v_ns_K+v_Kr+snak*v_NaK_Ko-v_stim);-->
+            <!-- For NaK, calculate inside component. Calculate the net outward current for Vmem - multiply by F.
+        v_E_NaK_Nao = F*v_NaK_Nao*snak;
+        v_E_NaK_Ki = F*v_NaK_Ki*snak;
+v_E_LCC = zCa*F*v_LCC_Cao+F*(v_LCC_Ko+v_LCC_Nao);-->
+            <apply>
+                <eq/>
+                <apply>
+                    <diff/>
+                    <bvar>
+                        <ci>time</ci>
+                    </bvar>
+                    <ci>q_membrane</ci>
+                </apply>
+                <apply>
+                    <times/>
+                    <cn cellml:units="dimensionless">1</cn>
+                    <ci>I_mem</ci>
+                </apply>
+            </apply>
+            <!-- current in amps-->
+            <apply>
+                <eq/>
+                <ci>i_BG_Nab</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_Nab</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_fastNa</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_fastNa</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_pCa</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_pCa</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_Cab</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_Cab</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_NaK_Nao</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>snak</ci>
+                        <ci>v_NaK_Nao</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <apply>
+                        <times/>
+                        <cn cellml:units="dimensionless">3</cn>
+                        <ci>C_m</ci>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_NaK_Ki</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>snak</ci>
+                        <ci>v_NaK_Ki</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <apply>
+                        <times/>
+                        <cn cellml:units="dimensionless">2</cn>
+                        <ci>C_m</ci>
+                    </apply>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_Kp</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_Kp</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_leak</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_leak</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_up</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_up</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_rel</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_rel</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_tr</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_tr</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_xfer</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_xfer</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_bf_Cai</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_bf_Cai</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_bf_CaSS</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_bf_CaSS</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_bf_CaJSR</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_bf_CaJSR</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_LCC</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <apply>
+                            <plus/>
+                            <ci>v_LCC_Cao</ci>
+                            <ci>v_LCC_Ko</ci>
+                            <ci>v_LCC_Nao</ci>
+                        </apply>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_TCC</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_TCC</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_kr</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_Kr</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_Ks</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_Ks</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_KATP</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_KATP</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_to</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_to</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_K1</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_K1</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <apply>
+                <eq/>
+                <ci>i_ns_Ca</ci>
+                <apply>
+                    <divide/>
+                    <apply>
+                        <times/>
+                        <ci>v_ns_Ca</ci>
+                        <ci>F</ci>
+                    </apply>
+                    <ci>C_m</ci>
+                </apply>
+            </apply>
+            <!-- convert volume-->
+            <apply>
+                <eq/>
+                <ci>vol_o</ci>
+                <apply>
+                    <times/>
+                    <ci>W_o</ci>
+                    <cn cellml:units="pL_to_um3" type="e-notation">1<sep/>3</cn>
+                </apply>
+            </apply>
+        </math>
+    </component>
+    <connection>
+        <map_components component_1="environment" component_2="BG_fastNa"/>
+        <map_variables variable_1="time" variable_2="t"/>
+        <map_variables variable_1="RT" variable_2="RT"/>
+        <map_variables variable_1="zNa" variable_2="z"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="qNai" variable_2="q1"/>
+        <map_variables variable_1="qNao" variable_2="q2"/>
+        <map_variables variable_1="K_Nai" variable_2="K_Nai"/>
+        <map_variables variable_1="K_Nao" variable_2="K_Nao"/>
+        <map_variables variable_1="kappa_fastNa" variable_2="kappa_Na"/>
+        <map_variables variable_1="q_membrane" variable_2="q_E"/>
+        <map_variables variable_1="C_m" variable_2="C_m"/>
+        <map_variables variable_1="W_o" variable_2="W_o"/>
+        <map_variables variable_1="v_fastNa" variable_2="v_fastNa"/>
+        <map_variables variable_1="v_E_fastNa" variable_2="v_E_fastNa"/>
+    </connection>
+    <connection>
+        <map_components component_1="environment" component_2="BG_nab"/>
+        <map_variables variable_1="time" variable_2="t"/>
+        <map_variables variable_1="RT" variable_2="RT"/>
+        <map_variables variable_1="zNa" variable_2="z"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="qNai" variable_2="qNai"/>
+        <map_variables variable_1="qNao" variable_2="qNao"/>
+        <map_variables variable_1="K_Nai" variable_2="K_Nai"/>
+        <map_variables variable_1="K_Nao" variable_2="K_Nao"/>
+        <map_variables variable_1="kappa_Nab" variable_2="kappa_Nab"/>
+        <map_variables variable_1="W_i" variable_2="w_i"/>
+        <map_variables variable_1="W_o" variable_2="w_o"/>
+        <map_variables variable_1="q_membrane" variable_2="q_E"/>
+        <map_variables variable_1="C_m" variable_2="C_m"/>
+        <map_variables variable_1="v_Nab" variable_2="v_Nab"/>
+        <map_variables variable_1="v_E_Nab" variable_2="v_E_Nab"/>
+    </connection>
+    <connection>
+        <map_components component_1="environment" component_2="BG_NaCa"/>
+        <map_variables variable_1="time" variable_2="t"/>
+        <map_variables variable_1="RT" variable_2="RT"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="Vmem" variable_2="Vm"/>
+        <map_variables variable_1="mu_Nai" variable_2="mu_Nai"/>
+        <map_variables variable_1="mu_Nao" variable_2="mu_Nao"/>
+        <map_variables variable_1="mu_Cai" variable_2="mu_Cai"/>
+        <map_variables variable_1="mu_Cao" variable_2="mu_Cao"/>
+        <map_variables variable_1="zf_NCX" variable_2="zf_NCX"/>
+        <map_variables variable_1="zr_NCX" variable_2="zr_NCX"/>
+        <map_variables variable_1="nNai_NCX" variable_2="nNai_NCX"/>
+        <map_variables variable_1="nNao_NCX" variable_2="nNao_NCX"/>
+        <map_variables variable_1="qCao" variable_2="q_Ca_o"/>
+        <map_variables variable_1="qCai" variable_2="q_Ca_i"/>
+        <map_variables variable_1="qNai" variable_2="q_Na_i"/>
+        <map_variables variable_1="qNao" variable_2="q_Na_o"/>
+        <map_variables variable_1="v_NaCa_r1" variable_2="v_NaCa_r1"/>
+        <map_variables variable_1="v_NaCa_r2" variable_2="v_NaCa_r2"/>
+        <map_variables variable_1="v_NaCa_r3" variable_2="v_NaCa_r3"/>
+        <map_variables variable_1="v_NaCa_r4" variable_2="v_NaCa_r4"/>
+        <map_variables variable_1="v_NaCa_r5" variable_2="v_NaCa_r5"/>
+        <map_variables variable_1="v_NaCa_r6" variable_2="v_NaCa_r6"/>
+        <map_variables variable_1="v_E_NaCa" variable_2="v_E_NaCa"/>
+    </connection>
+    <connection>
+        <map_components component_1="environment" component_2="BG_pCa"/>
+        <map_variables variable_1="time" variable_2="t"/>
+        <map_variables variable_1="RT" variable_2="RT"/>
+        <map_variables variable_1="zCa" variable_2="z"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="qCai" variable_2="q1"/>
+        <map_variables variable_1="qCao" variable_2="q2"/>
+        <map_variables variable_1="K_Cai" variable_2="K_q1"/>
+        <map_variables variable_1="K_Cao" variable_2="K_q2"/>
+        <map_variables variable_1="q_membrane" variable_2="q_E"/>
+        <map_variables variable_1="C_m" variable_2="C_m"/>
+        <map_variables variable_1="v_pCa" variable_2="v_pCa"/>
+        <map_variables variable_1="v_E_pCa" variable_2="v_E_pCa"/>
+        <map_variables variable_1="kappa_pCa" variable_2="kappa"/>
+    </connection>
+    <connection>
+        <map_components component_1="environment" component_2="BG_Cab"/>
+        <map_variables variable_1="time" variable_2="t"/>
+        <map_variables variable_1="RT" variable_2="RT"/>
+        <map_variables variable_1="zCa" variable_2="z"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="qCai" variable_2="qCai"/>
+        <map_variables variable_1="qCao" variable_2="qCao"/>
+        <map_variables variable_1="kappa_Cab" variable_2="kappa_Cab"/>
+        <map_variables variable_1="K_Cao" variable_2="K_Cao"/>
+        <map_variables variable_1="K_Cai" variable_2="K_Cai"/>
+        <map_variables variable_1="q_membrane" variable_2="q_E"/>
+        <map_variables variable_1="C_m" variable_2="C_m"/>
+        <map_variables variable_1="v_Cab" variable_2="v_Cab"/>
+        <map_variables variable_1="v_E_Cab" variable_2="v_E_Cab"/>
+        <map_variables variable_1="W_i" variable_2="w_i"/>
+        <map_variables variable_1="W_o" variable_2="w_o"/>
+    </connection>
+    <connection>
+        <map_components component_1="environment" component_2="BG_NaK"/>
+        <map_variables variable_1="time" variable_2="t"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="R" variable_2="R"/>
+        <map_variables variable_1="T" variable_2="T"/>
+        <map_variables variable_1="W_i" variable_2="W_i"/>
+        <map_variables variable_1="W_o" variable_2="W_o"/>
+        <map_variables variable_1="qNao" variable_2="x_Nao"/>
+        <map_variables variable_1="qNai" variable_2="x_Nai"/>
+        <map_variables variable_1="qKo" variable_2="x_Ko"/>
+        <map_variables variable_1="qKi" variable_2="x_Ki"/>
+        <map_variables variable_1="qH" variable_2="x_H"/>
+        <map_variables variable_1="qMgADP" variable_2="x_MgADP"/>
+        <map_variables variable_1="qMgATP" variable_2="x_MgATP"/>
+        <map_variables variable_1="qP_i" variable_2="x_P_i"/>
+        <map_variables variable_1="K_Ko" variable_2="K_Ko"/>
+        <map_variables variable_1="K_Ki" variable_2="K_Ki"/>
+        <map_variables variable_1="K_Nao" variable_2="K_Nao"/>
+        <map_variables variable_1="K_Nai" variable_2="K_Nai"/>
+        <map_variables variable_1="Vmem" variable_2="Vmem"/>
+        <map_variables variable_1="v_NaK_Ko" variable_2="v_NaK_Ko"/>
+        <map_variables variable_1="v_NaK_Ki" variable_2="v_NaK_Ki"/>
+        <map_variables variable_1="v_NaK_Nao" variable_2="v_NaK_Nao"/>
+        <map_variables variable_1="v_NaK_Nai" variable_2="v_NaK_Nai"/>
+        <map_variables variable_1="v_E_NaK_Ki" variable_2="v_E_NaK_Ki"/>
+        <map_variables variable_1="v_E_NaK_Nao" variable_2="v_E_NaK_Nao"/>
+        <map_variables variable_1="v_E_NaK" variable_2="v_E_NaK"/>
+    </connection>
+    <connection>
+        <map_components component_1="environment" component_2="BG_Kp"/>
+        <map_variables variable_1="time" variable_2="t"/>
+        <map_variables variable_1="RT" variable_2="RT"/>
+        <map_variables variable_1="zK" variable_2="z"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="qKi" variable_2="qKi"/>
+        <map_variables variable_1="qKo" variable_2="qKo"/>
+        <map_variables variable_1="kappa_Kp" variable_2="kappa_Kp"/>
+        <map_variables variable_1="K_Ko" variable_2="K_Ko"/>
+        <map_variables variable_1="K_Ki" variable_2="K_Ki"/>
+        <map_variables variable_1="q_membrane" variable_2="q_E"/>
+        <map_variables variable_1="C_m" variable_2="C_m"/>
+        <map_variables variable_1="v_Kp" variable_2="v_Kp"/>
+        <map_variables variable_1="v_E_Kp" variable_2="v_E_Kp"/>
+    </connection>
+    <connection>
+        <map_components component_1="environment" component_2="BG_KATP"/>
+        <map_variables variable_1="time" variable_2="t"/>
+        <map_variables variable_1="RT" variable_2="RT"/>
+        <map_variables variable_1="zK" variable_2="z"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="qKi" variable_2="q1"/>
+        <map_variables variable_1="qKo" variable_2="q2"/>
+        <map_variables variable_1="K_Ki" variable_2="K_q1"/>
+        <map_variables variable_1="K_Ko" variable_2="K_q2"/>
+        <map_variables variable_1="kappa_kATP" variable_2="kappa_kATP"/>
+        <map_variables variable_1="q_membrane" variable_2="q_E"/>
+        <map_variables variable_1="C_m" variable_2="C_m"/>
+        <map_variables variable_1="W_o" variable_2="w_o"/>
+        <map_variables variable_1="v_KATP" variable_2="v_KATP"/>
+        <map_variables variable_1="v_E_KATP" variable_2="v_E_KATP"/>
+    </connection>
+    <connection>
+        <map_components component_1="environment" component_2="ca_dyn_env"/>
+        <map_variables variable_1="time" variable_2="time"/>
+        <map_variables variable_1="C_m" variable_2="C_m"/>
+        <map_variables variable_1="RT" variable_2="RT"/>
+        <map_variables variable_1="zCa" variable_2="z"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="qCai" variable_2="qCa_cyto"/>
+        <map_variables variable_1="qCa_JSR" variable_2="qCa_JSR"/>
+        <map_variables variable_1="qCa_NSR" variable_2="qCa_NSR"/>
+        <map_variables variable_1="qCa_SS" variable_2="qCa_SS"/>
+        <map_variables variable_1="K_Cai" variable_2="K_Cai"/>
+        <map_variables variable_1="K_CaSS" variable_2="K_CaSS"/>
+        <map_variables variable_1="K_CaNSR" variable_2="K_CaNSR"/>
+        <map_variables variable_1="K_CaJSR" variable_2="K_CaJSR"/>
+        <map_variables variable_1="mu_Cai" variable_2="mu_Cai"/>
+        <map_variables variable_1="mu_CaSS" variable_2="mu_CaSS"/>
+        <map_variables variable_1="mu_CaJSR" variable_2="mu_CaJSR"/>
+        <map_variables variable_1="kappa_xfer" variable_2="kappa_xfer"/>
+        <map_variables variable_1="kappa_tr" variable_2="kappa_tr"/>
+        <map_variables variable_1="kappa_leak" variable_2="kappa_leak"/>
+        <map_variables variable_1="kappa_rel" variable_2="kappa_rel"/>
+        <map_variables variable_1="kappa_up" variable_2="kappa_up"/>
+        <map_variables variable_1="v_leak" variable_2="v_leak"/>
+        <map_variables variable_1="v_rel" variable_2="v_rel"/>
+        <map_variables variable_1="v_tr" variable_2="v_tr"/>
+        <map_variables variable_1="v_up" variable_2="v_up"/>
+        <map_variables variable_1="v_bf_Cai" variable_2="v_bf_Cai"/>
+        <map_variables variable_1="v_bf_CaSS" variable_2="v_bf_CaSS"/>
+        <map_variables variable_1="v_bf_CaJSR" variable_2="v_bf_CaJSR"/>
+        <map_variables variable_1="v_xfer" variable_2="v_xfer"/>
+    </connection>
+    <!--    def map between environment and BG_tr for
+        vars time and t;
+        vars RT and RT;
+        vars z and z;
+        vars F and F;
+        vars qCa_NSR and qCa_NSR;
+        vars qCa_JSR and qCa_JSR;
+        vars K_CaNSR and K_CaNSR;
+        vars K_CaJSR and K_CaJSR;
+        vars kappa_tr and kappa_tr;
+        vars C_m and C_m;
+        vars v_tr and v_tr;
+    enddef;-->
+    <!--    def map between environment and BG_leak for
+        vars time and t;
+        vars RT and RT;
+        vars zCa and z;
+        vars F and F;
+        vars qCa_NSR and qCa_NSR;
+        vars qCai and qCa_cyto;
+        vars K_CaNSR and K_CaNSR;
+        vars K_Cai and K_Cacyto;
+        vars kappa_leak and kappa_leak;
+        vars C_m and C_m;
+        vars v_leak and v_leak;
+    enddef;-->
+    <connection>
+        <map_components component_1="environment" component_2="BG_LCC"/>
+        <map_variables variable_1="time" variable_2="t"/>
+        <map_variables variable_1="RT" variable_2="RT"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="qCai" variable_2="qCai"/>
+        <map_variables variable_1="qCao" variable_2="qCao"/>
+        <map_variables variable_1="qKi" variable_2="qKi"/>
+        <map_variables variable_1="qKo" variable_2="qKo"/>
+        <map_variables variable_1="qNai" variable_2="qNai"/>
+        <map_variables variable_1="qNao" variable_2="qNao"/>
+        <map_variables variable_1="q_membrane" variable_2="q_E"/>
+        <map_variables variable_1="C_m" variable_2="C_m"/>
+        <map_variables variable_1="W_o" variable_2="W_o"/>
+        <map_variables variable_1="v_LCC_Cai" variable_2="v_LCC_Cai"/>
+        <map_variables variable_1="v_LCC_Cao" variable_2="v_LCC_Cao"/>
+        <map_variables variable_1="v_LCC_Ki" variable_2="v_LCC_Ki"/>
+        <map_variables variable_1="v_LCC_Ko" variable_2="v_LCC_Ko"/>
+        <map_variables variable_1="v_LCC_Nai" variable_2="v_LCC_Nai"/>
+        <map_variables variable_1="v_LCC_Nao" variable_2="v_LCC_Nao"/>
+        <map_variables variable_1="zCa" variable_2="zCa"/>
+        <map_variables variable_1="zNa" variable_2="zNa"/>
+        <map_variables variable_1="zK" variable_2="zK"/>
+        <map_variables variable_1="K_Cao" variable_2="K_Cao"/>
+        <map_variables variable_1="K_Cai" variable_2="K_Cai"/>
+        <map_variables variable_1="K_Ko" variable_2="K_Ko"/>
+        <map_variables variable_1="K_Ki" variable_2="K_Ki"/>
+        <map_variables variable_1="K_Nao" variable_2="K_Nao"/>
+        <map_variables variable_1="K_Nai" variable_2="K_Nai"/>
+        <map_variables variable_1="kappa_LCC_Ca1" variable_2="kappa_LCC_Ca1"/>
+        <map_variables variable_1="kappa_LCC_Ca2" variable_2="kappa_LCC_Ca2"/>
+        <map_variables variable_1="kappa_LCC_K1" variable_2="kappa_LCC_K1"/>
+        <map_variables variable_1="kappa_LCC_K2" variable_2="kappa_LCC_K2"/>
+        <map_variables variable_1="kappa_LCC_Na1" variable_2="kappa_LCC_Na1"/>
+        <map_variables variable_1="kappa_LCC_Na2" variable_2="kappa_LCC_Na2"/>
+        <map_variables variable_1="v_E_LCC" variable_2="v_E_LCC"/>
+    </connection>
+    <connection>
+        <map_components component_1="environment" component_2="BG_TCC"/>
+        <map_variables variable_1="time" variable_2="t"/>
+        <map_variables variable_1="RT" variable_2="RT"/>
+        <map_variables variable_1="zCa" variable_2="z"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="qCai" variable_2="qCai"/>
+        <map_variables variable_1="qCao" variable_2="qCao"/>
+        <map_variables variable_1="kappa_TCC" variable_2="kappa_Ca"/>
+        <map_variables variable_1="K_Cao" variable_2="K_Cao"/>
+        <map_variables variable_1="K_Cai" variable_2="K_Cai"/>
+        <map_variables variable_1="q_membrane" variable_2="q_E"/>
+        <map_variables variable_1="C_m" variable_2="C_m"/>
+        <map_variables variable_1="vol_o" variable_2="vol_o"/>
+        <map_variables variable_1="v_TCC" variable_2="v_TCC"/>
+        <map_variables variable_1="v_E_TCC" variable_2="v_E_TCC"/>
+    </connection>
+    <connection>
+        <map_components component_1="environment" component_2="BG_to"/>
+        <map_variables variable_1="time" variable_2="t"/>
+        <map_variables variable_1="RT" variable_2="RT"/>
+        <map_variables variable_1="zK" variable_2="z"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="qKi" variable_2="qKi"/>
+        <map_variables variable_1="qKo" variable_2="qKo"/>
+        <map_variables variable_1="kappa_to" variable_2="kappa_to"/>
+        <map_variables variable_1="K_Ko" variable_2="K_Ko"/>
+        <map_variables variable_1="K_Ki" variable_2="K_Ki"/>
+        <map_variables variable_1="q_membrane" variable_2="q_E"/>
+        <map_variables variable_1="C_m" variable_2="C_m"/>
+        <map_variables variable_1="W_o" variable_2="W_o"/>
+        <map_variables variable_1="v_to" variable_2="v_to"/>
+        <map_variables variable_1="v_E_to" variable_2="v_E_to"/>
+    </connection>
+    <connection>
+        <map_components component_1="environment" component_2="BG_ns"/>
+        <map_variables variable_1="time" variable_2="t"/>
+        <map_variables variable_1="RT" variable_2="RT"/>
+        <map_variables variable_1="zK" variable_2="zK"/>
+        <map_variables variable_1="zNa" variable_2="zNa"/>
+        <map_variables variable_1="zCa" variable_2="zCa"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="qCai" variable_2="qCai"/>
+        <map_variables variable_1="qCao" variable_2="qCao"/>
+        <map_variables variable_1="qNai" variable_2="qNai"/>
+        <map_variables variable_1="qNao" variable_2="qNao"/>
+        <map_variables variable_1="qKi" variable_2="qKi"/>
+        <map_variables variable_1="qKo" variable_2="qKo"/>
+        <map_variables variable_1="K_Nai" variable_2="K_Nai"/>
+        <map_variables variable_1="K_Nao" variable_2="K_Nao"/>
+        <map_variables variable_1="K_Cai" variable_2="K_Cai"/>
+        <map_variables variable_1="K_Cao" variable_2="K_Cao"/>
+        <map_variables variable_1="K_Ki" variable_2="K_Ki"/>
+        <map_variables variable_1="K_Ko" variable_2="K_Ko"/>
+        <map_variables variable_1="kappa_nsK" variable_2="kappa_nsK"/>
+        <map_variables variable_1="kappa_nsNa" variable_2="kappa_nsNa"/>
+        <map_variables variable_1="kappa_nsCa" variable_2="kappa_nsCa"/>
+        <map_variables variable_1="W_i" variable_2="w_i"/>
+        <map_variables variable_1="W_o" variable_2="w_o"/>
+        <map_variables variable_1="q_membrane" variable_2="q_E"/>
+        <map_variables variable_1="C_m" variable_2="C_m"/>
+        <map_variables variable_1="v_ns_Ca" variable_2="v_ns_Ca"/>
+        <map_variables variable_1="v_ns_Na" variable_2="v_ns_Na"/>
+        <map_variables variable_1="v_ns_K" variable_2="v_ns_K"/>
+        <map_variables variable_1="v_E_ns" variable_2="v_E_ns"/>
+    </connection>
+    <connection>
+        <map_components component_1="environment" component_2="BG_Ks"/>
+        <map_variables variable_1="time" variable_2="t"/>
+        <map_variables variable_1="RT" variable_2="RT"/>
+        <map_variables variable_1="zK" variable_2="z"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="qKi" variable_2="qKi"/>
+        <map_variables variable_1="qKo" variable_2="qKo"/>
+        <map_variables variable_1="kappa_Ks" variable_2="kappa_K"/>
+        <map_variables variable_1="K_Ko" variable_2="K_Ko"/>
+        <map_variables variable_1="K_Ki" variable_2="K_Ki"/>
+        <map_variables variable_1="q_membrane" variable_2="q_E"/>
+        <map_variables variable_1="C_m" variable_2="C_m"/>
+        <map_variables variable_1="W_o" variable_2="Wo"/>
+        <map_variables variable_1="v_Ks" variable_2="v_Ks"/>
+        <map_variables variable_1="v_E_Ks" variable_2="v_E_Ks"/>
+    </connection>
+    <connection>
+        <map_components component_1="environment" component_2="BG_Kr"/>
+        <map_variables variable_1="time" variable_2="t"/>
+        <map_variables variable_1="RT" variable_2="RT"/>
+        <map_variables variable_1="zK" variable_2="z"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="qKi" variable_2="q1"/>
+        <map_variables variable_1="qKo" variable_2="q2"/>
+        <map_variables variable_1="kappa_Kr" variable_2="kappa_K"/>
+        <map_variables variable_1="K_Ko" variable_2="K_Ko"/>
+        <map_variables variable_1="K_Ki" variable_2="K_Ki"/>
+        <map_variables variable_1="q_membrane" variable_2="q_E"/>
+        <map_variables variable_1="C_m" variable_2="C_m"/>
+        <map_variables variable_1="v_Kr" variable_2="v_Kr"/>
+        <map_variables variable_1="v_E_Kr" variable_2="v_E_Kr"/>
+        <map_variables variable_1="nK_Kr" variable_2="nK"/>
+    </connection>
+    <connection>
+        <map_components component_1="environment" component_2="BG_K1"/>
+        <map_variables variable_1="time" variable_2="t"/>
+        <map_variables variable_1="RT" variable_2="RT"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="qKi" variable_2="qKi"/>
+        <map_variables variable_1="qKo" variable_2="qKo"/>
+        <map_variables variable_1="K_Ki" variable_2="K_Ki"/>
+        <map_variables variable_1="K_Ko" variable_2="K_Ko"/>
+        <map_variables variable_1="kappa_K1" variable_2="kappa_K1"/>
+        <map_variables variable_1="q_membrane" variable_2="q_E"/>
+        <map_variables variable_1="C_m" variable_2="C_m"/>
+        <map_variables variable_1="v_K1" variable_2="v_K1"/>
+        <map_variables variable_1="v_E_K1" variable_2="v_E_K1"/>
+    </connection>
+    <connection>
+        <map_components component_1="environment" component_2="BG_stim"/>
+        <map_variables variable_1="time" variable_2="time"/>
+        <map_variables variable_1="C_m" variable_2="C_m"/>
+        <map_variables variable_1="F" variable_2="F"/>
+        <map_variables variable_1="I_stim" variable_2="I_stim"/>
+        <map_variables variable_1="nK_stim" variable_2="nK_stim"/>
+    </connection>
+</model>

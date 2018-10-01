@@ -1,0 +1,9902 @@
+[
+   {
+      "source": "GPl",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "GPm",
+      "connection": "Weak"
+   },
+   {
+      "source": "MA",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "MS",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "GPm",
+      "connection": "Moderate"
+   },
+   {
+      "source": "CEAm",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "GPm",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "GPl",
+      "connection": "Strong"
+   },
+   {
+      "source": "SI",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "GPl",
+      "connection": "Weak"
+   },
+   {
+      "source": "MS",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "GPl",
+      "connection": "Moderate"
+   },
+   {
+      "source": "CEAm",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "GPl",
+      "connection": "Weak"
+   },
+   {
+      "source": "IA",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "GPl",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "SI",
+      "connection": "Weak"
+   },
+   {
+      "source": "MA",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "MS",
+      "target": "SI",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "NDB",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "SI",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTam",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "SI",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTv",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "SI",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTdm",
+      "target": "SI",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTal",
+      "target": "SI",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTov",
+      "target": "SI",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTju",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "SI",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTif",
+      "target": "SI",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "SI",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BAC",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "SI",
+      "connection": "Strong"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "SI",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "SI",
+      "connection": "Moderate"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "SI",
+      "connection": "Weak"
+   },
+   {
+      "source": "SF",
+      "target": "SI",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "SI",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CP",
+      "target": "SI",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "AAA",
+      "target": "SI",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAm",
+      "target": "SI",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAl",
+      "target": "SI",
+      "connection": "Moderate"
+   },
+   {
+      "source": "CEAc",
+      "target": "SI",
+      "connection": "Weak"
+   },
+   {
+      "source": "IA",
+      "target": "SI",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MEAav",
+      "target": "SI",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEAad",
+      "target": "SI",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEApv",
+      "target": "SI",
+      "connection": "Moderate"
+   },
+   {
+      "source": "MEApd",
+      "target": "SI",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BA",
+      "target": "SI",
+      "connection": "Moderate"
+   },
+   {
+      "source": "GPl",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "MA",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MS",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "MA",
+      "connection": "Weak"
+   },
+   {
+      "source": "TRS",
+      "target": "MA",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTam",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "MA",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "CEAl",
+      "target": "MA",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAc",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "MA",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "MA",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEApd",
+      "target": "MA",
+      "connection": "Weak"
+   },
+   {
+      "source": "BA",
+      "target": "MA",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "GPl",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "MS",
+      "connection": "Weak"
+   },
+   {
+      "source": "MS",
+      "target": "MS",
+      "connection": "Weak"
+   },
+   {
+      "source": "NDB",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "MS",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "BSTam",
+      "target": "MS",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTfu",
+      "target": "MS",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTv",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "MS",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTov",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "MS",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "MS",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "MS",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "MS",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "MS",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.v",
+      "target": "MS",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.d",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "MS",
+      "connection": "Weak"
+   },
+   {
+      "source": "SH",
+      "target": "MS",
+      "connection": "Weak"
+   },
+   {
+      "source": "SF",
+      "target": "MS",
+      "connection": "Weak"
+   },
+   {
+      "source": "FS",
+      "target": "MS",
+      "connection": "Weak"
+   },
+   {
+      "source": "CP",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "MS",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEAav",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "MS",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "MS",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "GPl",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "NDB",
+      "connection": "Weak"
+   },
+   {
+      "source": "MS",
+      "target": "NDB",
+      "connection": "Weak"
+   },
+   {
+      "source": "NDB",
+      "target": "NDB",
+      "connection": "Weak"
+   },
+   {
+      "source": "TRS",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "NDB",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTv",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "NDB",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTju",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "NDB",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "NDB",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "NDB",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSc.d",
+      "target": "NDB",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSv",
+      "target": "NDB",
+      "connection": "Very weak"
+   },
+   {
+      "source": "SH",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "NDB",
+      "connection": "Weak"
+   },
+   {
+      "source": "FS",
+      "target": "NDB",
+      "connection": "Weak"
+   },
+   {
+      "source": "CP",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "NDB",
+      "connection": "Weak"
+   },
+   {
+      "source": "IA",
+      "target": "NDB",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MEAav",
+      "target": "NDB",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "NDB",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MEApv",
+      "target": "NDB",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MEApd",
+      "target": "NDB",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BA",
+      "target": "NDB",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "GPl",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "MS",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "TRS",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTam",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "BSTam",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "BSTam",
+      "connection": "Strong"
+   },
+   {
+      "source": "MS",
+      "target": "BSTam",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTam",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTam",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTam",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTam",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTam",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTam",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTam",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTam",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTam",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTam",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTam",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTam",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTam",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTam",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTam",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTam",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTam",
+      "connection": "Weak"
+   },
+   {
+      "source": "OT",
+      "target": "BSTam",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTam",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTam",
+      "connection": "Very strong"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTam",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTam",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTam",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTam",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTam",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTam",
+      "connection": "Very weak"
+   },
+   {
+      "source": "SH",
+      "target": "BSTam",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "SF",
+      "target": "BSTam",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "BSTam",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CP",
+      "target": "BSTam",
+      "connection": "Weak"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTam",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTam",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTam",
+      "connection": "Moderate"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTam",
+      "connection": "Weak"
+   },
+   {
+      "source": "IA",
+      "target": "BSTam",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTam",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTam",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTam",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTam",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BA",
+      "target": "BSTam",
+      "connection": "Very weak"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "BSTfu",
+      "connection": "Moderate"
+   },
+   {
+      "source": "MS",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTfu",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTfu",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTfu",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTfu",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTfu",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTfu",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTfu",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTfu",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTfu",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTfu",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTfu",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTfu",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTfu",
+      "connection": "Weak"
+   },
+   {
+      "source": "OT",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTfu",
+      "connection": "Moderate"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTfu",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTfu",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTfu",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTfu",
+      "connection": "Very weak"
+   },
+   {
+      "source": "SH",
+      "target": "BSTfu",
+      "connection": "Weak"
+   },
+   {
+      "source": "SF",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "BSTfu",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CP",
+      "target": "BSTfu",
+      "connection": "Very weak"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTfu",
+      "connection": "Strong"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTfu",
+      "connection": "Very weak"
+   },
+   {
+      "source": "IA",
+      "target": "BSTfu",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTfu",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "BSTfu",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "BSTv",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MS",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTv",
+      "connection": "Weak"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTv",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTv",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTv",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTv",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTv",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTv",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTv",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTv",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "SH",
+      "target": "BSTv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "SF",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "BSTv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CP",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTv",
+      "connection": "Moderate"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "IA",
+      "target": "BSTv",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTv",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "BSTv",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "BSTmg",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MS",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTmg",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTmg",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTmg",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTmg",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTmg",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTmg",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTmg",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTmg",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTmg",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTmg",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTmg",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTmg",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTmg",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "BSTmg",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CP",
+      "target": "BSTmg",
+      "connection": "Very weak"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTmg",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTmg",
+      "connection": "Moderate"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "BSTmg",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "BSTmg",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTdm",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "BSTdm",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "BSTdm",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "MS",
+      "target": "BSTdm",
+      "connection": "Very weak"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTdm",
+      "connection": "Very weak"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTdm",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTdm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTdm",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTdm",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTdm",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTdm",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTdm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTdm",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTdm",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTdm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTdm",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTdm",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTdm",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTdm",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTdm",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTdm",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "BSTdm",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTdm",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTdm",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTdm",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTdm",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTdm",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTdm",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTdm",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTdm",
+      "connection": "Very weak"
+   },
+   {
+      "source": "SH",
+      "target": "BSTdm",
+      "connection": "Very weak"
+   },
+   {
+      "source": "SF",
+      "target": "BSTdm",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "BSTdm",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "BSTdm",
+      "connection": "Weak"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTdm",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTdm",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTdm",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTdm",
+      "connection": "Very weak"
+   },
+   {
+      "source": "IA",
+      "target": "BSTdm",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTdm",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTdm",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTdm",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTdm",
+      "connection": "Weak"
+   },
+   {
+      "source": "BA",
+      "target": "BSTdm",
+      "connection": "Weak"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTal",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "BSTal",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MA",
+      "target": "BSTal",
+      "connection": "Strong"
+   },
+   {
+      "source": "MS",
+      "target": "BSTal",
+      "connection": "Very weak"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTal",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTal",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTal",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTal",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTal",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTal",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTal",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTal",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTal",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTal",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTal",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTal",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTal",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTal",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTal",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTal",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTal",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "BSTal",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTal",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTal",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTal",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTal",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTal",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTal",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTal",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTal",
+      "connection": "Very weak"
+   },
+   {
+      "source": "SH",
+      "target": "BSTal",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "BSTal",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "BSTal",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "BSTal",
+      "connection": "Weak"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTal",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTal",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTal",
+      "connection": "Very strong"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTal",
+      "connection": "Weak"
+   },
+   {
+      "source": "IA",
+      "target": "BSTal",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTal",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTal",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTal",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTal",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "BSTal",
+      "connection": "Weak"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "BSTov",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MA",
+      "target": "BSTov",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "MS",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTov",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTov",
+      "connection": "Very strong"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTov",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTov",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTov",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTov",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTov",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTov",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTov",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTov",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTov",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "BSTov",
+      "connection": "Very weak"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTov",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTov",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTov",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "IA",
+      "target": "BSTov",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTov",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "BSTov",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "BSTju",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MA",
+      "target": "BSTju",
+      "connection": "Very strong"
+   },
+   {
+      "source": "MS",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTju",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTju",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTju",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTju",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTju",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTju",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTju",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTju",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTju",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTju",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTju",
+      "connection": "Strong"
+   },
+   {
+      "source": "OT",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTju",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTju",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "BSTju",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CP",
+      "target": "BSTju",
+      "connection": "Very weak"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTju",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTju",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTju",
+      "connection": "Moderate"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTju",
+      "connection": "Weak"
+   },
+   {
+      "source": "IA",
+      "target": "BSTju",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTju",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "BSTju",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTrh",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "BSTrh",
+      "connection": "Weak"
+   },
+   {
+      "source": "MA",
+      "target": "BSTrh",
+      "connection": "Very strong"
+   },
+   {
+      "source": "MS",
+      "target": "BSTrh",
+      "connection": "Weak"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTrh",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTrh",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTrh",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTrh",
+      "connection": "Very strong"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTrh",
+      "connection": "Very strong"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTrh",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTrh",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTrh",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTrh",
+      "connection": "Very strong"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTrh",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTrh",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTrh",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTrh",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTrh",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTrh",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTrh",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTrh",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "BSTrh",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTrh",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTrh",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTrh",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTrh",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTrh",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTrh",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTrh",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTrh",
+      "connection": "Very weak"
+   },
+   {
+      "source": "SH",
+      "target": "BSTrh",
+      "connection": "Weak"
+   },
+   {
+      "source": "SF",
+      "target": "BSTrh",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "BSTrh",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CP",
+      "target": "BSTrh",
+      "connection": "Moderate"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTrh",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTrh",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTrh",
+      "connection": "Very strong"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTrh",
+      "connection": "Moderate"
+   },
+   {
+      "source": "IA",
+      "target": "BSTrh",
+      "connection": "Very strong"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTrh",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTrh",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTrh",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTrh",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BA",
+      "target": "BSTrh",
+      "connection": "Very weak"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "BSTpr",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MS",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTpr",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTpr",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTpr",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTpr",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTpr",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTpr",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTpr",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTpr",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTpr",
+      "connection": "Weak"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTpr",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTpr",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTpr",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTpr",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTpr",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "BSTpr",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "SF",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTpr",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTpr",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "BSTpr",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTpr",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTpr",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTpr",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTpr",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BA",
+      "target": "BSTpr",
+      "connection": "Strong"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTif",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "BSTif",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "BSTif",
+      "connection": "Moderate"
+   },
+   {
+      "source": "MS",
+      "target": "BSTif",
+      "connection": "Very weak"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTif",
+      "connection": "Very weak"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTif",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTif",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTif",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTif",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTif",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTif",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTif",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTif",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTif",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTif",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTif",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTif",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTif",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTif",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTif",
+      "connection": "Weak"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTif",
+      "connection": "Very weak"
+   },
+   {
+      "source": "OT",
+      "target": "BSTif",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTif",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTif",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTif",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTif",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTif",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTif",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTif",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTif",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "BSTif",
+      "connection": "Weak"
+   },
+   {
+      "source": "SF",
+      "target": "BSTif",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "BSTif",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CP",
+      "target": "BSTif",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTif",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTif",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTif",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTif",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "BSTif",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTif",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTif",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTif",
+      "connection": "Moderate"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTif",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BA",
+      "target": "BSTif",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTtr",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "BSTtr",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "BSTtr",
+      "connection": "Moderate"
+   },
+   {
+      "source": "MS",
+      "target": "BSTtr",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTtr",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTtr",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTtr",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTtr",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTtr",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTtr",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTtr",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTtr",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTtr",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTtr",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTtr",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTtr",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTtr",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTtr",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTtr",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTtr",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTtr",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "BSTtr",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTtr",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTtr",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTtr",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTtr",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTtr",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTtr",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTtr",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTtr",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "BSTtr",
+      "connection": "Very weak"
+   },
+   {
+      "source": "SF",
+      "target": "BSTtr",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "BSTtr",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "BSTtr",
+      "connection": "Weak"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTtr",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTtr",
+      "connection": "Moderate"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTtr",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTtr",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "BSTtr",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTtr",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTtr",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTtr",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTtr",
+      "connection": "Weak"
+   },
+   {
+      "source": "BA",
+      "target": "BSTtr",
+      "connection": "Weak"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "BSTd",
+      "connection": "Strong"
+   },
+   {
+      "source": "MS",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTd",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTd",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTd",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTd",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTd",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTd",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTd",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTd",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTd",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTd",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTd",
+      "connection": "Very strong"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTd",
+      "connection": "Very strong"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTd",
+      "connection": "Strong"
+   },
+   {
+      "source": "OT",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTd",
+      "connection": "Moderate"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTd",
+      "connection": "Moderate"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTd",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "BSTd",
+      "connection": "Strong"
+   },
+   {
+      "source": "SF",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTd",
+      "connection": "Moderate"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTd",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTd",
+      "connection": "Strong"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTd",
+      "connection": "Weak"
+   },
+   {
+      "source": "BA",
+      "target": "BSTd",
+      "connection": "Strong"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "MS",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "BSTse",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "MS",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "BAC",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "OT",
+      "connection": "Strong"
+   },
+   {
+      "source": "MS",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "OT",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "ACB",
+      "connection": "Weak"
+   },
+   {
+      "source": "SI",
+      "target": "ACB",
+      "connection": "Moderate"
+   },
+   {
+      "source": "MA",
+      "target": "ACB",
+      "connection": "Strong"
+   },
+   {
+      "source": "MS",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "ACB",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "CEAm",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "ACB",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CEAc",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "ACB",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "LSr.m.v",
+      "connection": "Weak"
+   },
+   {
+      "source": "MS",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "LSr.m.v",
+      "connection": "Weak"
+   },
+   {
+      "source": "TRS",
+      "target": "LSr.m.v",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTam",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "LSr.m.v",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTdm",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "LSr.m.v",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTd",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "LSr.m.v",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "LSr.m.v",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSc.v",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "LSr.m.v",
+      "connection": "Moderate"
+   },
+   {
+      "source": "CP",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "LSr.m.v",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "LSr.m.d",
+      "connection": "Weak"
+   },
+   {
+      "source": "MS",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "LSr.m.d",
+      "connection": "Weak"
+   },
+   {
+      "source": "TRS",
+      "target": "LSr.m.d",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTam",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "LSr.m.d",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTju",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "LSr.m.d",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "LSr.m.d",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSv",
+      "target": "LSr.m.d",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "SH",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "LSr.m.d",
+      "connection": "Weak"
+   },
+   {
+      "source": "CP",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "LSr.m.d",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "LSr.vl",
+      "connection": "Weak"
+   },
+   {
+      "source": "MS",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "LSr.vl",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTv",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "LSr.vl",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTdm",
+      "target": "LSr.vl",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTal",
+      "target": "LSr.vl",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTov",
+      "target": "LSr.vl",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTju",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "LSr.vl",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "LSr.vl",
+      "connection": "Weak"
+   },
+   {
+      "source": "ACB",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "LSr.vl",
+      "connection": "Moderate"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "LSr.vl",
+      "connection": "Moderate"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "LSr.vl",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.d",
+      "target": "LSr.vl",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSv",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "LSr.vl",
+      "connection": "Weak"
+   },
+   {
+      "source": "SF",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "LSr.vl",
+      "connection": "Weak"
+   },
+   {
+      "source": "CP",
+      "target": "LSr.vl",
+      "connection": "Weak"
+   },
+   {
+      "source": "AAA",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "LSr.vl",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "LSr.dl",
+      "connection": "Weak"
+   },
+   {
+      "source": "MS",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "LSr.dl",
+      "connection": "Weak"
+   },
+   {
+      "source": "TRS",
+      "target": "LSr.dl",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTam",
+      "target": "LSr.dl",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTfu",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "LSr.dl",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "LSr.dl",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "LSr.dl",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.v",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "LSr.dl",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSv",
+      "target": "LSr.dl",
+      "connection": "Weak"
+   },
+   {
+      "source": "SH",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "LSr.dl",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "CP",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "LSr.dl",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEApd",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "LSr.dl",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "LSc.v",
+      "connection": "Weak"
+   },
+   {
+      "source": "MS",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "LSc.v",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "TRS",
+      "target": "LSc.v",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "BSTam",
+      "target": "LSc.v",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTfu",
+      "target": "LSc.v",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTv",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "LSc.v",
+      "connection": "Moderate"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "LSc.v",
+      "connection": "Very weak"
+   },
+   {
+      "source": "SH",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "LSc.v",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "CP",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "LSc.v",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "LSc.d",
+      "connection": "Weak"
+   },
+   {
+      "source": "MS",
+      "target": "LSc.d",
+      "connection": "Very weak"
+   },
+   {
+      "source": "NDB",
+      "target": "LSc.d",
+      "connection": "Weak"
+   },
+   {
+      "source": "TRS",
+      "target": "LSc.d",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTam",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "LSc.d",
+      "connection": "Moderate"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "LSc.d",
+      "connection": "Moderate"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "LSc.d",
+      "connection": "Moderate"
+   },
+   {
+      "source": "LSc.d",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "LSc.d",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MEApd",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "LSc.d",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "LSv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MS",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "LSv",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTam",
+      "target": "LSv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTfu",
+      "target": "LSv",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTv",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "LSv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTdm",
+      "target": "LSv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTal",
+      "target": "LSv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTov",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "LSv",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "LSv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTd",
+      "target": "LSv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTse",
+      "target": "LSv",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BAC",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "LSv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "LSv",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.v",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "LSv",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSv",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "LSv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CP",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "LSv",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "LSv",
+      "connection": "Weak"
+   },
+   {
+      "source": "GPl",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "SH",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MS",
+      "target": "SH",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "NDB",
+      "target": "SH",
+      "connection": "Very weak"
+   },
+   {
+      "source": "TRS",
+      "target": "SH",
+      "connection": "Very strong"
+   },
+   {
+      "source": "BSTam",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "SH",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTju",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "SH",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "SH",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSc.v",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "SH",
+      "connection": "Moderate"
+   },
+   {
+      "source": "SH",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "SH",
+      "connection": "Moderate"
+   },
+   {
+      "source": "AAA",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "SH",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAl",
+      "target": "SH",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAc",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "SH",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "SF",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MS",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "SF",
+      "connection": "Strong"
+   },
+   {
+      "source": "TRS",
+      "target": "SF",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTam",
+      "target": "SF",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTfu",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "SF",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "SF",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "SF",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.d",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "SF",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "FS",
+      "connection": "Strong"
+   },
+   {
+      "source": "MA",
+      "target": "FS",
+      "connection": "Strong"
+   },
+   {
+      "source": "MS",
+      "target": "FS",
+      "connection": "Weak"
+   },
+   {
+      "source": "NDB",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "FS",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTv",
+      "target": "FS",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTmg",
+      "target": "FS",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTdm",
+      "target": "FS",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTal",
+      "target": "FS",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTov",
+      "target": "FS",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTju",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "FS",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTif",
+      "target": "FS",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "FS",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "FS",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "FS",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSc.d",
+      "target": "FS",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSv",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "FS",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAm",
+      "target": "FS",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAl",
+      "target": "FS",
+      "connection": "Strong"
+   },
+   {
+      "source": "CEAc",
+      "target": "FS",
+      "connection": "Very weak"
+   },
+   {
+      "source": "IA",
+      "target": "FS",
+      "connection": "Moderate"
+   },
+   {
+      "source": "MEAav",
+      "target": "FS",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEAad",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "FS",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEApd",
+      "target": "FS",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "FS",
+      "connection": "Very weak"
+   },
+   {
+      "source": "GPl",
+      "target": "CP",
+      "connection": "Moderate"
+   },
+   {
+      "source": "SI",
+      "target": "CP",
+      "connection": "Strong"
+   },
+   {
+      "source": "MA",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "MS",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "CP",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "AAA",
+      "connection": "Moderate"
+   },
+   {
+      "source": "MA",
+      "target": "AAA",
+      "connection": "Moderate"
+   },
+   {
+      "source": "MS",
+      "target": "AAA",
+      "connection": "Moderate"
+   },
+   {
+      "source": "NDB",
+      "target": "AAA",
+      "connection": "Very weak"
+   },
+   {
+      "source": "TRS",
+      "target": "AAA",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTam",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "AAA",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTv",
+      "target": "AAA",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTmg",
+      "target": "AAA",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTdm",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "AAA",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTov",
+      "target": "AAA",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTju",
+      "target": "AAA",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTrh",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "AAA",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTif",
+      "target": "AAA",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "AAA",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTd",
+      "target": "AAA",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTse",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "AAA",
+      "connection": "Moderate"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "AAA",
+      "connection": "Moderate"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "AAA",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "AAA",
+      "connection": "Strong"
+   },
+   {
+      "source": "AAA",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "AAA",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAc",
+      "target": "AAA",
+      "connection": "Weak"
+   },
+   {
+      "source": "IA",
+      "target": "AAA",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEAav",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "AAA",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "CEAm",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MS",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "CEAm",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "BSTv",
+      "target": "CEAm",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTmg",
+      "target": "CEAm",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTdm",
+      "target": "CEAm",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTal",
+      "target": "CEAm",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTov",
+      "target": "CEAm",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTju",
+      "target": "CEAm",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTrh",
+      "target": "CEAm",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTpr",
+      "target": "CEAm",
+      "connection": "Very strong"
+   },
+   {
+      "source": "BSTif",
+      "target": "CEAm",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "CEAm",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTd",
+      "target": "CEAm",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "BSTse",
+      "target": "CEAm",
+      "connection": "Weak"
+   },
+   {
+      "source": "BAC",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "CEAm",
+      "connection": "Weak"
+   },
+   {
+      "source": "AAA",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "CEAm",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CEAl",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "CEAm",
+      "connection": "Very weak"
+   },
+   {
+      "source": "IA",
+      "target": "CEAm",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEAav",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "CEAm",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "CEAl",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MS",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "CEAl",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTv",
+      "target": "CEAl",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTmg",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "CEAl",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTal",
+      "target": "CEAl",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTov",
+      "target": "CEAl",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTju",
+      "target": "CEAl",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "BSTrh",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "CEAl",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTif",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "CEAl",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTd",
+      "target": "CEAl",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTse",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "CEAl",
+      "connection": "Moderate"
+   },
+   {
+      "source": "CEAc",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "CEAl",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEAav",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "CEAl",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "CEAc",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MS",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "CEAc",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTam",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "CEAc",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTv",
+      "target": "CEAc",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTmg",
+      "target": "CEAc",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTdm",
+      "target": "CEAc",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTal",
+      "target": "CEAc",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTov",
+      "target": "CEAc",
+      "connection": "Very strong"
+   },
+   {
+      "source": "BSTju",
+      "target": "CEAc",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTrh",
+      "target": "CEAc",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTpr",
+      "target": "CEAc",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTif",
+      "target": "CEAc",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "CEAc",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTd",
+      "target": "CEAc",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTse",
+      "target": "CEAc",
+      "connection": "Weak"
+   },
+   {
+      "source": "BAC",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "CEAc",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "CEAc",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "AAA",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "CEAc",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CEAl",
+      "target": "CEAc",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAc",
+      "target": "CEAc",
+      "connection": "Moderate"
+   },
+   {
+      "source": "IA",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "CEAc",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "IA",
+      "connection": "Moderate"
+   },
+   {
+      "source": "MS",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "IA",
+      "connection": "Moderate"
+   },
+   {
+      "source": "TRS",
+      "target": "IA",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTam",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "IA",
+      "connection": "Moderate"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "IA",
+      "connection": "Moderate"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "IA",
+      "connection": "Moderate"
+   },
+   {
+      "source": "AAA",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "IA",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "MEAav",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MS",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "MEAav",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTam",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "MEAav",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTv",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "MEAav",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTdm",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "MEAav",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTju",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "MEAav",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "MEAav",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTd",
+      "target": "MEAav",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTse",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "MEAav",
+      "connection": "Strong"
+   },
+   {
+      "source": "OT",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "MEAav",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "MEAav",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "MEAav",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "MEAav",
+      "connection": "Weak"
+   },
+   {
+      "source": "AAA",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "MEAav",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAl",
+      "target": "MEAav",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAc",
+      "target": "MEAav",
+      "connection": "Weak"
+   },
+   {
+      "source": "IA",
+      "target": "MEAav",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MEAav",
+      "target": "MEAav",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MEAad",
+      "target": "MEAav",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "MEAav",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MEApd",
+      "target": "MEAav",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BA",
+      "target": "MEAav",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "GPl",
+      "target": "MEAad",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "MEAad",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "MEAad",
+      "connection": "Moderate"
+   },
+   {
+      "source": "MS",
+      "target": "MEAad",
+      "connection": "Very weak"
+   },
+   {
+      "source": "NDB",
+      "target": "MEAad",
+      "connection": "Very weak"
+   },
+   {
+      "source": "TRS",
+      "target": "MEAad",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTam",
+      "target": "MEAad",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "MEAad",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTv",
+      "target": "MEAad",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "MEAad",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTdm",
+      "target": "MEAad",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTal",
+      "target": "MEAad",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTov",
+      "target": "MEAad",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTju",
+      "target": "MEAad",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTrh",
+      "target": "MEAad",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "MEAad",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTif",
+      "target": "MEAad",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTtr",
+      "target": "MEAad",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTd",
+      "target": "MEAad",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTse",
+      "target": "MEAad",
+      "connection": "Weak"
+   },
+   {
+      "source": "BAC",
+      "target": "MEAad",
+      "connection": "Weak"
+   },
+   {
+      "source": "OT",
+      "target": "MEAad",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "MEAad",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "MEAad",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "MEAad",
+      "connection": "Moderate"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "MEAad",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "MEAad",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "LSc.v",
+      "target": "MEAad",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.d",
+      "target": "MEAad",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSv",
+      "target": "MEAad",
+      "connection": "Weak"
+   },
+   {
+      "source": "SH",
+      "target": "MEAad",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "SF",
+      "target": "MEAad",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "MEAad",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CP",
+      "target": "MEAad",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "AAA",
+      "target": "MEAad",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "MEAad",
+      "connection": "Very strong"
+   },
+   {
+      "source": "CEAl",
+      "target": "MEAad",
+      "connection": "Moderate"
+   },
+   {
+      "source": "CEAc",
+      "target": "MEAad",
+      "connection": "Very weak"
+   },
+   {
+      "source": "IA",
+      "target": "MEAad",
+      "connection": "Strong"
+   },
+   {
+      "source": "MEAav",
+      "target": "MEAad",
+      "connection": "Strong"
+   },
+   {
+      "source": "MEAad",
+      "target": "MEAad",
+      "connection": "Strong"
+   },
+   {
+      "source": "MEApv",
+      "target": "MEAad",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "MEAad",
+      "connection": "Strong"
+   },
+   {
+      "source": "BA",
+      "target": "MEAad",
+      "connection": "Moderate"
+   },
+   {
+      "source": "GPl",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "MEApv",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MS",
+      "target": "MEApv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "NDB",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "MEApv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTam",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "MEApv",
+      "connection": "Moderate to strong"
+   },
+   {
+      "source": "BSTv",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "MEApv",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTdm",
+      "target": "MEApv",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTal",
+      "target": "MEApv",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTov",
+      "target": "MEApv",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTju",
+      "target": "MEApv",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTrh",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "MEApv",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTtr",
+      "target": "MEApv",
+      "connection": "Strong"
+   },
+   {
+      "source": "BSTd",
+      "target": "MEApv",
+      "connection": "Very strong"
+   },
+   {
+      "source": "BSTse",
+      "target": "MEApv",
+      "connection": "Weak"
+   },
+   {
+      "source": "BAC",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "MEApv",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "MEApv",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "MEApv",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSc.v",
+      "target": "MEApv",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.d",
+      "target": "MEApv",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSv",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "MEApv",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "SF",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "MEApv",
+      "connection": "Weak"
+   },
+   {
+      "source": "AAA",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "MEApv",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "CEAl",
+      "target": "MEApv",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAc",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "MEApv",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MEAav",
+      "target": "MEApv",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "MEAad",
+      "target": "MEApv",
+      "connection": "Very strong"
+   },
+   {
+      "source": "MEApv",
+      "target": "MEApv",
+      "connection": "Strong"
+   },
+   {
+      "source": "MEApd",
+      "target": "MEApv",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "MEApv",
+      "connection": "Moderate"
+   },
+   {
+      "source": "GPl",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "MEApd",
+      "connection": "Weak"
+   },
+   {
+      "source": "MS",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "MEApd",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTv",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "MEApd",
+      "connection": "Weak"
+   },
+   {
+      "source": "BSTdm",
+      "target": "MEApd",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTal",
+      "target": "MEApd",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTov",
+      "target": "MEApd",
+      "connection": "Very weak"
+   },
+   {
+      "source": "BSTju",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "MEApd",
+      "connection": "Very strong"
+   },
+   {
+      "source": "BSTtr",
+      "target": "MEApd",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BSTd",
+      "target": "MEApd",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "BSTse",
+      "target": "MEApd",
+      "connection": "Weak"
+   },
+   {
+      "source": "BAC",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "MEApd",
+      "connection": "Very weak"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "MEApd",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "LSc.v",
+      "target": "MEApd",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSc.d",
+      "target": "MEApd",
+      "connection": "Weak"
+   },
+   {
+      "source": "LSv",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "MEApd",
+      "connection": "Weak to moderate"
+   },
+   {
+      "source": "SF",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "MEApd",
+      "connection": "Very weak"
+   },
+   {
+      "source": "CP",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "MEApd",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAl",
+      "target": "MEApd",
+      "connection": "Weak"
+   },
+   {
+      "source": "CEAc",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "MEApd",
+      "connection": "Weak"
+   },
+   {
+      "source": "MEAav",
+      "target": "MEApd",
+      "connection": "Very weak"
+   },
+   {
+      "source": "MEAad",
+      "target": "MEApd",
+      "connection": "Moderate"
+   },
+   {
+      "source": "MEApv",
+      "target": "MEApd",
+      "connection": "Moderate"
+   },
+   {
+      "source": "MEApd",
+      "target": "MEApd",
+      "connection": "Moderate"
+   },
+   {
+      "source": "BA",
+      "target": "MEApd",
+      "connection": "No data"
+   },
+   {
+      "source": "GPl",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "SI",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "MA",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "MS",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "NDB",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "TRS",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTam",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTv",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTal",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTov",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTju",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTif",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTd",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "BSTse",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "BAC",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "OT",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "ACB",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "LSv",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "SH",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "SF",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "FS",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "CP",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "AAA",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAm",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAl",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "CEAc",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "IA",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAav",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "MEAad",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApv",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "MEApd",
+      "target": "BA",
+      "connection": "No data"
+   },
+   {
+      "source": "BA",
+      "target": "BA",
+      "connection": "No data"
+   }
+]

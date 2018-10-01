@@ -1,0 +1,14 @@
+{
+  "subset_lyph_keys_for_lyph_viewer": [{
+    "map_keys_to_keys_nested": {
+      "new_key_val_pairs": [{
+        "from_keys": "hosted_by",
+        "new_key" : "belongsToLyph",
+        "onlyIfKeyFound": true
+      }]
+    },
+    "delete_properties": ["is_leaf", "material", "label", "is_root", "type", "level", "order", "hosted_by", "contained_by", "group_type",
+      "parent_lyph_composition", "layer_composition", "source", "target"
+    ]
+  }]
+}

@@ -1,0 +1,7 @@
+{
+  "clancy_model_pipeline": [{
+      "pipeline": "variable_extraction_pipeline.json",
+      "run": true
+    }
+  ]
+}

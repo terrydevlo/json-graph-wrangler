@@ -1,0 +1,9902 @@
+[
+   {
+      "source": "GPl",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "GPm",
+      "connection": "2"
+   },
+   {
+      "source": "MA",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "MS",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "GPm",
+      "connection": "4"
+   },
+   {
+      "source": "CEAm",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "GPm",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "GPl",
+      "connection": "6"
+   },
+   {
+      "source": "SI",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "GPl",
+      "connection": "2"
+   },
+   {
+      "source": "MS",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "GPl",
+      "connection": "4"
+   },
+   {
+      "source": "CEAm",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "GPl",
+      "connection": "2"
+   },
+   {
+      "source": "IA",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "GPl",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "SI",
+      "connection": "2"
+   },
+   {
+      "source": "MA",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "MS",
+      "target": "SI",
+      "connection": "3"
+   },
+   {
+      "source": "NDB",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "SI",
+      "connection": "2"
+   },
+   {
+      "source": "BSTam",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "SI",
+      "connection": "3"
+   },
+   {
+      "source": "BSTv",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "SI",
+      "connection": "3"
+   },
+   {
+      "source": "BSTdm",
+      "target": "SI",
+      "connection": "3"
+   },
+   {
+      "source": "BSTal",
+      "target": "SI",
+      "connection": "1"
+   },
+   {
+      "source": "BSTov",
+      "target": "SI",
+      "connection": "3"
+   },
+   {
+      "source": "BSTju",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "SI",
+      "connection": "3"
+   },
+   {
+      "source": "BSTif",
+      "target": "SI",
+      "connection": "2"
+   },
+   {
+      "source": "BSTtr",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "SI",
+      "connection": "1"
+   },
+   {
+      "source": "BAC",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "SI",
+      "connection": "6"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "SI",
+      "connection": "3"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "SI",
+      "connection": "4"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "SI",
+      "connection": "2"
+   },
+   {
+      "source": "SF",
+      "target": "SI",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "SI",
+      "connection": "1"
+   },
+   {
+      "source": "CP",
+      "target": "SI",
+      "connection": "3"
+   },
+   {
+      "source": "AAA",
+      "target": "SI",
+      "connection": "2"
+   },
+   {
+      "source": "CEAm",
+      "target": "SI",
+      "connection": "2"
+   },
+   {
+      "source": "CEAl",
+      "target": "SI",
+      "connection": "4"
+   },
+   {
+      "source": "CEAc",
+      "target": "SI",
+      "connection": "2"
+   },
+   {
+      "source": "IA",
+      "target": "SI",
+      "connection": "1"
+   },
+   {
+      "source": "MEAav",
+      "target": "SI",
+      "connection": "2"
+   },
+   {
+      "source": "MEAad",
+      "target": "SI",
+      "connection": "2"
+   },
+   {
+      "source": "MEApv",
+      "target": "SI",
+      "connection": "4"
+   },
+   {
+      "source": "MEApd",
+      "target": "SI",
+      "connection": "3"
+   },
+   {
+      "source": "BA",
+      "target": "SI",
+      "connection": "4"
+   },
+   {
+      "source": "GPl",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "MA",
+      "connection": "1"
+   },
+   {
+      "source": "MS",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "MA",
+      "connection": "2"
+   },
+   {
+      "source": "TRS",
+      "target": "MA",
+      "connection": "3"
+   },
+   {
+      "source": "BSTam",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "MA",
+      "connection": "3"
+   },
+   {
+      "source": "CEAl",
+      "target": "MA",
+      "connection": "2"
+   },
+   {
+      "source": "CEAc",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "MA",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "MA",
+      "connection": "2"
+   },
+   {
+      "source": "MEApd",
+      "target": "MA",
+      "connection": "2"
+   },
+   {
+      "source": "BA",
+      "target": "MA",
+      "connection": "3"
+   },
+   {
+      "source": "GPl",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "MS",
+      "connection": "2"
+   },
+   {
+      "source": "MS",
+      "target": "MS",
+      "connection": "2"
+   },
+   {
+      "source": "NDB",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "MS",
+      "connection": "5"
+   },
+   {
+      "source": "BSTam",
+      "target": "MS",
+      "connection": "2"
+   },
+   {
+      "source": "BSTfu",
+      "target": "MS",
+      "connection": "2"
+   },
+   {
+      "source": "BSTv",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "MS",
+      "connection": "2"
+   },
+   {
+      "source": "BSTov",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "MS",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "MS",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "MS",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "MS",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "MS",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.v",
+      "target": "MS",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.d",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "MS",
+      "connection": "2"
+   },
+   {
+      "source": "SH",
+      "target": "MS",
+      "connection": "2"
+   },
+   {
+      "source": "SF",
+      "target": "MS",
+      "connection": "2"
+   },
+   {
+      "source": "FS",
+      "target": "MS",
+      "connection": "2"
+   },
+   {
+      "source": "CP",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "MS",
+      "connection": "2"
+   },
+   {
+      "source": "MEAav",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "MS",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "MS",
+      "connection": "3"
+   },
+   {
+      "source": "GPl",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "NDB",
+      "connection": "2"
+   },
+   {
+      "source": "MS",
+      "target": "NDB",
+      "connection": "2"
+   },
+   {
+      "source": "NDB",
+      "target": "NDB",
+      "connection": "2"
+   },
+   {
+      "source": "TRS",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "NDB",
+      "connection": "3"
+   },
+   {
+      "source": "BSTv",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "NDB",
+      "connection": "3"
+   },
+   {
+      "source": "BSTju",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "NDB",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "NDB",
+      "connection": "3"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "NDB",
+      "connection": "3"
+   },
+   {
+      "source": "LSc.d",
+      "target": "NDB",
+      "connection": "3"
+   },
+   {
+      "source": "LSv",
+      "target": "NDB",
+      "connection": "1"
+   },
+   {
+      "source": "SH",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "NDB",
+      "connection": "2"
+   },
+   {
+      "source": "FS",
+      "target": "NDB",
+      "connection": "2"
+   },
+   {
+      "source": "CP",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "NDB",
+      "connection": "2"
+   },
+   {
+      "source": "IA",
+      "target": "NDB",
+      "connection": "3"
+   },
+   {
+      "source": "MEAav",
+      "target": "NDB",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "NDB",
+      "connection": "3"
+   },
+   {
+      "source": "MEApv",
+      "target": "NDB",
+      "connection": "3"
+   },
+   {
+      "source": "MEApd",
+      "target": "NDB",
+      "connection": "3"
+   },
+   {
+      "source": "BA",
+      "target": "NDB",
+      "connection": "3"
+   },
+   {
+      "source": "GPl",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "MS",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "TRS",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTam",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "BSTam",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "BSTam",
+      "connection": "6"
+   },
+   {
+      "source": "MS",
+      "target": "BSTam",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTam",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTam",
+      "connection": "1"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTam",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTam",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTam",
+      "connection": "6"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTam",
+      "connection": "4"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTam",
+      "connection": "4"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTam",
+      "connection": "4"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTam",
+      "connection": "6"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTam",
+      "connection": "2"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTam",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTam",
+      "connection": "4"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTam",
+      "connection": "2"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTam",
+      "connection": "4"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTam",
+      "connection": "4"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTam",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTam",
+      "connection": "2"
+   },
+   {
+      "source": "OT",
+      "target": "BSTam",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTam",
+      "connection": "3"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTam",
+      "connection": "7"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTam",
+      "connection": "3"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTam",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTam",
+      "connection": "3"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTam",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTam",
+      "connection": "2"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTam",
+      "connection": "1"
+   },
+   {
+      "source": "SH",
+      "target": "BSTam",
+      "connection": "3"
+   },
+   {
+      "source": "SF",
+      "target": "BSTam",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "BSTam",
+      "connection": "1"
+   },
+   {
+      "source": "CP",
+      "target": "BSTam",
+      "connection": "2"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTam",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTam",
+      "connection": "1"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTam",
+      "connection": "4"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTam",
+      "connection": "2"
+   },
+   {
+      "source": "IA",
+      "target": "BSTam",
+      "connection": "2"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTam",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTam",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTam",
+      "connection": "2"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTam",
+      "connection": "1"
+   },
+   {
+      "source": "BA",
+      "target": "BSTam",
+      "connection": "1"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "BSTfu",
+      "connection": "4"
+   },
+   {
+      "source": "MS",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTfu",
+      "connection": "2"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTfu",
+      "connection": "6"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTfu",
+      "connection": "4"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTfu",
+      "connection": "2"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTfu",
+      "connection": "4"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTfu",
+      "connection": "5"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTfu",
+      "connection": "4"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTfu",
+      "connection": "2"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTfu",
+      "connection": "4"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTfu",
+      "connection": "2"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTfu",
+      "connection": "2"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTfu",
+      "connection": "2"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTfu",
+      "connection": "2"
+   },
+   {
+      "source": "OT",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTfu",
+      "connection": "4"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTfu",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTfu",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTfu",
+      "connection": "1"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTfu",
+      "connection": "1"
+   },
+   {
+      "source": "SH",
+      "target": "BSTfu",
+      "connection": "2"
+   },
+   {
+      "source": "SF",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "BSTfu",
+      "connection": "1"
+   },
+   {
+      "source": "CP",
+      "target": "BSTfu",
+      "connection": "1"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTfu",
+      "connection": "6"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTfu",
+      "connection": "1"
+   },
+   {
+      "source": "IA",
+      "target": "BSTfu",
+      "connection": "1"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTfu",
+      "connection": "1"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "BSTfu",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "BSTv",
+      "connection": "3"
+   },
+   {
+      "source": "MS",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTv",
+      "connection": "2"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTv",
+      "connection": "5"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTv",
+      "connection": "5"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTv",
+      "connection": "5"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTv",
+      "connection": "5"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTv",
+      "connection": "3"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTv",
+      "connection": "1"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTv",
+      "connection": "3"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTv",
+      "connection": "1"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTv",
+      "connection": "3"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTv",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTv",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTv",
+      "connection": "1"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTv",
+      "connection": "1"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTv",
+      "connection": "1"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTv",
+      "connection": "1"
+   },
+   {
+      "source": "SH",
+      "target": "BSTv",
+      "connection": "1"
+   },
+   {
+      "source": "SF",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "BSTv",
+      "connection": "1"
+   },
+   {
+      "source": "CP",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTv",
+      "connection": "4"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTv",
+      "connection": "1"
+   },
+   {
+      "source": "IA",
+      "target": "BSTv",
+      "connection": "3"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTv",
+      "connection": "1"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTv",
+      "connection": "2"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "BSTv",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "BSTmg",
+      "connection": "3"
+   },
+   {
+      "source": "MS",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTmg",
+      "connection": "4"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTmg",
+      "connection": "6"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTmg",
+      "connection": "6"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTmg",
+      "connection": "6"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTmg",
+      "connection": "3"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTmg",
+      "connection": "2"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTmg",
+      "connection": "6"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTmg",
+      "connection": "1"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTmg",
+      "connection": "1"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTmg",
+      "connection": "3"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTmg",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTmg",
+      "connection": "1"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTmg",
+      "connection": "1"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "BSTmg",
+      "connection": "1"
+   },
+   {
+      "source": "CP",
+      "target": "BSTmg",
+      "connection": "1"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTmg",
+      "connection": "1"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTmg",
+      "connection": "4"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "BSTmg",
+      "connection": "2"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "BSTmg",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTdm",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "BSTdm",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "BSTdm",
+      "connection": "5"
+   },
+   {
+      "source": "MS",
+      "target": "BSTdm",
+      "connection": "1"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTdm",
+      "connection": "1"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTdm",
+      "connection": "1"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTdm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTdm",
+      "connection": "4"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTdm",
+      "connection": "5"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTdm",
+      "connection": "6"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTdm",
+      "connection": "6"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTdm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTdm",
+      "connection": "5"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTdm",
+      "connection": "2"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTdm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTdm",
+      "connection": "4"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTdm",
+      "connection": "2"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTdm",
+      "connection": "4"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTdm",
+      "connection": "3"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTdm",
+      "connection": "1"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTdm",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "BSTdm",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTdm",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTdm",
+      "connection": "3"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTdm",
+      "connection": "3"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTdm",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTdm",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTdm",
+      "connection": "3"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTdm",
+      "connection": "2"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTdm",
+      "connection": "1"
+   },
+   {
+      "source": "SH",
+      "target": "BSTdm",
+      "connection": "1"
+   },
+   {
+      "source": "SF",
+      "target": "BSTdm",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "BSTdm",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "BSTdm",
+      "connection": "2"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTdm",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTdm",
+      "connection": "2"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTdm",
+      "connection": "5"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTdm",
+      "connection": "1"
+   },
+   {
+      "source": "IA",
+      "target": "BSTdm",
+      "connection": "2"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTdm",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTdm",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTdm",
+      "connection": "3"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTdm",
+      "connection": "2"
+   },
+   {
+      "source": "BA",
+      "target": "BSTdm",
+      "connection": "2"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTal",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "BSTal",
+      "connection": "1"
+   },
+   {
+      "source": "MA",
+      "target": "BSTal",
+      "connection": "6"
+   },
+   {
+      "source": "MS",
+      "target": "BSTal",
+      "connection": "1"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTal",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTal",
+      "connection": "1"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTal",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTal",
+      "connection": "6"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTal",
+      "connection": "6"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTal",
+      "connection": "3"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTal",
+      "connection": "4"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTal",
+      "connection": "3"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTal",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTal",
+      "connection": "4"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTal",
+      "connection": "4"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTal",
+      "connection": "6"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTal",
+      "connection": "1"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTal",
+      "connection": "2"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTal",
+      "connection": "2"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTal",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTal",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "BSTal",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTal",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTal",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTal",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTal",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTal",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTal",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTal",
+      "connection": "1"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTal",
+      "connection": "1"
+   },
+   {
+      "source": "SH",
+      "target": "BSTal",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "BSTal",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "BSTal",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "BSTal",
+      "connection": "2"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTal",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTal",
+      "connection": "2"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTal",
+      "connection": "7"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTal",
+      "connection": "2"
+   },
+   {
+      "source": "IA",
+      "target": "BSTal",
+      "connection": "2"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTal",
+      "connection": "2"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTal",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTal",
+      "connection": "2"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTal",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "BSTal",
+      "connection": "2"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "BSTov",
+      "connection": "1"
+   },
+   {
+      "source": "MA",
+      "target": "BSTov",
+      "connection": "5"
+   },
+   {
+      "source": "MS",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTov",
+      "connection": "3"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTov",
+      "connection": "7"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTov",
+      "connection": "2"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTov",
+      "connection": "2"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTov",
+      "connection": "2"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTov",
+      "connection": "4"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTov",
+      "connection": "4"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTov",
+      "connection": "4"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTov",
+      "connection": "3"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTov",
+      "connection": "3"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTov",
+      "connection": "3"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "BSTov",
+      "connection": "1"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTov",
+      "connection": "1"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTov",
+      "connection": "5"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTov",
+      "connection": "3"
+   },
+   {
+      "source": "IA",
+      "target": "BSTov",
+      "connection": "2"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTov",
+      "connection": "1"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "BSTov",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "BSTju",
+      "connection": "1"
+   },
+   {
+      "source": "MA",
+      "target": "BSTju",
+      "connection": "7"
+   },
+   {
+      "source": "MS",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTju",
+      "connection": "1"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTju",
+      "connection": "1"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTju",
+      "connection": "1"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTju",
+      "connection": "1"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTju",
+      "connection": "1"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTju",
+      "connection": "3"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTju",
+      "connection": "1"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTju",
+      "connection": "1"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTju",
+      "connection": "2"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTju",
+      "connection": "2"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTju",
+      "connection": "6"
+   },
+   {
+      "source": "OT",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTju",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTju",
+      "connection": "1"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "BSTju",
+      "connection": "1"
+   },
+   {
+      "source": "CP",
+      "target": "BSTju",
+      "connection": "1"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTju",
+      "connection": "3"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTju",
+      "connection": "1"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTju",
+      "connection": "4"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTju",
+      "connection": "2"
+   },
+   {
+      "source": "IA",
+      "target": "BSTju",
+      "connection": "2"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTju",
+      "connection": "1"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "BSTju",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTrh",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "BSTrh",
+      "connection": "2"
+   },
+   {
+      "source": "MA",
+      "target": "BSTrh",
+      "connection": "7"
+   },
+   {
+      "source": "MS",
+      "target": "BSTrh",
+      "connection": "2"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTrh",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTrh",
+      "connection": "1"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTrh",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTrh",
+      "connection": "7"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTrh",
+      "connection": "7"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTrh",
+      "connection": "6"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTrh",
+      "connection": "5"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTrh",
+      "connection": "4"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTrh",
+      "connection": "7"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTrh",
+      "connection": "6"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTrh",
+      "connection": "3"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTrh",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTrh",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTrh",
+      "connection": "4"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTrh",
+      "connection": "4"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTrh",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTrh",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "BSTrh",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTrh",
+      "connection": "3"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTrh",
+      "connection": "5"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTrh",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTrh",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTrh",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTrh",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTrh",
+      "connection": "1"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTrh",
+      "connection": "1"
+   },
+   {
+      "source": "SH",
+      "target": "BSTrh",
+      "connection": "2"
+   },
+   {
+      "source": "SF",
+      "target": "BSTrh",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "BSTrh",
+      "connection": "1"
+   },
+   {
+      "source": "CP",
+      "target": "BSTrh",
+      "connection": "4"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTrh",
+      "connection": "1"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTrh",
+      "connection": "2"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTrh",
+      "connection": "7"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTrh",
+      "connection": "4"
+   },
+   {
+      "source": "IA",
+      "target": "BSTrh",
+      "connection": "7"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTrh",
+      "connection": "3"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTrh",
+      "connection": "1"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTrh",
+      "connection": "2"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTrh",
+      "connection": "1"
+   },
+   {
+      "source": "BA",
+      "target": "BSTrh",
+      "connection": "1"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "BSTpr",
+      "connection": "1"
+   },
+   {
+      "source": "MS",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTpr",
+      "connection": "2"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTpr",
+      "connection": "2"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTpr",
+      "connection": "3"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTpr",
+      "connection": "3"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTpr",
+      "connection": "2"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTpr",
+      "connection": "2"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTpr",
+      "connection": "3"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTpr",
+      "connection": "2"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTpr",
+      "connection": "2"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTpr",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTpr",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTpr",
+      "connection": "3"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTpr",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTpr",
+      "connection": "2"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "BSTpr",
+      "connection": "3"
+   },
+   {
+      "source": "SF",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTpr",
+      "connection": "1"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTpr",
+      "connection": "1"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "BSTpr",
+      "connection": "1"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTpr",
+      "connection": "1"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTpr",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTpr",
+      "connection": "2"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTpr",
+      "connection": "1"
+   },
+   {
+      "source": "BA",
+      "target": "BSTpr",
+      "connection": "6"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTif",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "BSTif",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "BSTif",
+      "connection": "4"
+   },
+   {
+      "source": "MS",
+      "target": "BSTif",
+      "connection": "1"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTif",
+      "connection": "1"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTif",
+      "connection": "1"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTif",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTif",
+      "connection": "3"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTif",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTif",
+      "connection": "3"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTif",
+      "connection": "3"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTif",
+      "connection": "1"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTif",
+      "connection": "1"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTif",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTif",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTif",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTif",
+      "connection": "2"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTif",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTif",
+      "connection": "4"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTif",
+      "connection": "2"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTif",
+      "connection": "1"
+   },
+   {
+      "source": "OT",
+      "target": "BSTif",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTif",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTif",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTif",
+      "connection": "3"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTif",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTif",
+      "connection": "3"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTif",
+      "connection": "3"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTif",
+      "connection": "2"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTif",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "BSTif",
+      "connection": "2"
+   },
+   {
+      "source": "SF",
+      "target": "BSTif",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "BSTif",
+      "connection": "1"
+   },
+   {
+      "source": "CP",
+      "target": "BSTif",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTif",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTif",
+      "connection": "2"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTif",
+      "connection": "2"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTif",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "BSTif",
+      "connection": "2"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTif",
+      "connection": "1"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTif",
+      "connection": "2"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTif",
+      "connection": "4"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTif",
+      "connection": "4"
+   },
+   {
+      "source": "BA",
+      "target": "BSTif",
+      "connection": "3"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTtr",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "BSTtr",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "BSTtr",
+      "connection": "4"
+   },
+   {
+      "source": "MS",
+      "target": "BSTtr",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTtr",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTtr",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTtr",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTtr",
+      "connection": "4"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTtr",
+      "connection": "3"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTtr",
+      "connection": "3"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTtr",
+      "connection": "2"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTtr",
+      "connection": "2"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTtr",
+      "connection": "2"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTtr",
+      "connection": "2"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTtr",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTtr",
+      "connection": "3"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTtr",
+      "connection": "2"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTtr",
+      "connection": "4"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTtr",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTtr",
+      "connection": "1"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTtr",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "BSTtr",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTtr",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTtr",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTtr",
+      "connection": "3"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTtr",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTtr",
+      "connection": "3"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTtr",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTtr",
+      "connection": "2"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTtr",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "BSTtr",
+      "connection": "1"
+   },
+   {
+      "source": "SF",
+      "target": "BSTtr",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "BSTtr",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "BSTtr",
+      "connection": "2"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTtr",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTtr",
+      "connection": "4"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTtr",
+      "connection": "5"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTtr",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "BSTtr",
+      "connection": "3"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTtr",
+      "connection": "3"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTtr",
+      "connection": "2"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTtr",
+      "connection": "3"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTtr",
+      "connection": "2"
+   },
+   {
+      "source": "BA",
+      "target": "BSTtr",
+      "connection": "2"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "BSTd",
+      "connection": "6"
+   },
+   {
+      "source": "MS",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTd",
+      "connection": "6"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTd",
+      "connection": "6"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTd",
+      "connection": "4"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTd",
+      "connection": "4"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTd",
+      "connection": "4"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTd",
+      "connection": "6"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTd",
+      "connection": "2"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTd",
+      "connection": "2"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTd",
+      "connection": "2"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTd",
+      "connection": "2"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTd",
+      "connection": "7"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTd",
+      "connection": "7"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTd",
+      "connection": "6"
+   },
+   {
+      "source": "OT",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTd",
+      "connection": "4"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTd",
+      "connection": "4"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTd",
+      "connection": "5"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "BSTd",
+      "connection": "6"
+   },
+   {
+      "source": "SF",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTd",
+      "connection": "4"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTd",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTd",
+      "connection": "6"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTd",
+      "connection": "2"
+   },
+   {
+      "source": "BA",
+      "target": "BSTd",
+      "connection": "6"
+   },
+   {
+      "source": "GPl",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "MS",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "BSTse",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "MS",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "BAC",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "OT",
+      "connection": "6"
+   },
+   {
+      "source": "MS",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "OT",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "ACB",
+      "connection": "2"
+   },
+   {
+      "source": "SI",
+      "target": "ACB",
+      "connection": "4"
+   },
+   {
+      "source": "MA",
+      "target": "ACB",
+      "connection": "6"
+   },
+   {
+      "source": "MS",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "ACB",
+      "connection": "3"
+   },
+   {
+      "source": "CEAm",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "ACB",
+      "connection": "1"
+   },
+   {
+      "source": "CEAc",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "ACB",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "LSr.m.v",
+      "connection": "2"
+   },
+   {
+      "source": "MS",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "LSr.m.v",
+      "connection": "2"
+   },
+   {
+      "source": "TRS",
+      "target": "LSr.m.v",
+      "connection": "2"
+   },
+   {
+      "source": "BSTam",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "LSr.m.v",
+      "connection": "1"
+   },
+   {
+      "source": "BSTdm",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "LSr.m.v",
+      "connection": "1"
+   },
+   {
+      "source": "BSTd",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "LSr.m.v",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "LSr.m.v",
+      "connection": "1"
+   },
+   {
+      "source": "LSc.v",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "LSr.m.v",
+      "connection": "4"
+   },
+   {
+      "source": "CP",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "LSr.m.v",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "LSr.m.d",
+      "connection": "2"
+   },
+   {
+      "source": "MS",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "LSr.m.d",
+      "connection": "2"
+   },
+   {
+      "source": "TRS",
+      "target": "LSr.m.d",
+      "connection": "4"
+   },
+   {
+      "source": "BSTam",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "LSr.m.d",
+      "connection": "1"
+   },
+   {
+      "source": "BSTju",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "LSr.m.d",
+      "connection": "3"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "LSr.m.d",
+      "connection": "1"
+   },
+   {
+      "source": "LSv",
+      "target": "LSr.m.d",
+      "connection": "3"
+   },
+   {
+      "source": "SH",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "LSr.m.d",
+      "connection": "2"
+   },
+   {
+      "source": "CP",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "LSr.m.d",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "LSr.vl",
+      "connection": "2"
+   },
+   {
+      "source": "MS",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "LSr.vl",
+      "connection": "3"
+   },
+   {
+      "source": "BSTv",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "LSr.vl",
+      "connection": "1"
+   },
+   {
+      "source": "BSTdm",
+      "target": "LSr.vl",
+      "connection": "1"
+   },
+   {
+      "source": "BSTal",
+      "target": "LSr.vl",
+      "connection": "1"
+   },
+   {
+      "source": "BSTov",
+      "target": "LSr.vl",
+      "connection": "2"
+   },
+   {
+      "source": "BSTju",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "LSr.vl",
+      "connection": "2"
+   },
+   {
+      "source": "BSTtr",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "LSr.vl",
+      "connection": "2"
+   },
+   {
+      "source": "ACB",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "LSr.vl",
+      "connection": "4"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "LSr.vl",
+      "connection": "4"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "LSr.vl",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.d",
+      "target": "LSr.vl",
+      "connection": "2"
+   },
+   {
+      "source": "LSv",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "LSr.vl",
+      "connection": "2"
+   },
+   {
+      "source": "SF",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "LSr.vl",
+      "connection": "2"
+   },
+   {
+      "source": "CP",
+      "target": "LSr.vl",
+      "connection": "2"
+   },
+   {
+      "source": "AAA",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "LSr.vl",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "LSr.dl",
+      "connection": "2"
+   },
+   {
+      "source": "MS",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "LSr.dl",
+      "connection": "2"
+   },
+   {
+      "source": "TRS",
+      "target": "LSr.dl",
+      "connection": "4"
+   },
+   {
+      "source": "BSTam",
+      "target": "LSr.dl",
+      "connection": "1"
+   },
+   {
+      "source": "BSTfu",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "LSr.dl",
+      "connection": "3"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "LSr.dl",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "LSr.dl",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.v",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "LSr.dl",
+      "connection": "3"
+   },
+   {
+      "source": "LSv",
+      "target": "LSr.dl",
+      "connection": "2"
+   },
+   {
+      "source": "SH",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "LSr.dl",
+      "connection": "3"
+   },
+   {
+      "source": "CP",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "LSr.dl",
+      "connection": "2"
+   },
+   {
+      "source": "MEApd",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "LSr.dl",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "LSc.v",
+      "connection": "2"
+   },
+   {
+      "source": "MS",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "LSc.v",
+      "connection": "3"
+   },
+   {
+      "source": "TRS",
+      "target": "LSc.v",
+      "connection": "5"
+   },
+   {
+      "source": "BSTam",
+      "target": "LSc.v",
+      "connection": "2"
+   },
+   {
+      "source": "BSTfu",
+      "target": "LSc.v",
+      "connection": "1"
+   },
+   {
+      "source": "BSTv",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "LSc.v",
+      "connection": "4"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "LSc.v",
+      "connection": "1"
+   },
+   {
+      "source": "SH",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "LSc.v",
+      "connection": "3"
+   },
+   {
+      "source": "CP",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "LSc.v",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "LSc.d",
+      "connection": "2"
+   },
+   {
+      "source": "MS",
+      "target": "LSc.d",
+      "connection": "1"
+   },
+   {
+      "source": "NDB",
+      "target": "LSc.d",
+      "connection": "2"
+   },
+   {
+      "source": "TRS",
+      "target": "LSc.d",
+      "connection": "6"
+   },
+   {
+      "source": "BSTam",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "LSc.d",
+      "connection": "4"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "LSc.d",
+      "connection": "4"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "LSc.d",
+      "connection": "4"
+   },
+   {
+      "source": "LSc.d",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "LSc.d",
+      "connection": "1"
+   },
+   {
+      "source": "MEApd",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "LSc.d",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "LSv",
+      "connection": "1"
+   },
+   {
+      "source": "MS",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "LSv",
+      "connection": "2"
+   },
+   {
+      "source": "BSTam",
+      "target": "LSv",
+      "connection": "1"
+   },
+   {
+      "source": "BSTfu",
+      "target": "LSv",
+      "connection": "2"
+   },
+   {
+      "source": "BSTv",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "LSv",
+      "connection": "1"
+   },
+   {
+      "source": "BSTdm",
+      "target": "LSv",
+      "connection": "1"
+   },
+   {
+      "source": "BSTal",
+      "target": "LSv",
+      "connection": "1"
+   },
+   {
+      "source": "BSTov",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "LSv",
+      "connection": "2"
+   },
+   {
+      "source": "BSTtr",
+      "target": "LSv",
+      "connection": "1"
+   },
+   {
+      "source": "BSTd",
+      "target": "LSv",
+      "connection": "1"
+   },
+   {
+      "source": "BSTse",
+      "target": "LSv",
+      "connection": "3"
+   },
+   {
+      "source": "BAC",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "LSv",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "LSv",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.v",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "LSv",
+      "connection": "2"
+   },
+   {
+      "source": "LSv",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "LSv",
+      "connection": "1"
+   },
+   {
+      "source": "CP",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "LSv",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "LSv",
+      "connection": "2"
+   },
+   {
+      "source": "GPl",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "SH",
+      "connection": "3"
+   },
+   {
+      "source": "MS",
+      "target": "SH",
+      "connection": "3"
+   },
+   {
+      "source": "NDB",
+      "target": "SH",
+      "connection": "1"
+   },
+   {
+      "source": "TRS",
+      "target": "SH",
+      "connection": "7"
+   },
+   {
+      "source": "BSTam",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "SH",
+      "connection": "1"
+   },
+   {
+      "source": "BSTju",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "SH",
+      "connection": "3"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "SH",
+      "connection": "3"
+   },
+   {
+      "source": "LSc.v",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "SH",
+      "connection": "4"
+   },
+   {
+      "source": "SH",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "SH",
+      "connection": "4"
+   },
+   {
+      "source": "AAA",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "SH",
+      "connection": "2"
+   },
+   {
+      "source": "CEAl",
+      "target": "SH",
+      "connection": "2"
+   },
+   {
+      "source": "CEAc",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "SH",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "SF",
+      "connection": "1"
+   },
+   {
+      "source": "MS",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "SF",
+      "connection": "6"
+   },
+   {
+      "source": "TRS",
+      "target": "SF",
+      "connection": "6"
+   },
+   {
+      "source": "BSTam",
+      "target": "SF",
+      "connection": "2"
+   },
+   {
+      "source": "BSTfu",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "SF",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "SF",
+      "connection": "3"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "SF",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.d",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "SF",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "FS",
+      "connection": "6"
+   },
+   {
+      "source": "MA",
+      "target": "FS",
+      "connection": "6"
+   },
+   {
+      "source": "MS",
+      "target": "FS",
+      "connection": "2"
+   },
+   {
+      "source": "NDB",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "FS",
+      "connection": "4"
+   },
+   {
+      "source": "BSTv",
+      "target": "FS",
+      "connection": "4"
+   },
+   {
+      "source": "BSTmg",
+      "target": "FS",
+      "connection": "2"
+   },
+   {
+      "source": "BSTdm",
+      "target": "FS",
+      "connection": "2"
+   },
+   {
+      "source": "BSTal",
+      "target": "FS",
+      "connection": "2"
+   },
+   {
+      "source": "BSTov",
+      "target": "FS",
+      "connection": "3"
+   },
+   {
+      "source": "BSTju",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "FS",
+      "connection": "2"
+   },
+   {
+      "source": "BSTif",
+      "target": "FS",
+      "connection": "2"
+   },
+   {
+      "source": "BSTtr",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "FS",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "FS",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "FS",
+      "connection": "1"
+   },
+   {
+      "source": "LSc.d",
+      "target": "FS",
+      "connection": "1"
+   },
+   {
+      "source": "LSv",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "FS",
+      "connection": "2"
+   },
+   {
+      "source": "CEAm",
+      "target": "FS",
+      "connection": "2"
+   },
+   {
+      "source": "CEAl",
+      "target": "FS",
+      "connection": "6"
+   },
+   {
+      "source": "CEAc",
+      "target": "FS",
+      "connection": "1"
+   },
+   {
+      "source": "IA",
+      "target": "FS",
+      "connection": "4"
+   },
+   {
+      "source": "MEAav",
+      "target": "FS",
+      "connection": "2"
+   },
+   {
+      "source": "MEAad",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "FS",
+      "connection": "2"
+   },
+   {
+      "source": "MEApd",
+      "target": "FS",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "FS",
+      "connection": "1"
+   },
+   {
+      "source": "GPl",
+      "target": "CP",
+      "connection": "4"
+   },
+   {
+      "source": "SI",
+      "target": "CP",
+      "connection": "6"
+   },
+   {
+      "source": "MA",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "MS",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "CP",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "AAA",
+      "connection": "4"
+   },
+   {
+      "source": "MA",
+      "target": "AAA",
+      "connection": "4"
+   },
+   {
+      "source": "MS",
+      "target": "AAA",
+      "connection": "4"
+   },
+   {
+      "source": "NDB",
+      "target": "AAA",
+      "connection": "1"
+   },
+   {
+      "source": "TRS",
+      "target": "AAA",
+      "connection": "4"
+   },
+   {
+      "source": "BSTam",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "AAA",
+      "connection": "4"
+   },
+   {
+      "source": "BSTv",
+      "target": "AAA",
+      "connection": "1"
+   },
+   {
+      "source": "BSTmg",
+      "target": "AAA",
+      "connection": "2"
+   },
+   {
+      "source": "BSTdm",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "AAA",
+      "connection": "1"
+   },
+   {
+      "source": "BSTov",
+      "target": "AAA",
+      "connection": "4"
+   },
+   {
+      "source": "BSTju",
+      "target": "AAA",
+      "connection": "2"
+   },
+   {
+      "source": "BSTrh",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "AAA",
+      "connection": "6"
+   },
+   {
+      "source": "BSTif",
+      "target": "AAA",
+      "connection": "2"
+   },
+   {
+      "source": "BSTtr",
+      "target": "AAA",
+      "connection": "3"
+   },
+   {
+      "source": "BSTd",
+      "target": "AAA",
+      "connection": "6"
+   },
+   {
+      "source": "BSTse",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "AAA",
+      "connection": "4"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "AAA",
+      "connection": "4"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "AAA",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "AAA",
+      "connection": "6"
+   },
+   {
+      "source": "AAA",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "AAA",
+      "connection": "2"
+   },
+   {
+      "source": "CEAc",
+      "target": "AAA",
+      "connection": "2"
+   },
+   {
+      "source": "IA",
+      "target": "AAA",
+      "connection": "2"
+   },
+   {
+      "source": "MEAav",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "AAA",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "CEAm",
+      "connection": "3"
+   },
+   {
+      "source": "MS",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "CEAm",
+      "connection": "5"
+   },
+   {
+      "source": "BSTv",
+      "target": "CEAm",
+      "connection": "6"
+   },
+   {
+      "source": "BSTmg",
+      "target": "CEAm",
+      "connection": "2"
+   },
+   {
+      "source": "BSTdm",
+      "target": "CEAm",
+      "connection": "3"
+   },
+   {
+      "source": "BSTal",
+      "target": "CEAm",
+      "connection": "2"
+   },
+   {
+      "source": "BSTov",
+      "target": "CEAm",
+      "connection": "6"
+   },
+   {
+      "source": "BSTju",
+      "target": "CEAm",
+      "connection": "6"
+   },
+   {
+      "source": "BSTrh",
+      "target": "CEAm",
+      "connection": "1"
+   },
+   {
+      "source": "BSTpr",
+      "target": "CEAm",
+      "connection": "7"
+   },
+   {
+      "source": "BSTif",
+      "target": "CEAm",
+      "connection": "1"
+   },
+   {
+      "source": "BSTtr",
+      "target": "CEAm",
+      "connection": "3"
+   },
+   {
+      "source": "BSTd",
+      "target": "CEAm",
+      "connection": "5"
+   },
+   {
+      "source": "BSTse",
+      "target": "CEAm",
+      "connection": "2"
+   },
+   {
+      "source": "BAC",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "CEAm",
+      "connection": "2"
+   },
+   {
+      "source": "AAA",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "CEAm",
+      "connection": "1"
+   },
+   {
+      "source": "CEAl",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "CEAm",
+      "connection": "1"
+   },
+   {
+      "source": "IA",
+      "target": "CEAm",
+      "connection": "2"
+   },
+   {
+      "source": "MEAav",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "CEAm",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "CEAl",
+      "connection": "3"
+   },
+   {
+      "source": "MS",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "CEAl",
+      "connection": "3"
+   },
+   {
+      "source": "BSTv",
+      "target": "CEAl",
+      "connection": "6"
+   },
+   {
+      "source": "BSTmg",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "CEAl",
+      "connection": "2"
+   },
+   {
+      "source": "BSTal",
+      "target": "CEAl",
+      "connection": "1"
+   },
+   {
+      "source": "BSTov",
+      "target": "CEAl",
+      "connection": "4"
+   },
+   {
+      "source": "BSTju",
+      "target": "CEAl",
+      "connection": "5"
+   },
+   {
+      "source": "BSTrh",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "CEAl",
+      "connection": "2"
+   },
+   {
+      "source": "BSTif",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "CEAl",
+      "connection": "1"
+   },
+   {
+      "source": "BSTd",
+      "target": "CEAl",
+      "connection": "2"
+   },
+   {
+      "source": "BSTse",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "CEAl",
+      "connection": "4"
+   },
+   {
+      "source": "CEAc",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "CEAl",
+      "connection": "2"
+   },
+   {
+      "source": "MEAav",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "CEAl",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "CEAc",
+      "connection": "3"
+   },
+   {
+      "source": "MS",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "CEAc",
+      "connection": "1"
+   },
+   {
+      "source": "BSTam",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "CEAc",
+      "connection": "4"
+   },
+   {
+      "source": "BSTv",
+      "target": "CEAc",
+      "connection": "4"
+   },
+   {
+      "source": "BSTmg",
+      "target": "CEAc",
+      "connection": "3"
+   },
+   {
+      "source": "BSTdm",
+      "target": "CEAc",
+      "connection": "4"
+   },
+   {
+      "source": "BSTal",
+      "target": "CEAc",
+      "connection": "2"
+   },
+   {
+      "source": "BSTov",
+      "target": "CEAc",
+      "connection": "7"
+   },
+   {
+      "source": "BSTju",
+      "target": "CEAc",
+      "connection": "2"
+   },
+   {
+      "source": "BSTrh",
+      "target": "CEAc",
+      "connection": "1"
+   },
+   {
+      "source": "BSTpr",
+      "target": "CEAc",
+      "connection": "6"
+   },
+   {
+      "source": "BSTif",
+      "target": "CEAc",
+      "connection": "1"
+   },
+   {
+      "source": "BSTtr",
+      "target": "CEAc",
+      "connection": "2"
+   },
+   {
+      "source": "BSTd",
+      "target": "CEAc",
+      "connection": "3"
+   },
+   {
+      "source": "BSTse",
+      "target": "CEAc",
+      "connection": "2"
+   },
+   {
+      "source": "BAC",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "CEAc",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "CEAc",
+      "connection": "3"
+   },
+   {
+      "source": "AAA",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "CEAc",
+      "connection": "1"
+   },
+   {
+      "source": "CEAl",
+      "target": "CEAc",
+      "connection": "2"
+   },
+   {
+      "source": "CEAc",
+      "target": "CEAc",
+      "connection": "4"
+   },
+   {
+      "source": "IA",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "CEAc",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "IA",
+      "connection": "4"
+   },
+   {
+      "source": "MS",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "IA",
+      "connection": "4"
+   },
+   {
+      "source": "TRS",
+      "target": "IA",
+      "connection": "4"
+   },
+   {
+      "source": "BSTam",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "IA",
+      "connection": "4"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "IA",
+      "connection": "4"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "IA",
+      "connection": "4"
+   },
+   {
+      "source": "AAA",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "IA",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "MEAav",
+      "connection": "3"
+   },
+   {
+      "source": "MS",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "MEAav",
+      "connection": "1"
+   },
+   {
+      "source": "BSTam",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "MEAav",
+      "connection": "3"
+   },
+   {
+      "source": "BSTv",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "MEAav",
+      "connection": "2"
+   },
+   {
+      "source": "BSTdm",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "MEAav",
+      "connection": "4"
+   },
+   {
+      "source": "BSTju",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "MEAav",
+      "connection": "2"
+   },
+   {
+      "source": "BSTtr",
+      "target": "MEAav",
+      "connection": "3"
+   },
+   {
+      "source": "BSTd",
+      "target": "MEAav",
+      "connection": "3"
+   },
+   {
+      "source": "BSTse",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "MEAav",
+      "connection": "6"
+   },
+   {
+      "source": "OT",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "MEAav",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "MEAav",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "MEAav",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "MEAav",
+      "connection": "2"
+   },
+   {
+      "source": "AAA",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "MEAav",
+      "connection": "2"
+   },
+   {
+      "source": "CEAl",
+      "target": "MEAav",
+      "connection": "2"
+   },
+   {
+      "source": "CEAc",
+      "target": "MEAav",
+      "connection": "2"
+   },
+   {
+      "source": "IA",
+      "target": "MEAav",
+      "connection": "3"
+   },
+   {
+      "source": "MEAav",
+      "target": "MEAav",
+      "connection": "1"
+   },
+   {
+      "source": "MEAad",
+      "target": "MEAav",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "MEAav",
+      "connection": "3"
+   },
+   {
+      "source": "MEApd",
+      "target": "MEAav",
+      "connection": "3"
+   },
+   {
+      "source": "BA",
+      "target": "MEAav",
+      "connection": "3"
+   },
+   {
+      "source": "GPl",
+      "target": "MEAad",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "MEAad",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "MEAad",
+      "connection": "4"
+   },
+   {
+      "source": "MS",
+      "target": "MEAad",
+      "connection": "1"
+   },
+   {
+      "source": "NDB",
+      "target": "MEAad",
+      "connection": "1"
+   },
+   {
+      "source": "TRS",
+      "target": "MEAad",
+      "connection": "4"
+   },
+   {
+      "source": "BSTam",
+      "target": "MEAad",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "MEAad",
+      "connection": "6"
+   },
+   {
+      "source": "BSTv",
+      "target": "MEAad",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "MEAad",
+      "connection": "4"
+   },
+   {
+      "source": "BSTdm",
+      "target": "MEAad",
+      "connection": "3"
+   },
+   {
+      "source": "BSTal",
+      "target": "MEAad",
+      "connection": "4"
+   },
+   {
+      "source": "BSTov",
+      "target": "MEAad",
+      "connection": "3"
+   },
+   {
+      "source": "BSTju",
+      "target": "MEAad",
+      "connection": "1"
+   },
+   {
+      "source": "BSTrh",
+      "target": "MEAad",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "MEAad",
+      "connection": "4"
+   },
+   {
+      "source": "BSTif",
+      "target": "MEAad",
+      "connection": "2"
+   },
+   {
+      "source": "BSTtr",
+      "target": "MEAad",
+      "connection": "6"
+   },
+   {
+      "source": "BSTd",
+      "target": "MEAad",
+      "connection": "6"
+   },
+   {
+      "source": "BSTse",
+      "target": "MEAad",
+      "connection": "2"
+   },
+   {
+      "source": "BAC",
+      "target": "MEAad",
+      "connection": "2"
+   },
+   {
+      "source": "OT",
+      "target": "MEAad",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "MEAad",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "MEAad",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "MEAad",
+      "connection": "4"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "MEAad",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "MEAad",
+      "connection": "5"
+   },
+   {
+      "source": "LSc.v",
+      "target": "MEAad",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.d",
+      "target": "MEAad",
+      "connection": "2"
+   },
+   {
+      "source": "LSv",
+      "target": "MEAad",
+      "connection": "2"
+   },
+   {
+      "source": "SH",
+      "target": "MEAad",
+      "connection": "3"
+   },
+   {
+      "source": "SF",
+      "target": "MEAad",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "MEAad",
+      "connection": "1"
+   },
+   {
+      "source": "CP",
+      "target": "MEAad",
+      "connection": "3"
+   },
+   {
+      "source": "AAA",
+      "target": "MEAad",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "MEAad",
+      "connection": "7"
+   },
+   {
+      "source": "CEAl",
+      "target": "MEAad",
+      "connection": "4"
+   },
+   {
+      "source": "CEAc",
+      "target": "MEAad",
+      "connection": "1"
+   },
+   {
+      "source": "IA",
+      "target": "MEAad",
+      "connection": "6"
+   },
+   {
+      "source": "MEAav",
+      "target": "MEAad",
+      "connection": "6"
+   },
+   {
+      "source": "MEAad",
+      "target": "MEAad",
+      "connection": "6"
+   },
+   {
+      "source": "MEApv",
+      "target": "MEAad",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "MEAad",
+      "connection": "6"
+   },
+   {
+      "source": "BA",
+      "target": "MEAad",
+      "connection": "4"
+   },
+   {
+      "source": "GPl",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "MEApv",
+      "connection": "3"
+   },
+   {
+      "source": "MS",
+      "target": "MEApv",
+      "connection": "1"
+   },
+   {
+      "source": "NDB",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "MEApv",
+      "connection": "1"
+   },
+   {
+      "source": "BSTam",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "MEApv",
+      "connection": "5"
+   },
+   {
+      "source": "BSTv",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "MEApv",
+      "connection": "4"
+   },
+   {
+      "source": "BSTdm",
+      "target": "MEApv",
+      "connection": "4"
+   },
+   {
+      "source": "BSTal",
+      "target": "MEApv",
+      "connection": "2"
+   },
+   {
+      "source": "BSTov",
+      "target": "MEApv",
+      "connection": "2"
+   },
+   {
+      "source": "BSTju",
+      "target": "MEApv",
+      "connection": "1"
+   },
+   {
+      "source": "BSTrh",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "MEApv",
+      "connection": "3"
+   },
+   {
+      "source": "BSTtr",
+      "target": "MEApv",
+      "connection": "6"
+   },
+   {
+      "source": "BSTd",
+      "target": "MEApv",
+      "connection": "7"
+   },
+   {
+      "source": "BSTse",
+      "target": "MEApv",
+      "connection": "2"
+   },
+   {
+      "source": "BAC",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "MEApv",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "MEApv",
+      "connection": "2"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "MEApv",
+      "connection": "3"
+   },
+   {
+      "source": "LSc.v",
+      "target": "MEApv",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.d",
+      "target": "MEApv",
+      "connection": "2"
+   },
+   {
+      "source": "LSv",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "MEApv",
+      "connection": "3"
+   },
+   {
+      "source": "SF",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "MEApv",
+      "connection": "2"
+   },
+   {
+      "source": "AAA",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "MEApv",
+      "connection": "3"
+   },
+   {
+      "source": "CEAl",
+      "target": "MEApv",
+      "connection": "2"
+   },
+   {
+      "source": "CEAc",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "MEApv",
+      "connection": "3"
+   },
+   {
+      "source": "MEAav",
+      "target": "MEApv",
+      "connection": "3"
+   },
+   {
+      "source": "MEAad",
+      "target": "MEApv",
+      "connection": "7"
+   },
+   {
+      "source": "MEApv",
+      "target": "MEApv",
+      "connection": "6"
+   },
+   {
+      "source": "MEApd",
+      "target": "MEApv",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "MEApv",
+      "connection": "4"
+   },
+   {
+      "source": "GPl",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "MEApd",
+      "connection": "2"
+   },
+   {
+      "source": "MS",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "MEApd",
+      "connection": "2"
+   },
+   {
+      "source": "BSTv",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "MEApd",
+      "connection": "2"
+   },
+   {
+      "source": "BSTdm",
+      "target": "MEApd",
+      "connection": "1"
+   },
+   {
+      "source": "BSTal",
+      "target": "MEApd",
+      "connection": "1"
+   },
+   {
+      "source": "BSTov",
+      "target": "MEApd",
+      "connection": "1"
+   },
+   {
+      "source": "BSTju",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "MEApd",
+      "connection": "7"
+   },
+   {
+      "source": "BSTtr",
+      "target": "MEApd",
+      "connection": "4"
+   },
+   {
+      "source": "BSTd",
+      "target": "MEApd",
+      "connection": "3"
+   },
+   {
+      "source": "BSTse",
+      "target": "MEApd",
+      "connection": "2"
+   },
+   {
+      "source": "BAC",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "MEApd",
+      "connection": "1"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "MEApd",
+      "connection": "3"
+   },
+   {
+      "source": "LSc.v",
+      "target": "MEApd",
+      "connection": "2"
+   },
+   {
+      "source": "LSc.d",
+      "target": "MEApd",
+      "connection": "2"
+   },
+   {
+      "source": "LSv",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "MEApd",
+      "connection": "3"
+   },
+   {
+      "source": "SF",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "MEApd",
+      "connection": "1"
+   },
+   {
+      "source": "CP",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "MEApd",
+      "connection": "2"
+   },
+   {
+      "source": "CEAl",
+      "target": "MEApd",
+      "connection": "2"
+   },
+   {
+      "source": "CEAc",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "MEApd",
+      "connection": "2"
+   },
+   {
+      "source": "MEAav",
+      "target": "MEApd",
+      "connection": "1"
+   },
+   {
+      "source": "MEAad",
+      "target": "MEApd",
+      "connection": "4"
+   },
+   {
+      "source": "MEApv",
+      "target": "MEApd",
+      "connection": "4"
+   },
+   {
+      "source": "MEApd",
+      "target": "MEApd",
+      "connection": "4"
+   },
+   {
+      "source": "BA",
+      "target": "MEApd",
+      "connection": "0"
+   },
+   {
+      "source": "GPl",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "SI",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "MA",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "MS",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "NDB",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "TRS",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTam",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTfu",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTv",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTmg",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTdm",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTal",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTov",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTju",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTrh",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTpr",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTif",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTtr",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTd",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "BSTse",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "BAC",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "OT",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "ACB",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.v",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.m.d",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.vl",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "LSr.dl",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.v",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "LSc.d",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "LSv",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "SH",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "SF",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "FS",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "CP",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "AAA",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "CEAm",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "CEAl",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "CEAc",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "IA",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "MEAav",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "MEAad",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "MEApv",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "MEApd",
+      "target": "BA",
+      "connection": "0"
+   },
+   {
+      "source": "BA",
+      "target": "BA",
+      "connection": "0"
+   }
+]

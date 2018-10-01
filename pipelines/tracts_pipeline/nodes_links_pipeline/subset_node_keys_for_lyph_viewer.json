@@ -1,0 +1,5 @@
+{
+  "subset_keys_for_lyph_viewer": [{
+    "delete_properties": ["terminal_lyph","root_lyph","source_lyph","target_lyph","source", "target"]
+  }]
+}

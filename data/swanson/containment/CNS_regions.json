@@ -1,0 +1,624 @@
+{
+   "CENTRAL NERVOUS SYSTEM [RAT] (CARUS, 1814)  (CNS)": {
+      "Endbrain (Kuhlenbeck, 1927)  (EB) or Cerebrum (Obersteiner & Hill, 1900) (CH)": {
+         "Cerebral nuclei (Swanson, 2000a)  (CNU)": {
+            "Pallidum (Swanson, 2000a)  (PAL)": {
+               "Globus pallidus (Burdach, 1822)  (GP)": {
+                  "Medial globus pallidus (>1840)  (GPm)": {
+                     "Lateral globus pallidus (>1840)  (GPl)": {}
+                  },
+                  "Innominate substance (Schwalbe, 1881)  (SI)": {},
+                  "Magnocellular nucleus (Swanson, 2004)  (MA)": {},
+                  "Medial septal complex (Swanson et al., 1987)  (MSC)": {
+                     "Medial septal nucleus (>1840)  (MS)": {},
+                     "Diagonal band nucleus (>1840)  (NDB)": {}
+                  },
+                  "Triangular septal nucleus (>1840)  (TRS)": {
+                     "bed nucleus of medullary stria (Risold & Swanson, 1995a)  (BSM)": {}
+                  },
+                  "Bed nuclei of terminal stria (Gurdjian, 1925)  (BST)": {
+                     "Anterior division (Ju & Swanson, 1989)  (BSTa)": {
+                        "Anteromedial area (Dong & Swanson, 2006c)  (BSTam)": {},
+                        "Fusiform nucleus (Ju & Swanson, 1989)  (BSTfu)": {},
+                        "Ventral nucleus (Ju & Swanson, 1989)  (BSTv)": {},
+                        "Magnocellular nucleus (Ju & Swanson, 1989)  (BSTmg)": {},
+                        "Dorsomedial nucleus (Ju & Swanson, 1989)  (BSTdm)": {},
+                        "Anterolateral area (Swanson, 2004)  (BSTal)": {},
+                        "Oval nucleus (Ju & Swanson, 1989)  (BSTov)": {},
+                        "Juxtacapsular nucleus (McDonald, 1983)  (BSTju)": {},
+                        "Rhomboid nucleus (Ju & Swanson, 1989)  (BSTrh)": {}
+                     },
+                     "Posterior division (Ju & Swanson, 1989)  (BSTp)": {
+                        "Principal nucleus (Ju & Swanson, 1989)  (BSTpr)": {
+                           "cell-sparse zone (Ju & Swanson, 1989)  (BSTsz)": {}
+                        },
+                        "Interfascicular nucleus (Ju & Swanson, 1989)  (BSTif)": {
+                           "premedullary nucleus (Ju & Swanson, 1989)   (BSTpm)": {}
+                        },
+                        "Transverse nucleus (Ju & Swanson, 1989)   (BSTtr)": {},
+                        "Dorsal nucleus (Ju & Swanson, 1989)  (BSTd)": {},
+                        "Strial extension (Ju & Swanson, 1989)  (BSTse)": {}
+                     }
+                  },
+                  "Bed nucleus of anterior commissure (Gurdjian, 1925)  (BAC)": {}
+               },
+               "Striatum (Swanson, 2000a)  (STR)": {
+                  "Olfactory tubercle (Calleja, 1893)  (OT)": {
+                     "molecular layer (>1840) (OT1)": {},
+                     "pyramidal layer (>1840) (OT2)": {},
+                     "polymorph layer (>1840) (OT3)": {},
+                     "islands of Calleja (>1840)  (isl)": {},
+                     "major island of Calleja (>1840)  (islm)": {}
+                  },
+                  "Accumbens nucleus (Ziehen, 1897-1901)  (ACB)": {},
+                  "Lateral septal complex (Risold & Swanson, 1997a)  (LSX)": {
+                     "Lateral septal nucleus (Cajal, 1909-1911)  (LS)": {
+                        "Rostral (rostroventral) part (Risold & Swanson, 1997a)  (LSr)": {
+                           "Medial zone (Risold & Swanson, 1997a)  (LSr.m)": {
+                              "Ventral region (Risold & Swanson, 1997a)  (LSr.m.v)": {
+                                 "rostral domain (Risold & Swanson, 1997a)  (LSr.m.v.r)": {},
+                                 "caudal domain (Risold & Swanson, 1997a)  (LSr.m.v.c)": {}
+                              },
+                              "Dorsal region (Risold & Swanson, 1997a)  (LSr.m.d)": {}
+                           },
+                           "Ventrolateral zone (Risold & Swanson, 1997a)  (LSr.vl)": {
+                              "ventral region (Risold & Swanson, 1997a)  (LSr.vl.v)": {},
+                              "dorsal region (Risold & Swanson, 1997a)  (LSr.vl.d)": {
+                                 "medial domain (Risold & Swanson, 1997a)  (LSr.vl.d.m)": {},
+                                 "lateral domain (Risold & Swanson, 1997a)  (LSr.vl.d.l)": {}
+                              }
+                           },
+                           "Dorsolateral zone (Risold & Swanson, 1997a)  (LSr.dl)": {
+                              "medial region (Risold & Swanson, 1997a)  (LSr.dl.m)": {
+                                 "ventral domain (Risold & Swanson, 1997a)  (LSr.dl.m.v)": {},
+                                 "dorsal domain (Risold & Swanson, 1997a)  (LSr.dl.m.d)": {}
+                              },
+                              "lateral region (Risold & Swanson, 1997a)  (LSr.dl.l)": {
+                                 "ventral domain (Risold & Swanson, 1997a)  (LSr.dl.l.v)": {},
+                                 "dorsal domain (Risold & Swanson, 1997a)  (LSr.dl.l.d)": {}
+                              }
+                           }
+                        },
+                        "Caudal (caudodorsal) part (Risold & Swanson, 1997a)  (LSc)": {
+                           "Ventral zone (Risold & Swanson, 1997a)  (LSc.v)": {
+                              "medial region (Risold & Swanson, 1997a)  (LSc.v.m)": {
+                                 "ventral domain (Risold & Swanson, 1997a)  (LSc.v.m.v)": {},
+                                 "dorsal domain (Risold & Swanson, 1997a)  (LSc.v.m.d)": {}
+                              },
+                              "intermediate region (Risold & Swanson, 1997a)  (LSc.v.i)": {},
+                              "lateral region (Risold & Swanson, 1997a)  (LSc.v.l)": {
+                                 "ventral domain (Risold & Swanson, 1997a)  (LSc.v.l.v)": {},
+                                 "dorsal domain (Risold & Swanson, 1997a)  (LSc.v.l.d)": {}
+                              }
+                           },
+                           "Dorsal zone (Risold & Swanson, 1997a)  (LSc.d)": {
+                              "rostral region (Risold & Swanson, 1997a)  (LSc.d.r)": {},
+                              "dorsal region (Risold & Swanson, 1997a)  (LSc.d.d)": {},
+                              "lateral region (Risold & Swanson, 1997a)  (LSc.d.l)": {},
+                              "ventral region (Risold & Swanson, 1997a)  (LSc.d.v)": {}
+                           }
+                        },
+                        "Ventral part (Risold & Swanson, 1997a)  (LSv)": {}
+                     },
+                     "Septohippocampal nucleus (>1840)  (SH)": {},
+                     "Septofimbrial nucleus (>1840)  (SF)": {}
+                  },
+                  "Striatal fundus (>1840)  (FS)": {},
+                  "Caudoputamen (Heimer & Wilson, 1975)  (CP)": {},
+                  "Anterior amygdalar area (Gurdjian, 1928)  (AAA)": {},
+                  "Central amygdalar nucleus (Johnston, 1923)  (CEA)": {
+                     "Medial part (McDonald, 1982)  (CEAm)": {},
+                     "Lateral part (Swanson, 1992a)  (CEAl)": {},
+                     "Capsular part (McDonald, 1982)  (CEAc)": {}
+                  },
+                  "Intercalated amygdalar nuclei (>1840)  (IA)": {},
+                  "Medial amygdalar nucleus (Johnston, 1923)  (MEA)": {
+                     "Anteroventral part (>1840)  (MEAav)": {},
+                     "Anterodorsal part (>1840)  (MEAad)": {},
+                     "Posteroventral part (>1840)  (MEApv)": {},
+                     "Posterodorsal part (>1840)  (MEApd)": {
+                        "sublayer a (>1840) (MEApd-a)": {},
+                        "sublayer b (>1840) (MEApd-b)": {},
+                        "sublayer c (>1840) (MEApd-c)": {}
+                     },
+                     "Bed nucleus of accessory olfactory tract (Scalia & Winans, 1975)  (BA)": {}
+                  }
+               }
+            },
+            "Cerebral cortex (Swanson, 2000a)  (CTX)": {
+               "Cortical plate (>1840)  (CTXpl)": {
+                  "Limbic region (>1840)  (LIMB)": {
+                     "Olfactory region (>1840)  (OLF)": {
+                        "Olfactory bulb (Weitbrecht, 1751)  (OB)": {
+                           "Main olfactory bulb (>1840)  (MOB)": {
+                              "glomerular layer (>1840) (MOBgl)": {},
+                              "outer plexiform layer (>1840) (MOBopl)": {},
+                              "mitral layer (>1840) (MOBmi)": {},
+                              "inner plexiform layer (>1840) (MOBipl)": {},
+                              "granule cell layer (>1840) (MOBgr)": {}
+                           },
+                           "Accessory olfactory bulb (>1840)  (AOB)": {
+                              "glomerular layer (>1840) (AOBgl)": {},
+                              "mitral layer (>1840) (AOBmi)": {},
+                              "granular layer (>1840) (AOBgr)": {}
+                           }
+                        },
+                        "Anterior olfactory area (Herrick, 1910)  (AOA)": {
+                           "anterior olfactory area principal part (Swanson, 2018) (AOApr)": {}
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      " ": {
+         "Preparasubthalamic nucleus (Swanson, 2004)  (PST)": {
+            "Parasubthalamic nucleus (Wang & Zhang, 1995)  (PSTN)": {
+               "Subthalamic nucleus (>1840)  (STN)": {},
+               "Retina (Herophilus, 335-263 BC)  (R)": {
+                  "ganglion cell layer (>1840) (Rgcl)": {},
+                  "inner plexiform layer (>1840) (Ripl)": {},
+                  "inner nuclear layer (>1840) (Rinl)": {},
+                  "outer plexiform layer (>1840) (Ropl)": {},
+                  "outer nuclear layer (>1840) (Ronl)": {}
+               }
+            },
+            "Thalamus (His, 1893a)  (TH)": {
+               "Ventral part of thalamus (Herrick, 1910)  (THv)": {
+                  "Zona incerta general (Forel, 1877)  (ZIg)": {
+                     "Zona incerta (>1840)  (ZI)": {
+                        "dopaminergic group (>1840)  (ZIda)": {}
+                     },
+                     "Fields of Forel (>1840)  (FF)": {}
+                  },
+                  "Ventral lateral geniculate nucleus (>1840)  (LGv)": {
+                     "medial zone (>1840) (LGvm)": {},
+                     "lateral zone (>1840) (LGvl)": {}
+                  },
+                  "Intergeniculate leaflet (>1840)  (IGL)": {},
+                  "Reticular thalamic nucleus (>1840)  (RT)": {}
+               },
+               "Dorsal part of thalamus (Herrick, 1910)  (THd)": {
+                  "Midline thalamic nuclei (>1840)  (MTN)": {
+                     "Nucleus reuniens (Malone, 1910)  (RE)": {
+                        "Rostral division (Risold et al., 1997)  (REr)": {
+                           "anterior part (Risold et al., 1997)  (REra)": {},
+                           "dorsal part (Risold et al., 1997)  (RErd)": {},
+                           "ventral part (Risold et al., 1997)  (RErv)": {},
+                           "lateral part (Risold et al., 1997)  (RErl)": {},
+                           "median part (Risold et al., 1997)  (RErm)": {}
+                        },
+                        "Caudal division (Risold et al., 1997)  (REc)": {
+                           "posterior part (Risold et al., 1997)  (REcp)": {},
+                           "dorsal part (Risold et al., 1997)  (REcd)": {},
+                           "median part (Risold et al., 1997)  (REcm)": {}
+                        }
+                     },
+                     "Paraventricular thalamic nucleus (>1840)  (PVT)": {},
+                     "Paratenial nucleus (>1840)  (PT)": {}
+                  },
+                  "Anterior thalamic nuclei (>1840)  (ATN)": {
+                     "Anteroventral thalamic nucleus (>1840)  (AV)": {},
+                     "Anterodorsal thalamic nucleus (>1840)  (AD)": {},
+                     "Anteromedial thalamic nucleus (>1840)  (AM)": {
+                        "Ventral part (Canteras & Swanson, 1992a)  (AMv)": {},
+                        "Dorsal part (Canteras & Swanson, 1992a)  (AMd)": {}
+                     },
+                     "Interanteromedial thalamic nucleus (>1840)  (IAM)": {},
+                     "Interanterodorsal thalamic nucleus (>1840)  (IAD)": {},
+                     "Lateral dorsal thalamic nucleus (>1840)  (LD)": {}
+                  },
+                  "Medial thalamic nuclei (>1840)  (MED)": {
+                     "Perireuniens nucleus (Brittain, 1988)  (PR)": {},
+                     "Submedial thalamic nucleus (>1840)  (SMT)": {},
+                     "Mediodorsal thalamic nucleus (>1840)  (MD)": {
+                        "Medial part (>1840)  (MDm)": {},
+                        "Central part (>1840)  (MDc)": {},
+                        "Lateral part (>1840)  (MDl)": {},
+                        "Intermediodorsal thalamic nucleus (>1840)  (IMD)": {}
+                     }
+                  },
+                  "Intralaminar thalamic nuclei (>1840)  (ILM)": {
+                     "Rhomboid nucleus (Cajal, 1903)  (RH)": {},
+                     "Central medial thalamic nucleus (Rioch, 1929)  (CM)": {},
+                     "Paracentral thalamic nucleus (Gurdjian, 1927)  (PCN)": {},
+                     "Central lateral thalamic nucleus (Rioch, 1929)  (CL)": {},
+                     "Parafascicular nucleus (Vogt, 1909)  (PF)": {}
+                  },
+                  "Ventral thalamic nuclei (>1840)  (VENT)": {
+                     "Ventral anterior-lateral thalamic complex (>1840)  (VAL)": {},
+                     "Ventral medial thalamic nucleus (>1840)  (VM)": {},
+                     "Ventral posterior thalamic nucleus (>1840)  (VP)": {
+                        "Ventral posteromedial thalamic nucleus (>1840)  (VPM)": {
+                           "Principal part (Swanson, 2004)  (VPMpr)": {},
+                           "Parvicellular part (>1840)  (VPMpc)": {}
+                        },
+                        "Ventral posterolateral thalamic nucleus (>1840)  (VPL)": {
+                           "Principal part (Swanson, 2004)  (VPLpr)": {},
+                           "Parvicellular part (>1840)  (VPLpc)": {}
+                        }
+                     },
+                     "Subparafascicular nucleus (>1840)  (SPF)": {
+                        "Magnocellular part (>1840)  (SPFm)": {},
+                        "Parvicellular part (>1840)  (SPFp)": {
+                           "medial division (>1840)  (SPFpm)": {},
+                           "lateral division (>1840)  (SPFpl)": {}
+                        }
+                     },
+                     "Peripeduncular nucleus (>1840)  (PP)": {}
+                  },
+                  "Lateral thalamic nuclei (>1840)  (LAT)": {
+                     "Lateral posterior thalamic nucleus (>1840)  (LP)": {}
+                  },
+                  "Posterior thalamic nuclei (>1840)  (POT)": {
+                     "Posterior thalamic complex (>1840)  (PO)": {},
+                     "Suprageniculate nucleus (>1840)  (SGN)": {},
+                     "Posterior limiting thalamic nucleus (>1840)  (POL)": {}
+                  },
+                  "Dorsal lateral geniculate nucleus (>1840)  (LGd)": {},
+                  "Medial geniculate complex (>1840)  (MG)": {
+                     "Medial part (>1840)  (MGm)": {},
+                     "Ventral part (>1840)  (MGv)": {},
+                     "Dorsal part (>1840)  (MGd)": {}
+                  }
+               },
+               "Epithalamus (His, 1893b)  (THe)": {
+                  "Habenular nuclei (>1840)  (H)": {
+                     "Medial habenula (>1840)  (MH)": {},
+                     "Lateral habenula (>1840)  (LH)": {}
+                  }
+               }
+            }
+         },
+         "Midbrain (Baer, 1837)  (MB)": {
+            "Tegmentum (Swanson, 2000b)  (TG)": {
+               "Oculomotor nucleus (>1840)  (III)": {},
+               "Trochlear nucleus (>1840)  (IV)": {},
+               "Medial accessory oculomotor nucleus (>1840)  (MAN)": {},
+               "Edinger-Westphal nucleus (>1840)  (EW)": {},
+               "Nucleus of Darkschewitsch (>1840)  (ND)": {},
+               "Interstitial nucleus (>1840)  (INC)": {},
+               "Medial terminal nucleus of accessory optic tract (>1840)  (MT)": {},
+               "Lateral terminal nucleus of accessory optic tract (>1840)  (LT)": {},
+               "Dorsal terminal nucleus of accessory optic tract (>1840)  (DT)": {},
+               "Rostral linear raphe nucleus (>1840)  (RL)": {},
+               "Interfascicular raphe nucleus (>1840)  (IF)": {},
+               "Interpeduncular nucleus (>1840)  (IPN)": {
+                  "rostral subnucleus (>1840) (IPNr)": {},
+                  "apical subnucleus (>1840) (IPNa)": {},
+                  "dorsomedial subnucleus (>1840) (IPNd)": {},
+                  "lateral subnucleus (>1840) (IPNl)": {
+                     "rostral part (>1840) (IPNlr)": {},
+                     "intermediate part (>1840)  (IPNli)": {},
+                     "ventral part (>1840)  (IPNlv)": {},
+                     "dorsal part (>1840) (IPNld)": {}
+                  },
+                  "intermediate subnucleus (>1840) (IPNi)": {},
+                  "central subnucleus (>1840) (IPNc)": {}
+               },
+               "Central linear raphe nucleus (>1840)  (CLI)": {},
+               "Superior central raphe nucleus (>1840)  (CS)": {
+                  "medial part (>1840) (CSm)": {},
+                  "lateral part (>1840) (CSl)": {}
+               },
+               "Dorsal raphe nucleus (>1840)  (DR)": {},
+               "Substantia nigra (Soemmerring, 1791)  (SN)": {
+                  "Compact part (Sano, 1910)  (SNc)": {},
+                  "Reticular part (Sano, 1910)  (SNr)": {}
+               },
+               "Ventral tegmental area (Tsai, 1925)  (VTA)": {},
+               "Red nucleus (Burdach, 1822)  (RN)": {},
+               "Anterior tegmental nucleus (Paxinos & Butcher, 1985)  (AT)": {},
+               "Midbrain reticular nucleus (>1840)  (MRN)": {
+                  "Magnocellular part (Swanson, 2004)  (MRNm)": {},
+                  "Parvicellular part (Swanson, 2004)  (MRNp)": {},
+                  "Retrorubral area (Berman, 1968)  (RR)": {}
+               },
+               "Periaqueductal gray (>1840)  (PAG)": {
+                  "Precommissural nucleus (Paxinos & Watson, 1986)  (PRC)": {},
+                  "Commissural nucleus (Swanson, 1998)  (COM)": {},
+                  "Rostromedial division (Swanson, 1998)  (PAGrm)": {},
+                  "Rostrolateral division (Swanson, 1998)  (PAGrl)": {},
+                  "Medial division (Beitz, 1985)  (PAGm)": {},
+                  "Ventromedial column (Swanson, 2018)  (PAGvm)": {},
+                  "Ventrolateral column (Carrive et al., 1997)  (PAGvl)": {},
+                  "Lateral column (Carrive et al., 1997)  (PAGl)": {},
+                  "Dorsolateral column (Carrive et al., 1997)  (PAGdl)": {},
+                  "Dorsomedial column (Carrive et al., 1997)  (PAGdm)": {}
+               },
+               "Cuneiform nucleus (>1840)  (CUN)": {},
+               "Pretectal region (>1840)  (PRT)": {
+                  "Olivary pretectal nucleus (>1840)  (OP)": {},
+                  "Nucleus of optic tract (>1840)  (NOT)": {},
+                  "Posterior pretectal nucleus (>1840)  (PPT)": {},
+                  "Nucleus of posterior commissure (>1840)  (NPC)": {},
+                  "Anterior pretectal nucleus (>1840)  (APN)": {},
+                  "Medial pretectal area (>1840)  (MPT)": {}
+               },
+               "Midbrain nucleus of trigeminal nerve (>1840)  (MEV)": {},
+               "Nucleus sagulum (>1840)  (SAG)": {},
+               "Parabigeminal nucleus (>1840)  (PBG)": {},
+               "Nucleus of brachium of inferior colliculus (>1840)  (NB)": {}
+            },
+            "Tectum (Baer, 1837)  (TC)": {
+               "Superior colliculus (Haller, 1762)  (SC)": {
+                  "zonal layer (>1840) (SCzo)": {},
+                  "superficial gray layer (>1840) (SCsg)": {},
+                  "sublayer a of intermediate gray layer (>1840) (SCig.a)": {},
+                  "sublayer b of intermediate gray layer (>1840) (SCig.b)": {},
+                  "sublayer c of intermediate gray layer (>1840) (SCig.c)": {},
+                  "deep gray layer (>1840) (SCdg)": {}
+               },
+               "Inferior colliculus (Haller, 1762)  (IC)": {
+                  "Central nucleus (>1840)  (ICc)": {},
+                  "Dorsal nucleus (>1840)  (ICd)": {},
+                  "External nucleus (>1840)  (ICe)": {}
+               }
+            }
+         },
+         "Rhombic brain (His, 1893b)  (RB)": {
+            "Hindbrain (Baer, 1837)  (HB)": {
+               "Pons (Haller, 1747)  (P)": {
+                  "Abducens nucleus (>1840)  (VI)": {},
+                  "Accessory abducens nucleus (>1840)  (ACVI)": {},
+                  "Motor nucleus of trigeminal nerve (>1840)  (V)": {
+                     "Magnocellular part (>1840)  (Vma)": {},
+                     "Parvicellular part (>1840)  (Vpc)": {}
+                  },
+                  "Efferent vestibular nucleus (>1840)  (EV)": {},
+                  "Pontine nuclei, general (Swanson, 2018)  (PONg)": {
+                     "Pontine nuclei (Jacobsohn, 1909)  (PON)": {},
+                     "Tegmental reticular nucleus (>1840)  (TRN)": {}
+                  },
+                  "Magnus raphe nucleus (>1840)  (RM)": {},
+                  "Pontine raphe nucleus (>1840)  (RPO)": {},
+                  "Pontine reticular nucleus (>1840)  (PRN)": {
+                     "Rostral part (>1840)  (PRNr)": {},
+                     "Caudal part (>1840)  (PRNc)": {}
+                  },
+                  "Pedunculopontine nucleus (>1840)  (PPN)": {},
+                  "Supratrigeminal nucleus (>1840)  (SUT)": {},
+                  "Ventral tegmental nucleus (>1840)  (VTN)": {},
+                  "Pontine central gray general (Swanson, 2004)  (PCGg)": {
+                     "Pontine central gray (>1840)  (PCG)": {},
+                     "Nucleus incertus (Streeter, 1903)  (NI)": {
+                        "compact part (Goto et al., 2001)  (NIc)": {},
+                        "diffuse part (Goto et al., 2001)  (NId)": {}
+                     },
+                     "Lateral tegmental nucleus (Swanson, 1998)  (LTN)": {},
+                     "Dorsal tegmental nucleus (>1840)  (DTN)": {},
+                     "Sublaterodorsal nucleus (>1840)  (SLD)": {},
+                     "Laterodorsal tegmental nucleus (>1840)  (LDT)": {},
+                     "Barrington’s nucleus (>1840)  (B)": {},
+                     "Subceruleus nucleus (Meessen & Olszewski, 1949)  (SLC)": {},
+                     "Locus ceruleus (Wenzel & Wenzel, 1812)  (LC)": {},
+                     "Supragenual nucleus (Meessen & Olszewski, 1949)  (SG)": {}
+                  },
+                  "Parabrachial nucleus (>1840)  (PB)": {
+                     "Medial division (>1840)  (PBm)": {
+                        "Ventral part (Swanson, 1992a)  (PBmv)": {},
+                        "Medial part (Fulwiler & Saper, 1984)  (PBmm)": {},
+                        "External part (Fulwiler & Saper, 1984)  (PBme)": {}
+                     },
+                     "Kölliker-Fuse subnucleus (>1840)  (KF)": {},
+                     "Lateral division (>1840)  (PBl)": {
+                        "Ventral part (>1840)  (PBlv)": {},
+                        "Internal part (>1840)  (PBli)": {},
+                        "Central part (>1840)  (PBlc)": {},
+                        "External part (>1840)  (PBle)": {},
+                        "Extreme part (>1840)  (PBlex)": {},
+                        "Superior part (>1840)  (PBls)": {},
+                        "Dorsal part (>1840)  (PBld)": {}
+                     }
+                  },
+                  "Principal sensory nucleus of trigeminal nerve (>1840)  (PSV)": {},
+                  "Nucleus of lateral lemniscus (>1840)  (NLL)": {
+                     "ventral part (>1840)  (NLLv)": {},
+                     "horizontal part (>1840)  (NLLh)": {},
+                     "dorsal part (>1840)  (NLLd)": {}
+                  },
+                  "Superior olivary complex (>1840)  (SOC)": {
+                     "medial part (>1840)  (SOCm)": {},
+                     "lateral part (>1840)  (SOCl)": {},
+                     "periolivary region (>1840)  (POR)": {},
+                     "efferent cochlear group (>1840)  (ECO)": {}
+                  },
+                  "Nucleus of trapezoid body (>1840)  (NTB)": {},
+                  "Superior vestibular nucleus (>1840)  (SUV)": {},
+                  "Lateral vestibular nucleus (>1840)  (LAV)": {},
+                  "Nucleus y (>1840)  (y)": {},
+                  "Infracerebellar nucleus (>1840)  (ICB)": {}
+               },
+               "Cerebellum (Aristotle)  (CB)": {
+                  "Cerebellar nuclei (>1840)  (CBN)": {
+                     "Fastigial nucleus (>1840)  (FN)": {},
+                     "Interposed nucleus  (>1840) (IP)": {
+                        "Principal part (>1840)  (IPpr)": {},
+                        "Parvicellular part (>1840)  (IPpc)": {}
+                     },
+                     "Dentate nucleus (>1840)  (DN)": {
+                        "Magnocellular part (>1840)  (DNm)": {},
+                        "Parvicellular part (>1840)  (DNp)": {}
+                     }
+                  },
+                  "Cerebellar cortex (Willis, 1664)  (CBX)": {
+                     "Cerebellar vermis (Meckel, 1817)  (VERM)": {
+                        "Lingula (Malacarne, 1776)  (LING) or Lobule I (>1840) (LI)": {},
+                        "Central lobule (Burdach, 1822)  (CENT) or Lobules II,III (>1840) (LII,III)": {
+                           "sublobule a of lobule II (>1840) (CENT2a)": {},
+                           "sublobule bs of lobule II (>1840) (CENT2bs)": {},
+                           "sublobule a of lobule III (>1840) (CENT3a)": {},
+                           "sublobule bs of lobule III (>1840) (CENT3bs)": {}
+                        },
+                        "Culmen (Stroud, 1895)  (CUL) or Lobules IV,V (>1840) (LIV,V)": {
+                           "ventral lobule (>1840)  (CULv)": {},
+                           "dorsal lobule (>1840)  (CULd)": {}
+                        },
+                        "Declive (>1840)   (DEC) or Lobule VI (>1840) (LVI)": {
+                           "sublobules a-d (>1840) (DECa-d)": {}
+                        },
+                        "Folium-tuber vermis (>1840)  (FOTU) or Lobule VII (>1840) (LVII)": {},
+                        "Pyramis (Malacarne, 1776)  (PYR) or Lobule VIII (>1840) (LVIII)": {
+                           "sublobules a,b (>1840) (PYRa,b)": {}
+                        },
+                        "Uvula (Malacarne, 1776)  (UVU) or Lobule IX (>1840) (LIX)": {
+                           "sublobules ab,c (>1840) (UVUab,c)": {}
+                        },
+                        "Nodule (Reil, 1807-1808a)  (NOD) or Lobule X (>1840) (LX)": {
+                           "sublobules a,b (>1840) (NODa,b)": {}
+                        }
+                     },
+                     "Cerebellar hemisphere (Willis, 1664)  (HEM)": {
+                        "Simple lobule (Jansen & Brodal, 1954)  (SIM)": {},
+                        "Ansiform lobule (Bolk, 1906) (AN)": {
+                           "Ansiform lobule crus 1 (Bolk, 1906)  (ANcr1)": {
+                              "sublobules a-d (>1840) (ANcr1a-d)": {}
+                           },
+                           "Ansiform lobule crus 2 (Bolk, 1906)  (ANcr2)": {
+                              "sublobules a,b (>1840) (ANcr2a,b)": {}
+                           }
+                        },
+                        "Paramedian lobule (>1840)  (PRM)": {},
+                        "Copula pyramidis (>1840)  (COPY)": {
+                           "sublobules a,b (>1840) (COPYa,b)": {}
+                        },
+                        "Paraflocculus (Stroud, 1895)  (PFL)": {},
+                        "Flocculus (Meckel, 1817)  (FL)": {}
+                     }
+                  }
+               }
+            },
+            "Afterbrain (Baer, 1837) (AFB)  or Medulla (Winslow, 1733) (MY)": {
+               "Facial nucleus (>1840)  (VII)": {},
+               "Accessory facial nucleus (>1840)  (ACVII)": {},
+               "Hypoglossal nucleus (>1840)  (XII)": {},
+               "Superior salivatory nucleus (>1840) (SSN)": {},
+               "Inferior salivatory nucleus (>1840)  (ISN)": {},
+               "Ambiguus nucleus ventral division (>1840)  (AMBv)": {},
+               "Ambiguus nucleus dorsal division (>1840)  (AMBd)": {},
+               "Dorsal motor nucleus of vagus nerve (>1840)  (DMX)": {},
+               "Pallidal raphe nucleus (>1840)  (RPA)": {},
+               "Obscurus raphe nucleus (>1840)  (RO)": {},
+               "Paragigantocellular reticular nucleus (>1840)  (PGRN)": {
+                  "Lateral part (>1840)  (PGRNl)": {},
+                  "Dorsal part (>1840)  (PGRNd)": {}
+               },
+               "Magnocellular reticular nucleus (>1840)  (MARN)": {},
+               "Gigantocellular reticular nucleus (>1840)  (GRN)": {},
+               "Parvicellular reticular nucleus (>1840)  (PARN)": {},
+               "Parapyramidal nucleus (Swanson, 1998)  (PPY)": {
+                  "deep part (Swanson, 1998)  (PPYd)": {},
+                  "superficial part (Fukuda et al., 1993)  (PPYs)": {}
+               },
+               "Medullary reticular nucleus (>1840)  (MDRN)": {
+                  "Ventral part (>1840)  (MDRNv)": {},
+                  "Dorsal part (>1840)  (MDRNd)": {}
+               },
+               "Inferior olivary complex (>1840)  (IO)": {
+                  "Medial accessory olive (>1840)  (IOma)": {},
+                  "Principal olive (>1840)  (IOpr)": {},
+                  "Dorsal accessory olive (>1840)  (IOda)": {}
+               },
+               "Lateral reticular nucleus (>1840)  (LRN)": {
+                  "Magnocellular part (>1840)  (LRNm)": {},
+                  "Parvicellular part (>1840)  (LRNp)": {}
+               },
+               "Linear medullary nucleus (>1840)  (LIN)": {},
+               "Paramedian reticular nucleus (>1840)  (PMR)": {},
+               "Parasolitary nucleus (>1840)  (PAS)": {},
+               "Cochlear nuclei (>1840)  (CN)": {
+                  "Ventral cochlear nucleus (>1840)  (VCO)": {
+                     "Anterior part (>1840)  (VCOa)": {},
+                     "Posterior part (>1840)  (VCOp)": {}
+                  },
+                  "Dorsal cochlear nucleus (>1840)  (DCO)": {},
+                  "Subpeduncular granular region (>1840)  (CNspg)": {},
+                  "Granular lamina (>1840)  (CNlam)": {},
+                  "Interstitial nucleus of auditory nerve (>1840)  (IAN)": {}
+               },
+               "Medial vestibular nucleus (>1840)  (MV)": {},
+               "Spinal vestibular nucleus (>1840)  (SPIV)": {},
+               "Perihypoglossal nuclei (>1840)  (PHY)": {
+                  "Nucleus intercalatus (>1840)  (NIS)": {},
+                  "Nucleus prepositus (>1840)  (PRP)": {},
+                  "Nucleus of Roller (>1840)  (NR)": {}
+               },
+               "Interstitial nucleus of vestibular nerve (>1840)  (INV)": {},
+               "Nucleus x (>1840)  (x)": {},
+               "Nucleus of solitary tract (>1840)  (NTS)": {
+                  "Medial part (>1840)  (NTSm)": {
+                     "Rostral zone (>1840)   (NTSmr)": {},
+                     "Caudal zone general (>1840)   (NTSmcg)": {
+                        "caudal subzone (>1840) (NTSmc)": {},
+                        "central subzone (>1840)  (NTSce)": {},
+                        "gelatinous subzone (>1840)  (NTSge)": {}
+                     }
+                  },
+                  "Lateral part (>1840)  (NTSl)": {},
+                  "Commissural part (>1840)  (NTSco)": {}
+               },
+               "Area postrema (>1840)  (AP)": {},
+               "Dorsal column nuclei (>1840)  (DCN)": {
+                  "Gracile nucleus (>1840)  (GR)": {
+                     "principal part (>1840)  (GRp)": {},
+                     "median part (>1840)  (GRm)": {}
+                  },
+                  "Nucleus z (>1840)  (z)": {},
+                  "Cuneate nucleus (>1840)  (CU)": {},
+                  "Accessory cuneate nucleus (>1840)  (ACU)": {}
+               },
+               "Paratrigeminal nucleus (>1840)  (PAT)": {},
+               "Spinal nucleus of trigeminal nerve (>1840)  (SPV)": {
+                  "Oral part (>1840)  (SPVO)": {
+                     "ventrolateral part (>1840) (SPVOvl)": {},
+                     "rostral dorsomedial part (>1840) (SPVOrdm)": {},
+                     "middle dorsomedial part (>1840) (SPVOmdm)": {
+                        "ventral zone (>1840) (SPVOmdmv)": {},
+                        "dorsal zone (>1840) (SPVOmdmd)": {}
+                     },
+                     "caudal dorsomedial part (>1840) (SPVOcdm)": {}
+                  },
+                  "Interpolar part (>1840)  (SPVI)": {},
+                  "Caudal part (>1840)  (SPVC)": {}
+               }
+            }
+         },
+         "Spinal cord (Galen, c162-c166)  (SP)": {
+            "Ventral horn (>1840)  (VH)": {
+               "Nucleus of spinal accessory nerve (>1840)  (XI)": {},
+               "Ventral horn proper (Swanson, 2018)  (VHp)": {},
+               "Nucleus of bulbocavernosus (>1840)  (NBC)": {},
+               "Onuf’s nucleus (>1840)  (ON)": {},
+               "Phrenic nucleus (>1840)  (PN)": {}
+            },
+            "Intermediate spinal zone (>1840)  (IZ)": {
+               "Spinal central gray (>1840)  (SCG)": {},
+               "Intermediomedial nucleus (>1840)  (IMM)": {},
+               "Dorsal commissural nucleus (>1840)  (DOC)": {},
+               "Intermediate spinal zone proper (>1840)  (IZp)": {},
+               "Intercalated spinal nucleus (>1840)  (ICS)": {},
+               "Central cervical nucleus (>1840)  (CEC)": {},
+               "Dorsal thoracic nucleus (>1840)  (DTH)": {
+                  "Rostral part (>1840)  (DTHr)": {},
+                  "Caudal part (>1840)  (DTHc)": {}
+               },
+               "Intermediolateral nucleus (>1840)  (IML)": {},
+               "Thoracolumbar part (>1840)  (IMLtl)": {},
+               "Sacral part (>1840)  (IMLsa)": {}
+            },
+            "Dorsal horn (>1840)  (DH)": {
+               "Basal nucleus of dorsal horn general (>1840)  (BNg)": {
+                  "Basal nucleus of dorsal horn (>1840)  (BN)": {},
+                  "Lateral cervical nucleus (>1840)  (LCN)": {},
+                  "Lateral spinal nucleus (>1840)  (LSN)": {}
+               },
+               "Nucleus proprius of spinal cord (>1840)  (NP)": {},
+               "Spinal reticular nucleus (>1840)  (SRN)": {},
+               "Gelatinous substance of spinal cord (>1840)  (GES)": {},
+               "Marginal zone of spinal cord (>1840)  (MZ)": {}
+            }
+         }
+      }
+   }
+}

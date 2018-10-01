@@ -1,0 +1,78 @@
+{
+
+  "tract_data_to_lyphs": [{
+
+      "map_values_to_values": {
+        "lyph_composition": {
+          "I": "CNS entrance Tubing Neural Lyph",
+          "II": "Neural Tubing Lyph",
+          "III": "Neural Terminal Lyph",
+          "I, III": "CNS entrance Terminal Neural Lyph",
+          "III, I": "CNS entrance Terminal Neural Lyph",
+          "III,I": "CNS entrance Terminal Neural Lyph",
+          "I,III": "CNS entrance Terminal Neural Lyph",
+          "IV": "Soma Lyph"
+        }
+      }
+    },
+    {
+
+      "map_keys_to_keys": {
+        "deleteUnspecifiedKeys": false,
+        "name": ["contained_by", "of", "hosted_by", "-", "group_type", "-", "lyph_composition"]
+      },
+      "map_keys_if": {
+        "if_value_is_string": true,
+        "keys_to_map": {
+          "name": "id"
+        }
+      }
+
+    },
+    {
+      "delete_properties": ["NEURON", "functionality", "laterality"]
+    },
+    {
+      "map_names_from_ids": {
+        "id_key": "id"
+      }
+    },
+    {
+      "delete_properties": ["id"]
+    },
+
+    {
+      "extract_uniques_from_keys": {
+        "add_to_current_dataset": true,
+        "from_keys": ["source", "target", "contained_by", "hosted_by"],
+        "comparator_key": "name",
+        "new_key": "name"
+      }
+    }
+
+  ],
+
+
+
+  "all_data": [
+
+    {
+      "make_data_include_all_keys": {}
+    },
+    {
+      "sanitise_all_values": {}
+    },
+    {
+      "rename_str_values": {
+        "replace_str_params": [{
+          "key_val_matching": {
+            "match_identically": " ",
+            "with_this_string": ""
+          },
+          "complete_replacement": true,
+          "with_this_string": ""
+        }]
+      }
+    }
+  ]
+}

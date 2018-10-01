@@ -1,0 +1,53 @@
+{
+  "label_trees": [{
+    "add_nodes_compute_levels": {
+      "reference_file_key": "lyphs",
+      "reference_id_key": "name",
+      "orphan_lyph_string" : "__",
+      "edges_key": "links",
+      "edges_ref_key" : "conveyingLyph",
+      "edges_id_key" : "name",
+      "edges_ref_from_source" : true,
+      "edges_unique_name_key": "label",
+      "edges_label_key": "label",
+      "edges_label_diff_of_source_target" : true,
+      "edges_name_prefaces" : ["V"],
+      "edges_name_suffix" : " link",
+      "edges_mark_type" : {
+        "mark_type_key" : "type",
+        "mark_type_value" : "link"
+      },
+      "distance_key": "level",
+
+      "source_key": "source",
+      "target_key": "target",
+
+      "root_flag_key" : "is_root",
+      "root_key": "root",
+      "root_name_prefaces": ["R"],
+      "root_ref_key" : "rootRefLyph",
+
+      "leaf_flag_key" : "is_leaf",
+      "leaf_key": "leaf",
+      "leaf_name_prefaces": ["T"],
+
+      "nodes_key" : "nodes",
+      "nodes_is_root_key" : "is_root",
+      "nodes_is_leaf_key" : "is_leaf",
+      "nodes_id_key": "name",
+      "nodes_name_key" : "label",
+
+      "nodes_number_key" : "order",
+      "node_name_prefaces": ["N"],
+      "node_name_suffix" : " node",
+      "node_id_by" : "sequential_count",
+      "node_id_prefix" : "node_name_prefix",
+      "node_ref_lyph_key_appendix" : "_lyph",
+      "node_mark_type" : {
+        "mark_type_key" : "type",
+        "mark_type_value" : "node"
+      }
+    }
+  }
+]
+}

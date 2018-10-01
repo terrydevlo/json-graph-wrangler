@@ -1,0 +1,30 @@
+{
+  "check_lyph_has_topology": [{
+      "select_matching": {
+        "scrutinised_obj": {
+          "matching_obj": [{
+            "func": "check_obj_has_either_of_these_keys",
+            "keys_to_contain": ["hostedLyphs", "internalLyphs", "internalNodes", "layers"]
+          }]
+        },
+        "matching_obj": [{
+            "func": "check_obj_contains_none_of_these_key_value_pairs",
+            "key_value_pairs": [{
+                "topology": null
+              }, {
+                "topology": []
+              }, {
+                "topology": ""
+              },
+              {
+                "topology": "Link"
+              }]
+        },
+        {
+          "func": "check_obj_has_either_of_these_keys",
+          "keys_to_contain": ["topology"]
+        }
+      ]
+    }
+  }]
+}

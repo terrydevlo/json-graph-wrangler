@@ -1,0 +1,16 @@
+{
+
+  "subset_keys_for_lyphs": [{
+    "delete_properties": ["source", "target"],
+    "map_keys_to_keys_nested":{
+      "delete_unspecified_keys": false,
+      "onlyIfKeyFound": true,
+
+      "new_key_val_pairs": [{
+        "is_not_string" : true,
+        "new_key": "layers",
+        "from_keys": ["layers"]
+      }]
+    }
+  }]
+}

@@ -1,0 +1,493 @@
+{
+  "add_layout_properties": [{
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": {
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+            "type": "node"
+          }]
+        },
+        "new_properties": {
+          "layout": {
+            "z": 0
+          }
+        }
+      }
+    }, {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": {
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "id": "N"
+          },{
+            "type": "invisible"
+          }]
+        },
+        "new_properties": {
+          "val" : 0,
+          "skipLabel" : true
+        }
+      }
+    }, {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+            "type": "node"
+          }]
+        }, {
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "group_type": "CNS"
+          }]
+        }],
+        "increment_this_number": {
+          "matching_val": "increment_this_by",
+          "starting_val": -90,
+          "increment_by": 25
+        },
+        "new_properties": {
+          "layout": {
+            "x": "increment_this_by",
+            "y": 0,
+            "z": 0
+          }
+        }
+      }
+    }, {
+      "add_property_object_for_matching_data": {
+        "exclude_step": true,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+            "id": "PS"
+          }]
+        }],
+
+        "new_properties": {
+          "conveyingLyph": ""
+        }
+      }
+    }, {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "name": "- Parenchyma layer"
+          }]
+        }, {
+          "func": "check_obj_contains_these_key_value_pairs",
+          "key_value_pairs": [{
+            "lyph_composition": "CNS layer"
+          }]
+        }],
+
+        "new_properties": {
+          "layerWidth": 90
+        }
+      }
+    }, {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+          "func": "check_obj_contains_these_key_value_pairs",
+          "key_value_pairs": [{
+            "name": "Central Nervous System CNS segment tree"
+          }]
+        }],
+        "new_properties": {
+          "interpolate": [{
+            "path": "$.lyphs[*].layers",
+            "color": {
+              "scheme": "interpolateBlues"
+            }
+          }]
+        }
+      }
+    }, {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+              "lyph_composition": "Neural Terminal Lyph"
+            },
+            {
+              "lyph_composition": "Soma Lyph"
+            }
+          ]
+        }],
+
+        "new_properties": {
+          "width": 30,
+          "height": 30
+        }
+      }
+    },
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "lyph_composition": "Neural nucleus"
+          }]
+        }],
+
+        "new_properties": {
+          "width": 115
+        }
+      }
+    },
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+              "name": "Spinal Cord - Parenchyma layer"
+            },
+            {
+              "name": "Spinal Cord"
+            }
+          ]
+        }],
+
+        "new_properties": {
+          "topology": "BAG2"
+        }
+      }
+    },
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": true,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+            "name": "Spinal Cord - Parenchyma layer"
+          }]
+        }],
+
+        "new_properties": {
+          "border": {
+            "borders": [{}, {
+              "hostedNodes": ["N40"]
+            }, {}, {
+              "hostedNodes": ["N41"]
+            }]
+          }
+        }
+      }
+    },
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": true,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+            "id": "N40"
+          }, {
+            "id": "N41"
+          }]
+        }],
+
+        "new_properties": {
+          "type": "fixed"
+        }
+      }
+    },
+
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+
+          "func": "check_obj_contains_these_key_value_pairs",
+          "key_value_pairs": [{
+            "lyph_composition": "CNS segment"
+          }]
+        }],
+
+        "new_properties": {
+          "color": "#aaa",
+          "width": 380
+        }
+      }
+    },
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+            "type": "link"
+          }]
+        }, {
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "group_type": "CNS segment"
+          }]
+        }],
+        "new_properties": {
+          "length": 9
+        }
+      }
+    },
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": true,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+            "type": "link"
+          }]
+        }, {
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "group_type": "tract"
+          }]
+        }],
+        "new_properties": {
+          "length": 1
+        }
+      }
+    },
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "name": "Tracts group"
+          }]
+        }],
+        "new_properties": {
+          "remove": true
+        }
+      }
+    },
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+
+          "func": "check_obj_contains_these_key_value_pairs",
+          "key_value_pairs": [{
+            "group_type": "Tracts"
+          }]
+        }, {
+          "func": "check_obj_has_these_keys",
+          "keys_to_contain": ["conveyingLyph"]
+        }],
+        "new_properties": {
+          "conveyingLyph": ""
+        }
+      }
+    },
+
+
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+            "type": "link"
+          }]
+        }, {
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "group_type": "neuron"
+          }]
+        }],
+        "new_properties": {
+          "linkMethod": "Line2",
+          "linewidth": 0.002
+        }
+      }
+    },
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+            "type": "link"
+          }]
+        }, {
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "group_type": "neuron"
+          }]
+        }],
+        "new_properties": {
+          "length": 1
+        }
+      }
+    },
+
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+            "type": "link"
+          }]
+        }, {
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "group_type": "Sensory organ"
+          }, {
+            "group_type": "Musculoskeletal"
+          }]
+        }],
+        "new_properties": {
+          "length": 7
+        }
+      }
+    },
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+            "type": "node"
+          }]
+        }, {
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "group_type": "Musculoskeletal"
+          }]
+        }],
+        "increment_this_number": {
+          "matching_val": "increment_this_by",
+          "starting_val": -20,
+          "increment_by": 30
+        },
+        "new_properties": {
+          "layout": {
+            "x": "increment_this_by",
+            "y": 50,
+            "z": 0
+          }
+        }
+      }
+    },
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+            "type": "node"
+          }]
+        }, {
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "group_type": "Sensory organ"
+          }]
+        }],
+        "increment_this_number": {
+          "matching_val": "increment_this_by",
+          "starting_val": -60,
+          "increment_by": 3
+        },
+        "new_properties": {
+          "layout": {
+            "x": "increment_this_by"
+          }
+        }
+      }
+    },
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+            "type": "node"
+          }]
+        }, {
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "group_type": "Sensory organ"
+          }]
+        }],
+        "increment_this_number": {
+          "matching_val": "increment_this_by",
+          "starting_val": 66,
+          "increment_by": 3
+        },
+        "new_properties": {
+          "layout": {
+            "y": "increment_this_by"
+          }
+        }
+      }
+    },
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+            "type": "node"
+          }]
+        }, {
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "name": "Dorsal Root Ganglion node"
+          }]
+        }],
+        "new_properties": {
+          "layout": {
+            "y": 27,
+            "z": 0,
+            "x": -40
+          }
+        }
+      }
+    },
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": false,
+        "matching_obj": [{
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+            "type": "link"
+          }]
+        }, {
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "name": "Dorsal Root Ganglion node link"
+          }]
+        }],
+        "new_properties": {
+          "length": 8
+        }
+      }
+    },
+    {
+      "add_property_object_for_matching_data": {
+        "exclude_step": true,
+        "matching_obj": {
+          "func": "check_obj_contains_either_of_these_key_value_pairs",
+          "key_value_pairs": [{
+            "type": "link"
+          }]
+        },
+        "new_properties": {}
+      }
+    },
+    {
+      "map_keys_to_keys_for_ordering": ["nodes", "links", "lyphs", "groups"]
+    }
+  ]
+}

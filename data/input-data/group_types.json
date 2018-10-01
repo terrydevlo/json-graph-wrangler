@@ -1,0 +1,34 @@
+[
+		{
+				"name": "body",
+				"parent_lyph_class" : []
+		},
+		{
+				"name": "cell",
+				"parent_lyph_class" : ["Tissue"]
+		},
+		{
+				"name": "neuron",
+				"parent_lyph_class" : ["Cell"]
+		},
+		{
+				"name": "1st order neuron",
+				"parent_lyph_class" : ["Neuron", "Nervous system"]
+		},
+		{
+				"name": "2nd order neuron",
+				"parent_lyph_class" : ["Neuron", "Nervous system"]
+		},
+		{
+				"name": "Nerve",
+				"parent_lyph_class" : ["Nervous system"]
+		},
+		{
+				"name" : "Nervous system",
+				"parent_lyph_class" : ["body"]
+		},
+		{
+				"name" : "CNS Segment",
+				"parent_lyph_class" : [""]
+		}
+]

@@ -1,0 +1,595 @@
+[
+   {
+      "lyph_composition": "Neural Terminal Lyph",
+      "contained_by": "Gracile tract",
+      "hosted_by": "Lower Limb",
+      "group_type": "1st order sensory neuron",
+      "source": "",
+      "target": [
+         "Gracile tract of Lower Limb - 1st order sensory neuron - Neural Tubing Lyph"
+      ],
+      "name": "Gracile tract of Lower Limb - 1st order sensory neuron - Neural Terminal Lyph"
+   },
+   {
+      "lyph_composition": "Neural Tubing Lyph",
+      "contained_by": "Gracile tract",
+      "hosted_by": "Lower Limb",
+      "group_type": "1st order sensory neuron",
+      "source": [
+         "Gracile tract of Lower Limb - 1st order sensory neuron - Neural Terminal Lyph"
+      ],
+      "target": [
+         "Gracile tract of Dorsal Root Ganglion - 1st order sensory neuron - Soma Lyph"
+      ],
+      "name": "Gracile tract of Lower Limb - 1st order sensory neuron - Neural Tubing Lyph"
+   },
+   {
+      "lyph_composition": "Soma Lyph",
+      "contained_by": "Gracile tract",
+      "hosted_by": "Dorsal Root Ganglion",
+      "group_type": "1st order sensory neuron",
+      "source": [
+         "Gracile tract of Lower Limb - 1st order sensory neuron - Neural Tubing Lyph"
+      ],
+      "target": [
+         "Gracile tract of Spinal Cord - Parenchyma layer - 1st order sensory neuron - CNS entrance Tubing Neural Lyph"
+      ],
+      "name": "Gracile tract of Dorsal Root Ganglion - 1st order sensory neuron - Soma Lyph"
+   },
+   {
+      "lyph_composition": "CNS entrance Tubing Neural Lyph",
+      "contained_by": "Gracile tract",
+      "hosted_by": "Spinal Cord - Parenchyma layer",
+      "group_type": "1st order sensory neuron",
+      "source": [
+         "Gracile tract of Dorsal Root Ganglion - 1st order sensory neuron - Soma Lyph"
+      ],
+      "target": [
+         "Gracile tract of Medulla - Parenchyma layer - 1st order sensory neuron - Neural Tubing Lyph"
+      ],
+      "name": "Gracile tract of Spinal Cord - Parenchyma layer - 1st order sensory neuron - CNS entrance Tubing Neural Lyph"
+   },
+   {
+      "lyph_composition": "Neural Tubing Lyph",
+      "contained_by": "Gracile tract",
+      "hosted_by": "Medulla - Parenchyma layer",
+      "group_type": "1st order sensory neuron",
+      "source": [
+         "Gracile tract of Spinal Cord - Parenchyma layer - 1st order sensory neuron - CNS entrance Tubing Neural Lyph"
+      ],
+      "target": [
+         "Gracile tract of Gracile Nucleus of Medulla - 1st order sensory neuron - Neural Tubing Lyph"
+      ],
+      "name": "Gracile tract of Medulla - Parenchyma layer - 1st order sensory neuron - Neural Tubing Lyph"
+   },
+   {
+      "lyph_composition": "Neural Tubing Lyph",
+      "contained_by": "Gracile tract",
+      "hosted_by": "Gracile Nucleus of Medulla",
+      "group_type": "1st order sensory neuron",
+      "source": [
+         "Gracile tract of Medulla - Parenchyma layer - 1st order sensory neuron - Neural Tubing Lyph"
+      ],
+      "target": [
+         "Gracile tract of Gracile Nucleus of Medulla - 1st order sensory neuron - Neural Terminal Lyph"
+      ],
+      "name": "Gracile tract of Gracile Nucleus of Medulla - 1st order sensory neuron - Neural Tubing Lyph"
+   },
+   {
+      "lyph_composition": "Neural Terminal Lyph",
+      "contained_by": "Gracile tract",
+      "hosted_by": "Gracile Nucleus of Medulla",
+      "group_type": "1st order sensory neuron",
+      "source": [
+         "Gracile tract of Gracile Nucleus of Medulla - 1st order sensory neuron - Neural Tubing Lyph"
+      ],
+      "target": "",
+      "name": "Gracile tract of Gracile Nucleus of Medulla - 1st order sensory neuron - Neural Terminal Lyph"
+   },
+   {
+      "lyph_composition": "Neural Terminal Lyph",
+      "contained_by": "Anterolateral Spinothalamic tract",
+      "hosted_by": "Skin - Dermal layer",
+      "group_type": "1st order sensory neuron",
+      "source": "",
+      "target": [
+         "Anterolateral Spinothalamic tract of Skin - Dermal layer - 1st order sensory neuron - Neural Tubing Lyph"
+      ],
+      "name": "Anterolateral Spinothalamic tract of Skin - Dermal layer - 1st order sensory neuron - Neural Terminal Lyph"
+   },
+   {
+      "lyph_composition": "Neural Tubing Lyph",
+      "contained_by": "Anterolateral Spinothalamic tract",
+      "hosted_by": "Skin - Dermal layer",
+      "group_type": "1st order sensory neuron",
+      "source": [
+         "Anterolateral Spinothalamic tract of Skin - Dermal layer - 1st order sensory neuron - Neural Terminal Lyph"
+      ],
+      "target": [
+         "Anterolateral Spinothalamic tract of Dorsal Root Ganglion - 1st order sensory neuron - Soma Lyph"
+      ],
+      "name": "Anterolateral Spinothalamic tract of Skin - Dermal layer - 1st order sensory neuron - Neural Tubing Lyph"
+   },
+   {
+      "lyph_composition": "Soma Lyph",
+      "contained_by": "Anterolateral Spinothalamic tract",
+      "hosted_by": "Dorsal Root Ganglion",
+      "group_type": "1st order sensory neuron",
+      "source": [
+         "Anterolateral Spinothalamic tract of Skin - Dermal layer - 1st order sensory neuron - Neural Tubing Lyph"
+      ],
+      "target": [
+         "Anterolateral Spinothalamic tract of Dorsal Root Ganglion - 1st order sensory neuron - Neural Tubing Lyph"
+      ],
+      "name": "Anterolateral Spinothalamic tract of Dorsal Root Ganglion - 1st order sensory neuron - Soma Lyph"
+   },
+   {
+      "lyph_composition": "Neural Tubing Lyph",
+      "contained_by": "Anterolateral Spinothalamic tract",
+      "hosted_by": "Dorsal Root Ganglion",
+      "group_type": "1st order sensory neuron",
+      "source": [
+         "Anterolateral Spinothalamic tract of Dorsal Root Ganglion - 1st order sensory neuron - Soma Lyph"
+      ],
+      "target": [
+         "Anterolateral Spinothalamic tract of Spinal Cord - Parenchyma layer - 1st order sensory neuron - Neural Tubing Lyph"
+      ],
+      "name": "Anterolateral Spinothalamic tract of Dorsal Root Ganglion - 1st order sensory neuron - Neural Tubing Lyph"
+   },
+   {
+      "lyph_composition": "Neural Tubing Lyph",
+      "contained_by": "Anterolateral Spinothalamic tract",
+      "hosted_by": "Spinal Cord - Parenchyma layer",
+      "group_type": "1st order sensory neuron",
+      "source": [
+         "Anterolateral Spinothalamic tract of Dorsal Root Ganglion - 1st order sensory neuron - Neural Tubing Lyph"
+      ],
+      "target": [
+         "Anterolateral Spinothalamic tract of Dorsal Horn of Spinal Cord - 1st order sensory neuron - Neural Tubing Lyph"
+      ],
+      "name": "Anterolateral Spinothalamic tract of Spinal Cord - Parenchyma layer - 1st order sensory neuron - Neural Tubing Lyph"
+   },
+   {
+      "lyph_composition": "Neural Tubing Lyph",
+      "contained_by": "Anterolateral Spinothalamic tract",
+      "hosted_by": "Dorsal Horn of Spinal Cord",
+      "group_type": "1st order sensory neuron",
+      "source": [
+         "Anterolateral Spinothalamic tract of Spinal Cord - Parenchyma layer - 1st order sensory neuron - Neural Tubing Lyph"
+      ],
+      "target": [
+         "Anterolateral Spinothalamic tract of Dorsal Horn of Spinal Cord - 1st order sensory neuron - Neural Terminal Lyph"
+      ],
+      "name": "Anterolateral Spinothalamic tract of Dorsal Horn of Spinal Cord - 1st order sensory neuron - Neural Tubing Lyph"
+   },
+   {
+      "lyph_composition": "Neural Terminal Lyph",
+      "contained_by": "Anterolateral Spinothalamic tract",
+      "hosted_by": "Dorsal Horn of Spinal Cord",
+      "group_type": "1st order sensory neuron",
+      "source": [
+         "Anterolateral Spinothalamic tract of Dorsal Horn of Spinal Cord - 1st order sensory neuron - Neural Tubing Lyph"
+      ],
+      "target": [
+         "Anterolateral Spinothalamic tract of Dorsal Horn of Spinal Cord - 2nd order sensory neuron - Neural Terminal Lyph"
+      ],
+      "name": "Anterolateral Spinothalamic tract of Dorsal Horn of Spinal Cord - 1st order sensory neuron - Neural Terminal Lyph"
+   },
+   {
+      "lyph_composition": "Neural Terminal Lyph",
+      "contained_by": "Anterolateral Spinothalamic tract",
+      "hosted_by": "Dorsal Horn of Spinal Cord",
+      "group_type": "2nd order sensory neuron",
+      "source": [
+         "Anterolateral Spinothalamic tract of Dorsal Horn of Spinal Cord - 1st order sensory neuron - Neural Terminal Lyph"
+      ],
+      "target": [
+         "Anterolateral Spinothalamic tract of Dorsal Horn of Spinal Cord - 2nd order sensory neuron - Soma Lyph"
+      ],
+      "name": "Anterolateral Spinothalamic tract of Dorsal Horn of Spinal Cord - 2nd order sensory neuron - Neural Terminal Lyph"
+   },
+   {
+      "lyph_composition": "Soma Lyph",
+      "contained_by": "Anterolateral Spinothalamic tract",
+      "hosted_by": "Dorsal Horn of Spinal Cord",
+      "group_type": "2nd order sensory neuron",
+      "source": [
+         "Anterolateral Spinothalamic tract of Dorsal Horn of Spinal Cord - 2nd order sensory neuron - Neural Terminal Lyph"
+      ],
+      "target": [
+         "Anterolateral Spinothalamic tract of Medulla - Parenchyma layer - 2nd order sensory neuron - Neural Tubing Lyph"
+      ],
+      "name": "Anterolateral Spinothalamic tract of Dorsal Horn of Spinal Cord - 2nd order sensory neuron - Soma Lyph"
+   },
+   {
+      "lyph_composition": "Neural Tubing Lyph",
+      "contained_by": "Anterolateral Spinothalamic tract",
+      "hosted_by": "Medulla - Parenchyma layer",
+      "group_type": "2nd order sensory neuron",
+      "source": [
+         "Anterolateral Spinothalamic tract of Dorsal Horn of Spinal Cord - 2nd order sensory neuron - Soma Lyph"
+      ],
+      "target": [
+         "Anterolateral Spinothalamic tract of Pons - Parenchyma layer - 2nd order sensory neuron - Neural Tubing Lyph"
+      ],
+      "name": "Anterolateral Spinothalamic tract of Medulla - Parenchyma layer - 2nd order sensory neuron - Neural Tubing Lyph"
+   },
+   {
+      "lyph_composition": "Neural Tubing Lyph",
+      "contained_by": "Anterolateral Spinothalamic tract",
+      "hosted_by": "Pons - Parenchyma layer",
+      "group_type": "2nd order sensory neuron",
+      "source": [
+         "Anterolateral Spinothalamic tract of Medulla - Parenchyma layer - 2nd order sensory neuron - Neural Tubing Lyph"
+      ],
+      "target": [
+         "Anterolateral Spinothalamic tract of Midbrain - Parenchyma layer - 2nd order sensory neuron - Neural Tubing Lyph"
+      ],
+      "name": "Anterolateral Spinothalamic tract of Pons - Parenchyma layer - 2nd order sensory neuron - Neural Tubing Lyph"
+   },
+   {
+      "lyph_composition": "Neural Tubing Lyph",
+      "contained_by": "Anterolateral Spinothalamic tract",
+      "hosted_by": "Midbrain - Parenchyma layer",
+      "group_type": "2nd order sensory neuron",
+      "source": [
+         "Anterolateral Spinothalamic tract of Pons - Parenchyma layer - 2nd order sensory neuron - Neural Tubing Lyph"
+      ],
+      "target": [
+         "Anterolateral Spinothalamic tract of Diencephalon - Parenchyma layer - 2nd order sensory neuron - Neural Tubing Lyph"
+      ],
+      "name": "Anterolateral Spinothalamic tract of Midbrain - Parenchyma layer - 2nd order sensory neuron - Neural Tubing Lyph"
+   },
+   {
+      "lyph_composition": "Neural Tubing Lyph",
+      "contained_by": "Anterolateral Spinothalamic tract",
+      "hosted_by": "Diencephalon - Parenchyma layer",
+      "group_type": "2nd order sensory neuron",
+      "source": [
+         "Anterolateral Spinothalamic tract of Midbrain - Parenchyma layer - 2nd order sensory neuron - Neural Tubing Lyph"
+      ],
+      "target": [
+         "Anterolateral Spinothalamic tract of Ventral Posterolateral Nucleus of Diencephalon - 2nd order sensory neuron - Neural Tubing Lyph"
+      ],
+      "name": "Anterolateral Spinothalamic tract of Diencephalon - Parenchyma layer - 2nd order sensory neuron - Neural Tubing Lyph"
+   },
+   {
+      "lyph_composition": "Neural Tubing Lyph",
+      "contained_by": "Anterolateral Spinothalamic tract",
+      "hosted_by": "Ventral Posterolateral Nucleus of Diencephalon",
+      "group_type": "2nd order sensory neuron",
+      "source": [
+         "Anterolateral Spinothalamic tract of Diencephalon - Parenchyma layer - 2nd order sensory neuron - Neural Tubing Lyph"
+      ],
+      "target": [
+         "Anterolateral Spinothalamic tract of Ventral Posterolateral Nucleus of Diencephalon - 2nd order sensory neuron - Neural Terminal Lyph"
+      ],
+      "name": "Anterolateral Spinothalamic tract of Ventral Posterolateral Nucleus of Diencephalon - 2nd order sensory neuron - Neural Tubing Lyph"
+   },
+   {
+      "lyph_composition": "Neural Terminal Lyph",
+      "contained_by": "Anterolateral Spinothalamic tract",
+      "hosted_by": "Ventral Posterolateral Nucleus of Diencephalon",
+      "group_type": "2nd order sensory neuron",
+      "source": [
+         "Anterolateral Spinothalamic tract of Ventral Posterolateral Nucleus of Diencephalon - 2nd order sensory neuron - Neural Tubing Lyph"
+      ],
+      "target": "",
+      "name": "Anterolateral Spinothalamic tract of Ventral Posterolateral Nucleus of Diencephalon - 2nd order sensory neuron - Neural Terminal Lyph"
+   },
+   {
+      "lyph_composition": "Neural nucleus",
+      "contained_by": "",
+      "hosted_by": "Diencephalon - Parenchyma layer",
+      "group_type": "Neural nucleus",
+      "source": "",
+      "target": "",
+      "name": "Ventral Posterolateral Nucleus of Diencephalon"
+   },
+   {
+      "lyph_composition": "Neural nucleus",
+      "contained_by": "",
+      "hosted_by": "Medulla - Parenchyma layer",
+      "group_type": "Neural nucleus",
+      "source": "",
+      "target": "",
+      "name": "Gracile Nucleus of Medulla"
+   },
+   {
+      "lyph_composition": "Neural nucleus",
+      "contained_by": "",
+      "hosted_by": "Spinal Cord - Parenchyma layer",
+      "group_type": "Neural nucleus",
+      "source": "",
+      "target": "",
+      "name": "Dorsal Horn of Spinal Cord"
+   },
+   {
+      "lyph_composition": "Tract",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "Tracts",
+      "source": "",
+      "target": "",
+      "name": "Gracile tract"
+   },
+   {
+      "lyph_composition": "Tract",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "Tracts",
+      "source": "",
+      "target": "",
+      "name": "Anterolateral Spinothalamic tract"
+   },
+   {
+      "lyph_composition": "CNS segment",
+      "contained_by": "Central Nervous System",
+      "hosted_by": "",
+      "group_type": "CNS segment",
+      "source": "Midbrain",
+      "target": "",
+      "name": "Diencephalon"
+   },
+   {
+      "lyph_composition": "CNS layer",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Diencephalon - Parenchyma layer"
+   },
+   {
+      "lyph_composition": "CNS layer",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Diencephalon - Ependymal layer"
+   },
+   {
+      "lyph_composition": "CNS layer",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Diencephalon - CSF layer"
+   },
+   {
+      "lyph_composition": "CNS segment",
+      "contained_by": "Central Nervous System",
+      "hosted_by": "",
+      "group_type": "CNS segment",
+      "source": "Spinal Cord",
+      "target": "Pons",
+      "name": "Medulla"
+   },
+   {
+      "lyph_composition": "CNS layer",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Medulla - Parenchyma layer"
+   },
+   {
+      "lyph_composition": "CNS layer",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Medulla - Ependymal layer"
+   },
+   {
+      "lyph_composition": "CNS layer",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Medulla - CSF layer"
+   },
+   {
+      "lyph_composition": "CNS segment",
+      "contained_by": "Central Nervous System",
+      "hosted_by": "",
+      "group_type": "CNS segment",
+      "source": "",
+      "target": "Medulla",
+      "name": "Spinal Cord"
+   },
+   {
+      "lyph_composition": "CNS layer",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Spinal Cord - Parenchyma layer"
+   },
+   {
+      "lyph_composition": "CNS layer",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Spinal Cord - CSF layer"
+   },
+   {
+      "lyph_composition": "CNS layer",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Spinal Cord - Ependymal layer"
+   },
+   {
+      "lyph_composition": "Outer tissue",
+      "contained_by": "Body",
+      "hosted_by": "",
+      "group_type": "Sensory organ",
+      "source": "",
+      "target": "",
+      "name": "Skin"
+   },
+   {
+      "lyph_composition": "Outer tissue layer",
+      "contained_by": "Body",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Skin - Air layer"
+   },
+   {
+      "lyph_composition": "Outer tissue layer",
+      "contained_by": "Body",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Skin - Epidermal layer"
+   },
+   {
+      "lyph_composition": "Outer tissue layer",
+      "contained_by": "Body",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Skin - Dermal layer"
+   },
+   {
+      "lyph_composition": "Ganglion",
+      "contained_by": "Peripheral Nervous System",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Dorsal Root Ganglion"
+   },
+   {
+      "lyph_composition": "CNS segment",
+      "contained_by": "Central Nervous System",
+      "hosted_by": "",
+      "group_type": "CNS segment",
+      "source": "Medulla",
+      "target": "Midbrain",
+      "name": "Pons"
+   },
+   {
+      "lyph_composition": "CNS layer",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Pons - Parenchyma layer"
+   },
+   {
+      "lyph_composition": "CNS layer",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Pons - Ependymal layer"
+   },
+   {
+      "lyph_composition": "CNS layer",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Pons - CSF layer"
+   },
+   {
+      "lyph_composition": "CNS segment",
+      "contained_by": "Central Nervous System",
+      "hosted_by": "",
+      "group_type": "CNS segment",
+      "source": "Pons",
+      "target": "Diencephalon",
+      "name": "Midbrain"
+   },
+   {
+      "lyph_composition": "CNS layer",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Midbrain - Parenchyma layer"
+   },
+   {
+      "lyph_composition": "CNS layer",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Midbrain - Ependymal layer"
+   },
+   {
+      "lyph_composition": "CNS layer",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": "",
+      "name": "Midbrain - CSF layer"
+   },
+   {
+      "lyph_composition": "Limb",
+      "contained_by": "Body",
+      "hosted_by": "",
+      "group_type": "Musculoskeletal",
+      "source": "",
+      "target": "",
+      "name": "Lower Limb"
+   },
+   {
+      "lyph_composition": "Ganglion",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "Ganglion",
+      "source": "",
+      "target": "",
+      "name": "Dorsal Root Ganglion"
+   },
+   {
+      "name": "Central Nervous System",
+      "lyph_composition": "",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": ""
+   },
+   {
+      "name": "Body",
+      "lyph_composition": "",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": ""
+   },
+   {
+      "name": "Peripheral Nervous System",
+      "lyph_composition": "",
+      "contained_by": "",
+      "hosted_by": "",
+      "group_type": "",
+      "source": "",
+      "target": ""
+   }
+]

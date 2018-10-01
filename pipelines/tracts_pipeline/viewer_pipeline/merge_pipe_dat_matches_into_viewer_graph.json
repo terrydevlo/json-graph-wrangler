@@ -1,0 +1,40 @@
+{
+  "merge_pipe_dat_matches_into_viewer_graph": [{
+      "merge_two_datasets": {
+        "reference_file_key": "lyphs.json",
+        "match_by_key": "name",
+        "object_to_scrutinize": {
+          "matching_objs ": [{
+            "func": "check_obj_has_either_of_these_keys",
+            "keys_to_contain": ["name"]
+          }]
+        },
+        "objects_to_merge": {
+          "matching_objs": [{
+            "func": "check_obj_contains_either_of_these_key_value_pairs",
+            "match_by_key": "name"
+          }, {
+            "func": "check_obj_has_either_of_these_keys",
+            "keys_to_contain": ["topology", "internalNodes", "border", "internalLyphs", "hostedLyphs"]
+          }]
+        },
+
+        "id_key": "id",
+        "swap_ref_ids_of_merged_objs": true,
+        "override_these_keys": ["id"],
+        "keys_to_match_for_self_removal": ["id", "name"],
+
+        "save_ref_dat": {
+          "delete_matching_objs": {
+            "matching_obj": {
+              "func": "check_obj_contains_none_of_these_key_value_pairs",
+              "match_by_key": "name"
+            }
+          }
+        }
+      }
+    }
+
+  ]
+
+}

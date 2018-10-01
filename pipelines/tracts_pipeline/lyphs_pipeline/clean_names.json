@@ -1,0 +1,89 @@
+{
+  "rename_names_to_match_tract_data": [{
+    "rename_str_values": {
+      "replace_str_params": [{
+        "key_val_matching": {
+          "matching_key": "name",
+          "match_value_contains" : " "
+        },
+        "min_length" : 5,
+        "keep_specials": true,
+        "type_of_caps": "upperFirst"
+      },{
+        "key_val_matching": {
+          "matching_key": "name",
+          "match_value_contains": "layer of "
+        },
+        "swop_beg_and_end": true,
+        "split_at_str": " layer of ",
+        "new_split_str": " - ",
+        "keep_specials": true,
+        "append_str": " layer",
+        "type_of_caps": "upperFirst"
+      }, {
+        "key_val_matching": {
+          "matching_key": "name",
+          "match_value_contains": "csf"
+        },
+        "replace_this_sub_string": "Csf",
+        "with_this_sub_string": "CSF"
+      }, {
+        "key_val_matching": {
+          "matching_key": "name",
+          "match_value_contains": "Thalamic Complex"
+        },
+        "replace_this_sub_string": "Thalamic Complex",
+        "with_this_sub_string": "Thalamus"
+      },
+      {
+        "key_val_matching": {
+          "matching_key": "name",
+          "match_value_contains": " Of "
+        },
+        "replace_this_sub_string": " Of ",
+        "with_this_sub_string": " of "
+      },
+      {
+        "key_val_matching": {
+          "matching_key": "name",
+          "match_value_contains": "Neural System"
+        },
+        "replace_this_sub_string": "Neural System",
+        "with_this_sub_string": "Neural system"
+      },
+      {
+        "key_val_matching": {
+          "matching_key": "name",
+          "match_value_contains": "Omega Trees"
+        },
+        "replace_this_sub_string": "Omega Trees",
+        "with_this_sub_string": "Omega trees"
+      },
+      {
+        "key_val_matching": {
+          "matching_key": "name",
+          "match_value_contains": "Parenchymal"
+        },
+        "replace_this_sub_string": "Parenchymal",
+        "with_this_sub_string": "Parenchyma"
+      },
+      {
+        "key_val_matching": {
+          "matching_key": "name",
+          "match_value_contains": "Dorsal Horn of Spinal Grey Matter"
+        },
+        "replace_this_sub_string": "Dorsal Horn of Spinal Grey Matter",
+        "with_this_sub_string": "Dorsal Horn"
+      },
+      {
+        "key_val_matching": {
+          "matching_key": "name",
+          "match_value_contains": "pons"
+        },
+        "replace_this_sub_string": "pons",
+        "with_this_sub_string": "Pons"
+      }]
+    }
+  }]
+
+}

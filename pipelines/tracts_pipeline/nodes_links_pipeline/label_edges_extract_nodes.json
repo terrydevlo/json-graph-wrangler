@@ -1,0 +1,17 @@
+{
+  "name_trees": [{
+    "name_edges_extract_nodes": {
+      "reference_file_key": "lyph_data",
+      "reference_id_key": "name",
+      "edges_key": "edges",
+      "source_key": "source",
+      "target_key": "target",
+      "root_flag_key" : "is_root",
+      "root_key": "root",
+      "leaf_flag_key" : "is_leaf",
+      "leaf_key": "leaf",
+      "distance_key": "level"
+    }
+  }
+]
+}

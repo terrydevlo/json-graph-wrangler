@@ -1,0 +1,87 @@
+{
+   "NERVOUS SYSTEM [VERTEBRATE] (MONRO, 1783) (NS)": {
+      "General standard terms": {
+         "Gray matter (Meckel, 1817) (GM)": {
+            "White matter (Meckel, 1817) (wm)": {},
+            "Plexus (Galen, c192) (plx)": {},
+            "Communicating branch (Winslow, 1733) (cbr)": {},
+            "Cerebrospinal trunk (>1840)  (CSTR)": {},
+            "Brainstem (Schwalbe, 1881)  (BS)": {}
+         },
+         "Central nervous system (Carus, 1814) (CNS) or Cerebrospinal axis (Meckel, 1817) (CPA)": {
+            "Brain (Smith Papyrus, c1700 BC) (BR)": {
+               "Forebrain (Goette, 1873) (FB)": {
+                  "Endbrain (Kuhlenbeck, 1927) (EB) or Cerebrum (Obersteiner & Hill, 1900) (CER)": {
+                     "Cerebral nuclei (Swanson, 2000a) (CNU)": {},
+                     "Cerebral cortex (Swanson, 2000a) (CTX)": {}
+                  },
+                  "Interbrain (Baer, 1837) (IB)": {
+                     "Hypothalamus (Kuhlenbeck, 1927) (HY)": {},
+                     "Thalamus (His, 1893a) (TH)": {}
+                  }
+               },
+               "Midbrain (Baer, 1837) (MB)": {
+                  "Tegmentum (Swanson, 2000b) (TG)": {},
+                  "Tectum (Baer, 1837) (TC)": {}
+               },
+               "Rhombicbrain (His, 1893b) (RB)": {
+                  "Hindbrain (Baer, 1837) (HB)": {
+                     "Pons (Haller, 1747) (P)": {},
+                     "Cerebellum (Aristotle) (CB)": {}
+                  },
+                  "Afterbrain (Baer, 1837) (AFB) or Medulla (Winslow, 1733) (MY)": {}
+               }
+            },
+            "Spinal cord (Galen, c162-c166) (SP)": {
+               "Spinal cord parts (Swanson, 2015) (SPpt)": {
+                  "Cervical part of spinal cord (>1840) (SP-C)": {},
+                  "Thoracic part of spinal cord (>1840 (SP-T)": {},
+                  "Lumbar part of spinal cord (>1840) (SP-L)": {},
+                  "Sacral part of spinal cord (>1840) (SP-S)": {},
+                  "Coccygeal part of spinal cord (>1840) (SP-Co)": {}
+               },
+               "Spinal cord differentiations (Swanson, 2015) (SPd)": {
+                  "Cervical enlargement (Arnold, 1838b)  (CE)": {},
+                  "Lumbosacral enlargement (>1840)  (LSE)": {},
+                  "Medullary cone (Bock, 1827)  (MC)": {},
+                  "Terminal filament (Tiedemann, 1821)  (TF)": {}
+               }
+            }
+         },
+         "Peripheral nervous system (Meckel, 1817) (PNS)": {
+            "Nerves (Herophilus, c335-c280 BC) (n)": {
+               "Craniospinal nerves (Herrick, 1915) (csn)": {
+                  "Cranial nerves (Soemmerring, 1791) (cran)": {},
+                  "Spinal nerves (Camper, 1760-1762)  (spin)": {
+                     "Spinal nerve roots (Tiedemann, 1816) (sr)": {},
+                     "Spinal nerve trunk (Frotscher, 1788) (spt)": {},
+                     "Spinal nerve primary branches (>1840) (spb)": {}
+                  }
+               },
+               "Autonomic nerves (Langley, 1898) (ann)": {
+                  "Communicating branches of spinal nerves (Wutzer, 1817) (spinc)": {},
+                  "Peripheral nerve cord trunk (Swanson & Bota, 2010) (pnt)": {
+                     "Sympathetic trunk (Winslow, 1733) (syt)": {}
+                  },
+                  "Paravertebral nerves (Swanson & Bota, 2010) (pav)": {},
+                  "Prevertebral plexuses (Quain, 1837) (prep)": {},
+                  "Prevertebral nerves (Swanson & Bota, 2010) (pren)": {},
+                  "Terminal plexuses (Swanson & Bota, 2010) (tpl)": {},
+                  "Terminal autonomic nerves (Swanson & Bota, 2010) (tann)": {}
+               }
+            },
+            "Ganglia (Galen, c173) (G)": {
+               "Craniospinal ganglia (>1840) (GCS)": {
+                  "Cranial nerve ganglia (>1840) (GCN)": {},
+                  "Spinal nerve ganglia (Burdach, 1819)  (GSN)": {}
+               },
+               "Autonomic ganglia (Langley, 1900) (GA)": {
+                  "Paravertebral ganglia (Durward, 1951) (GPV)": {},
+                  "Prevertebral ganglia (Quain, 1837) (GPR)": {},
+                  "Terminal ganglia (Gaskell, 1886) (GTER)": {}
+               }
+            }
+         }
+      }
+   }
+}

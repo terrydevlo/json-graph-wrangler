@@ -1,0 +1,43 @@
+{
+  "add_lyph_layers_as_lyphs": [{
+    "add_new_object_for_object_property": {
+      "check_if_not_duplicate": true,
+      "obj_property_arr_to_derive_new_obj_from": "layer_composition",
+      "map_objs": [{
+          "new_key": "contained_by",
+          "from_keys": [""]
+        },
+        {
+          "new_key": "hosted_by",
+          "from_keys": [""]
+        },
+        {
+          "new_key": "name",
+          "from_keys": ["name", " - ", "layer_composition", " layer"]
+        },
+        {
+          "new_key": "group_type",
+          "from_keys": [""]
+        },
+        {
+          "new_key": "source",
+          "from_keys": [""]
+        },
+        {
+          "new_key": "target",
+          "from_keys": [""]
+        }
+      ],
+      "new_parent_key_val_from_child": {
+        "append_to_arr": true,
+        "new_key": "layers",
+        "from_key": "name"
+      }
+    }
+  }, {
+    "map_values_to_values_nested": {
+      "old_val": " ",
+      "new_val": ""
+    }
+  }]
+}

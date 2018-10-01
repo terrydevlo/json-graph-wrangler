@@ -1,0 +1,37 @@
+<cell-diagram xmlns="http://www.cellml.org/celldl/1.0#">
+
+	<bond-graph>
+
+		<potential id="u1" label="$\text{u}_1$"/>
+		<potential id="u2" label="$\text{u}_2$"/>
+		<potential id="u3" label="$\text{u}_3$"/>
+		<potential id="u4" label="$\text{u}_4$"/>
+
+		<flow id="v1" label="$\text{v}_1$">
+			<component input="u1" output="u3" class=""/>
+		</flow>
+
+		<flow id="v2" label="$\text{v}_1$">
+			<component input="u2" output="u3" class=""/>
+		</flow>
+
+		<flow id="v3" label="$\text{v}_1$">
+			<component input="u3" output="u4" class=""/>
+		</flow>
+
+		<flow id="v4" label="$\text{v}_1$">
+			<component input="u2" output="u4" class=""/>
+		</flow>
+
+	</bond-graph>
+
+	<style src="./styles/colours.css"/>
+
+	<style>
+	cell-diagram {
+		width: 600;	/* SVG `pixel` units */
+		height: 500;	/* SVG `pixel` units */
+	}
+	</style>
+
+</cell-diagram>

@@ -1,0 +1,161 @@
+{
+  "rename_names_to_match_tract_data": [{
+    "rename_str_values": {
+      "replace_str_params": [{
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": " "
+          },
+          "min_length": 5,
+          "keep_specials": true,
+          "type_of_caps": "upperFirst"
+        }, {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": "layer of "
+          },
+          "swop_beg_and_end": true,
+          "split_at_str": " layer of ",
+          "new_split_str": " - ",
+          "keep_specials": true,
+          "append_str": " layer",
+          "type_of_caps": "upperFirst"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": "Layer"
+          },
+          "replace_this_sub_string": "Layer",
+          "with_this_sub_string": "layer"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": "csf"
+          },
+          "replace_this_sub_string": "Csf",
+          "with_this_sub_string": "CSF"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": "midbrain"
+          },
+          "replace_this_sub_string": "midbrain",
+          "with_this_sub_string": "Midbrain"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": "Thalamus"
+          },
+          "replace_this_sub_string": "Thalamus",
+          "with_this_sub_string": "Diencephalon"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": "Thalamic Complex"
+          },
+          "replace_this_sub_string": "Thalamic Complex",
+          "with_this_sub_string": "Diencephalon"
+        }, {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_identically": "Gracile Nucleus"
+          },
+          "replace_with_this_string": "Gracile Nucleus of Medulla"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_identically": "Gracile Nucleus of Medulla of Medulla"
+          },
+          "replace_with_this_string": "Gracile Nucleus of Medulla"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": " Of "
+          },
+          "replace_this_sub_string": " Of ",
+          "with_this_sub_string": " of "
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": "Neural System"
+          },
+          "replace_this_sub_string": "Neural System",
+          "with_this_sub_string": "Neural system"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": "Omega Trees"
+          },
+          "replace_this_sub_string": "Omega Trees",
+          "with_this_sub_string": "Omega trees"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": "Parenchymal"
+          },
+          "replace_this_sub_string": "Parenchymal",
+          "with_this_sub_string": "Parenchyma"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": "diencephalon"
+          },
+          "replace_this_sub_string": "diencephalon",
+          "with_this_sub_string": "Diencephalon"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": "CSF of Medulla Oblongata"
+          },
+          "replace_this_sub_string": "CSF of Medulla Oblongata",
+          "with_this_sub_string": "Medulla - CSF layer"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": "Medulla Oblongata"
+          },
+          "replace_this_sub_string": "Medulla Oblongata",
+          "with_this_sub_string": "Medulla"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": "skin"
+          },
+          "replace_this_sub_string": "skin",
+          "with_this_sub_string": "Skin"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": "Dorsal Horn of Spinal Grey Matter"
+          },
+          "replace_this_sub_string": "Dorsal Horn of Spinal Grey Matter",
+          "with_this_sub_string": "Dorsal Horn of Spinal Cord"
+        },
+        {
+          "key_val_matching": {
+            "matching_key": "name",
+            "match_value_contains": "pons"
+          },
+          "replace_this_sub_string": "pons",
+          "with_this_sub_string": "Pons"
+        }
+      ]
+    }
+  }]
+
+}

@@ -1,0 +1,184 @@
+[
+   {
+      "name": "PERIPHERAL GANGLIA [RAT] (>1840)  (GPER)",
+      "children": [
+         {
+            "name": "Craniospinal ganglia (>1840)  (GCS)",
+            "children": [
+               {
+                  "name": "Cranial nerve ganglia (>1840)  (GCN)",
+                  "children": [
+                     {
+                        "name": "Terminal ganglion (>1840)  (GTE)",
+                        "children": [
+                           {
+                              "name": "Grüneberg ganglion (>1840)  (GGB)"
+                           },
+                           {
+                              "name": "Vomeronasal epithelium (>1840)  (VNE)"
+                           },
+                           {
+                              "name": "Olfactory epithelium (1840)  (OE)"
+                           },
+                           {
+                              "name": "Trigeminal ganglion (>1840)  (GV)"
+                           },
+                           {
+                              "name": "Geniculate ganglion (Bischoff, 1832)  (GG)"
+                           },
+                           {
+                              "name": "Cochlear ganglion (>1840)  (GCVIII)"
+                           },
+                           {
+                              "name": "Vestibular ganglion (>1840)  (GVVIII)"
+                           },
+                           {
+                              "name": "Proximal glossopharyngeal ganglion (>1840)  (GPIX)"
+                           },
+                           {
+                              "name": "Distal glossopharyngeal ganglion (>1840)  (GDIX)"
+                           },
+                           {
+                              "name": "Proximal vagal ganglion (>1840)  (GPX)"
+                           },
+                           {
+                              "name": "Distal vagal ganglion (>1840)  (GDX)"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Spinal nerve ganglia (Burdach, 1819)  (GSN)",
+                        "children": [
+                           {
+                              "name": "Cervical spinal ganglia (>1840)  (GSNce1-8)"
+                           },
+                           {
+                              "name": "Thoracic spinal ganglia (>1840)  (GSNth1-13)"
+                           },
+                           {
+                              "name": "Lumbar spinal ganglia (>1840)  (GSNlu1-6)"
+                           },
+                           {
+                              "name": "Sacral spinal ganglia (>1840)  (GSNsa1-4)"
+                           },
+                           {
+                              "name": "Coccygeal spinal ganglia (>1840)  (GSNco1-3)"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "name": "Autonomic ganglia (Langley, 1900)  (GA)",
+                  "children": [
+                     {
+                        "name": "Paravertebral ganglia (Durward, 1951)  (GPV)",
+                        "children": [
+                           {
+                              "name": "Carotid ganglion (Wutzer, 1817; Bock, 1817)  (GCR)"
+                           },
+                           {
+                              "name": "Sympathetic trunk ganglia (Winslow, 1733)  (GS)",
+                              "children": [
+                                 {
+                                    "name": "Cervical sympathetic ganglia (>1840)  (GSce)",
+                                    "children": [
+                                       {
+                                          "name": "Superior cervical ganglion (Vieussens, 1684)  (GSC)"
+                                       },
+                                       {
+                                          "name": "Middle cervical ganglion (Haller, 1762)  (GMC)"
+                                       },
+                                       {
+                                          "name": "Vertebral ganglion (>1840)  (GVE)"
+                                       },
+                                       {
+                                          "name": "Inferior cervical ganglion (Vieussens, 1684)  (GIC)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Thoracic sympathetic ganglia (>1840)  (GSth1-13)",
+                                    "children": [
+                                       {
+                                          "name": "Superior thoracic ganglion (Lieutaud, 1742)  (GSST)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Lumbar sympathetic ganglia (>1840)  (GSlu1-6)"
+                                 },
+                                 {
+                                    "name": "Sacral sympathetic ganglia (>1840)  (GSsa1-4)"
+                                 },
+                                 {
+                                    "name": "Coccygeal sympathetic ganglion (>1840)  (GSco)",
+                                    "children": [
+                                       {
+                                          "name": "Ganglion impar (>1840)  (GI)"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Prevertebral ganglia (Quain, 1832)  (GPR)",
+                        "children": [
+                           {
+                              "name": "Celiac ganglion (Walter, 1783)  (GCE)"
+                           },
+                           {
+                              "name": "Splanchnic ganglion (>1840)  (GSPL)"
+                           },
+                           {
+                              "name": "Aorticorenal ganglion (>1840)  (GAR)"
+                           },
+                           {
+                              "name": "Superior mesenteric ganglion (>1840)  (GSM)"
+                           },
+                           {
+                              "name": "Spermatic ganglia (Walter, 1783)  (GSPE)"
+                           },
+                           {
+                              "name": "Inferior mesenteric ganglion (>1840)  (GIM)"
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Terminal ganglia (Gaskell 1886)  (GTER)",
+                        "children": [
+                           {
+                              "name": "Ciliary ganglion (Loder, 1778)  (GCI)"
+                           },
+                           {
+                              "name": "Pterygopalatine ganglion (>1840)  (GPT)"
+                           },
+                           {
+                              "name": "Submandibular ganglion (>1840)  (GSD)"
+                           },
+                           {
+                              "name": "Otic ganglion (>1840)  (GO)"
+                           },
+                           {
+                              "name": "Cardiac ganglion (Neubauer, 1772; Haller, 1772)  (GCA)"
+                           },
+                           {
+                              "name": "Renal ganglia (Walther, 1735)  (GRE)"
+                           },
+                           {
+                              "name": "Pelvic ganglia (>1840)  (GPEL)"
+                           },
+                           {
+                              "name": "Paracervical ganglia (>1840)  (GPAC)"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]

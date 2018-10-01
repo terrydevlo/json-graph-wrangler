@@ -1,0 +1,21 @@
+{
+  "extract_variables_units": [{
+    "extract_nested_objects_into_array": {
+      "matching_obj": [{
+        "func": "check_obj_has_these_keys",
+        "keys_to_contain": ["variable"]
+      }],
+      "flatten_array" : true
+    },
+    "select_subset_of_keys_from_arr" : {
+      "keys_to_select" : ["variable"],
+      "only_vals" : true,
+      "flatten_array" : true
+    },
+    "repeat_step__select_subset_of_keys_from_arr" : {
+      "keys_to_select" : ["units","name"],
+      "as_single_array" : true
+    }
+
+  }]
+}

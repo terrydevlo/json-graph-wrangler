@@ -1,0 +1,10 @@
+{
+  "subtract_difference_pipeline": [{
+      "subtract_difference.json" : {
+        "input": ["input-data/lyph_viewer/graph_pre.json",
+                  "input-data/lyph_viewer/graph_post.json"],
+        "output" : ["input-data/lyph_viewer/graph_ds_2.json"]
+      }
+    }
+  ]
+}

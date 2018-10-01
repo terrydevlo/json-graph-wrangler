@@ -1,0 +1,548 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "definitions": {
+    "Entity": {
+      "description": "Generic abstract entity defines common properties for all elements in ApiNATOMY circuitboards",
+      "type"    : "object",
+      "abstract": "true",
+      "properties"  : {
+        "id": {
+          "description": "Unique entity identifier",
+          "type": "string"
+        },
+        "name": {
+          "description": "Entity name",
+          "type": "string"
+        },
+        "class": {
+          "description": "Entity class",
+          "type": "string",
+          "enum": ["Lyph", "Link", "Node", "Border", "Group"]
+        },
+        "color": {
+          "description": "RGB color",
+          "type": "string",
+          "format": "rgbcolor",
+          "pattern": "^#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$",
+          "default": "#666"
+        },
+        "external": {
+          "description": "Identifier of the entity in an external ontology such as FMA",
+          "type": "string"
+        },
+        "inGroups": {
+          "description": "Groups that include this entity",
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {"type": "string"},
+              {"$ref": "#/definitions/Entity"}
+            ]
+          },
+          "uniqueItems": true
+        },
+        "isTemplate": {
+          "description": "Indicates that the entity is used as template to generate other entities",
+          "type": "boolean"
+        },
+        "assign": {
+          "description": "A map that, for each generated entity ID, defines properties to assign to the dynamically created entity",
+          "type": "object"
+        },
+        "viewObjects": {
+          "description": "Visual objects (meshes) to represent this entity in the ApiNATOMY viewer",
+          "type": "object",
+          "properties": {
+            "main": {"type": "object"},
+            "label": {"type": "object"}
+          },
+          "default": {}
+        },
+        "material": {
+          "description": "Reference to the material used to draw this entity",
+          "type": "object",
+          "additionalProperties": true
+        },
+        "labels": {
+          "description": "References to visual objects with text labels",
+          "type": "object",
+          "properties": {
+            "id"   : {"type": "object"},
+            "name" : {"type": "object"},
+            "external": {"type": "object"}
+          },
+          "additionalProperties": true,
+          "default": {}
+        },
+        "infoFields": {
+          "description": "A set of properties shown in the info panel when entity is focused",
+          "type": "object",
+          "properties": {
+            "text": {
+              "description": "Properties that are displayed as text fields",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "objects": {
+              "description": "Properties that are displayed as objects",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "lists": {
+              "description": "Properties that are displayed as lists",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "default": {
+            "text"   : ["id", "class", "name", "external"],
+            "objects": [],
+            "lists"  : []
+          }
+        },
+        "hidden"   : {
+          "description": "A flag to indicate that this entity should not be visualized",
+          "type": "boolean"
+        },
+        "inactive" : {
+          "description": "A boolean flag to indicate that this entity should not be highlighted",
+          "type": "boolean"
+        },
+        "skipLabel": {
+          "description": "A flag to indicate that this entity is visualized without the corresponding text label",
+          "type": "boolean"
+        }
+      },
+      "required": ["id", "class"]
+    },
+    "Node"  : {
+      "description": "Graph node joins two or more links (processes)",
+      "type"    : "object",
+      "extends" : {
+        "$ref": "#/definitions/Entity"
+      },
+      "properties" : {
+        "host"  : {
+          "description": "A link on which this node is positioned",
+          "oneOf": [
+            {"type": "string"},
+            {"$ref": "#/definitions/Link"}
+          ]
+        },
+        "layout": {
+          "description": "Positioning constraints, i.e., foci points that attract this node in the force-directed layout",
+          "type": "object",
+          "properties": {
+            "x": {"type": "number", "minimum": -100, "maximum": 100},
+            "y": {"type": "number", "minimum": -100, "maximum": 100},
+            "z": {"type": "number", "minimum": -100, "maximum": 100}
+          },
+          "additionalProperties": true,
+          "default": {}
+        },
+        "type": {
+          "description": "Node type can be used to control the behavior of the node in the force-directed layout",
+          "type": "string",
+          "enum": ["core", "fixed", "control"]
+        },
+        "val": {
+          "description": "A value that defines the size of the node",
+          "type": "number",
+          "minimum": 0,
+          "default": 1
+        },
+        "offset" : {
+          "description": "Defines position of the node on its host link, i.e, fraction of the link's length starting from the source node",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "belongsToLyph" : {
+          "description": "ID or reference to the lyph on which this node must be positioned",
+          "oneOf": [
+            {"type": "string"},
+            {"$ref": "#/definitions/Lyph"}
+          ]
+        },
+        "x": {
+          "description": "x-coordinate of the node's position in the force-directed graph",
+          "type": "number"
+        },
+        "y": {
+          "description": "y-coordinate of the node's position in the force-directed graph",
+          "type": "number"
+        },
+        "z": {
+          "description": "z-coordinate of the node's position in the force-directed graph",
+          "type": "number"
+        },
+        "charge" : {
+          "description": "Defines the force with which this node attracts or repels other nodes in the force-directed graph",
+          "type": "number",
+          "default": 0
+        },
+        "collide": {
+          "description": "Defines the radius for the collision force in the force-directed layout. The collision force treats nodes as circles with a given radius, rather than points, and prevents nodes from overlapping.",
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "Link"  : {
+      "description": "Graph link schematically representing a (part of) physiological process",
+      "extends" : {
+        "$ref": "#/definitions/Entity"
+      },
+      "properties" : {
+        "source": {
+          "description": "Source node of the link",
+          "oneOf": [
+            {"type": "string"},
+            {"$ref": "#/definitions/Node"}
+          ]
+        },
+        "target": {
+          "description": "Target node of the link",
+          "oneOf": [
+            {"type": "string"},
+            {"$ref": "#/definitions/Node"}
+          ]
+        },
+        "length": {
+          "description": "The length of the link",
+          "type"   : "number",
+          "minimum": 0,
+          "maximum": 100,
+          "default": 1
+        },
+        "conveyingLyph": {
+          "description": "Conveying lyph for the process represented by the link",
+          "oneOf": [
+            {"type": "string"},
+            {"$ref": "#/definitions/Lyph"}
+          ]
+        },
+        "type" : {
+          "description": "Defines the appearance and behavior of the link in the model graph",
+          "type": "string",
+          "enum": ["link", "dashed", "semicircle", "container", "force", "invisible", "path"],
+          "default": "link"
+        },
+        "infoFields": {
+          "default": {
+            "text": ["length", "type"],
+            "objects": ["source", "target", "conveyingLyph"]
+          }
+        },
+        "reversed"   : {
+          "description": "When set to true, the link's direction is reversed; it is used to turn the link's conveying lyph by 180 degrees",
+          "type": "boolean",
+          "default": false
+        },
+        "linkMethod" : {
+          "type": "string",
+          "enum": ["Line2"],
+          "default": ""
+        },
+        "strength"   : {
+          "description": "Link's strength reflects how strongly the link tries to satisfy its length constraint in the force-directed layout",
+          "type": "number"
+        },
+        "hostedNodes": {
+          "description": "Nodes that are positioned on the link",
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {"type": "string"},
+              {"$ref": "#/definitions/Node"}
+            ]
+          }
+        }
+      },
+      "required": ["source", "target"]
+    },
+    "Material": {
+      "description": "Chemical elements and compounds",
+      "extends" : {
+        "$ref": "#/definitions/Entity"
+      }
+    },
+    "Lyph"  : {
+      "description": "Data structure that defines the material composition and topology of body parts and physiological processes",
+      "extends" : {
+        "$ref": "#/definitions/Entity"
+      },
+      "properties" : {
+        "axis": {
+          "description": "Lyph's axis of rotation",
+          "oneOf": [
+            {"type": "string"},
+            {"$ref": "#/definitions/Link"}
+          ]
+
+        },
+        "layers" : {
+          "description": "Lyph layers",
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {"type": "string"},
+              {"$ref": "#/definitions/Lyph"}
+            ]
+          },
+          "uniqueItems": true
+        },
+        "layerInLyph" : {
+          "description": "A lyph in which the current lyph is hosted as layer",
+          "oneOf": [
+            {"type": "string"},
+            {"$ref": "#/definitions/Lyph"}
+          ]
+        },
+        "topology"    : {
+          "description": "Lyph topology defines its border shape",
+          "type": "string",
+          "enum": ["TUBE", "BAG", "BAG2", "CYST"],
+          "default": "TUBE"
+        },
+        "border"      : {
+          "description": "Properties that apply to the lyph's border",
+          "oneOf": [
+            {"type": "string"},
+            {"$ref": "#/definitions/Border"}
+          ],
+          "default": {}
+        },
+        "infoFields"  : {
+          "default"   : {
+            "text"    : ["topology", "width"],
+            "objects" : ["axis"],
+            "lists"   : ["layers"]
+          }
+        },
+        "thickness"     : {
+          "description": "Anatomical lyph thickness defined in the form of power of 1/10",
+          "type": "object",
+          "properties": {
+            "min": {"type": "number"},
+            "max": {"type": "number"}
+          }
+        },
+        "length"        : {
+          "description": "Anatomical lyph length defined in the form of power of 1/10",
+          "type": "object",
+          "properties": {
+            "min": {"type": "number"},
+            "max": {"type": "number"}
+          }
+        },
+        "width"         : {
+          "description": "Width of the visual object representing lyph",
+          "type": "number"
+        },
+        "scale":{
+          "description": "Defines the size of the conveying lyph as percentage of its axis' (link) length",
+          "type": "object",
+          "properties": {
+            "width": "number",
+            "height": "number"
+          },
+          "default": {
+            "width": 80,
+            "height": 80
+          }
+        },
+        "layerWidth": {
+          "description": "Defines the percentage of the hosting lyph's width occupied by the given lyph as layer",
+          "type": "number"
+        },
+        "height"        : {
+          "description": "Height of the visual object representing lyph",
+          "type": "number"
+        },
+        "offset"        : {
+          "description": "The distance to which the lyph is shifted wrt its axis, it is used to position layers within their hosting lyph",
+          "type": "number"
+        },
+        "internalLyphs" : {
+          "description": "Lyphs that should be positioned on the given lyph (corresponding axis (link and two nodes) is generated)",
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {"type": "string"},
+              {"$ref": "#/definitions/Lyph"}
+            ]
+          }
+        },
+        "internalNodes" : {
+          "description": "Nodes that should be positioned on the given lyph",
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {"type": "string"},
+              {"$ref": "#/definitions/Node"}
+            ]
+          }},
+        "belongsToLyph" : {
+          "description": "ID or reference to the lyph on which this lyph must be positioned",
+          "oneOf": [
+            {"type": "string"},
+            {"$ref": "#/definitions/Lyph"}
+          ]
+        },
+        "materials" : {
+          "description": "Materials in the lyph",
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "$ref": "#/definitions/Material"
+              }
+            ]
+          }
+        },
+        "subtypes"  : {
+          "description": "Lyphs that are anatomical subtypes of the given lyph",
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "$ref": "#/definitions/Lyph"
+              }
+            ]
+          }
+        },
+        "supertype" : {
+          "description": "Lyph which is an anatomical supertype of the given lyph",
+          "oneOf": [
+            { "type": "string" },
+            { "$ref": "#/definitions/Lyph" }
+          ]
+        }
+      },
+      "required": ["axis"]
+    },
+    "Border": {
+      "description": "Lyph border",
+      "extends" : {
+        "$ref": "#/definitions/Entity"
+      },
+      "properties" : {
+        "borders" : {
+          "description": "Lyph borders",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "nodes": {
+                "description": "Nodes on the lyph border",
+                "oneOf": [
+                  {"type": "string"},
+                  {"$ref": "#/definitions/Node"}
+                ]
+              },
+              "conveyingLyph": {
+                "description": "Conveying lyph for the process on the border",
+                "oneOf": [
+                  {"type": "string"},
+                  {"$ref": "#/definitions/Lyph"}
+                ]
+              }
+            }
+          },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "borderTypes" : {
+          "description": "Types of borders: open (value = false) vs closed (value = true)",
+          "type": "array",
+          "items": {
+            "type": "boolean"
+          },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "borderInLyph": {
+          "oneOf": [
+            { "type": "string"},
+            { "$ref": "#/definitions/Lyph"}
+          ]
+        }
+      }
+    },
+    "Group" : {
+      "description": "Group of entities with common properties and/or behavior",
+      "extends" : {
+        "$ref": "#/definitions/Entity"
+      },
+      "properties": {
+        "entities": {
+          "description": "Entities in the group",
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {"type": "string"},
+              {"$ref": "#/definitions/Entity"}
+            ]
+          }
+        }
+      }
+    },
+    "Graph" : {
+      "description": "Data model for the force-directed graph shown by the ApiNATOMY lyph viewer",
+      "extends" : {
+        "$ref": "#/definitions/Entity"
+      },
+      "properties": {
+        "nodes" : {
+          "description": "Graph nodes",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Node"
+          }
+        },
+        "links" : {
+          "description": "Graph links",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Link"
+          }
+        },
+        "materials": {
+          "description": "All materials in the model",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Material"
+          }
+        },
+        "lyphs" : {
+          "description": "All lyphs in the model",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Lyph"
+          }
+        },
+        "groups": {
+          "description": "Groups of entities in the graph that can be hidden and shown again",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Group"
+          }
+        }
+      }
+    }
+  },
+  "$ref": "#/definitions/Graph"
+}

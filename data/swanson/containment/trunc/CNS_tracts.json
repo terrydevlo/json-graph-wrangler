@@ -1,0 +1,1503 @@
+[
+   {
+      "name": "NERVOUS SYSTEM [RAT]",
+      "children": [
+         {
+            "name": "Systems architecture",
+            "children": [
+               {
+                  "name": "White matter tracts",
+                  "children": [
+                     {
+                        "name": "Central nervous system",
+                        "children": [
+                           {
+                              "name": "Central root",
+                              "children": [
+                                 {
+                                    "name": "Spinal tract of trigeminal nerve",
+                                    "children": [
+                                       {
+                                          "name": "Gracile fascicle"
+                                       },
+                                       {
+                                          "name": "Cuneate fascicle"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Longitudinal",
+                                    "children": [
+                                       {
+                                          "name": "Medial longitudinal fascicle"
+                                       },
+                                       {
+                                          "name": "Tectospinal tract"
+                                       },
+                                       {
+                                          "name": "Spinoreticular tract"
+                                       },
+                                       {
+                                          "name": "Medial reticulospinal tract"
+                                       },
+                                       {
+                                          "name": "Corticospinal tract"
+                                       },
+                                       {
+                                          "name": "Medial forebrain bundle"
+                                       },
+                                       {
+                                          "name": "Lateral vestibulospinal tract"
+                                       },
+                                       {
+                                          "name": "Spinotectal tract"
+                                       },
+                                       {
+                                          "name": "Spinothalamic tract"
+                                       },
+                                       {
+                                          "name": "Spinohypothalamic tract"
+                                       },
+                                       {
+                                          "name": "Spinotelencephalic tract"
+                                       },
+                                       {
+                                          "name": "Spino-olivary tract"
+                                       },
+                                       {
+                                          "name": "Cervicothalamic tract"
+                                       },
+                                       {
+                                          "name": "Ventral spinocerebellar tract"
+                                       },
+                                       {
+                                          "name": "Rubrospinal tract"
+                                       },
+                                       {
+                                          "name": "Lateral reticulospinal tract"
+                                       },
+                                       {
+                                          "name": "Spinovestibular tract"
+                                       },
+                                       {
+                                          "name": "Dorsal spinocerebellar tract"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Brain",
+                              "children": [
+                                 {
+                                    "name": "Central root",
+                                    "children": [
+                                       {
+                                          "name": "Inferior fascicle of accessory optic system"
+                                       },
+                                       {
+                                          "name": "Brachium of superior colliculus"
+                                       },
+                                       {
+                                          "name": "Midbrain tract of trigeminal nerve"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Longitudinal",
+                                    "children": [
+                                       {
+                                          "name": "Corticotectal tract"
+                                       },
+                                       {
+                                          "name": "Corticorubral tract"
+                                       },
+                                       {
+                                          "name": "Corticopontine tract"
+                                       },
+                                       {
+                                          "name": "Corticobulbar tract"
+                                       },
+                                       {
+                                          "name": "Striatotegmental fascicle"
+                                       },
+                                       {
+                                          "name": "Pallidotegmental fascicle"
+                                       },
+                                       {
+                                          "name": "Subthalamic fascicle"
+                                       },
+                                       {
+                                          "name": "Pallidothalamic fascicle"
+                                       },
+                                       {
+                                          "name": "Rubroreticular tract"
+                                       },
+                                       {
+                                          "name": "Medial lemniscus"
+                                       },
+                                       {
+                                          "name": "Lateral lemniscus"
+                                       },
+                                       {
+                                          "name": "Trapezoid body"
+                                       },
+                                       {
+                                          "name": "Mammillotegmental tract"
+                                       },
+                                       {
+                                          "name": "Mammillary peduncle"
+                                       },
+                                       {
+                                          "name": "Nigrostriatal tract"
+                                       },
+                                       {
+                                          "name": "Nigrothalamic tract"
+                                       },
+                                       {
+                                          "name": "Tectothalamic tract"
+                                       },
+                                       {
+                                          "name": "Central tegmental tract"
+                                       },
+                                       {
+                                          "name": "Dorsal tegmental tract"
+                                       },
+                                       {
+                                          "name": "Dorsal longitudinal fascicle"
+                                       },
+                                       {
+                                          "name": "Ventrolateral fascicle"
+                                       },
+                                       {
+                                          "name": "Habenulo-interpeduncular tract"
+                                       },
+                                       {
+                                          "name": "Brachium of inferior colliculus"
+                                       },
+                                       {
+                                          "name": "Cerebellar peduncles",
+                                          "children": [
+                                             {
+                                                "name": "Superior cerebellar peduncle",
+                                                "children": [
+                                                   {
+                                                      "name": "Uncinate tract"
+                                                   }
+                                                ]
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Trigeminocerebellar tract"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Forebrain",
+                              "children": [
+                                 {
+                                    "name": "Transverse and longitudinal",
+                                    "children": [
+                                       {
+                                          "name": "Fornix"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Longitudinal",
+                                    "children": [
+                                       {
+                                          "name": "Internal capsule",
+                                          "children": [
+                                             {
+                                                "name": "Forebrain corticospinal tract"
+                                             },
+                                             {
+                                                "name": "Forebrain corticotectal tract"
+                                             },
+                                             {
+                                                "name": "Forebrain corticorubral tract"
+                                             },
+                                             {
+                                                "name": "Forebrain corticopontine tract"
+                                             },
+                                             {
+                                                "name": "Forebrain corticobulbar tract"
+                                             },
+                                             {
+                                                "name": "Thalamic radiations"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Postcommissural fornix"
+                                       },
+                                       {
+                                          "name": "Terminal stria"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Endbrain",
+                              "children": [
+                                 {
+                                    "name": "Transverse",
+                                    "children": [
+                                       {
+                                          "name": "Precommissural fornix"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Longitudinal",
+                                    "children": [
+                                       {
+                                          "name": "Lateral septal arcuate fibers"
+                                       },
+                                       {
+                                          "name": "Endbrain terminal stria"
+                                       },
+                                       {
+                                          "name": "Peduncular loop"
+                                       },
+                                       {
+                                          "name": "Endbrain nigrostriatal tract"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Cerebral nuclei",
+                              "children": [
+                                 {
+                                    "name": "Longitudinal",
+                                    "children": [
+                                       {
+                                          "name": "Cerebral nuclei corticospinal tract"
+                                       },
+                                       {
+                                          "name": "Diagonal band"
+                                       },
+                                       {
+                                          "name": "Cerebral nuclei spinotelencephalic tract"
+                                       },
+                                       {
+                                          "name": "Septal postcommissural fornix"
+                                       },
+                                       {
+                                          "name": "Cerebral nuclei segment of thalamic radiations"
+                                       },
+                                       {
+                                          "name": "Cerebral nuclei segment of striatotegmental fascicle"
+                                       },
+                                       {
+                                          "name": "Cerebral nuclei segment of pallidotegmental fascicle"
+                                       },
+                                       {
+                                          "name": "Cerebral nuclei segment of subthalamic fascicle"
+                                       },
+                                       {
+                                          "name": "Cerebral nuclei segment of pallidothalamic fascicle"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Cerebral cortex",
+                              "children": [
+                                 {
+                                    "name": "Central root",
+                                    "children": [
+                                       {
+                                          "name": "Main olfactory bulb olfactory nerve layer"
+                                       },
+                                       {
+                                          "name": "Accessory olfactory bulb vomeronasal nerve layer"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Intrinsic",
+                                    "children": [
+                                       {
+                                          "name": "Lateral olfactory tract",
+                                          "children": [
+                                             {
+                                                "name": "Dorsal limb of lateral olfactory tract"
+                                             },
+                                             {
+                                                "name": "Principal lateral olfactory tract"
+                                             },
+                                             {
+                                                "name": "Accessory olfactory tract"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Extreme capsule"
+                                       },
+                                       {
+                                          "name": "Amygdalar capsule"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Transverse",
+                                    "children": [
+                                       {
+                                          "name": "Cerebral cortex white matter",
+                                          "children": [
+                                             {
+                                                "name": "Anterior commissure",
+                                                "children": [
+                                                   {
+                                                      "name": "Olfactory limb of anterior commissure"
+                                                   },
+                                                   {
+                                                      "name": "Temporal limb of anterior commissure",
+                                                      "children": [
+                                                         {
+                                                            "name": "Terminal stria commissure"
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Corpus callosum",
+                                                "children": [
+                                                   {
+                                                      "name": "Rostrum of corpus callosum"
+                                                   },
+                                                   {
+                                                      "name": "Genu of corpus callosum"
+                                                   },
+                                                   {
+                                                      "name": "Body of corpus callosum"
+                                                   },
+                                                   {
+                                                      "name": "Splenium of corpus callosum"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Radiation of corpus callosum",
+                                                "children": [
+                                                   {
+                                                      "name": "Radiation of corpus callosum principal part"
+                                                   },
+                                                   {
+                                                      "name": "Frontal forceps"
+                                                   },
+                                                   {
+                                                      "name": "External capsule"
+                                                   },
+                                                   {
+                                                      "name": "Tapetum"
+                                                   },
+                                                   {
+                                                      "name": "Occipital forceps"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Fimbria",
+                                                "children": [
+                                                   {
+                                                      "name": "Fimbria principal part"
+                                                   },
+                                                   {
+                                                      "name": "Alveus"
+                                                   },
+                                                   {
+                                                      "name": "Dorsal fornix"
+                                                   },
+                                                   {
+                                                      "name": "Hippocampal commissures",
+                                                      "children": [
+                                                         {
+                                                            "name": "Ventral hippocampal commissure"
+                                                         },
+                                                         {
+                                                            "name": "Intermediate hippocampal commissure"
+                                                         },
+                                                         {
+                                                            "name": "Dorsal hippocampal commissure"
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Association fibers of cerebral cortex",
+                                                "children": [
+                                                   {
+                                                      "name": "Longitudinal association bundle"
+                                                   },
+                                                   {
+                                                      "name": "Cingulum"
+                                                   },
+                                                   {
+                                                      "name": "Perforant path"
+                                                   },
+                                                   {
+                                                      "name": "Angular bundle"
+                                                   }
+                                                ]
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Longitudinal",
+                                    "children": [
+                                       {
+                                          "name": "Cerebral cortical spinotelencephalic tract"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Interbrain",
+                              "children": [
+                                 {
+                                    "name": "Central Root",
+                                    "children": [
+                                       {
+                                          "name": "Optic tract"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Transverse",
+                                    "children": [
+                                       {
+                                          "name": "Supraoptic decussations"
+                                       },
+                                       {
+                                          "name": "Medullary stria"
+                                       },
+                                       {
+                                          "name": "Mammillothalamic tract"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Longitudinal",
+                                    "children": [
+                                       {
+                                          "name": "Interbrain nigrothalamic tract"
+                                       },
+                                       {
+                                          "name": "Interbrain superior cerebellar peduncle"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Hypothalamus",
+                              "children": [
+                                 {
+                                    "name": "Central Root",
+                                    "children": [
+                                       {
+                                          "name": "Optic chiasm",
+                                          "children": [
+                                             {
+                                                "name": "Medial retinohypothalamic tract"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Hypothalamic optic tract",
+                                          "children": [
+                                             {
+                                                "name": "Lateral retinohypothalamic tract"
+                                             },
+                                             {
+                                                "name": "Hypothalamic inferior fascicle of accessory optic system"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Intrinsic",
+                                    "children": [
+                                       {
+                                          "name": "Periventricular bundle of hypothalamus"
+                                       },
+                                       {
+                                          "name": "Propriohypothalamic tracts"
+                                       },
+                                       {
+                                          "name": "Hypothalamohypophysial tract"
+                                       },
+                                       {
+                                          "name": "Infundibulum",
+                                          "children": [
+                                             {
+                                                "name": "Median eminence",
+                                                "children": [
+                                                   {
+                                                      "name": "Internal lamina"
+                                                   },
+                                                   {
+                                                      "name": "External lamina"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Infundibular stem"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Ventrolateral hypothalamic tract"
+                                       },
+                                       {
+                                          "name": "Principal mammillary tract"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Transverse",
+                                    "children": [
+                                       {
+                                          "name": "Preoptic commissure"
+                                       },
+                                       {
+                                          "name": "Hypothalamic supraoptic decussations"
+                                       },
+                                       {
+                                          "name": "Premammillary commissure"
+                                       },
+                                       {
+                                          "name": "Hypothalamic medullary stria"
+                                       },
+                                       {
+                                          "name": "Hypothalamic mammillothalamic tract"
+                                       },
+                                       {
+                                          "name": "Supramammillary decussation"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Longitudinal",
+                                    "children": [
+                                       {
+                                          "name": "Hypothalamic corticospinal tract"
+                                       },
+                                       {
+                                          "name": "Hypothalamic mammillary peduncle"
+                                       },
+                                       {
+                                          "name": "Hypothalamic mammillotegmental tract"
+                                       },
+                                       {
+                                          "name": "Hypothalamic subthalamic fascicle"
+                                       },
+                                       {
+                                          "name": "Hypothalamic terminal stria"
+                                       },
+                                       {
+                                          "name": "Hypothalamic medial forebrain bundle",
+                                          "children": [
+                                             {
+                                                "name": "Hypothalamic postcommissural fornix",
+                                                "children": [
+                                                   {
+                                                      "name": "Medial corticohypothalamic tract"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Hypothalamic striatotegmental fascicle"
+                                             },
+                                             {
+                                                "name": "Hypothalamic nigrostriatal tract"
+                                             },
+                                             {
+                                                "name": "Hypothalamic pallidotegmental fascicle"
+                                             },
+                                             {
+                                                "name": "Hypothalamic spinohypothalamic tract"
+                                             },
+                                             {
+                                                "name": "Hypothalamic spinotelencephalic tract"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Thalamus",
+                              "children": [
+                                 {
+                                    "name": "Central Root",
+                                    "children": [
+                                       {
+                                          "name": "Thalamic optic tract"
+                                       },
+                                       {
+                                          "name": "Thalamic brachium of superior colliculus"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Intrinsic",
+                                    "children": [
+                                       {
+                                          "name": "Periventricular bundle of thalamus"
+                                       },
+                                       {
+                                          "name": "Internal medullary lamina",
+                                          "children": [
+                                             {
+                                                "name": "Middle commissure"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "External medullary lamina"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Transverse",
+                                    "children": [
+                                       {
+                                          "name": "Epithalamic medullary stria",
+                                          "children": [
+                                             {
+                                                "name": "Habenular commissure"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Epithalamic branch of pallidotegmental fascicle"
+                                       },
+                                       {
+                                          "name": "Dorsal thalamic branch of pallidotegmental fascicle"
+                                       },
+                                       {
+                                          "name": "Thalamic mammillothalamic tract"
+                                       },
+                                       {
+                                          "name": "Thalamic supraoptic decussations"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Longitudinal",
+                                    "children": [
+                                       {
+                                          "name": "Subiculothalamic tract"
+                                       },
+                                       {
+                                          "name": "Thalamic segment of thalamic radiations"
+                                       },
+                                       {
+                                          "name": "Thalamic spinothalamic tract"
+                                       },
+                                       {
+                                          "name": "Thalamic cervicothalamic tract"
+                                       },
+                                       {
+                                          "name": "Thalamic uncinate tract"
+                                       },
+                                       {
+                                          "name": "Thalamic medial lemniscus"
+                                       },
+                                       {
+                                          "name": "Thalamic pallidothalamic fascicle"
+                                       },
+                                       {
+                                          "name": "Thalamic habenulo-interpeduncular tract"
+                                       },
+                                       {
+                                          "name": "Thalamic brachium of inferior colliculus"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Midbrain",
+                              "children": [
+                                 {
+                                    "name": "Transverse",
+                                    "children": [
+                                       {
+                                          "name": "Nigrotectal tract"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Tegmentum",
+                              "children": [
+                                 {
+                                    "name": "Central Root",
+                                    "children": [
+                                       {
+                                          "name": "Oculomotor nerve central root",
+                                          "children": [
+                                             {
+                                                "name": "Oculomotor nerve central rootlets"
+                                             },
+                                             {
+                                                "name": "Tegmental inferior fascicle of accessory optic system"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Pretectal brachium of superior colliculus",
+                                          "children": [
+                                             {
+                                                "name": "Superior fascicle of accessory optic system",
+                                                "children": [
+                                                   {
+                                                      "name": "Transverse peduncular tract"
+                                                   }
+                                                ]
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Trochlear nerve central root",
+                                          "children": [
+                                             {
+                                                "name": "Trochlear nerve decussation"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Tegmental segment of midbrain tract of trigeminal nerve"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Transverse",
+                                    "children": [
+                                       {
+                                          "name": "Posterior commissure"
+                                       },
+                                       {
+                                          "name": "Tegmental habenulo-interpeduncular tract"
+                                       },
+                                       {
+                                          "name": "Tegmental nigrotectal tract"
+                                       },
+                                       {
+                                          "name": "Ventral tegmental decussation"
+                                       },
+                                       {
+                                          "name": "Dorsal tegmental decussation"
+                                       },
+                                       {
+                                          "name": "Superior cerebellar peduncle decussation"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Longitudinal",
+                                    "children": [
+                                       {
+                                          "name": "Tegmental medial longitudinal fascicle"
+                                       },
+                                       {
+                                          "name": "Tegmental tectospinal tract",
+                                          "children": [
+                                             {
+                                                "name": "Transverse tegmental tectospinal tract"
+                                             },
+                                             {
+                                                "name": "Longitudinal tegmental tectospinal tract"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Tegmental cervicothalamic tract"
+                                       },
+                                       {
+                                          "name": "Tegmental uncinate tract"
+                                       },
+                                       {
+                                          "name": "Tegmental rubroreticular tract"
+                                       },
+                                       {
+                                          "name": "Tegmental medial lemniscus"
+                                       },
+                                       {
+                                          "name": "Cerebral peduncle",
+                                          "children": [
+                                             {
+                                                "name": "Tegmental corticotectal tract"
+                                             },
+                                             {
+                                                "name": "Tegmental corticorubral tract"
+                                             },
+                                             {
+                                                "name": "Tegmental corticopontine tract"
+                                             },
+                                             {
+                                                "name": "Tegmental corticobulbar tract"
+                                             },
+                                             {
+                                                "name": "Tegmental corticospinal tract"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Tegmental medial forebrain bundle",
+                                          "children": [
+                                             {
+                                                "name": "Tegmental striatotegmental fascicle"
+                                             },
+                                             {
+                                                "name": "Tegmental nigrostriatal tract"
+                                             },
+                                             {
+                                                "name": "Tegmental pallidotegmental fascicle"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Tegmental nigrothalamic tract"
+                                       },
+                                       {
+                                          "name": "Tegmental mammillary peduncle"
+                                       },
+                                       {
+                                          "name": "Tegmental mammillotegmental tract"
+                                       },
+                                       {
+                                          "name": "Tegmental central tegmental tract"
+                                       },
+                                       {
+                                          "name": "Tegmental segment of dorsal tegmental tract"
+                                       },
+                                       {
+                                          "name": "Tegmental dorsal longitudinal fascicle"
+                                       },
+                                       {
+                                          "name": "Tegmental ventrolateral fascicle",
+                                          "children": [
+                                             {
+                                                "name": "Tegmental spinotectal tract"
+                                             },
+                                             {
+                                                "name": "Tegmental spinothalamic tract"
+                                             },
+                                             {
+                                                "name": "Tegmental spinohypothalamic tract"
+                                             },
+                                             {
+                                                "name": "Tegmental spinotelencephalic tract"
+                                             },
+                                             {
+                                                "name": "Tegmental rubrospinal tract"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Tegmental superior cerebellar peduncle"
+                                       },
+                                       {
+                                          "name": "Tegmental brachium of inferior colliculus"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Tectum",
+                              "children": [
+                                 {
+                                    "name": "Central Root",
+                                    "children": [
+                                       {
+                                          "name": "Superior collicular brachium of superior colliculus"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Intrinsic",
+                                    "children": [
+                                       {
+                                          "name": "Superior colliculus optic layer"
+                                       },
+                                       {
+                                          "name": "Superior colliculus intermediate white layer"
+                                       },
+                                       {
+                                          "name": "Superior colliculus deep white layer"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Transverse",
+                                    "children": [
+                                       {
+                                          "name": "Superior colliculus commissure"
+                                       },
+                                       {
+                                          "name": "Tectal nigrotectal tract"
+                                       },
+                                       {
+                                          "name": "Inferior colliculus commissure"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Longitudinal",
+                                    "children": [
+                                       {
+                                          "name": "Inferior collicular lateral lemniscus"
+                                       },
+                                       {
+                                          "name": "Tectal corticotectal tract"
+                                       },
+                                       {
+                                          "name": "Tectal spinotectal tract"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Pons",
+                              "children": [
+                                 {
+                                    "name": "Central Root",
+                                    "children": [
+                                       {
+                                          "name": "Abducens nerve central root",
+                                          "children": [
+                                             {
+                                                "name": "Abducens nerve central rootlets"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Trigeminal nerve central motor root",
+                                          "children": [
+                                             {
+                                                "name": "Pontine segment of midbrain tract of trigeminal nerve"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Trigeminal nerve central sensory root",
+                                          "children": [
+                                             {
+                                                "name": "Pontine segment of spinal tract of trigeminal nerve"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Transverse",
+                                    "children": [
+                                       {
+                                          "name": "Middle cerebellar peduncle",
+                                          "children": [
+                                             {
+                                                "name": "Transverse pontine fibers"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Longitudinal",
+                                    "children": [
+                                       {
+                                          "name": "Pontine medial longitudinal fascicle"
+                                       },
+                                       {
+                                          "name": "Pontine trapezoid body"
+                                       },
+                                       {
+                                          "name": "Pontine tectospinal tract"
+                                       },
+                                       {
+                                          "name": "Pontine spinoreticular tract"
+                                       },
+                                       {
+                                          "name": "Pontine medial reticulospinal tract"
+                                       },
+                                       {
+                                          "name": "Pontine cervicothalamic tract"
+                                       },
+                                       {
+                                          "name": "Pontine trigeminocerebellar tract"
+                                       },
+                                       {
+                                          "name": "Pontine rubroreticular tract"
+                                       },
+                                       {
+                                          "name": "Pontine medial lemniscus"
+                                       },
+                                       {
+                                          "name": "Pontine lateral lemniscus"
+                                       },
+                                       {
+                                          "name": "Longitudinal pontine fibers",
+                                          "children": [
+                                             {
+                                                "name": "Pontine corticopontine tract"
+                                             },
+                                             {
+                                                "name": "Pontine corticobulbar tract"
+                                             },
+                                             {
+                                                "name": "Pontine corticospinal tract"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Pontine medial forebrain bundle"
+                                       },
+                                       {
+                                          "name": "Pontine central tegmental tract"
+                                       },
+                                       {
+                                          "name": "Pontine dorsal tegmental tract"
+                                       },
+                                       {
+                                          "name": "Pontine dorsal longitudinal fascicle"
+                                       },
+                                       {
+                                          "name": "Pontine ventrolateral fascicle",
+                                          "children": [
+                                             {
+                                                "name": "Pontine spinotectal tract"
+                                             },
+                                             {
+                                                "name": "Pontine spinothalamic tract"
+                                             },
+                                             {
+                                                "name": "Pontine spinohypothalamic tract"
+                                             },
+                                             {
+                                                "name": "Pontine spinotelencephalic tract"
+                                             },
+                                             {
+                                                "name": "Pontine ventral spinocerebellar tract"
+                                             },
+                                             {
+                                                "name": "Pontine rubrospinal tract"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Pontine superior cerebellar peduncle"
+                                       },
+                                       {
+                                          "name": "Pontine uncinate tract"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Cerebellum",
+                              "children": [
+                                 {
+                                    "name": "Transverse",
+                                    "children": [
+                                       {
+                                          "name": "Cerebellar commissure"
+                                       },
+                                       {
+                                          "name": "Rostral medullary velum"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Longitudinal",
+                                    "children": [
+                                       {
+                                          "name": "Arbor vitae"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Medulla",
+                              "children": [
+                                 {
+                                    "name": "Central Root",
+                                    "children": [
+                                       {
+                                          "name": "Medullary segment of spinal tract of trigeminal nerve"
+                                       },
+                                       {
+                                          "name": "Facial nerve central root",
+                                          "children": [
+                                             {
+                                                "name": "Genu of facial nerve central root"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Intermediate nerve central root"
+                                       },
+                                       {
+                                          "name": "Cochlear nerve central root"
+                                       },
+                                       {
+                                          "name": "Vestibular nerve central root"
+                                       },
+                                       {
+                                          "name": "Efferent cochleovestibular bundle"
+                                       },
+                                       {
+                                          "name": "Glossopharyngeal nerve central root",
+                                          "children": [
+                                             {
+                                                "name": "Glossopharyngeal nerve central rootlets"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Vagus nerve central root",
+                                          "children": [
+                                             {
+                                                "name": "Vagus nerve central rootlets"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Solitary tract"
+                                       },
+                                       {
+                                          "name": "Hypoglossal nerve central root",
+                                          "children": [
+                                             {
+                                                "name": "Hypoglossal nerve central rootlets"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Medullary gracile fascicle"
+                                       },
+                                       {
+                                          "name": "Medullary cuneate fascicle"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Intrinsic",
+                                    "children": [
+                                       {
+                                          "name": "Inferior cerebellar peduncle",
+                                          "children": [
+                                             {
+                                                "name": "Olivocerebellar tract"
+                                             },
+                                             {
+                                                "name": "Reticulocerebellar tract"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Direct fastigiobulbar tract"
+                                       },
+                                       {
+                                          "name": "Cuneocerebellar tract"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Transverse",
+                                    "children": [
+                                       {
+                                          "name": "Medial longitudinal fascicle decussation"
+                                       },
+                                       {
+                                          "name": "Internal arcuate fibers"
+                                       },
+                                       {
+                                          "name": "Medial lemniscus decussation"
+                                       },
+                                       {
+                                          "name": "Intermediate acoustic stria"
+                                       },
+                                       {
+                                          "name": "Dorsal acoustic stria"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Longitudinal",
+                                    "children": [
+                                       {
+                                          "name": "Medullary medial longitudinal fascicle"
+                                       },
+                                       {
+                                          "name": "Medullary trapezoid body"
+                                       },
+                                       {
+                                          "name": "Medullary tectospinal tract"
+                                       },
+                                       {
+                                          "name": "Medullary spinoreticular tract"
+                                       },
+                                       {
+                                          "name": "Medullary medial reticulospinal tract"
+                                       },
+                                       {
+                                          "name": "Medullary cervicothalamic tract"
+                                       },
+                                       {
+                                          "name": "Medullary uncinate tract"
+                                       },
+                                       {
+                                          "name": "Medullary trigeminocerebellar tract"
+                                       },
+                                       {
+                                          "name": "Medullary rubroreticular tract"
+                                       },
+                                       {
+                                          "name": "Medullary medial lemniscus"
+                                       },
+                                       {
+                                          "name": "Pyramid",
+                                          "children": [
+                                             {
+                                                "name": "Medullary corticobulbar tract"
+                                             },
+                                             {
+                                                "name": "Medullary corticospinal tract"
+                                             },
+                                             {
+                                                "name": "Pyramidal decussation"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Medullary medial forebrain bundle"
+                                       },
+                                       {
+                                          "name": "Medullary central tegmental tract"
+                                       },
+                                       {
+                                          "name": "Medullary spino-olivary tract"
+                                       },
+                                       {
+                                          "name": "Medullary lateral vestibulospinal tract"
+                                       },
+                                       {
+                                          "name": "Medullary ventrolateral fascicle",
+                                          "children": [
+                                             {
+                                                "name": "Medullary spinotectal tract"
+                                             },
+                                             {
+                                                "name": "Medullary spinothalamic tract"
+                                             },
+                                             {
+                                                "name": "Medullary spinohypothalamic tract"
+                                             },
+                                             {
+                                                "name": "Medullary spinotelencephalic tract"
+                                             },
+                                             {
+                                                "name": "Medullary ventral spinocerebellar tract"
+                                             },
+                                             {
+                                                "name": "Medullary rubrospinal tract"
+                                             },
+                                             {
+                                                "name": "Medullary lateral reticulospinal tract"
+                                             },
+                                             {
+                                                "name": "Medullary spinovestibular tract"
+                                             },
+                                             {
+                                                "name": "Medullary dorsal spinocerebellar tract"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Spinal cord",
+                              "children": [
+                                 {
+                                    "name": "Central Root",
+                                    "children": [
+                                       {
+                                          "name": "Ventral root central part",
+                                          "children": [
+                                             {
+                                                "name": "Ventral rootlets central part"
+                                             },
+                                             {
+                                                "name": "Spinal root of accessory nerve central rootlets"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Spinal segment of spinal tract of trigeminal nerve"
+                                       },
+                                       {
+                                          "name": "Dorsal root central part"
+                                       },
+                                       {
+                                          "name": "Spinal gracile fascicle"
+                                       },
+                                       {
+                                          "name": "Spinal cuneate fascicle"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Transverse",
+                                    "children": [
+                                       {
+                                          "name": "Ventral white commissure"
+                                       },
+                                       {
+                                          "name": "Transverse spinal cervicothalamic tract"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Longitudinal",
+                                    "children": [
+                                       {
+                                          "name": "Funiculi of spinal cord",
+                                          "children": [
+                                             {
+                                                "name": "Ventral funiculus",
+                                                "children": [
+                                                   {
+                                                      "name": "Ventral intersegmental tract"
+                                                   },
+                                                   {
+                                                      "name": "Spinal medial longitudinal fascicle"
+                                                   },
+                                                   {
+                                                      "name": "Spinal tectospinal tract"
+                                                   },
+                                                   {
+                                                      "name": "Uncrossed corticospinal tract"
+                                                   },
+                                                   {
+                                                      "name": "Spinal lateral vestibulospinal tract"
+                                                   },
+                                                   {
+                                                      "name": "Spinal medial reticulospinal tract"
+                                                   },
+                                                   {
+                                                      "name": "Ventral spinothalamic tract"
+                                                   },
+                                                   {
+                                                      "name": "Spinal segment of spino-olivary tract"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Lateral funiculus",
+                                                "children": [
+                                                   {
+                                                      "name": "Lateral intersegmental tract"
+                                                   },
+                                                   {
+                                                      "name": "Longitudinal spinal cervicothalamic tract"
+                                                   },
+                                                   {
+                                                      "name": "Spinal segment of spinotectal tract"
+                                                   },
+                                                   {
+                                                      "name": "Lateral spinothalamic tract"
+                                                   },
+                                                   {
+                                                      "name": "Spinal segment of spinohypothalamic tract"
+                                                   },
+                                                   {
+                                                      "name": "Spinal segment of spinotelencephalic tract"
+                                                   },
+                                                   {
+                                                      "name": "Spinal ventral spinocerebellar tract"
+                                                   },
+                                                   {
+                                                      "name": "Spinal segment of spinoreticular tract"
+                                                   },
+                                                   {
+                                                      "name": "Spinal lateral reticulospinal tract"
+                                                   },
+                                                   {
+                                                      "name": "Spinal rubrospinal tract"
+                                                   },
+                                                   {
+                                                      "name": "Spinal medial forebrain bundle"
+                                                   },
+                                                   {
+                                                      "name": "Spinal segment of spinovestibular tract"
+                                                   },
+                                                   {
+                                                      "name": "Spinal dorsal spinocerebellar tract"
+                                                   },
+                                                   {
+                                                      "name": "Spinocervical tract"
+                                                   },
+                                                   {
+                                                      "name": "Dorsolateral tract"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Dorsal funiculus",
+                                                "children": [
+                                                   {
+                                                      "name": "Dorsal intersegmental tract"
+                                                   },
+                                                   {
+                                                      "name": "Crossed corticospinal tract"
+                                                   },
+                                                   {
+                                                      "name": "[Spinal gracile fascicle"
+                                                   },
+                                                   {
+                                                      "name": "[Spinal cuneate fascicle"
+                                                   }
+                                                ]
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]

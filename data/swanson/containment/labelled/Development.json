@@ -1,0 +1,108 @@
+[
+   {
+      "name": "NERVOUS SYSTEM [DEVELOPING VERTEBRATE] (MONRO, 1783] (NS)",
+      "children": [
+         {
+            "name": "Neural plate (Stricker, 1860) (NPL)",
+            "children": [
+               {
+                  "name": "Neural groove (>1840) (ng)",
+                  "children": [
+                     {
+                        "name": "Neural folds (>1840) (nfo)"
+                     }
+                  ]
+               },
+               {
+                  "name": "Neural crest (>1840) (NCR)"
+               },
+               {
+                  "name": "Neural placodes (>1840) (NEP)"
+               },
+               {
+                  "name": "Neural tube (Baer, 1837) (NT)",
+                  "children": [
+                     {
+                        "name": "Brain vesicles (Malpighi, 1673) (BV)",
+                        "children": [
+                           {
+                              "name": "Primary brain vesicles (Baer, 1837) (BVP)",
+                              "children": [
+                                 {
+                                    "name": "Primary forebrain vesicle (Baer, 1837) (PFV)",
+                                    "children": [
+                                       {
+                                          "name": "Infundibulum (>1840)  (inm)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Primary midbrain vesicle (Baer, 1837) (PMIV)"
+                                 },
+                                 {
+                                    "name": "Primary hindbrain vesicle (Baer, 1837) (PHV)",
+                                    "children": [
+                                       {
+                                          "name": "Rhombic lip (>1840) (RHL)"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Secondary brain vesicles (>1840) (BVS)",
+                              "children": [
+                                 {
+                                    "name": "Endbrain vesicle (Kuhlenbeck, 1927) (EBV)",
+                                    "children": [
+                                       {
+                                          "name": "Hemispheric sulcus (Grönberg, 1902) (she)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Interbrain vesicle (Baer, 1837) (IBV)"
+                                 },
+                                 {
+                                    "name": "Midbrain vesicle (Baer, 1837) (MBV)"
+                                 },
+                                 {
+                                    "name": "Hindbrain vesicle (Baer, 1837) (HBV)"
+                                 },
+                                 {
+                                    "name": "Afterbrain vesicle (Baer, 1837) (ABV)"
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Spinal cord part of neural tube (>1840) (NTSP)"
+                     },
+                     {
+                        "name": "Floor plate (>1840) (fpl)"
+                     },
+                     {
+                        "name": "Basal plate (>1840) (BAP)"
+                     },
+                     {
+                        "name": "Limiting sulcus (>1840) (sl)"
+                     },
+                     {
+                        "name": "Alar plate (>1840) (APL)"
+                     },
+                     {
+                        "name": "Roof plate (>1840) (rpl)",
+                        "children": [
+                           {
+                              "name": "Ependymal roof plate (>1840) (rple)"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]

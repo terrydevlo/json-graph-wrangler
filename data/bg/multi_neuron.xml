@@ -1,0 +1,42 @@
+<cell-diagram>
+    <background href="http://celldl.org/editor/models/multi-neuron-background.svg"/>
+    <bond-graph>
+        <potential id="u1"/>
+        <potential id="u2"/>
+        <potential id="u3"/>
+        <potential id="u4"/>
+        <flow id="v1">
+            <connection input="u1" output="u3"/>
+        </flow>
+        <flow id="v2">
+            <connection input="u2" output="u3"/>
+        </flow>
+        <flow id="v3">
+            <connection input="u3" output="u4"/>
+        </flow>
+        <flow id="v4">
+            <connection input="u4" output="u2"/>
+        </flow>
+    </bond-graph>
+    <style>
+        cell-diagram {
+            width:  500;  /* SVG 'pixels' */
+            height: 500;  /* SVG 'pixels' */
+        }
+        #u1 { position: 30%, 20%; }
+        #u2 { position: 70%, 20%; }
+        #u3 { position: 20% below #u1 #u2}
+        #u4 { position: 30% below #u3; }
+        #v1 { position: 0% left #u1 #u3; }
+        #v2 { position: 0% left #u2 #u3; }
+        #v3 { position: 0% left #u3 #u4; }
+        #v4 { position: 0% left #u4 #u2; }
+        connection { line-color: red; }
+    </style>
+    <style id="manual_adjustments">
+        #u1 { position: 30%, 16%; }
+        #u3 { position: 47%, 43%; }
+        #u2 { position: 63%, 15%; }
+        #v4 { position: 73%, 51%; }
+    </style>
+ </cell-diagram>

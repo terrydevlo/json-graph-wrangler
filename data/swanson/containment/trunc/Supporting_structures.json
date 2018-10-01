@@ -1,0 +1,308 @@
+[
+   {
+      "name": "NERVOUS SYSTEM [RAT]",
+      "children": [
+         {
+            "name": "Nervous system topographic architecture",
+            "children": [
+               {
+                  "name": "Nervous system supporting structures",
+                  "children": [
+                     {
+                        "name": "Ventricular-subarachnoid space",
+                        "children": [
+                           {
+                              "name": "Cerebrospinal fluid",
+                              "children": [
+                                 {
+                                    "name": "Subarachnoid space",
+                                    "children": [
+                                       {
+                                          "name": "Septal fissure"
+                                       },
+                                       {
+                                          "name": "Ventricles",
+                                          "children": [
+                                             {
+                                                "name": "Ependyma"
+                                             },
+                                             {
+                                                "name": "Subependymal zone"
+                                             },
+                                             {
+                                                "name": "Lateral ventricle",
+                                                "children": [
+                                                   {
+                                                      "name": "Anterior horn of lateral ventricle",
+                                                      "children": [
+                                                         {
+                                                            "name": "Olfactory ventricle"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Body of lateral ventricle"
+                                                   },
+                                                   {
+                                                      "name": "Inferior horn of lateral ventricle"
+                                                   },
+                                                   {
+                                                      "name": "Choroid epithelium of lateral ventricle"
+                                                   },
+                                                   {
+                                                      "name": "Choroid line of lateral ventricle"
+                                                   },
+                                                   {
+                                                      "name": "Fimbrial line of lateral ventricle"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Interventricular foramen"
+                                             },
+                                             {
+                                                "name": "Third ventricle",
+                                                "children": [
+                                                   {
+                                                      "name": "Hypothalamic part of third ventricle general",
+                                                      "children": [
+                                                         {
+                                                            "name": "Principal part"
+                                                         },
+                                                         {
+                                                            "name": "Preoptic recess"
+                                                         },
+                                                         {
+                                                            "name": "Infundibular recess"
+                                                         },
+                                                         {
+                                                            "name": "Mammillary recess"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Hypothalamic sulcus"
+                                                   },
+                                                   {
+                                                      "name": "Thalamic part of third ventricle general",
+                                                      "children": [
+                                                         {
+                                                            "name": "Interthalamic adhesion"
+                                                         },
+                                                         {
+                                                            "name": "Thalamic part of third ventricle principal part"
+                                                         },
+                                                         {
+                                                            "name": "Roof of third ventricle",
+                                                            "children": [
+                                                               {
+                                                                  "name": "Choroid epithelium of third ventricle",
+                                                                  "children": [
+                                                                     {
+                                                                        "name": "Suprapineal recess"
+                                                                     }
+                                                                  ]
+                                                               },
+                                                               {
+                                                                  "name": "Choroid line of third ventricle"
+                                                               },
+                                                               {
+                                                                  "name": "Pineal recess"
+                                                               }
+                                                            ]
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Opening of cerebral aqueduct"
+                                             },
+                                             {
+                                                "name": "Cerebral aqueduct general",
+                                                "children": [
+                                                   {
+                                                      "name": "Cerebral aqueduct principal part"
+                                                   },
+                                                   {
+                                                      "name": "Collicular recess"
+                                                   },
+                                                   {
+                                                      "name": "Subcommissural organ"
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Opening of fourth ventricle"
+                                             },
+                                             {
+                                                "name": "Fourth ventricle general",
+                                                "children": [
+                                                   {
+                                                      "name": "Fourth ventricle principal part"
+                                                   },
+                                                   {
+                                                      "name": "Lateral recess of fourth ventricle",
+                                                      "children": [
+                                                         {
+                                                            "name": "Lateral aperture of fourth ventricle"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Floor of fourth ventricle",
+                                                      "children": [
+                                                         {
+                                                            "name": "Median sulcus of fourth ventricle"
+                                                         },
+                                                         {
+                                                            "name": "Medial eminence"
+                                                         },
+                                                         {
+                                                            "name": "Facial colliculus"
+                                                         },
+                                                         {
+                                                            "name": "Recessus incertus"
+                                                         },
+                                                         {
+                                                            "name": "Vestibular area of fourth ventricle"
+                                                         },
+                                                         {
+                                                            "name": "Auditory tubercle"
+                                                         },
+                                                         {
+                                                            "name": "Hypoglossal triangle"
+                                                         },
+                                                         {
+                                                            "name": "Vagal triangle"
+                                                         },
+                                                         {
+                                                            "name": "Funiculus separans"
+                                                         },
+                                                         {
+                                                            "name": "Obex"
+                                                         },
+                                                         {
+                                                            "name": "Limiting sulcus of fourth ventricle"
+                                                         }
+                                                      ]
+                                                   },
+                                                   {
+                                                      "name": "Roof of fourth ventricle",
+                                                      "children": [
+                                                         {
+                                                            "name": "Fastigium of fourth ventricle"
+                                                         },
+                                                         {
+                                                            "name": "Choroid epithelium of fourth ventricle"
+                                                         },
+                                                         {
+                                                            "name": "Choroid line of fourth ventricle"
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             },
+                                             {
+                                                "name": "Central canal",
+                                                "children": [
+                                                   {
+                                                      "name": "Central canal of medulla"
+                                                   },
+                                                   {
+                                                      "name": "Central canal of spinal cord",
+                                                      "children": [
+                                                         {
+                                                            "name": "Terminal ventricle"
+                                                         }
+                                                      ]
+                                                   }
+                                                ]
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Meninges",
+                              "children": [
+                                 {
+                                    "name": "Pia-arachnoid",
+                                    "children": [
+                                       {
+                                          "name": "Pia",
+                                          "children": [
+                                             {
+                                                "name": "Choroid membrane of lateral ventricle"
+                                             },
+                                             {
+                                                "name": "Choroid membrane of third ventricle"
+                                             },
+                                             {
+                                                "name": "Choroid membrane of fourth ventricle"
+                                             },
+                                             {
+                                                "name": "Denticulate ligament"
+                                             }
+                                          ]
+                                       },
+                                       {
+                                          "name": "Arachnoid",
+                                          "children": [
+                                             {
+                                                "name": "Epipial layer"
+                                             },
+                                             {
+                                                "name": "Arachnoid trabeculae"
+                                             },
+                                             {
+                                                "name": "Arachnoid membrane"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Dura",
+                                    "children": [
+                                       {
+                                          "name": "Cerebral falx"
+                                       },
+                                       {
+                                          "name": "Sellar diaphragm"
+                                       },
+                                       {
+                                          "name": "Cerebellar falx"
+                                       },
+                                       {
+                                          "name": "Cerebellar tentorium"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Choroid plexus",
+                              "children": [
+                                 {
+                                    "name": "Choroid plexus of lateral ventricle"
+                                 },
+                                 {
+                                    "name": "Choroid plexus of third ventricle"
+                                 },
+                                 {
+                                    "name": "Choroid plexus of fourth ventricle"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]

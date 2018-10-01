@@ -1,0 +1,24 @@
+{
+  "infer_groups_without_links": [{
+    "select_matching": {
+      "matching_obj": [{
+        "func": "check_obj_has_empty_vals_for_these_keys",
+        "keys_with_empty_vals": ["source", "target"]
+      }]
+    },
+    "extract_uniques_from_keys": {
+      "from_keys": ["group_type"],
+      "all_values_need_be_defined": true,
+      "delete_unspecified_keys": false,
+      "only_uniques": true
+    },
+    "make_tree_from_unconnected": {
+      "use_newDat_as_property": true,
+      "keys_to_join": ["group_type"],
+      "all_values_need_be_defined": true,
+      "new_key": "name",
+      "delete_unspecified_keys": false,
+      "only_uniques": true
+    }
+  }]
+}

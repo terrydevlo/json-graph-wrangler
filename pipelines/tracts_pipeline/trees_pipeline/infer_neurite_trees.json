@@ -1,0 +1,47 @@
+{
+  "map_connected_to_graph": [{
+      "join_values_of_specified_keys": {
+        "matching_obj": {
+          "func": "check_obj_contains_either_of_these_key_value_pairs_substring_match",
+          "key_value_pairs": [{
+            "contained_by": "tract"
+          }]
+        },
+        "keys_to_join": ["contained_by", "group_type"],
+        "all_values_need_be_defined": true,
+        "new_key": "name",
+        "delete_unspecified_keys": true,
+        "only_uniques": true
+      }
+    },
+    {
+      "map_connected_as_trees": {
+        "id_key": "name",
+        "matching_keys": ["contained_by", "group_type"],
+        "connected_need_match": true,
+        "target_key": "target",
+        "source_key": "source",
+        "key_type": "new key",
+        "is_root_key": "is_root",
+        "one_tree_for_each_root_branch": true,
+        "append_branch_difference_to_tree_name": true,
+        "append_suffix_to_tree": " neurite tree"
+      }
+    },
+    {
+      "transpose_key_vals_to_new_labels": {
+        "match_any_val_as_array": {
+          "new_string_key": "source",
+          "new_string_val_key": "target"
+        },
+        "match_any_keyval_as_array": {
+          "new_string_key": "name",
+          "new_string_val_key": "links"
+        }
+
+      }
+    }, {
+      "flatten_obj" : {}
+    }
+  ]
+}

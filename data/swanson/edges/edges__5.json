@@ -1,0 +1,112 @@
+[
+   {
+      "source": "triangular septal nucleus",
+      "target": "medial septal nucleus",
+      "connection": "5"
+   },
+   {
+      "source": "bed nuclei of terminal stria oval nucleus",
+      "target": "bed nuclei of terminal stria fusiform nucleus",
+      "connection": "5"
+   },
+   {
+      "source": "bed nuclei of terminal stria fusiform nucleus",
+      "target": "bed nuclei of terminal stria ventral nucleus",
+      "connection": "5"
+   },
+   {
+      "source": "bed nuclei of terminal stria ventral nucleus",
+      "target": "bed nuclei of terminal stria ventral nucleus",
+      "connection": "5"
+   },
+   {
+      "source": "bed nuclei of terminal stria dorsomedial nucleus",
+      "target": "bed nuclei of terminal stria ventral nucleus",
+      "connection": "5"
+   },
+   {
+      "source": "bed nuclei of terminal stria anterolateral area",
+      "target": "bed nuclei of terminal stria ventral nucleus",
+      "connection": "5"
+   },
+   {
+      "source": "magnocellular nucleus",
+      "target": "bed nuclei of terminal stria dorsomedial nucleus",
+      "connection": "5"
+   },
+   {
+      "source": "bed nuclei of terminal stria ventral nucleus",
+      "target": "bed nuclei of terminal stria dorsomedial nucleus",
+      "connection": "5"
+   },
+   {
+      "source": "bed nuclei of terminal stria oval nucleus",
+      "target": "bed nuclei of terminal stria dorsomedial nucleus",
+      "connection": "5"
+   },
+   {
+      "source": "central amygdalar nucleus lateral part",
+      "target": "bed nuclei of terminal stria dorsomedial nucleus",
+      "connection": "5"
+   },
+   {
+      "source": "magnocellular nucleus",
+      "target": "bed nuclei of terminal stria oval nucleus",
+      "connection": "5"
+   },
+   {
+      "source": "central amygdalar nucleus lateral part",
+      "target": "bed nuclei of terminal stria oval nucleus",
+      "connection": "5"
+   },
+   {
+      "source": "bed nuclei of terminal stria dorsomedial nucleus",
+      "target": "bed nuclei of terminal stria rhomboid nucleus",
+      "connection": "5"
+   },
+   {
+      "source": "lateral septal nucleus rostral",
+      "target": "bed nuclei of terminal stria rhomboid nucleus",
+      "connection": "5"
+   },
+   {
+      "source": "central amygdalar nucleus lateral part",
+      "target": "bed nuclei of terminal stria transverse nucleus",
+      "connection": "5"
+   },
+   {
+      "source": "lateral septal nucleus rostral",
+      "target": "bed nuclei of terminal stria dorsal nucleus",
+      "connection": "5"
+   },
+   {
+      "source": "triangular septal nucleus",
+      "target": "lateral septal nucleus caudal",
+      "connection": "5"
+   },
+   {
+      "source": "bed nuclei of terminal stria fusiform nucleus",
+      "target": "central amygdalar nucleus medial part",
+      "connection": "5"
+   },
+   {
+      "source": "bed nuclei of terminal stria dorsal nucleus",
+      "target": "central amygdalar nucleus medial part",
+      "connection": "5"
+   },
+   {
+      "source": "bed nuclei of terminal stria juxtacapsular nucleus",
+      "target": "central amygdalar nucleus lateral part",
+      "connection": "5"
+   },
+   {
+      "source": "lateral septal nucleus rostral",
+      "target": "medial amygdalar nucleus anterodorsal part",
+      "connection": "5"
+   },
+   {
+      "source": "bed nuclei of terminal stria fusiform nucleus",
+      "target": "medial amygdalar nucleus posteroventral part",
+      "connection": "5"
+   }
+]

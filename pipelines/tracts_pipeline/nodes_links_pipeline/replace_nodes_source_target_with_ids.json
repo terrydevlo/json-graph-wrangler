@@ -1,0 +1,13 @@
+{
+
+  "replace_nodes_source_target_with_ids": [{
+    "map_property_from_reference_property": {
+      "reference_file_key": "/links.json",
+      "reference_id_key": "name",
+      "reference_property_key": "id",
+      "mapping_id_keys": ["source", "target"],
+      "remove_as_ref_entry_once_used" : false
+    }
+  }]
+
+}

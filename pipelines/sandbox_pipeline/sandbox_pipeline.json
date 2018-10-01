@@ -1,0 +1,7 @@
+{
+  "sandbox_pipeline": [{
+      "pipeline": "subtract_difference_pipeline.json",
+      "run": true
+    }
+  ]
+}

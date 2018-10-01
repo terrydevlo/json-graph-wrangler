@@ -1,0 +1,29 @@
+{
+  "check_lyph_has_a_conveyingLink": [{
+    "extract_objs_not_referred_to": {
+      "referred_objs": {
+        "matching_obj": {
+          "func": "check_obj_has_either_of_these_keys",
+          "keys_to_contain": ["conveyingLyph"]
+        },
+        "return_only_this_keys_vals": "conveyingLyph",
+        "only_return_unique": true
+      },
+      "scrutinised_objs": {
+        "only_return_unique": true,
+        "matching_obj": {
+          "func": "check_obj_has_either_of_these_keys",
+          "keys_to_contain": ["hostedLyphs", "internalLyphs", "internalNodes", "layers"]
+        },
+        "return_only_this_keys_vals": "id"
+      },
+      "un_referred_objs" : {
+        "matching_obj": {
+          "func": "check_obj_contains_either_of_these_key_value_pairs_generate_from_arr",
+          "key_val_pair_key" : "id"
+        }
+      }
+    }
+  }]
+
+}

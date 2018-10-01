@@ -1,0 +1,108 @@
+[
+   {
+      "name": "NERVOUS SYSTEM [DEVELOPING VERTEBRATE]",
+      "children": [
+         {
+            "name": "Neural plate",
+            "children": [
+               {
+                  "name": "Neural groove",
+                  "children": [
+                     {
+                        "name": "Neural folds"
+                     }
+                  ]
+               },
+               {
+                  "name": "Neural crest"
+               },
+               {
+                  "name": "Neural placodes"
+               },
+               {
+                  "name": "Neural tube",
+                  "children": [
+                     {
+                        "name": "Brain vesicles",
+                        "children": [
+                           {
+                              "name": "Primary brain vesicles",
+                              "children": [
+                                 {
+                                    "name": "Primary forebrain vesicle",
+                                    "children": [
+                                       {
+                                          "name": "Infundibulum"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Primary midbrain vesicle"
+                                 },
+                                 {
+                                    "name": "Primary hindbrain vesicle",
+                                    "children": [
+                                       {
+                                          "name": "Rhombic lip"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Secondary brain vesicles",
+                              "children": [
+                                 {
+                                    "name": "Endbrain vesicle",
+                                    "children": [
+                                       {
+                                          "name": "Hemispheric sulcus"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Interbrain vesicle"
+                                 },
+                                 {
+                                    "name": "Midbrain vesicle"
+                                 },
+                                 {
+                                    "name": "Hindbrain vesicle"
+                                 },
+                                 {
+                                    "name": "Afterbrain vesicle"
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Spinal cord part of neural tube"
+                     },
+                     {
+                        "name": "Floor plate"
+                     },
+                     {
+                        "name": "Basal plate"
+                     },
+                     {
+                        "name": "Limiting sulcus"
+                     },
+                     {
+                        "name": "Alar plate"
+                     },
+                     {
+                        "name": "Roof plate",
+                        "children": [
+                           {
+                              "name": "Ependymal roof plate"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]

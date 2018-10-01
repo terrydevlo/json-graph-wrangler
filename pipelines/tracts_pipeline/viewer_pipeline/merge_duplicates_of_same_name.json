@@ -1,0 +1,20 @@
+{
+  "merge_duplicates_of_same_name": [{
+    "merge_duplicates": {
+      "match_by_key": "name",
+      "object_to_scrutinize": {
+        "func": "check_obj_has_either_of_these_keys",
+        "keys_to_contain": ["topology", "internalNodes", "border"]
+      },
+      "matching_objs": [{
+        "func": "check_obj_contains_these_key_value_pairs",
+        "match_by_key": "name"
+      }, {
+        "func": "check_obj_has_either_of_these_keys",
+        "keys_to_contain": ["topology", "internalNodes", "border"]
+      }],
+      "override_these_keys": ["id"],
+      "keys_to_match_for_self_removal": ["id", "name"]
+    }
+  }]
+}

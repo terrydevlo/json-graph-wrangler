@@ -1,0 +1,55 @@
+id,lyph_composition,contained_by,hosted_by,group_type,source,target
+7700,III,Gracile tract,Lower Limb,1st order sensory neuron,,7701
+7701,II,Gracile tract,Lower Limb,1st order sensory neuron,7700,7702
+7702,IV,Gracile tract,Dorsal Root Ganglion,1st order sensory neuron,7701,1
+1,I,Gracile tract,Spinal Cord - Parenchyma layer,1st order sensory neuron,7702,2
+2,II,Gracile tract,Medulla - Parenchyma layer,1st order sensory neuron,1,7710
+7710,II,Gracile tract,Gracile Nucleus of Medulla,1st order sensory neuron,2,7711
+7711,III,Gracile tract,Gracile Nucleus of Medulla,1st order sensory neuron,7710,
+9900,III,Anterolateral Spinothalamic tract,Skin - Dermal layer,1st order sensory neuron,,9901
+9901,II,Anterolateral Spinothalamic tract,Skin - Dermal layer,1st order sensory neuron,9900,9902
+9902,IV,Anterolateral Spinothalamic tract,Dorsal Root Ganglion,1st order sensory neuron,9901,9903
+9903,II,Anterolateral Spinothalamic tract,Dorsal Root Ganglion,1st order sensory neuron,9902,9904
+9904,II,Anterolateral Spinothalamic tract,Spinal Cord - Parenchyma layer,1st order sensory neuron,9903,9905
+9905,II,Anterolateral Spinothalamic tract,Dorsal Horn of Spinal Cord,1st order sensory neuron,9904,9906
+9906,III,Anterolateral Spinothalamic tract,Dorsal Horn of Spinal Cord,1st order sensory neuron,9905,9907
+9907,III,Anterolateral Spinothalamic tract,Dorsal Horn of Spinal Cord,2nd order sensory neuron,9906,9908
+9908,IV,Anterolateral Spinothalamic tract,Dorsal Horn of Spinal Cord,2nd order sensory neuron,9907,6
+6,II,Anterolateral Spinothalamic tract,Medulla - Parenchyma layer,2nd order sensory neuron,9908,7
+7,II,Anterolateral Spinothalamic tract,Pons - Parenchyma layer,2nd order sensory neuron,6,8
+8,II,Anterolateral Spinothalamic tract,Midbrain - Parenchyma layer,2nd order sensory neuron,7,9
+9,II,Anterolateral Spinothalamic tract,Diencephalon - Parenchyma layer,2nd order sensory neuron,8,8801
+8801,II,Anterolateral Spinothalamic tract,Ventral Posterolateral Nucleus of Diencephalon,2nd order sensory neuron,9,8802
+8802,III,Anterolateral Spinothalamic tract,Ventral Posterolateral Nucleus of Diencephalon,2nd order sensory neuron,8801,
+Ventral Posterolateral Nucleus of Diencephalon,Neural nucleus,,Diencephalon - Parenchyma layer,Neural nucleus,,
+Gracile Nucleus of Medulla,Neural nucleus,,Medulla - Parenchyma layer,Neural nucleus,,
+Dorsal Horn of Spinal Cord,Neural nucleus,,Spinal Cord - Parenchyma layer,Neural nucleus,,
+Gracile tract,Tract,,,Tracts,,
+Anterolateral Spinothalamic tract,Tract,,,Tracts,,
+Diencephalon,CNS segment,Central Nervous System,,CNS segment,Midbrain,
+Diencephalon - Parenchyma layer,CNS layer,,,,,
+Diencephalon - Ependymal layer,CNS layer,,,,,
+Diencephalon - CSF layer,CNS layer,,,,,
+Medulla,CNS segment,Central Nervous System,,CNS segment,Spinal Cord,Pons
+Medulla - Parenchyma layer,CNS layer,,,,,
+Medulla - Ependymal layer,CNS layer,,,,,
+Medulla - CSF layer,CNS layer,,,,,
+Spinal Cord,CNS segment,Central Nervous System,,CNS segment,,Medulla
+Spinal Cord - Parenchyma layer,CNS layer,,,,,
+Spinal Cord - CSF layer,CNS layer,,,,,
+Spinal Cord - Ependymal layer,CNS layer,,,,,
+Skin,Outer tissue,Body,,Sensory organ,,
+Skin - Air layer,Outer tissue layer,Body,,,,
+Skin - Epidermal layer,Outer tissue layer,Body,,,,
+Skin - Dermal layer,Outer tissue layer,Body,,,,
+Dorsal Root Ganglion,Ganglion,Peripheral Nervous System,,,,
+Pons,CNS segment,Central Nervous System,,CNS segment,Medulla,Midbrain
+Pons - Parenchyma layer,CNS layer,,,,,
+Pons - Ependymal layer,CNS layer,,,,,
+Pons - CSF layer,CNS layer,,,,,
+Midbrain,CNS segment,Central Nervous System,,CNS segment,Pons,Diencephalon
+Midbrain - Parenchyma layer,CNS layer,,,,,
+Midbrain - Ependymal layer,CNS layer,,,,,
+Midbrain - CSF layer,CNS layer,,,,,
+Lower Limb,Limb,Body,,Musculoskeletal,,
+Dorsal Root Ganglion,Ganglion,,,Ganglion,,

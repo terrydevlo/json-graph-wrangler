@@ -1,0 +1,14 @@
+{
+  "name_ids_on_trees": [{
+    "add_id_to_objects": {
+      "matching_obj": {
+        "func": "check_obj_has_these_keys",
+        "keys_to_contain": ["lyphs"]
+      },
+      "new_key": "id",
+      "method_to_extract_new_value": "sequential_count",
+      "start_count_from": 0,
+      "add_prefix": "GRP"
+    }
+  }]
+}

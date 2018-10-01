@@ -1,0 +1,12 @@
+{
+  "extract_nodes_from_trees": [{
+    "extract_nested_objects_into_array": {
+      "matching_obj": {
+        "func": "check_obj_contains_either_of_these_key_value_pairs",
+        "key_value_pairs": [{
+          "type": "link"
+        }]
+      }
+    }
+  }]
+}

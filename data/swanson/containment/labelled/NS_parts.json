@@ -1,0 +1,234 @@
+[
+   {
+      "name": "NERVOUS SYSTEM [VERTEBRATE] (MONRO, 1783) (NS)",
+      "children": [
+         {
+            "name": "General standard terms",
+            "children": [
+               {
+                  "name": "Gray matter (Meckel, 1817) (GM)",
+                  "children": [
+                     {
+                        "name": "White matter (Meckel, 1817) (wm)"
+                     },
+                     {
+                        "name": "Plexus (Galen, c192) (plx)"
+                     },
+                     {
+                        "name": "Communicating branch (Winslow, 1733) (cbr)"
+                     },
+                     {
+                        "name": "Cerebrospinal trunk (>1840)  (CSTR)"
+                     },
+                     {
+                        "name": "Brainstem (Schwalbe, 1881)  (BS)"
+                     }
+                  ]
+               },
+               {
+                  "name": "Central nervous system (Carus, 1814) (CNS) or Cerebrospinal axis (Meckel, 1817) (CPA)",
+                  "children": [
+                     {
+                        "name": "Brain (Smith Papyrus, c1700 BC) (BR)",
+                        "children": [
+                           {
+                              "name": "Forebrain (Goette, 1873) (FB)",
+                              "children": [
+                                 {
+                                    "name": "Endbrain (Kuhlenbeck, 1927) (EB) or Cerebrum (Obersteiner & Hill, 1900) (CER)",
+                                    "children": [
+                                       {
+                                          "name": "Cerebral nuclei (Swanson, 2000a) (CNU)"
+                                       },
+                                       {
+                                          "name": "Cerebral cortex (Swanson, 2000a) (CTX)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Interbrain (Baer, 1837) (IB)",
+                                    "children": [
+                                       {
+                                          "name": "Hypothalamus (Kuhlenbeck, 1927) (HY)"
+                                       },
+                                       {
+                                          "name": "Thalamus (His, 1893a) (TH)"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Midbrain (Baer, 1837) (MB)",
+                              "children": [
+                                 {
+                                    "name": "Tegmentum (Swanson, 2000b) (TG)"
+                                 },
+                                 {
+                                    "name": "Tectum (Baer, 1837) (TC)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Rhombicbrain (His, 1893b) (RB)",
+                              "children": [
+                                 {
+                                    "name": "Hindbrain (Baer, 1837) (HB)",
+                                    "children": [
+                                       {
+                                          "name": "Pons (Haller, 1747) (P)"
+                                       },
+                                       {
+                                          "name": "Cerebellum (Aristotle) (CB)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Afterbrain (Baer, 1837) (AFB) or Medulla (Winslow, 1733) (MY)"
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Spinal cord (Galen, c162-c166) (SP)",
+                        "children": [
+                           {
+                              "name": "Spinal cord parts (Swanson, 2015) (SPpt)",
+                              "children": [
+                                 {
+                                    "name": "Cervical part of spinal cord (>1840) (SP-C)"
+                                 },
+                                 {
+                                    "name": "Thoracic part of spinal cord (>1840 (SP-T)"
+                                 },
+                                 {
+                                    "name": "Lumbar part of spinal cord (>1840) (SP-L)"
+                                 },
+                                 {
+                                    "name": "Sacral part of spinal cord (>1840) (SP-S)"
+                                 },
+                                 {
+                                    "name": "Coccygeal part of spinal cord (>1840) (SP-Co)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Spinal cord differentiations (Swanson, 2015) (SPd)",
+                              "children": [
+                                 {
+                                    "name": "Cervical enlargement (Arnold, 1838b)  (CE)"
+                                 },
+                                 {
+                                    "name": "Lumbosacral enlargement (>1840)  (LSE)"
+                                 },
+                                 {
+                                    "name": "Medullary cone (Bock, 1827)  (MC)"
+                                 },
+                                 {
+                                    "name": "Terminal filament (Tiedemann, 1821)  (TF)"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "name": "Peripheral nervous system (Meckel, 1817) (PNS)",
+                  "children": [
+                     {
+                        "name": "Nerves (Herophilus, c335-c280 BC) (n)",
+                        "children": [
+                           {
+                              "name": "Craniospinal nerves (Herrick, 1915) (csn)",
+                              "children": [
+                                 {
+                                    "name": "Cranial nerves (Soemmerring, 1791) (cran)"
+                                 },
+                                 {
+                                    "name": "Spinal nerves (Camper, 1760-1762)  (spin)",
+                                    "children": [
+                                       {
+                                          "name": "Spinal nerve roots (Tiedemann, 1816) (sr)"
+                                       },
+                                       {
+                                          "name": "Spinal nerve trunk (Frotscher, 1788) (spt)"
+                                       },
+                                       {
+                                          "name": "Spinal nerve primary branches (>1840) (spb)"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Autonomic nerves (Langley, 1898) (ann)",
+                              "children": [
+                                 {
+                                    "name": "Communicating branches of spinal nerves (Wutzer, 1817) (spinc)"
+                                 },
+                                 {
+                                    "name": "Peripheral nerve cord trunk (Swanson & Bota, 2010) (pnt)",
+                                    "children": [
+                                       {
+                                          "name": "Sympathetic trunk (Winslow, 1733) (syt)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "name": "Paravertebral nerves (Swanson & Bota, 2010) (pav)"
+                                 },
+                                 {
+                                    "name": "Prevertebral plexuses (Quain, 1837) (prep)"
+                                 },
+                                 {
+                                    "name": "Prevertebral nerves (Swanson & Bota, 2010) (pren)"
+                                 },
+                                 {
+                                    "name": "Terminal plexuses (Swanson & Bota, 2010) (tpl)"
+                                 },
+                                 {
+                                    "name": "Terminal autonomic nerves (Swanson & Bota, 2010) (tann)"
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     {
+                        "name": "Ganglia (Galen, c173) (G)",
+                        "children": [
+                           {
+                              "name": "Craniospinal ganglia (>1840) (GCS)",
+                              "children": [
+                                 {
+                                    "name": "Cranial nerve ganglia (>1840) (GCN)"
+                                 },
+                                 {
+                                    "name": "Spinal nerve ganglia (Burdach, 1819)  (GSN)"
+                                 }
+                              ]
+                           },
+                           {
+                              "name": "Autonomic ganglia (Langley, 1900) (GA)",
+                              "children": [
+                                 {
+                                    "name": "Paravertebral ganglia (Durward, 1951) (GPV)"
+                                 },
+                                 {
+                                    "name": "Prevertebral ganglia (Quain, 1837) (GPR)"
+                                 },
+                                 {
+                                    "name": "Terminal ganglia (Gaskell, 1886) (GTER)"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]

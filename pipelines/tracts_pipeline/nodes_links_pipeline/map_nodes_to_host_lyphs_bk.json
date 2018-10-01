@@ -1,0 +1,50 @@
+{
+  "map_nodes_to_containing_lyphs": [{
+    "map_nodes_to_host_lyphs": {
+      "reference_file_key": "/node",
+      "scrutinised_obj": [{
+          "new_key": "border",
+          "new_val_match_str": "**THE_NEW_VALUE**",
+          "reference_id_key": "source_lyph",
+          "specimen_id_key_from_sub_key": "hosted_by",
+          "specimen_id_key": "id",
+          "specimen_val_key": "id",
+          "new_val_obj": {
+            "borders": [{}, {
+              "hostedNodes": "**THE_NEW_VALUE**"
+            }, {}, {}]
+          }
+        },
+        {
+          "new_key": "border",
+          "new_val_match_str": "**THE_NEW_VALUE**",
+          "reference_id_key": "target_lyph",
+          "specimen_id_key_from_sub_key": "hosted_by",
+          "specimen_id_key": "id",
+          "specimen_val_key": "id",
+          "new_val_obj": {
+            "borders": [{}, {}, {}, {
+              "hostedNodes": "**THE_NEW_VALUE**"
+            }]
+          }
+        },
+        {
+          "new_key": "internalNodes",
+          "reference_id_key": "root_lyph",
+          "specimen_id_key_from_sub_key": "hosted_by",
+          "specimen_id_key": "id",
+          "specimen_val_key": "id"
+        },
+        {
+          "new_key": "internalNodes",
+          "reference_id_key": "terminal_lyph",
+          "specimen_id_key_from_sub_key": "hosted_by",
+          "specimen_id_key": "id",
+          "specimen_val_key": "id"
+        }
+      ],
+
+      "append_val_as_array": true
+    }
+  }]
+}
